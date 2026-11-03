@@ -1,0 +1,6 @@
+.local/
+.playwright-cli/
+node_modules/
+__pycache__/
+tools/cache/
+*.log

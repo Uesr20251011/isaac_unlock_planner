@@ -8,6 +8,7 @@
   const OVERRIDES = window.ISAAC_OVERRIDES || {};
   const PROFILE_BUNDLE = window.ISAAC_RECOMMENDATION_PROFILES;
   const Parser = window.IsaacSaveParser;
+  const Guide = window.IsaacGuide;
 
   const CACHE_VERSION = (() => {
     try {
@@ -24,7 +25,7 @@
     return `${url}${joiner}v=${encodeURIComponent(CACHE_VERSION)}`;
   }
 
-  if (!DATA || !Parser || !PROFILE_BUNDLE || !ACHIEVEMENTS) {
+  if (!DATA || !Parser || !PROFILE_BUNDLE || !ACHIEVEMENTS || !Guide) {
     throw new Error('页面数据、推荐方案或存档解析器未加载。');
   }
 
@@ -43,6 +44,7 @@
   const characters = byId(DATA.characters);
   const bosses = byId(DATA.bosses);
   const rulesById = new Map(DATA.unlockRules.map((rule) => [rule.id, rule]));
+  const rulesByAchievementId = new Map(DATA.unlockRules.map(rule => [Number(rule.achievementId), rule]));
   const validPairs = new Set(DATA.unlockRules.flatMap((rule) => rule.bossIds.map((bossId) => pairKey(rule.characterId, bossId))));
   const validChallengeIds = new Set(CHALLENGES.map((x) => Number(x.challengeId)));
   const achievementLists = [
@@ -54,6 +56,8 @@
   ];
   const validAchievementListIds = new Set(achievementLists.flat().map((x) => Number(x.achievementId)));
   const builtinProfiles = new Map((PROFILE_BUNDLE.profiles || []).map((x) => [x.id, x]));
+  const guideEntries = Guide.buildEntries({ data: DATA, challenges: CHALLENGES, achievements: ACHIEVEMENTS });
+  const guideCategoryLabels = new Map(Guide.categories.map(x => [x.id, x.label]));
 
   const runtimePriority = {
     recommendationByPair: new Map(),
@@ -61,9 +65,13 @@
     achievementById: new Map()
   };
   let confirmDialog = null;
+  let priorityAnchor = null;
 
   const state = {
-    view: 'character',
+    view: 'guide',
+    guideCategories: Guide.categories.map(x => x.id),
+    guideQuery: '',
+    localSyncPaused: false,
     selectedCharacterId: DATA.characters[0].id,
     selectedBossId: DATA.bosses[0].id,
     sort: 'priority',
@@ -77,6 +85,14 @@
   };
 
   const el = {
+    guideSection: document.getElementById('guideSection'),
+    guideSummary: document.getElementById('guideSummary'),
+    guideFilters: document.getElementById('guideFilters'),
+    guideSearch: document.getElementById('guideSearch'),
+    localSaveControls: document.getElementById('localSaveControls'),
+    localSaveStatus: document.getElementById('localSaveStatus'),
+    syncLocalSaveBtn: document.getElementById('syncLocalSaveBtn'),
+    pauseLocalSaveBtn: document.getElementById('pauseLocalSaveBtn'),
     selectorSection: document.getElementById('selectorSection'),
     grid: document.getElementById('entityGrid'),
     selectorKicker: document.getElementById('selectorKicker'),
@@ -267,7 +283,9 @@
     safeStorageSet(STORAGE_KEYS.uiPreferences, JSON.stringify({
       version: 1,
       sort: state.sort,
-      showUnlocked: state.showUnlocked
+      showUnlocked: state.showUnlocked,
+      guideCategories: state.guideCategories,
+      localSyncPaused: state.localSyncPaused
     }));
   }
 
@@ -279,6 +297,8 @@
       if (Number(payload.version) !== 1) throw new Error('偏好格式不受支持');
       if (payload.sort === 'default' || payload.sort === 'priority') state.sort = payload.sort;
       if (typeof payload.showUnlocked === 'boolean') state.showUnlocked = payload.showUnlocked;
+      if (Array.isArray(payload.guideCategories)) state.guideCategories = payload.guideCategories.filter(id => guideCategoryLabels.has(id));
+      if (typeof payload.localSyncPaused === 'boolean') state.localSyncPaused = payload.localSyncPaused;
     } catch (error) {
       console.warn('本地页面偏好损坏，已清除。', error);
       safeStorageRemove(STORAGE_KEYS.uiPreferences);
@@ -341,6 +361,9 @@
   }
 
   function rulePriority(rule) {
+    // Preserve explicit achievement overrides in imported profiles for shared goals.
+    const sharedPriority = runtimePriority.achievementById.get(Number(rule.achievementId));
+    if (sharedPriority) return sharedPriority;
     let best = null;
     for (const bossId of rule.bossIds) {
       const priority = runtimePriority.recommendationByPair.get(pairKey(rule.characterId, bossId)) || 'normal';
@@ -354,6 +377,8 @@
   }
 
   function achievementPriority(achievementId) {
+    const rule = rulesByAchievementId.get(Number(achievementId));
+    if (rule) return rulePriority(rule);
     return runtimePriority.achievementById.get(Number(achievementId)) || 'normal';
   }
 
@@ -581,6 +606,10 @@
       if (normalized === 'normal') runtimePriority.recommendationByPair.delete(key);
       else runtimePriority.recommendationByPair.set(key, normalized);
     }
+    if (validAchievementListIds.has(Number(rule.achievementId))) {
+      if (normalized === 'normal') runtimePriority.achievementById.delete(Number(rule.achievementId));
+      else runtimePriority.achievementById.set(Number(rule.achievementId), normalized);
+    }
     markProfileCustomized();
     closePriorityMenu();
     render();
@@ -600,6 +629,8 @@
   function setAchievementPriority(achievementId, priority) {
     const aid = Number(achievementId);
     if (!validAchievementListIds.has(aid)) return;
+    const sharedRule = rulesByAchievementId.get(aid);
+    if (sharedRule) { setRulePriority(sharedRule.id, priority); return; }
     const normalized = normalizePriority(priority);
     if (normalized === 'normal') runtimePriority.achievementById.delete(aid);
     else runtimePriority.achievementById.set(aid, normalized);
@@ -719,6 +750,7 @@
     try {
       const buffer = await file.arrayBuffer();
       applySaveBuffer(buffer, file.name, { persist: true, lastModified: file.lastModified });
+      pauseLocalSave('自动同步已暂停 · 当前使用手动读取的存档');
       render();
     } catch (error) {
       setSaveStatus('error', '读取失败', error?.message || String(error));
@@ -742,12 +774,71 @@
   }
 
   function clearPersistedSave() {
+    pauseLocalSave('已清除缓存 · 自动同步已暂停');
     safeStorageRemove(STORAGE_KEYS.save);
     state.save = null;
     state.saveName = '';
     el.saveInput.value = '';
     setSaveStatus('idle', '尚未读取存档', '文件只在浏览器本地解析，不会上传。');
     render();
+  }
+
+  // Optional local binding. Hosted and single-file versions keep manual loading.
+  const localSync = { enabled: false, busy: false, revision: '' };
+
+  function pauseLocalSave(message) {
+    state.localSyncPaused = true;
+    persistUiPreferences();
+    if (localSync.enabled) {
+      el.pauseLocalSaveBtn.textContent = '恢复自动同步';
+      el.localSaveStatus.textContent = message;
+    }
+  }
+
+  async function syncLocalSave() {
+    if (!localSync.enabled || localSync.busy || state.localSyncPaused) return;
+    localSync.busy = true;
+    try {
+      const response = await fetch(`/api/local-save?revision=${encodeURIComponent(localSync.revision)}`, { cache: 'no-store', signal: AbortSignal.timeout(5000) });
+      if (state.localSyncPaused) return;
+      if (response.status === 204) {
+        el.localSaveStatus.textContent = '已绑定本机存档 · 每 30 秒自动同步';
+        return;
+      }
+      if (!response.ok) throw new Error('Local save is unavailable');
+      const payload = await response.json();
+      // A manual load or pause may have happened while the request was running.
+      if (state.localSyncPaused) return;
+      applySaveBuffer(base64ToArrayBuffer(payload.data), payload.name, { persist: true, lastModified: payload.lastModified });
+      localSync.revision = payload.revision;
+      el.localSaveStatus.textContent = `已绑定本机存档 · 保存于 ${new Date(payload.lastModified).toLocaleString('zh-CN')} · 每 30 秒自动同步`;
+      render();
+    } catch (_) {
+      if (!state.localSyncPaused) el.localSaveStatus.textContent = '同步暂不可用，保留上次进度 · 稍后自动重试';
+    } finally { localSync.busy = false; }
+  }
+
+  async function initializeLocalSave() {
+    if (!['127.0.0.1', 'localhost'].includes(window.location.hostname) || window.location.protocol !== 'http:') return;
+    try {
+      const response = await fetch('/api/health', { cache: 'no-store', signal: AbortSignal.timeout(3000) });
+      if (!response.ok) return;
+      const health = await response.json();
+      if (health.app !== 'isaac-unlock-planner') return;
+      localSync.enabled = Boolean(health.saveBound);
+      el.localSaveControls.hidden = false;
+      el.syncLocalSaveBtn.hidden = !localSync.enabled;
+      el.pauseLocalSaveBtn.hidden = !localSync.enabled;
+      el.pauseLocalSaveBtn.textContent = state.localSyncPaused ? '恢复自动同步' : '暂停自动同步';
+      el.localSaveStatus.textContent = localSync.enabled
+        ? (state.localSyncPaused ? '自动同步已暂停' : '正在同步本机存档…')
+        : '尚未绑定本机存档 · 可手动读取，或按 README 设置本地绑定';
+      if (localSync.enabled) {
+        await syncLocalSave();
+        window.setInterval(syncLocalSave, 30000);
+        window.addEventListener('focus', syncLocalSave);
+      }
+    } catch (_) { /* Ordinary static servers do not expose this optional API. */ }
   }
 
   // ---------- UI rendering ----------
@@ -827,6 +918,10 @@
   }
 
   function renderHeader() {
+    if (state.view === 'guide') {
+      el.tableHead.innerHTML = '<tr><th>目标 / 解锁条件</th><th>解锁道具 / 奖励</th><th>道具效果</th><th>是否解锁</th><th class="options-column" aria-label="选项"></th></tr>';
+      return;
+    }
     if (state.view === 'challenge') {
       el.tableHead.innerHTML = '<tr><th>挑战 ID</th><th>挑战前置成就</th><th>挑战解锁成就 / 道具</th><th>道具描述</th><th>是否解锁</th><th class="options-column" aria-label="选项"></th></tr>';
       return;
@@ -839,14 +934,18 @@
 
   function targetCell(rule) {
     if (state.view === 'character') {
-      const units = rule.bossIds.map((id) => {
-        const boss = bosses.get(id);
-        return `<span class="boss-unit">${safeImage(bossImage(boss), 'boss-thumb')}<strong>${esc(boss.name)}</strong></span>`;
-      }).join('');
-      return `<div class="target-cell"><div><div class="boss-stack">${units}</div>${requirementText(rule)}</div></div>`;
+      return bossTargetsCell(rule);
     }
     const char = characters.get(rule.characterId);
     return `<div class="target-cell">${safeImage([characterLocalImage(char), char.image], 'entity-thumb')}<div><strong>${esc(char.name)}</strong>${requirementText(rule, state.selectedBossId)}</div></div>`;
+  }
+
+  function bossTargetsCell(rule) {
+    const units = rule.bossIds.map(id => {
+      const boss = bosses.get(id);
+      return `<span class="boss-unit">${safeImage(bossImage(boss), 'boss-thumb')}<strong>${esc(boss.name)}</strong></span>`;
+    }).join('');
+    return `<div class="target-cell"><div><div class="boss-stack">${units}</div>${requirementText(rule)}</div></div>`;
   }
 
   function rowMenuButton(kind, id, priority) {
@@ -892,26 +991,33 @@
       return;
     }
 
-    el.tableBody.innerHTML = rows.map(({ challenge, priority, prerequisiteUnlocked, unlocked }) => {
-      const rewardImage = achievementSprite(challenge.rewardAchievementId);
-      const rewardWiki = `https://isaac.huijiwiki.com/wiki/${encodeURIComponent('成就')}/${challenge.rewardAchievementId}`;
-      const challengeWiki = `https://isaac.huijiwiki.com/wiki/${encodeURIComponent('挑战')}/${challenge.challengeId}`;
-      const effectEntry = EFFECTS[String(challenge.rewardAchievementId)] || null;
-      const rewardName = effectEntry?.name || challenge.rewardName;
-      const effectText = effectEntry?.effect || challenge.effect || `解锁「${rewardName}」这一非收藏道具 / 机制内容。`;
-      return `<tr class="unlock-row priority-${priority}">
-        <td><div class="challenge-id-cell"><a class="challenge-id-link" href="${esc(challengeWiki)}" target="_blank" rel="noopener noreferrer">#${challenge.challengeId}</a>${priorityPill(priority)}</div></td>
-        <td>${challengePrerequisiteCell(challenge, prerequisiteUnlocked)}</td>
+    el.tableBody.innerHTML = rows.map(row => `<tr class="unlock-row priority-${row.priority}">
+        <td><div class="challenge-id-cell"><a class="challenge-id-link" href="https://isaac.huijiwiki.com/wiki/${encodeURIComponent('挑战')}/${row.challenge.challengeId}" target="_blank" rel="noopener noreferrer">#${row.challenge.challengeId}</a>${priorityPill(row.priority)}</div></td>
+        <td>${challengePrerequisiteCell(row.challenge, row.prerequisiteUnlocked)}</td>
+        ${challengeRewardCells(row)}
+      </tr>`).join('');
+  }
+
+  function challengeRewardCells({ challenge, priority, unlocked }) {
+    const rewardImage = achievementSprite(challenge.rewardAchievementId);
+    const rewardWiki = `https://isaac.huijiwiki.com/wiki/${encodeURIComponent('成就')}/${challenge.rewardAchievementId}`;
+    const effectEntry = EFFECTS[String(challenge.rewardAchievementId)] || null;
+    const rewardName = effectEntry?.name || challenge.rewardName;
+    const effectText = effectEntry?.effect || challenge.effect || `解锁「${rewardName}」这一非收藏道具 / 机制内容。`;
+    return `
         <td><div class="reward-cell">${rewardImage}<div><div class="reward-name"><a class="reward-link" href="${esc(rewardWiki)}" target="_blank" rel="noopener noreferrer">${esc(rewardName)}</a></div><div class="meta-line">奖励成就 ID #${challenge.rewardAchievementId}</div></div></div></td>
         <td><div class="effect-text">${esc(effectText)}</div></td>
         <td>${statusBadge(unlocked)}</td>
         <td class="row-options">${rowMenuButton('challenge', challenge.challengeId, priority)}</td>
-      </tr>`;
-    }).join('');
+    `;
   }
 
   function renderRows() {
     closePriorityMenu();
+    if (state.view === 'guide') {
+      renderGuideRows();
+      return;
+    }
     if (state.view === 'challenge') {
       renderChallengeRows();
       return;
@@ -925,20 +1031,92 @@
       return;
     }
 
-    el.tableBody.innerHTML = rows.map(({ rule, reward, priority, unlocked }) => {
-      const rewardImage = achievementSprite(rule.achievementId);
-      const fallbackEffect = isBabyReward(reward.name) ? '' : `解锁「${reward.name}」这一非收藏道具 / 机制内容。`;
-      const rawEffectText = reward.effect || fallbackEffect;
-      const effectText = rawEffectText && String(reward.source || '').startsWith('eid-') ? String(rawEffectText).replace(/；\s*/g, '\n') : rawEffectText;
-      const effect = effectText ? `<div class="effect-text">${esc(effectText)}</div>` : '<div class="effect-text effect-missing">效果说明待补充</div>';
-      const wikiUrl = `https://isaac.huijiwiki.com/wiki/${encodeURIComponent('成就')}/${rule.achievementId}`;
-      return `<tr class="unlock-row priority-${priority}">
-        <td>${targetCell(rule)}</td>
+    el.tableBody.innerHTML = rows.map(row => `<tr class="unlock-row priority-${row.priority}"><td>${targetCell(row.rule)}</td>${ruleRewardCells(row)}</tr>`).join('');
+  }
+
+  function ruleRewardCells({ rule, reward, priority, unlocked }) {
+    const rewardImage = achievementSprite(rule.achievementId);
+    const fallbackEffect = isBabyReward(reward.name) ? '' : `解锁「${reward.name}」这一非收藏道具 / 机制内容。`;
+    const rawEffectText = reward.effect || fallbackEffect;
+    const effectText = rawEffectText && String(reward.source || '').startsWith('eid-') ? String(rawEffectText).replace(/；\s*/g, '\n') : rawEffectText;
+    const effect = effectText ? `<div class="effect-text">${esc(effectText)}</div>` : '<div class="effect-text effect-missing">效果说明待补充</div>';
+    const wikiUrl = `https://isaac.huijiwiki.com/wiki/${encodeURIComponent('成就')}/${rule.achievementId}`;
+    return `
         <td><div class="reward-cell">${rewardImage}<div><div class="reward-name"><a class="reward-link" href="${esc(wikiUrl)}" target="_blank" rel="noopener noreferrer">${esc(reward.name)}</a>${priorityPill(priority)}</div><div class="meta-line">成就 ID #${rule.achievementId}</div></div></div></td>
         <td>${effect}</td>
         <td>${statusBadge(unlocked)}</td>
         <td class="row-options">${rowMenuButton('rule', rule.id, priority)}</td>
-      </tr>`;
+    `;
+  }
+
+  function guidePriority(row) {
+    if (row.kind === 'rule') return rulePriority(row.rule);
+    if (row.kind === 'challenge') return challengePriority(row.challenge.challengeId);
+    return achievementPriority(row.achievementId);
+  }
+
+  function guideSearchText(row) {
+    const parts = [row.entry?.name, row.entry?.condition, row.entry?.rewardName];
+    if (row.rule) {
+      const character = characters.get(row.rule.characterId);
+      const reward = rewardFor(row.achievementId);
+      parts.push(character?.name, character?.nameEn, ...row.rule.bossIds.map(id => bosses.get(id)?.name), reward.name, reward.condition);
+    }
+    if (row.challenge) parts.push(`挑战 #${row.challenge.challengeId}`, row.challenge.rewardName, EFFECTS[String(row.achievementId)]?.name);
+    return parts.filter(Boolean).join(' ');
+  }
+
+  function renderGuideRows() {
+    if (!el.guideFilters.querySelector('input')) {
+      el.guideFilters.insertAdjacentHTML('beforeend', Guide.categories.map(category => {
+        const count = guideEntries.filter(row => row.categories.includes(category.id)).length;
+        return `<label class="guide-filter"><input type="checkbox" value="${esc(category.id)}" /><span>${esc(category.label)}</span><small>${count}</small></label>`;
+      }).join(''));
+    }
+    el.guideFilters.querySelectorAll('input').forEach(input => { input.checked = state.guideCategories.includes(input.value); });
+    const presets = { all: Guide.categories.map(x => x.id), character: ['character', 'character-unlock'], challenge: ['challenge'], none: [] };
+    document.querySelectorAll('[data-guide-preset]').forEach(button => {
+      const expected = presets[button.dataset.guidePreset];
+      button.setAttribute('aria-pressed', String(expected.length === state.guideCategories.length && expected.every(id => state.guideCategories.includes(id))));
+    });
+    const options = {
+      categories: state.guideCategories, query: state.guideQuery, showUnlocked: state.showUnlocked,
+      save: state.save, sort: state.sort, priorityFor: row => PRIORITY_SCORE[guidePriority(row)], searchTextFor: guideSearchText
+    };
+    const rows = Guide.selectEntries(guideEntries, options);
+    const selected = Guide.selectEntries(guideEntries, { categories: state.guideCategories });
+    const completed = state.save ? selected.filter(row => unlockStatus(row.achievementId)).length : null;
+    el.guideSummary.textContent = `显示 ${rows.length} / ${selected.length} 项${completed == null ? ' · 读取存档后显示进度' : ` · 已解锁 ${completed} 项`} · 总收录 ${guideEntries.length} 项`;
+    if (!rows.length) {
+      const message = !state.guideCategories.length ? '选择想要查看的分类' : state.guideQuery.trim() ? '没有匹配的目标' : '所选分类的奖励已全部解锁 🎉';
+      const detail = !state.guideCategories.length ? '可任意勾选多个分类，或使用“全部”“仅角色”“仅挑战”。' : state.guideQuery.trim() ? '尝试其他关键词，或调整分类与“显示已解锁”。' : '可以选择其他分类，或打开“显示已解锁”查看完整列表。';
+      el.tableBody.innerHTML = `<tr class="empty-state"><td colspan="5"><strong>${message}</strong><span>${detail}</span></td></tr>`;
+      return;
+    }
+    el.tableBody.innerHTML = rows.map(row => {
+      const priority = guidePriority(row);
+      const unlocked = unlockStatus(row.achievementId);
+      const tags = `<div class="meta-line">${esc(row.categories.map(id => guideCategoryLabels.get(id)).join(' / '))}</div>`;
+      let target;
+      let cells;
+      if (row.kind === 'rule') {
+        const character = characters.get(row.rule.characterId);
+        target = `<div class="target-cell">${safeImage([characterLocalImage(character), character.image], 'entity-thumb')}<div><strong>${esc(character.name)}</strong>${tags}</div></div><div class="guide-condition">${bossTargetsCell(row.rule)}</div>`;
+        cells = ruleRewardCells({ rule: row.rule, reward: rewardFor(row.achievementId), priority, unlocked });
+      } else if (row.kind === 'challenge') {
+        const challenge = row.challenge;
+        const wikiUrl = `https://isaac.huijiwiki.com/wiki/${encodeURIComponent('挑战')}/${challenge.challengeId}`;
+        target = `<a class="reward-link" href="${esc(wikiUrl)}" target="_blank" rel="noopener noreferrer">挑战 #${challenge.challengeId}</a>${priorityPill(priority)}${tags}<div class="guide-condition">${challengePrerequisiteCell(challenge, challenge.prerequisiteAchievementId == null ? true : unlockStatus(challenge.prerequisiteAchievementId))}</div>`;
+        cells = challengeRewardCells({ challenge, priority, unlocked });
+      } else {
+        const entry = row.entry;
+        const wikiUrl = `https://isaac.huijiwiki.com/wiki/${encodeURIComponent('成就')}/${row.achievementId}`;
+        target = `<div class="reward-cell">${achievementSprite(row.achievementId)}<div><div class="reward-name"><a class="reward-link" href="${esc(wikiUrl)}" target="_blank" rel="noopener noreferrer">${esc(entry.name)}</a></div>${tags}</div></div><div class="guide-condition achievement-condition">${esc(entry.condition)}</div>`;
+        cells = `<td><div class="reward-name">${entry.rewardName ? esc(entry.rewardName) : '<span class="effect-missing">无额外奖励</span>'}${priorityPill(priority)}</div><div class="meta-line">成就 ID #${row.achievementId}</div></td>
+          <td><div class="effect-text${entry.rewardEffect ? '' : ' effect-missing'}">${esc(entry.rewardEffect || '—')}</div></td>
+          <td>${statusBadge(unlocked)}</td><td class="row-options">${rowMenuButton('achievement', row.achievementId, priority)}</td>`;
+      }
+      return `<tr class="unlock-row priority-${priority}" data-guide-achievement="${row.achievementId}"><td class="guide-target">${target}</td>${cells}</tr>`;
     }).join('');
   }
 
@@ -1041,12 +1219,17 @@
   }
 
   function render() {
-    document.querySelectorAll('.page-tab').forEach((b) => b.classList.toggle('active', b.dataset.view === state.view));
+    document.querySelectorAll('.page-tab').forEach(b => {
+      b.classList.toggle('active', b.dataset.view === state.view);
+      b.setAttribute('aria-pressed', String(b.dataset.view === state.view));
+    });
     document.querySelectorAll('.segment').forEach((b) => b.classList.toggle('active', b.dataset.sort === state.sort));
     el.showUnlocked.checked = state.showUnlocked;
     renderProfileControls();
     const hasSelector = state.view === 'character' || state.view === 'boss';
     const isAchievement = state.view === 'achievement';
+    el.guideSection.hidden = state.view !== 'guide';
+    el.standardResults.classList.toggle('guide-table-wrap', state.view === 'guide');
     el.selectorSection.hidden = !hasSelector;
     el.standardResults.hidden = isAchievement;
     el.achievementResults.hidden = !isAchievement;
@@ -1062,6 +1245,7 @@
 
   function closePriorityMenu() {
     state.menuTarget = null;
+    priorityAnchor = null;
     el.priorityMenu.hidden = true;
     el.priorityMenu.innerHTML = '';
   }
@@ -1071,12 +1255,22 @@
     const id = button.dataset.priorityId;
     const current = normalizePriority(button.dataset.currentPriority);
     state.menuTarget = { kind, id };
+    priorityAnchor = button;
     el.priorityMenu.innerHTML = PRIORITY_ORDER.map((priority) => (
       `<button type="button" class="priority-menu-item${priority === current ? ' active' : ''}" data-set-priority="${priority}" role="menuitem"><span class="priority-menu-dot ${priority}"></span><span>${PRIORITY_LABEL[priority]}</span>${priority === current ? '<span class="priority-menu-check">✓</span>' : ''}</button>`
     )).join('');
     el.priorityMenu.hidden = false;
+    positionPriorityMenu();
+  }
 
-    const rect = button.getBoundingClientRect();
+  function positionPriorityMenu() {
+    if (el.priorityMenu.hidden || !priorityAnchor) return;
+    if (!priorityAnchor.isConnected) { closePriorityMenu(); return; }
+    const rect = priorityAnchor.getBoundingClientRect();
+    if (rect.bottom < 0 || rect.top > window.innerHeight || rect.right < 0 || rect.left > window.innerWidth) {
+      closePriorityMenu();
+      return;
+    }
     const menuRect = el.priorityMenu.getBoundingClientRect();
     let left = rect.right - menuRect.width;
     let top = rect.bottom + 5;
@@ -1087,6 +1281,40 @@
   }
 
   // ---------- Events ----------
+
+  el.guideFilters.addEventListener('change', () => {
+    state.guideCategories = Array.from(el.guideFilters.querySelectorAll('input:checked'), input => input.value);
+    persistUiPreferences();
+    renderRows();
+  });
+  document.querySelectorAll('[data-guide-preset]').forEach(button => {
+    button.addEventListener('click', () => {
+      const preset = button.dataset.guidePreset;
+      state.guideCategories = preset === 'all' ? Guide.categories.map(x => x.id)
+        : preset === 'character' ? ['character', 'character-unlock'] : preset === 'challenge' ? ['challenge'] : [];
+      persistUiPreferences();
+      renderRows();
+    });
+  });
+  el.guideSearch.addEventListener('input', () => {
+    state.guideQuery = el.guideSearch.value;
+    renderRows();
+  });
+  el.syncLocalSaveBtn.addEventListener('click', () => {
+    state.localSyncPaused = false;
+    localSync.revision = '';
+    el.pauseLocalSaveBtn.textContent = '暂停自动同步';
+    persistUiPreferences();
+    syncLocalSave();
+  });
+  el.pauseLocalSaveBtn.addEventListener('click', () => {
+    if (!state.localSyncPaused) { pauseLocalSave('自动同步已暂停 · 保留当前进度'); return; }
+    state.localSyncPaused = false;
+    localSync.revision = '';
+    el.pauseLocalSaveBtn.textContent = '暂停自动同步';
+    persistUiPreferences();
+    syncLocalSave();
+  });
 
   document.querySelectorAll('.page-tab').forEach((button) => {
     button.addEventListener('click', () => { state.view = button.dataset.view; render(); });
@@ -1167,7 +1395,7 @@
   });
 
   window.addEventListener('resize', closePriorityMenu);
-  window.addEventListener('scroll', closePriorityMenu, true);
+  window.addEventListener('scroll', positionPriorityMenu, true);
 
   ['dragenter', 'dragover'].forEach((eventName) => el.dropZone.addEventListener(eventName, (event) => {
     event.preventDefault();
@@ -1183,4 +1411,5 @@
   initializeRecommendationProfile();
   restorePersistedSave();
   render();
+  initializeLocalSave();
 })();

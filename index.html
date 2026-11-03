@@ -9,8 +9,8 @@
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
   <title>以撒开荒解锁规划器</title>
-  <link rel="icon" type="image/png" href="./assets/icon.png?v=20261003015410" />
-  <link rel="stylesheet" href="./styles.css?v=20261003015410" />
+  <link rel="icon" type="image/png" href="./assets/icon.png?v=20261103-guide2" />
+  <link rel="stylesheet" href="./styles.css?v=20261103-guide2" />
 </head>
 <body>
   <div class="app-shell">
@@ -18,7 +18,7 @@
       <div>
         <div class="eyebrow">THE BINDING OF ISAAC · 本地存档工具</div>
         <h1>开荒解锁规划器</h1>
-        <p class="subtitle">按角色、Boss 或挑战查看解锁奖励，并结合存档过滤已经完成的目标。</p>
+        <p class="subtitle">总览角色、挑战与其他成就，自由组合分类，并结合存档逐项推进解锁。</p>
       </div>
 
       <div class="save-panel" id="dropZone">
@@ -34,24 +34,57 @@
             <small>文件只在浏览器本地解析，不会上传。</small>
           </div>
         </div>
+        <div class="local-save-controls" id="localSaveControls" hidden>
+          <span id="localSaveStatus" role="status" aria-live="polite"></span>
+          <div class="save-actions">
+            <button class="secondary-button compact-button" id="syncLocalSaveBtn" type="button">立即同步</button>
+            <button class="secondary-button compact-button" id="pauseLocalSaveBtn" type="button">暂停自动同步</button>
+          </div>
+        </div>
         <div class="save-hint">
           <strong>找不到存档？</strong> 通常可在
           <code class="copy-path" role="button" tabindex="0" data-copy-path="%USERPROFILE%\Documents\My Games\Binding of Isaac Repentance" title="点击复制">%USERPROFILE%\Documents\My Games\Binding of Isaac Repentance</code>
           或 <code class="copy-path" role="button" tabindex="0" data-copy-path="%USERPROFILE%\Documents\My Games\Binding of Isaac Repentance+\save_backups" title="点击复制">%USERPROFILE%\Documents\My Games\Binding of Isaac Repentance+\save_backups</code>
           中寻找时间最近的 <code>...persistentgamedata*.dat</code>（其中星号 <code>*</code> 的数字表示第几个存档）。
-          成功读取后会将该存档内容保存在当前浏览器中，下次打开自动恢复；游戏进度变化后请重新读取最新存档。
+          成功读取后会将该存档内容保存在当前浏览器中，下次打开自动恢复。使用本地启动入口绑定存档后，每 30 秒自动同步；普通静态页面请手动重新读取。
         </div>
       </div>
     </header>
 
     <nav class="page-tabs" aria-label="页面切换">
-      <button class="page-tab active" type="button" data-view="character">按角色</button>
+      <button class="page-tab active" type="button" data-view="guide">总攻略</button>
+      <button class="page-tab" type="button" data-view="character">按角色</button>
       <button class="page-tab" type="button" data-view="boss">按 Boss</button>
       <button class="page-tab" type="button" data-view="challenge">挑战解锁</button>
       <button class="page-tab" type="button" data-view="achievement">其他成就</button>
     </nav>
 
     <main>
+      <section class="guide-section" id="guideSection" aria-labelledby="guideTitle">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">解锁总览</span>
+            <h2 id="guideTitle">总攻略</h2>
+          </div>
+          <div class="selection-summary" id="guideSummary" role="status" aria-live="polite"></div>
+        </div>
+        <p class="guide-intro">汇总项目现有的角色、挑战与其他成就。分类可以任意组合，同一成就只列一次；按重要度排序后，沿列表逐项推进。</p>
+        <div class="guide-toolbar">
+          <div class="guide-presets" role="group" aria-label="快速选择分类">
+            <button class="secondary-button compact-button" type="button" data-guide-preset="all">全部</button>
+            <button class="secondary-button compact-button" type="button" data-guide-preset="character">仅角色</button>
+            <button class="secondary-button compact-button" type="button" data-guide-preset="challenge">仅挑战</button>
+            <button class="secondary-button compact-button" type="button" data-guide-preset="none">清空分类</button>
+          </div>
+          <label class="guide-search-label" for="guideSearch">
+            <span>搜索目标</span>
+            <input type="search" id="guideSearch" placeholder="角色、Boss、奖励或成就 ID" />
+          </label>
+        </div>
+        <fieldset class="guide-filters" id="guideFilters">
+          <legend>查看分类（可多选）</legend>
+        </fieldset>
+      </section>
       <section class="selector-section" id="selectorSection">
         <div class="section-heading">
           <div>
@@ -129,14 +162,15 @@
     </footer>
   </div>
 
-  <!-- CACHE_VERSION: 20261003015410。发布新版本前运行 python tools/bump_cache_version.py -->
-  <script src="./data/unlocks.js?v=20261003015410"></script>
-  <script src="./data/challenges.js?v=20261003015410"></script>
-  <script src="./data/achievements.js?v=20261003015410"></script>
-  <script src="./data/effects.js?v=20261003015410"></script>
-  <script src="./data/overrides.js?v=20261003015410"></script>
-  <script src="./data/recommendation_profiles.js?v=20261003015410"></script>
-  <script src="./js/save-parser.js?v=20261003015410"></script>
-  <script src="./js/app.js?v=20261003015410"></script>
+  <!-- CACHE_VERSION: 20261103-guide2。发布新版本前运行 python tools/bump_cache_version.py -->
+  <script src="./data/unlocks.js?v=20261103-guide2"></script>
+  <script src="./data/challenges.js?v=20261103-guide2"></script>
+  <script src="./data/achievements.js?v=20261103-guide2"></script>
+  <script src="./data/effects.js?v=20261103-guide2"></script>
+  <script src="./data/overrides.js?v=20261103-guide2"></script>
+  <script src="./data/recommendation_profiles.js?v=20261103-guide2"></script>
+  <script src="./js/save-parser.js?v=20261103-guide2"></script>
+  <script src="./js/guide.js?v=20261103-guide2"></script>
+  <script src="./js/app.js?v=20261103-guide2"></script>
 </body>
 </html>
