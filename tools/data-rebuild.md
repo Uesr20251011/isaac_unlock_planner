@@ -141,6 +141,7 @@ python tools/build_achievements.py "temp/achievements.html"
 | `tools/recommendation_profiles.json` | 方案列表、默认方案及引用文件 |
 | `tools/recommendation_seed.json` | 角色/Boss 对的优先级 |
 | `tools/challenge_priority.json` | 挑战 ID 的优先级 |
+| `tools/achievement_priority.json` | 已研究的其他成就奖励优先级及依据 |
 
 角色/Boss 配置条目只包含以下字段：
 
@@ -154,6 +155,8 @@ python tools/build_achievements.py "temp/achievements.html"
 
 挑战条目只包含 `challengeId` 和 `priority`。支持的优先级为 `strong`、`recommended`、`normal`、`discouraged`；未单独配置的角色/Boss 对默认使用 `normal`。
 
+方案可用可选的 `achievementFile` 引用其他成就补评源，`entries` 条目只包含 `achievementId` 和 `priority`。构建器校验成就存在、ID 无重复，且不能覆盖角色通关或挑战奖励目标；`reviews`、`sources` 保留强度参考、解锁取舍与来源，不写入浏览器配置。解锁优先级不等于道具强度，未研究条目仍使用默认 `normal`。
+
 修改推荐源后运行：
 
 ```bash
@@ -162,6 +165,8 @@ python tools/build_recommendation_profiles.py
 ```
 
 校验器检查角色/Boss 对、捆绑解锁优先级的一致性和挑战配置完整性。新增方案时，在方案清单中指定角色/Boss 与挑战配置文件，再重新编译。
+
+可运行 `python -m unittest discover -s tests -p test_recommendation_profiles.py` 检查可选补评文件、非法与重复 ID、已有评级保护和研究来源完整性。浏览器对未自定义的内置方案自动载入新版；已经自定义或导入的配置保持原样。
 
 浏览器读取生成的 JS，不运行时请求配置 JSON。用户可在页面内调整优先级并导入、导出自己的配置；其他成就未设置推荐等级时使用 `normal`。推荐变动完成后，同样执行发布准备。
 

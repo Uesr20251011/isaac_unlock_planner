@@ -8,6 +8,7 @@ human-editable source format.
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -19,6 +20,36 @@ ALLOWED = {"normal", "recommended", "strong", "discouraged"}
 
 def read_json(path: Path):
     return json.loads(path.read_text("utf-8"))
+
+
+def read_data(name: str):
+    text = (ROOT / "data" / name).read_text("utf-8")
+    return json.loads(re.search(r"=\s*(\{.*\});\s*$", text, re.S).group(1))
+
+
+def achievement_entries(pid: str, filename: str | None) -> list:
+    if not filename:
+        return []
+    data = read_data("achievements.js")
+    lists = [data["main"], data["characters"]["normal"], data["characters"]["tainted"],
+             data["cumulative"], data["completion"]]
+    valid_ids = {x["achievementId"] for group in lists for x in group}
+    # This supplement must never override the original character/challenge ratings.
+    rated_ids = {x["achievementId"] for x in read_data("unlocks.js")["unlockRules"]}
+    rated_ids.update(x["rewardAchievementId"] for x in read_data("challenges.js")["entries"])
+    result = []
+    seen = set()
+    for entry in read_json(TOOLS / filename).get("entries", []):
+        if set(entry) != {"achievementId", "priority"}:
+            raise RuntimeError(f"invalid achievement entry in {pid}: {entry}")
+        aid = entry["achievementId"]
+        if type(aid) is not int or aid not in valid_ids or aid in rated_ids or aid in seen:
+            raise RuntimeError(f"unknown, already rated or duplicate achievement in {pid}: {aid}")
+        if entry["priority"] not in ALLOWED:
+            raise RuntimeError(f"invalid achievement priority in {pid}: {entry}")
+        seen.add(aid)
+        result.append(dict(entry))
+    return result
 
 
 def main() -> None:
@@ -59,6 +90,7 @@ def main() -> None:
             "defaultPriority": rec.get("defaultPriority", "normal"),
             "characterBoss": character_boss,
             "challenges": challenges,
+            "achievements": achievement_entries(pid, item.get("achievementFile")),
         })
 
     default_id = manifest.get("defaultProfileId")
@@ -82,6 +114,7 @@ def main() -> None:
         "defaultProfileId": default_id,
         "characterBossEntries": sum(len(x["characterBoss"]) for x in profiles),
         "challengeEntries": sum(len(x["challenges"]) for x in profiles),
+        "achievementEntries": sum(len(x["achievements"]) for x in profiles),
     }, ensure_ascii=False))
 
 

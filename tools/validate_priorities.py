@@ -7,6 +7,7 @@ of truth; build_recommendation_profiles.py compiles them for the browser.
 from __future__ import annotations
 from pathlib import Path
 import json,re
+from build_recommendation_profiles import achievement_entries
 
 ROOT=Path(__file__).resolve().parents[1]
 UNLOCKS=ROOT/'data'/'unlocks.js'
@@ -65,6 +66,11 @@ def main():
     if seen != challenge_ids:
         raise RuntimeError(f'challenge priority JSON must cover all challenges; missing={sorted(challenge_ids-seen)}')
 
+    manifest=json.loads((ROOT/'tools'/'recommendation_profiles.json').read_text('utf-8'))
+    achievement_ratings=[]
+    for profile in manifest['profiles']:
+        achievement_ratings.extend(achievement_entries(profile['id'],profile.get('achievementFile')))
+
     def rule_priority(rule):
         vals=[pair_priority.get((rule['characterId'],b),'normal') for b in rule['bossIds']]
         return max(vals, key=lambda x:{'discouraged':0,'normal':1,'recommended':2,'strong':3}[x])
@@ -83,6 +89,10 @@ def main():
         'challengeStrong':sum(x['priority']=='strong' for x in cp['entries']),
         'challengeRecommended':sum(x['priority']=='recommended' for x in cp['entries']),
         'challengeDiscouraged':sum(x['priority']=='discouraged' for x in cp['entries']),
+        'achievementRatings':len(achievement_ratings),
+        'achievementStrong':sum(x['priority']=='strong' for x in achievement_ratings),
+        'achievementRecommended':sum(x['priority']=='recommended' for x in achievement_ratings),
+        'achievementNormal':sum(x['priority']=='normal' for x in achievement_ratings),
     }
     print(json.dumps(stats,ensure_ascii=False))
 

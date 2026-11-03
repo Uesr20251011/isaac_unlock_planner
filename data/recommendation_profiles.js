@@ -6,7 +6,7 @@ window.ISAAC_RECOMMENDATION_PROFILES = {
     {
       "id": "beginner-9.10",
       "name": "萌新开荒推荐",
-      "description": "基于当前 v9.10 萌新向人物 / 挑战优先级整理。",
+      "description": "基于 v9.10 人物 / 挑战优先级；补充 2026-11-03 交叉研究的 11 项其他成就奖励，面向全角色打标与全成就。",
       "source": "https://www.bilibili.com/opus/1083165871339208713",
       "defaultPriority": "normal",
       "characterBoss": [
@@ -1270,6 +1270,52 @@ window.ISAAC_RECOMMENDATION_PROFILES = {
         },
         {
           "challengeId": 45,
+          "priority": "normal"
+        }
+      ],
+      "achievements": [
+        {
+          "achievementId": 135,
+          "priority": "strong"
+        },
+        {
+          "achievementId": 136,
+          "priority": "recommended"
+        },
+        {
+          "achievementId": 138,
+          "priority": "strong"
+        },
+        {
+          "achievementId": 156,
+          "priority": "recommended"
+        },
+        {
+          "achievementId": 250,
+          "priority": "strong"
+        },
+        {
+          "achievementId": 325,
+          "priority": "normal"
+        },
+        {
+          "achievementId": 336,
+          "priority": "recommended"
+        },
+        {
+          "achievementId": 354,
+          "priority": "strong"
+        },
+        {
+          "achievementId": 360,
+          "priority": "normal"
+        },
+        {
+          "achievementId": 547,
+          "priority": "normal"
+        },
+        {
+          "achievementId": 636,
           "priority": "normal"
         }
       ]

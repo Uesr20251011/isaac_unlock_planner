@@ -425,7 +425,10 @@
         challengeId: Number(x.challengeId),
         priority: normalizePriority(x.priority)
       })),
-      achievements: []
+      achievements: (profile.achievements || []).map((x) => ({
+        achievementId: Number(x.achievementId),
+        priority: normalizePriority(x.priority)
+      }))
     };
   }
 

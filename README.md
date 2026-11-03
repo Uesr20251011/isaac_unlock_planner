@@ -82,10 +82,31 @@ Steam 云存档也可能在 `Steam/userdata/<账号数字ID>/250900/remote/` 下
 ## 推荐配置
 
 - 首次打开时，页面会把内置推荐方案复制到当前站点的 `localStorage`。
-- 每条角色/Boss、挑战和其他成就记录右侧都有优先级菜单，可改成 `strong / recommended / normal`。
+- 每条角色/Boss、挑战和其他成就记录右侧都有优先级菜单，可改成 `strong / recommended / normal / discouraged`。
+- 未自定义的内置方案会在刷新时载入最新评级；已经修改或导入的自定义配置完整保留。需要采用新版内置方案时，先导出自己的配置，再在推荐方案中选择 **萌新开荒推荐**。
 - 当前配置可导出为 JSON，也可以重新导入。
 - 同一目标同时属于角色通关和其他成就时，共用优先级；导入旧配置存在冲突时，明确设置的成就优先级优先，后续编辑会同步更新两种记录。
 - 成功读取的存档原始内容也会保存在 `localStorage`，下次进入会自动重新解析。普通静态页面在游戏进度更新后仍需重新选择最新 `.dat`；绑定本地启动入口后自动同步。
+
+### 其他成就奖励的研究补评（2026-11-03）
+
+本轮仅补充前期研究已审校、此前没有独立评级的 **11 项其他成就奖励**，保留已有角色和挑战评级。目标是提高后续全角色打标效率、最终完成全成就。页面颜色表示**解锁优先级**，不是拾取时的道具强度；研究未覆盖的其他条目仍沿用默认“普通”，不代表已经评审。
+
+| 目标 | 解锁优先级 | 取舍 |
+| --- | --- | --- |
+| 额外选择 #135 | 强烈推荐 | 普通捐款50，较低成本改善后续奖励选择 |
+| 黑蜡烛 #136 | 推荐 | 普通捐款150，减少诅咒影响 |
+| 怀表 #138 | 强烈推荐 | 普通捐款999，随正常局结余长期推进 |
+| 神性 #156 | 推荐 | 本身很强；有起始斗篷并适应游魂后推进其全困难标记 |
+| 游魂起始神圣屏障 #250 | 强烈推荐 | 贪婪捐款879；打游魂标记前的重要准备，属于起始能力升级 |
+| 呕！药丸 #325 | 普通 | 奖励战力低，但31次跨天每日参与应尽早并行累计 |
+| 碎裂的王冠 #336 | 推荐 | 争取每日五连胜；不要求连续五天，收益依赖已有属性 |
+| 坏猫／损坏的调制解调器 #354 | 强烈推荐 | 并行累计7次每日胜利；通用控场与资源收益，社区评价仍有分歧 |
+| 黄油！ #360 | 普通 | 单拿收益有限，运营技巧上限高；强势羔羊局顺带跑圈 |
+| 超级蘑菇 #547 | 普通 | 全部表角色困难标记的阶段奖励，不挤占前期核心链 |
+| 死亡证明 #636 | 普通 | 全部表里角色困难标记的终盘奖励，辅助后续收集 |
+
+参考 [jnub 解锁取舍指南](https://steamcommunity.com/sharedfiles/filedetails/?id=2994836310)、[Piel 全成就路线](https://steamcommunity.com/sharedfiles/filedetails/?id=2980920774)、[NiCobra 解锁依赖图](https://maniacobra.com/isaac-graph/) 与 IsaacGuru 机制资料。没有把不同口径榜单直接平均，也没有受控胜率或耗时实验；等级属于编辑性综合建议。逐项强度参考、条件、局限和来源链接保存在 [tools/achievement_priority.json](tools/achievement_priority.json)，其中 `entries` 是评级源，`reviews` 和 `sources` 保留研究依据。
 
 ## 目录
 
@@ -122,12 +143,15 @@ tools/
   local-server.cjs
   start-planner.ps1
   create-shortcut.ps1
+  achievement_priority.json
 tests/
   guide.test.cjs
   local-server.test.cjs
   browser-smoke.js
   local-sync-smoke.js
   offline-smoke.js
+  ratings-smoke.js
+  test_recommendation_profiles.py
 Start-Planner.cmd
 ```
 
@@ -142,6 +166,7 @@ Start-Planner.cmd
 ```powershell
 node --test tests/guide.test.cjs tests/local-server.test.cjs
 python tools/validate_priorities.py
+python -m unittest discover -s tests -p test_recommendation_profiles.py
 ```
 
 浏览器检查可使用 Playwright CLI（本机需安装 Edge），在本地服务运行后执行：
@@ -153,6 +178,7 @@ npm install --prefix .local/browser-tools --no-audit --no-fund @playwright/cli
 # 已绑定存档时，额外检查同步暂停、清除缓存与恢复行为：
 .\.local\browser-tools\node_modules\.bin\playwright-cli.cmd -s=isaac run-code --filename=tests/local-sync-smoke.js
 # 使用隔离测试浏览器打开本地服务上的离线 HTML，可运行 offline-smoke.js；它会清空该测试浏览器的本站存储并阻断其他请求。
+# 使用隔离测试浏览器可运行 ratings-smoke.js，验证补评、旧内置方案更新和自定义配置保留。
 .\.local\browser-tools\node_modules\.bin\playwright-cli.cmd -s=isaac close
 ```
 

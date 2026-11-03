@@ -1,0 +1,367 @@
+{
+  "version": 1,
+  "researchDate": "2026-11-03",
+  "objective": "提高后续全角色打标效率，最终走向全成就",
+  "scope": "仅补充此前没有独立评级、且已完成交叉研究的其他成就奖励；不覆盖已有角色或挑战评级。",
+  "methodology": "priority为解锁优先级，strength为独立强度参考；综合后续全角色打标收益、获取成本、前置、角色适应性与跨天进度。结论为编辑性综合，不代表来源一致或受控胜率。",
+  "entries": [
+    {
+      "achievementId": 135,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 136,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 138,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 156,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 250,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 325,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 336,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 354,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 360,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 547,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 636,
+      "priority": "normal"
+    }
+  ],
+  "reviews": [
+    {
+      "achievementId": 135,
+      "name": "额外选择",
+      "entityType": "collectible",
+      "entityId": 249,
+      "strength": "A",
+      "phase": "P0",
+      "confidence": "高",
+      "condition": "捐献50枚硬币给捐款机。",
+      "reason": "50枚普通捐款即可解锁，较低成本改善后续Boss奖励选择，强烈推荐随正常局推进。",
+      "caveat": "循序捐款，不要为了捐钱放弃本局必要生存。",
+      "sourceIds": [
+        "EN3",
+        "M04"
+      ]
+    },
+    {
+      "achievementId": 136,
+      "name": "黑蜡烛",
+      "entityType": "collectible",
+      "entityId": 260,
+      "strength": "A",
+      "phase": "P0",
+      "confidence": "高",
+      "condition": "捐献150枚硬币给捐款机。",
+      "reason": "150枚普通捐款解锁，减少诅咒损失，推荐随正常局结余推进。",
+      "caveat": "获取后收益，非每局保证出现。",
+      "sourceIds": [
+        "EN3",
+        "M04"
+      ]
+    },
+    {
+      "achievementId": 138,
+      "name": "怀表／Stop Watch",
+      "entityType": "collectible",
+      "entityId": 232,
+      "strength": "S",
+      "phase": "P0",
+      "confidence": "中高",
+      "condition": "捐献999枚硬币给捐款机。",
+      "reason": "强控场奖励，999枚普通捐款宜长期并行累计；强烈推荐推进，不要求从零专刷捐款。",
+      "caveat": "不要与破损的怀表混淆；按正常局结余推进。",
+      "sourceIds": [
+        "EN3",
+        "RT1",
+        "M04"
+      ]
+    },
+    {
+      "achievementId": 156,
+      "name": "神性／Godhead",
+      "entityType": "collectible",
+      "entityId": 331,
+      "strength": "S",
+      "phase": "P3",
+      "confidence": "中高",
+      "condition": "用游魂获得所有困难模式通关标记。（包含更贪婪标记）",
+      "reason": "神性本身为S级参考强度；全套游魂困难标记成本高，有起始斗篷并能稳定打游魂后再推进。",
+      "caveat": "全套游魂标记成本高；不作为玩其他角色前的强制门槛。",
+      "sourceIds": [
+        "EN1",
+        "EN2",
+        "RT1",
+        "RT2",
+        "M01"
+      ]
+    },
+    {
+      "achievementId": 250,
+      "name": "游魂起始神圣屏障",
+      "entityType": "collectible",
+      "entityId": 313,
+      "strength": "—",
+      "phase": "P0",
+      "confidence": "高",
+      "condition": "捐献879枚硬币给贪婪机。",
+      "reason": "游魂起始能力升级；认真打游魂标记前应优先完成，不能误解为解锁道具池中的神圣屏障。",
+      "caveat": "这里升级的是游魂起始能力，不是解锁道具池中的神圣屏障。",
+      "sourceIds": [
+        "EN1",
+        "EN3",
+        "ZH3",
+        "M05"
+      ]
+    },
+    {
+      "achievementId": 325,
+      "name": "献身／呕！药丸",
+      "entityType": "pill",
+      "entityId": 44,
+      "strength": "C（风险）",
+      "phase": "P0",
+      "confidence": "中",
+      "condition": "累计参加31天的每日挑战。",
+      "reason": "奖励战力较低且可能自伤，保留普通；31天每日参与应尽早并行累计，日程优先不等于强度高。",
+      "caveat": "不要求连续31天或全胜；呕药战力低且有自伤风险，参与日程与奖励强度分开看。",
+      "sourceIds": [
+        "EN1",
+        "EN3",
+        "M01"
+      ]
+    },
+    {
+      "achievementId": 336,
+      "name": "碎裂的王冠",
+      "entityType": "trinket",
+      "entityId": 92,
+      "strength": "A",
+      "phase": "P0",
+      "confidence": "中",
+      "condition": "每日挑战完成5连胜，且分数大于0（不必连续5天）。",
+      "reason": "成长性强但依赖已有属性，推荐争取每日五连胜；与其他每日成就并行，不要求连续五天。",
+      "caveat": "不要求连续五天；忏悔20%增益与旧版33%不同。",
+      "sourceIds": [
+        "EN1",
+        "EN3",
+        "M09"
+      ]
+    },
+    {
+      "achievementId": 354,
+      "name": "坏猫／损坏的调制解调器",
+      "entityType": "collectible",
+      "entityId": 514,
+      "strength": "A+",
+      "phase": "P0",
+      "confidence": "中",
+      "condition": "每日挑战胜利7次。",
+      "reason": "通用控场与资源收益能帮助后续打标，7次每日胜利宜尽早并行；强烈推荐，但社区评价有分歧。",
+      "caveat": "RT1仅排192，说明评价存在分歧；不能称为社区一致S级。",
+      "sourceIds": [
+        "EN1",
+        "EN3",
+        "M11"
+      ]
+    },
+    {
+      "achievementId": 360,
+      "name": "黄油！／Butter!",
+      "entityType": "trinket",
+      "entityId": 122,
+      "strength": "B单拿／S技巧",
+      "phase": "P3",
+      "confidence": "中",
+      "condition": "同局完成2次跑圈后开始第3次；属跑圈专属目标",
+      "reason": "单拿收益有限，底座运营技巧上限高；保留普通，有强势羔羊局时顺带完成跑圈，不阻塞普通标记。",
+      "caveat": "完成两圈并开始第三圈；跑圈不推进普通标记。",
+      "sourceIds": [
+        "EN3",
+        "EN4",
+        "ZH5",
+        "M10",
+        "M10A"
+      ]
+    },
+    {
+      "achievementId": 547,
+      "name": "超级蘑菇／Mega Mush",
+      "entityType": "collectible",
+      "entityId": 625,
+      "strength": "S",
+      "phase": "P4",
+      "confidence": "高",
+      "condition": "用所有非堕化人物获得所有困难通关标记。（包含更贪婪标记）",
+      "reason": "道具本身很强，但需全部表角色困难标记；作为阶段奖励自然取得，保留普通，不提前压过核心解锁链。",
+      "caveat": "不要为了它而把剖腹产、双子、里以撒等核心链全部推迟。",
+      "sourceIds": [
+        "EN2",
+        "EN4",
+        "M07"
+      ]
+    },
+    {
+      "achievementId": 636,
+      "name": "死亡证明／Death Certificate",
+      "entityType": "collectible",
+      "entityId": 628,
+      "strength": "S+（选择）",
+      "phase": "P4",
+      "confidence": "高",
+      "condition": "用所有人物获得所有困难通关标记。（包含更贪婪标记）",
+      "reason": "道具本身极强，但需全部表里角色困难标记；属于终盘收集工具，保留普通，不用它倒推前期打标顺序。",
+      "caveat": "不能用尚未解锁的死亡证明去规划前面同一批标记。",
+      "sourceIds": [
+        "EN2",
+        "EN3",
+        "RT1",
+        "M06"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "EN1",
+      "title": "jnub：Most & Least Important Unlocks",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2994836310",
+      "use": "核心：收益与获取成本",
+      "limitation": "有逐项理由与例外；个人偏好明显，不能当胜率实验。"
+    },
+    {
+      "id": "EN2",
+      "title": "Unfulfilled obligations / Thereisnofuture：Detailed Rep+ route",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3712501774",
+      "use": "核心：可执行的批次路线",
+      "limitation": "适合有经验玩家；英文版与俄文原路线只算一个作者组。"
+    },
+    {
+      "id": "EN3",
+      "title": "Piel：Dead God Roadmap",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2980920774",
+      "use": "辅助：补漏清单",
+      "limitation": "发现死寂入口、达摩克里斯解锁条件错误，机制必须另核。"
+    },
+    {
+      "id": "EN4",
+      "title": "NiCobra：Isaac Unlocks Graph",
+      "url": "https://maniacobra.com/isaac-graph/",
+      "use": "核心：前置关系与条件成本",
+      "limitation": "难度标注是在前置已经满足后计算；不能把 Automatic 当新档容易。"
+    },
+    {
+      "id": "ZH3",
+      "title": "我是谁压实度：最佳打标顺序推荐",
+      "url": "https://www.bilibili.com/video/BV1Y8b46BEB2/",
+      "use": "核心：全角色打标路线",
+      "limitation": "2026-09-07；有完整30步文字描述及关键字幕，具体客户端补丁未注明。"
+    },
+    {
+      "id": "ZH5",
+      "title": "白玉螳：跑圈解锁测试",
+      "url": "https://www.bilibili.com/video/BV1ex4y1y78J/",
+      "use": "机制旁证",
+      "limitation": "2024-02-21；跑圈不推进普通成就，非优先级榜。"
+    },
+    {
+      "id": "RT1",
+      "title": "Unduel：719件道具社区榜",
+      "url": "https://unduel.com/t/the-binding-of-isaac-rebirth/the-binding-of-isaac-items-75IgVOPw3H343hrv6Vh4MP/ranked-list",
+      "use": "辅助：群体偏好",
+      "limitation": "2026-10-28快照；276个站点投票者、44344条道具投票记录；标注 Repentance，非可靠的 Rep+ 专榜。"
+    },
+    {
+      "id": "RT2",
+      "title": "Another Matt：Angel Item Tier List",
+      "url": "https://www.youtube.com/watch?v=89UIC_l02Nk",
+      "use": "辅助：独立作者、天使池内强度",
+      "limitation": "2025-06-07；S级命名幻灯片已核对；池内名次不能直接与全游戏名次比较。"
+    },
+    {
+      "id": "M01",
+      "title": "IsaacGuru：忏悔+道具数据库",
+      "url": "https://isaacguru.com/",
+      "use": "机制核查",
+      "limitation": "检索时页脚自报游戏1.9.7.17；与 Repentance 页面分开，不是评级投票。"
+    },
+    {
+      "id": "M04",
+      "title": "Wiki：Donation Machine",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Donation",
+      "use": "普通捐款机",
+      "limitation": "50二选一、150黑蜡烛、600最高捐款商店升级、999怀表。"
+    },
+    {
+      "id": "M05",
+      "title": "Wiki：Greed Donation Machine",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Greed_Donation_Machine",
+      "use": "贪婪捐款机",
+      "limitation": "与普通机器区分；500更贪婪、879游魂起始斗篷、1000店主。"
+    },
+    {
+      "id": "M06",
+      "title": "IsaacGuru：Death Certificate",
+      "url": "https://isaacguru.com/wiki/isaac/c628",
+      "use": "收尾条件",
+      "limitation": "全部表里角色困难标记完成后解锁，不能作为取得这些标记的前置工具。"
+    },
+    {
+      "id": "M07",
+      "title": "IsaacGuru：Mega Mush",
+      "url": "https://isaacguru.com/wiki/isaac/c625",
+      "use": "阶段性总奖励",
+      "limitation": "全部非堕化角色困难标记；不要因此延迟里角色核心道具。"
+    },
+    {
+      "id": "M09",
+      "title": "IsaacGuru：Cracked Crown",
+      "url": "https://isaacguru.com/wiki/isaac/t92",
+      "use": "饰品与每日",
+      "limitation": "按增益部分计算20%；每日5连胜不要求连续日期。"
+    },
+    {
+      "id": "M10",
+      "title": "Wiki：Butter!",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Butter%21",
+      "use": "运营与跑圈",
+      "limitation": "搬运主动底座、集中重掷／吸收；不是直接伤害道具。"
+    },
+    {
+      "id": "M10A",
+      "title": "IsaacGuru：Butter!",
+      "url": "https://isaacguru.com/wiki/isaac/t122",
+      "use": "跑圈触发补充",
+      "limitation": "明确写开始第3次跑圈；与只写完成2圈的表述区分。"
+    },
+    {
+      "id": "M11",
+      "title": "IsaacGuru：Broken Modem",
+      "url": "https://isaacguru.com/wiki/isaac/c514",
+      "use": "稳定性与每日",
+      "limitation": "控场／敌弹消除及合格清房奖励复制；累计7次每日胜利。"
+    }
+  ]
+}
