@@ -12,7 +12,7 @@
     {
       "characterId": "c00-isaac",
       "bossId": "blue-baby",
-      "priority": "strong"
+      "priority": "recommended"
     },
     {
       "characterId": "c00-isaac",
@@ -27,7 +27,7 @@
     {
       "characterId": "c00-isaac",
       "bossId": "beast",
-      "priority": "strong"
+      "priority": "recommended"
     },
     {
       "characterId": "c00-isaac",
@@ -87,7 +87,7 @@
     {
       "characterId": "c02-cain",
       "bossId": "mother",
-      "priority": "strong"
+      "priority": "recommended"
     },
     {
       "characterId": "c02-cain",
@@ -352,7 +352,7 @@
     {
       "characterId": "c11-lilith",
       "bossId": "isaac-boss",
-      "priority": "strong"
+      "priority": "recommended"
     },
     {
       "characterId": "c11-lilith",
@@ -397,7 +397,7 @@
     {
       "characterId": "c12-keeper",
       "bossId": "isaac-boss",
-      "priority": "recommended"
+      "priority": "strong"
     },
     {
       "characterId": "c12-keeper",
@@ -512,7 +512,7 @@
     {
       "characterId": "c16-jacob-and-esau",
       "bossId": "boss-rush",
-      "priority": "strong"
+      "priority": "recommended"
     },
     {
       "characterId": "c16-jacob-and-esau",
@@ -532,7 +532,7 @@
     {
       "characterId": "c16-jacob-and-esau",
       "bossId": "lamb",
-      "priority": "strong"
+      "priority": "recommended"
     },
     {
       "characterId": "c16-jacob-and-esau",
@@ -847,7 +847,7 @@
     {
       "characterId": "c25-tainted-lazarus",
       "bossId": "delirium",
-      "priority": "strong"
+      "priority": "recommended"
     },
     {
       "characterId": "c25-tainted-lazarus",
@@ -907,7 +907,7 @@
     {
       "characterId": "c27-tainted-lost",
       "bossId": "beast",
-      "priority": "strong"
+      "priority": "recommended"
     },
     {
       "characterId": "c27-tainted-lost",
@@ -1002,7 +1002,7 @@
     {
       "characterId": "c30-tainted-apollyon",
       "bossId": "delirium",
-      "priority": "strong"
+      "priority": "recommended"
     },
     {
       "characterId": "c30-tainted-apollyon",
@@ -1083,6 +1083,12 @@
       "characterId": "c33-tainted-jacob",
       "bossId": "greedier",
       "priority": "strong"
+    },
+    {
+      "characterId": "c08-lazarus",
+      "bossId": "boss-rush",
+      "priority": "discouraged"
     }
-  ]
+  ],
+  "researchRevision": "2026-11-04"
 }

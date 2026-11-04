@@ -142,6 +142,7 @@ python tools/build_achievements.py "temp/achievements.html"
 | `tools/recommendation_seed.json` | 角色/Boss 对的优先级 |
 | `tools/challenge_priority.json` | 挑战 ID 的优先级 |
 | `tools/achievement_priority.json` | 已研究的其他成就奖励优先级及依据 |
+| `tools/research_rankings.json` | 已研究目标的解锁排名、并行任务、强度、修订记录和来源 |
 
 角色/Boss 配置条目只包含以下字段：
 
@@ -162,6 +163,7 @@ python tools/build_achievements.py "temp/achievements.html"
 ```bash
 python tools/validate_priorities.py
 python tools/build_recommendation_profiles.py
+python tools/build_research_rankings.py
 ```
 
 校验器检查角色/Boss 对、捆绑解锁优先级的一致性和挑战配置完整性。新增方案时，在方案清单中指定角色/Boss 与挑战配置文件，再重新编译。
@@ -169,6 +171,10 @@ python tools/build_recommendation_profiles.py
 可运行 `python -m unittest discover -s tests -p test_recommendation_profiles.py` 检查可选补评文件、非法与重复 ID、已有评级保护和研究来源完整性。浏览器对未自定义的内置方案自动载入新版；已经自定义或导入的配置保持原样。
 
 浏览器读取生成的 JS，不运行时请求配置 JSON。用户可在页面内调整优先级并导入、导出自己的配置；其他成就未设置推荐等级时使用 `normal`。推荐变动完成后，同样执行发布准备。
+
+研究排名的来源是 `research_rankings.json`，编译后写入 `data/research_rankings.js`，由 `js/rankings.js` 提供独立排序。每个已研究条目只能有一个位置：`unlockRank` 为编号建议，或 `parallelOrder` 为并行提醒；各序列从1连续编号。`priority` 必须与当前角色、挑战或成就配置一致，修改时同步两处；`previousPriority` 与 `correctionReason` 保留修订记录。社区参考只可用于有对应收藏道具的记录，保留全局名次、投票记录数、版本、快照日期与来源，不给饰品、卡牌或未研究条目伪造名次。
+
+`python -m unittest discover -s tests -p "test_*.py"` 覆盖排名唯一性、来源、社区榜覆盖与运行时评级一致性。排名是公开研究数据，独立于用户导入/导出的颜色配置；自定义配置保留颜色，同时仍可查看研究名次和依据。
 
 ### 4.6 展示层临时覆盖
 

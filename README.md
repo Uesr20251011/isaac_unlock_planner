@@ -10,7 +10,7 @@
 - 默认打开 **总攻略**：汇总项目现有的角色、挑战与其他成就，无需先选择角色。
 - 总攻略支持六类内容任意组合，提供 **全部 / 仅角色 / 仅挑战** 快捷筛选、关键词搜索，并合并重复成就。
 - 按 **角色 / Boss / 挑战解锁 / 其他成就** 查看解锁进度。
-- 默认按重要度排序，也可以切换回默认顺序。
+- 新浏览器默认按解锁排名排序，也可选择重要度、社区强度或默认顺序。
 - 支持隐藏已解锁目标，只保留还需要完成的内容。
 - 支持在页面内调整推荐优先级，并导出 / 导入本地推荐配置。
 - 提供离线单文件版本 `isaac-unlock-planner-offline.html`。
@@ -18,7 +18,7 @@
 
 ## 总攻略
 
-总攻略复用原页面的数据、奖励效果、推荐方案、优先级菜单和存档状态。分类可任意组合；勾选多个分类取并集，同一成就只出现一次。关闭 **显示已解锁** 后，按重要度顺序沿列表推进即可。
+总攻略复用原页面的数据、奖励效果、推荐方案、优先级菜单和存档状态。分类可任意组合；勾选多个分类取并集，同一成就只出现一次。关闭 **显示已解锁** 后，可按解锁排名参考下一批目标；有前置时先推进主线，并行任务随正常局累计。
 
 | 分类 | 内容 |
 |---|---|
@@ -88,25 +88,36 @@ Steam 云存档也可能在 `Steam/userdata/<账号数字ID>/250900/remote/` 下
 - 同一目标同时属于角色通关和其他成就时，共用优先级；导入旧配置存在冲突时，明确设置的成就优先级优先，后续编辑会同步更新两种记录。
 - 成功读取的存档原始内容也会保存在 `localStorage`，下次进入会自动重新解析。普通静态页面在游戏进度更新后仍需重新选择最新 `.dat`；绑定本地启动入口后自动同步。
 
-### 其他成就奖励的研究补评（2026-11-03）
+### 研究排名与评级修订（2026-11-04）
 
-本轮仅补充前期研究已审校、此前没有独立评级的 **11 项其他成就奖励**，保留已有角色和挑战评级。目标是提高后续全角色打标效率、最终完成全成就。页面颜色表示**解锁优先级**，不是拾取时的道具强度；研究未覆盖的其他条目仍沿用默认“普通”，不代表已经评审。
+研究目标是提高后续全角色打标效率、最终完成全成就。已研究 **65/606 项目标**，其中 **55 项有编号的解锁建议、10 项为并行任务**。编号表示研究范围内的编辑综合建议，前置开放、熟练度和路线机会仍需考虑；不是依赖完整的逐步通关流程或统计最优顺序。每日、捐款与特定角色起始能力可随主线推进，不要求先做完才能开始编号列表。
 
-| 目标 | 解锁优先级 | 取舍 |
-| --- | --- | --- |
-| 额外选择 #135 | 强烈推荐 | 普通捐款50，较低成本改善后续奖励选择 |
-| 黑蜡烛 #136 | 推荐 | 普通捐款150，减少诅咒影响 |
-| 怀表 #138 | 强烈推荐 | 普通捐款999，随正常局结余长期推进 |
-| 神性 #156 | 推荐 | 本身很强；有起始斗篷并适应游魂后推进其全困难标记 |
-| 游魂起始神圣屏障 #250 | 强烈推荐 | 贪婪捐款879；打游魂标记前的重要准备，属于起始能力升级 |
-| 呕！药丸 #325 | 普通 | 奖励战力低，但31次跨天每日参与应尽早并行累计 |
-| 碎裂的王冠 #336 | 推荐 | 争取每日五连胜；不要求连续五天，收益依赖已有属性 |
-| 坏猫／损坏的调制解调器 #354 | 强烈推荐 | 并行累计7次每日胜利；通用控场与资源收益，社区评价仍有分歧 |
-| 黄油！ #360 | 普通 | 单拿收益有限，运营技巧上限高；强势羔羊局顺带跑圈 |
-| 超级蘑菇 #547 | 普通 | 全部表角色困难标记的阶段奖励，不挤占前期核心链 |
-| 死亡证明 #636 | 普通 | 全部表里角色困难标记的终盘奖励，辅助后续收集 |
+四种排序的口径：
 
-参考 [jnub 解锁取舍指南](https://steamcommunity.com/sharedfiles/filedetails/?id=2994836310)、[Piel 全成就路线](https://steamcommunity.com/sharedfiles/filedetails/?id=2980920774)、[NiCobra 解锁依赖图](https://maniacobra.com/isaac-graph/) 与 IsaacGuru 机制资料。没有把不同口径榜单直接平均，也没有受控胜率或耗时实验；等级属于编辑性综合建议。逐项强度参考、条件、局限和来源链接保存在 [tools/achievement_priority.json](tools/achievement_priority.json)，其中 `entries` 是评级源，`reviews` 和 `sources` 保留研究依据。
+| 排序 | 含义 |
+| --- | --- |
+| 解锁排名 | 先显示并行提醒，再按研究建议名次排列，未评审条目随后；筛选或隐藏已解锁不会重编号 |
+| 社区强度 | 按 Unduel 的全局原始名次排列，缺少此榜参考的目标随后；目前为36个已研究收藏道具目标提供参考 |
+| 重要度顺序 | 按当前推荐配置的四档颜色分组，可保留个人调整 |
+| 默认顺序 | 原项目的角色、Boss、挑战或成就顺序 |
+
+页面同时显示 **道具强度参考** 与 **解锁优先级**。例如神性强度为 S，但获取成本高，解锁优先级为推荐；死亡证明是强度顶端的终盘奖励。每条研究记录可展开“评级依据”，查看条件、取舍、置信度、来源和旧/新评级。研究覆盖之外的541项目标显示“未评审 · 暂无排名”，已有颜色不表示本轮已复核。
+
+在已有基础上修订 **18 项**优先级：
+
+| 目标 | 修订 |
+| --- | --- |
+| 商店600捐款升级、更贪婪模式 | 普通 → 推荐 |
+| 里莉莉丝 | 普通 → 强烈推荐，作为作孽双子前置 |
+| 店主起始木制硬币 | 推荐 → 强烈推荐，适用于已开放店主时 |
+| 马骑符文、被吞下的硬币、符文袋 | 强烈推荐 → 推荐，保留机制和组合条件 |
+| D20、选择？、嗝屁猫的眼睛 | 强烈推荐 → 推荐，计入运营条件和取得成本 |
+| 谷底石、达摩克里斯、十字圣球 | 强烈推荐 → 推荐，计入组合、死亡风险或困难角色成本 |
+| 巴风特之印、生死逆转、无底坑 | 强烈推荐 → 推荐，计入挑战、操作与路线成本 |
+| D8 | 强烈推荐 → 普通，评价分歧与属性波动明显 |
+| 编号丢失 | 普通 → 不推荐提前解锁，最终清标仍需完成 |
+
+参考 [jnub 解锁取舍指南](https://steamcommunity.com/sharedfiles/filedetails/?id=2994836310)、[完整 Rep+ 路线](https://steamcommunity.com/sharedfiles/filedetails/?id=3712501774)、[NiCobra 解锁依赖图](https://maniacobra.com/isaac-graph/)、中文打标路线与 IsaacGuru 机制资料，逐项来源保存在 [tools/research_rankings.json](tools/research_rankings.json)。名次和颜色为编辑性综合，没有直接平均不同口径榜单。社区名次单独引自 [Unduel](https://unduel.com/t/the-binding-of-isaac-rebirth/the-binding-of-isaac-items-75IgVOPw3H343hrv6Vh4MP/ranked-list) 的719件道具榜、2026-10-28快照，版本标注为 Repentance；投票偏好不等于胜率，也不冒充忏悔+专榜或多来源共识。饰品、卡牌不在该榜范围。
 
 ## 目录
 
@@ -117,6 +128,7 @@ styles.css
 js/
   app.js
   guide.js
+  rankings.js
   save-parser.js
 data/
   unlocks.js
@@ -126,6 +138,7 @@ data/
   effects-report.json
   overrides.js
   recommendation_profiles.js
+  research_rankings.js
 assets/
   icon.png
   character/
@@ -144,6 +157,8 @@ tools/
   start-planner.ps1
   create-shortcut.ps1
   achievement_priority.json
+  research_rankings.json
+  build_research_rankings.py
 tests/
   guide.test.cjs
   local-server.test.cjs
@@ -152,6 +167,9 @@ tests/
   offline-smoke.js
   ratings-smoke.js
   test_recommendation_profiles.py
+  rankings.test.cjs
+  rankings-smoke.js
+  test_research_rankings.py
 Start-Planner.cmd
 ```
 
@@ -164,9 +182,9 @@ Start-Planner.cmd
 筛选与本地服务的回归检查使用 Node.js 内置测试，无额外依赖：
 
 ```powershell
-node --test tests/guide.test.cjs tests/local-server.test.cjs
+node --test tests/guide.test.cjs tests/rankings.test.cjs tests/local-server.test.cjs
 python tools/validate_priorities.py
-python -m unittest discover -s tests -p test_recommendation_profiles.py
+python -m unittest discover -s tests -p "test_*.py"
 ```
 
 浏览器检查可使用 Playwright CLI（本机需安装 Edge），在本地服务运行后执行：
@@ -179,6 +197,7 @@ npm install --prefix .local/browser-tools --no-audit --no-fund @playwright/cli
 .\.local\browser-tools\node_modules\.bin\playwright-cli.cmd -s=isaac run-code --filename=tests/local-sync-smoke.js
 # 使用隔离测试浏览器打开本地服务上的离线 HTML，可运行 offline-smoke.js；它会清空该测试浏览器的本站存储并阻断其他请求。
 # 使用隔离测试浏览器可运行 ratings-smoke.js，验证补评、旧内置方案更新和自定义配置保留。
+# rankings-smoke.js 检查排名、社区版本说明、评级修订、组合筛选及自定义颜色保留；同样需隔离浏览器。
 .\.local\browser-tools\node_modules\.bin\playwright-cli.cmd -s=isaac close
 ```
 

@@ -12,7 +12,7 @@
     },
     {
       "challengeId": 3,
-      "priority": "strong"
+      "priority": "recommended"
     },
     {
       "challengeId": 4,
@@ -60,7 +60,7 @@
     },
     {
       "challengeId": 15,
-      "priority": "strong"
+      "priority": "recommended"
     },
     {
       "challengeId": 16,
@@ -112,7 +112,7 @@
     },
     {
       "challengeId": 28,
-      "priority": "strong"
+      "priority": "normal"
     },
     {
       "challengeId": 29,
@@ -148,7 +148,7 @@
     },
     {
       "challengeId": 37,
-      "priority": "strong"
+      "priority": "recommended"
     },
     {
       "challengeId": 38,
@@ -182,5 +182,6 @@
       "challengeId": 45,
       "priority": "normal"
     }
-  ]
+  ],
+  "researchRevision": "2026-11-04"
 }

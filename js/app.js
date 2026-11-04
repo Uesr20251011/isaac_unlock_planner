@@ -9,6 +9,8 @@
   const PROFILE_BUNDLE = window.ISAAC_RECOMMENDATION_PROFILES;
   const Parser = window.IsaacSaveParser;
   const Guide = window.IsaacGuide;
+  const RESEARCH = window.ISAAC_RESEARCH_RANKINGS;
+  const Rankings = window.IsaacRankings;
 
   const CACHE_VERSION = (() => {
     try {
@@ -25,7 +27,7 @@
     return `${url}${joiner}v=${encodeURIComponent(CACHE_VERSION)}`;
   }
 
-  if (!DATA || !Parser || !PROFILE_BUNDLE || !ACHIEVEMENTS || !Guide) {
+  if (!DATA || !Parser || !PROFILE_BUNDLE || !ACHIEVEMENTS || !Guide || !RESEARCH || !Rankings) {
     throw new Error('页面数据、推荐方案或存档解析器未加载。');
   }
 
@@ -58,6 +60,10 @@
   const builtinProfiles = new Map((PROFILE_BUNDLE.profiles || []).map((x) => [x.id, x]));
   const guideEntries = Guide.buildEntries({ data: DATA, challenges: CHALLENGES, achievements: ACHIEVEMENTS });
   const guideCategoryLabels = new Map(Guide.categories.map(x => [x.id, x.label]));
+  const rankings = Rankings.createIndex(RESEARCH);
+  const researchSources = new Map(RESEARCH.sources.map(x => [x.id, x]));
+  const numberedCount = RESEARCH.entries.filter(x => x.unlockRank != null).length;
+  const parallelCount = RESEARCH.entries.filter(x => x.parallelOrder != null).length;
 
   const runtimePriority = {
     recommendationByPair: new Map(),
@@ -74,7 +80,7 @@
     localSyncPaused: false,
     selectedCharacterId: DATA.characters[0].id,
     selectedBossId: DATA.bosses[0].id,
-    sort: 'priority',
+    sort: 'rank',
     showUnlocked: true,
     save: null,
     saveName: '',
@@ -295,7 +301,7 @@
     try {
       const payload = JSON.parse(stored);
       if (Number(payload.version) !== 1) throw new Error('偏好格式不受支持');
-      if (payload.sort === 'default' || payload.sort === 'priority') state.sort = payload.sort;
+      if (['default', 'priority', 'rank', 'community'].includes(payload.sort)) state.sort = payload.sort;
       if (typeof payload.showUnlocked === 'boolean') state.showUnlocked = payload.showUnlocked;
       if (Array.isArray(payload.guideCategories)) state.guideCategories = payload.guideCategories.filter(id => guideCategoryLabels.has(id));
       if (typeof payload.localSyncPaused === 'boolean') state.localSyncPaused = payload.localSyncPaused;
@@ -395,6 +401,40 @@
 
   function priorityPill(priority) {
     return `<span class="priority-pill">${PRIORITY_LABEL[priority]}</span>`;
+  }
+
+  function researchMarkup(achievementId) {
+    const entry = rankings.get(achievementId);
+    if (!entry) return '<div class="research-unreviewed">未评审 · 暂无排名</div>';
+    const position = entry.parallelOrder != null
+      ? '<span class="research-rank" data-parallel-task="true">并行推进</span>'
+      : `<span class="research-rank" data-unlock-rank="${entry.unlockRank}">解锁 #${entry.unlockRank}/${numberedCount}</span>`;
+    const strength = entry.strength === '—' ? '起始能力 / 机制' : `强度 ${entry.strength}`;
+    const vote = entry.communityReference;
+    const community = vote ? `<span class="community-rank" data-community-rank="${vote.rank}">社区 #${vote.rank}/${RESEARCH.community.total}</span>` : '';
+    const correction = entry.correctionReason
+      ? `<p class="research-correction">研究方案修订：${PRIORITY_LABEL[entry.previousPriority]} → ${PRIORITY_LABEL[entry.priority]}。${esc(entry.correctionReason)}</p>` : '';
+    const sources = entry.sourceIds.map(id => researchSources.get(id)).filter(Boolean).map(source =>
+      `<a class="reward-link" href="${esc(source.url)}" target="_blank" rel="noopener noreferrer" title="${esc(source.limitation)}">${esc(source.title)}</a>`).join(' · ');
+    return `<div class="research-info" data-research-achievement="${Number(achievementId)}">
+      <div class="research-badges">${position}<span class="research-strength">${esc(strength)}</span>${community}</div>
+      <details class="research-details"><summary>评级依据</summary>
+        <p>${esc(entry.phaseName)} · 综合判断置信度：${esc(entry.confidence)}${entry.parallelOrder != null ? ' · 有前置时先推进主线，无需等此项完成' : ''}</p>
+        <p>解锁条件：${esc(entry.condition)}</p><p>${esc(entry.reason)}</p><p>${esc(entry.caveat)}</p>${correction}
+        ${vote ? `<p>社区参考：${RESEARCH.community.snapshotDate} 快照，${vote.itemVoterCount} 条该道具投票记录；版本标注 ${RESEARCH.community.version}。投票偏好不等于胜率，未在此榜收录的饰品和卡牌不据此比较。</p>` : ''}
+        <p>强度和建议名次为编辑性综合；各来源提供路线、机制或意见，不代表一致赞同本条等级。</p>
+        <div class="research-sources">参考来源：${sources}</div>
+      </details></div>`;
+  }
+
+  function renderRankingNote() {
+    const basis = `已研究 ${rankings.reviewedCount}/${guideEntries.length} 项 · 编号建议 ${numberedCount} 项 · 并行任务 ${parallelCount} 项。`;
+    const mode = state.sort === 'community'
+      ? `按 Unduel 的 ${RESEARCH.community.total} 件道具榜排序（${RESEARCH.community.version}，${RESEARCH.community.snapshotDate} 快照）；它反映投票偏好，未收录的目标排在后面。`
+      : state.sort === 'rank'
+        ? '并行任务是随主线累计的提醒；编号表示研究范围内的解锁建议先后，有前置时先跳过。未评审目标排在后面，筛选不会重编号。'
+        : '颜色表示解锁优先级；强度与名次另列。未评审目标沿用已有评级或默认值，不能理解为已经复核。';
+    document.getElementById('rankingNote').textContent = `${basis} ${mode}${state.currentProfile?.customized ? ' 当前颜色沿用你的自定义配置，名次供研究参考。' : ''}`;
   }
 
   function requirementText(rule, currentBossId) {
@@ -865,6 +905,8 @@
     if (!state.showUnlocked && state.save) filtered = decorated.filter((x) => x.unlocked !== true);
 
     filtered.sort((a, b) => {
+      const ranked = rankings.compare(a.rule.achievementId, b.rule.achievementId, state.sort);
+      if (ranked) return ranked;
       if (state.sort === 'priority') {
         const pd = PRIORITY_SCORE[b.priority] - PRIORITY_SCORE[a.priority];
         if (pd) return pd;
@@ -964,6 +1006,8 @@
     }));
     if (!state.showUnlocked && state.save) rows = rows.filter((x) => x.unlocked !== true);
     rows.sort((a, b) => {
+      const ranked = rankings.compare(a.challenge.rewardAchievementId, b.challenge.rewardAchievementId, state.sort);
+      if (ranked) return ranked;
       if (state.sort === 'priority') {
         const pd = PRIORITY_SCORE[b.priority] - PRIORITY_SCORE[a.priority];
         if (pd) return pd;
@@ -1009,7 +1053,7 @@
     const effectText = effectEntry?.effect || challenge.effect || `解锁「${rewardName}」这一非收藏道具 / 机制内容。`;
     return `
         <td><div class="reward-cell">${rewardImage}<div><div class="reward-name"><a class="reward-link" href="${esc(rewardWiki)}" target="_blank" rel="noopener noreferrer">${esc(rewardName)}</a></div><div class="meta-line">奖励成就 ID #${challenge.rewardAchievementId}</div></div></div></td>
-        <td><div class="effect-text">${esc(effectText)}</div></td>
+        <td><div class="effect-text">${esc(effectText)}</div>${researchMarkup(challenge.rewardAchievementId)}</td>
         <td>${statusBadge(unlocked)}</td>
         <td class="row-options">${rowMenuButton('challenge', challenge.challengeId, priority)}</td>
     `;
@@ -1046,7 +1090,7 @@
     const wikiUrl = `https://isaac.huijiwiki.com/wiki/${encodeURIComponent('成就')}/${rule.achievementId}`;
     return `
         <td><div class="reward-cell">${rewardImage}<div><div class="reward-name"><a class="reward-link" href="${esc(wikiUrl)}" target="_blank" rel="noopener noreferrer">${esc(reward.name)}</a>${priorityPill(priority)}</div><div class="meta-line">成就 ID #${rule.achievementId}</div></div></div></td>
-        <td>${effect}</td>
+        <td>${effect}${researchMarkup(rule.achievementId)}</td>
         <td>${statusBadge(unlocked)}</td>
         <td class="row-options">${rowMenuButton('rule', rule.id, priority)}</td>
     `;
@@ -1084,7 +1128,8 @@
     });
     const options = {
       categories: state.guideCategories, query: state.guideQuery, showUnlocked: state.showUnlocked,
-      save: state.save, sort: state.sort, priorityFor: row => PRIORITY_SCORE[guidePriority(row)], searchTextFor: guideSearchText
+      save: state.save, sort: state.sort, priorityFor: row => PRIORITY_SCORE[guidePriority(row)], searchTextFor: guideSearchText,
+      compareFor: (a, b, mode) => rankings.compare(a.achievementId, b.achievementId, mode)
     };
     const rows = Guide.selectEntries(guideEntries, options);
     const selected = Guide.selectEntries(guideEntries, { categories: state.guideCategories });
@@ -1116,7 +1161,7 @@
         const wikiUrl = `https://isaac.huijiwiki.com/wiki/${encodeURIComponent('成就')}/${row.achievementId}`;
         target = `<div class="reward-cell">${achievementSprite(row.achievementId)}<div><div class="reward-name"><a class="reward-link" href="${esc(wikiUrl)}" target="_blank" rel="noopener noreferrer">${esc(entry.name)}</a></div>${tags}</div></div><div class="guide-condition achievement-condition">${esc(entry.condition)}</div>`;
         cells = `<td><div class="reward-name">${entry.rewardName ? esc(entry.rewardName) : '<span class="effect-missing">无额外奖励</span>'}${priorityPill(priority)}</div><div class="meta-line">成就 ID #${row.achievementId}</div></td>
-          <td><div class="effect-text${entry.rewardEffect ? '' : ' effect-missing'}">${esc(entry.rewardEffect || '—')}</div></td>
+          <td><div class="effect-text${entry.rewardEffect ? '' : ' effect-missing'}">${esc(entry.rewardEffect || '—')}</div>${researchMarkup(row.achievementId)}</td>
           <td>${statusBadge(unlocked)}</td><td class="row-options">${rowMenuButton('achievement', row.achievementId, priority)}</td>`;
       }
       return `<tr class="unlock-row priority-${priority}" data-guide-achievement="${row.achievementId}"><td class="guide-target">${target}</td>${cells}</tr>`;
@@ -1132,6 +1177,8 @@
     }));
     if (!state.showUnlocked && state.save) rows = rows.filter((row) => row.unlocked !== true);
     rows.sort((a, b) => {
+      const ranked = rankings.compare(a.entry.achievementId, b.entry.achievementId, state.sort);
+      if (ranked) return ranked;
       if (state.sort === 'priority') {
         const difference = PRIORITY_SCORE[b.priority] - PRIORITY_SCORE[a.priority];
         if (difference) return difference;
@@ -1172,7 +1219,7 @@
         : achievementSprite(entry.achievementId);
       return `<tr class="unlock-row priority-${priority}${groupStart}">
         <td><div class="reward-cell">${icon}<div><div class="reward-name"><a class="reward-link" href="${esc(wikiUrl)}" target="_blank" rel="noopener noreferrer">${esc(entry.name)}</a>${priorityPill(priority)}</div><div class="meta-line">成就 ID #${entry.achievementId}</div></div></div></td>
-        <td><div class="achievement-condition">${esc(entry.condition)}</div></td>
+        <td><div class="achievement-condition">${esc(entry.condition)}</div>${researchMarkup(entry.achievementId)}</td>
         ${showReward ? `<td>${achievementReward(entry)}</td>` : ''}
         <td>${statusBadge(unlocked)}</td>
         <td class="row-options">${rowMenuButton('achievement', entry.achievementId, priority)}</td>
@@ -1229,6 +1276,7 @@
     document.querySelectorAll('.segment').forEach((b) => b.classList.toggle('active', b.dataset.sort === state.sort));
     el.showUnlocked.checked = state.showUnlocked;
     renderProfileControls();
+    renderRankingNote();
     const hasSelector = state.view === 'character' || state.view === 'boss';
     const isAchievement = state.view === 'achievement';
     el.guideSection.hidden = state.view !== 'guide';
@@ -1327,6 +1375,7 @@
     button.addEventListener('click', () => {
       state.sort = button.dataset.sort;
       persistUiPreferences();
+      renderRankingNote();
       if (state.view === 'achievement') renderAchievementRows();
       else renderRows();
       document.querySelectorAll('.segment').forEach((b) => b.classList.toggle('active', b.dataset.sort === state.sort));

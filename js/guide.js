@@ -36,7 +36,7 @@
 
   function selectEntries(entries, {
     categories: selected = categories.map(x => x.id), query = '', showUnlocked = true,
-    save = null, sort = 'default', priorityFor = () => 0, searchTextFor = () => ''
+    save = null, sort = 'default', priorityFor = () => 0, searchTextFor = () => '', compareFor = () => 0
   } = {}) {
     const selectedIds = new Set(selected);
     const search = String(query).trim().toLocaleLowerCase();
@@ -45,7 +45,8 @@
       (showUnlocked || !save || !save.isAchievementUnlocked(row.achievementId)) &&
       (!search || `${row.achievementId} ${searchTextFor(row)}`.toLocaleLowerCase().includes(search))
     ));
-    rows.sort((a, b) => (sort === 'priority' ? priorityFor(b) - priorityFor(a) : 0) || a.order - b.order);
+    rows.sort((a, b) => (sort === 'priority' ? priorityFor(b) - priorityFor(a)
+      : ['rank', 'community'].includes(sort) ? compareFor(a, b, sort) : 0) || a.order - b.order);
     return rows;
   }
 

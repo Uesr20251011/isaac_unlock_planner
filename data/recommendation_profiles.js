@@ -6,7 +6,7 @@ window.ISAAC_RECOMMENDATION_PROFILES = {
     {
       "id": "beginner-9.10",
       "name": "萌新开荒推荐",
-      "description": "基于 v9.10 人物 / 挑战优先级；补充 2026-11-03 交叉研究的 11 项其他成就奖励，面向全角色打标与全成就。",
+      "description": "基于 v9.10 并结合交叉研究修订；已研究 65 项目标，提供解锁建议排名、强度参考及逐项依据，面向全角色打标与全成就。",
       "source": "https://www.bilibili.com/opus/1083165871339208713",
       "defaultPriority": "normal",
       "characterBoss": [
@@ -18,7 +18,7 @@ window.ISAAC_RECOMMENDATION_PROFILES = {
         {
           "characterId": "c00-isaac",
           "bossId": "blue-baby",
-          "priority": "strong"
+          "priority": "recommended"
         },
         {
           "characterId": "c00-isaac",
@@ -33,7 +33,7 @@ window.ISAAC_RECOMMENDATION_PROFILES = {
         {
           "characterId": "c00-isaac",
           "bossId": "beast",
-          "priority": "strong"
+          "priority": "recommended"
         },
         {
           "characterId": "c00-isaac",
@@ -93,7 +93,7 @@ window.ISAAC_RECOMMENDATION_PROFILES = {
         {
           "characterId": "c02-cain",
           "bossId": "mother",
-          "priority": "strong"
+          "priority": "recommended"
         },
         {
           "characterId": "c02-cain",
@@ -358,7 +358,7 @@ window.ISAAC_RECOMMENDATION_PROFILES = {
         {
           "characterId": "c11-lilith",
           "bossId": "isaac-boss",
-          "priority": "strong"
+          "priority": "recommended"
         },
         {
           "characterId": "c11-lilith",
@@ -403,7 +403,7 @@ window.ISAAC_RECOMMENDATION_PROFILES = {
         {
           "characterId": "c12-keeper",
           "bossId": "isaac-boss",
-          "priority": "recommended"
+          "priority": "strong"
         },
         {
           "characterId": "c12-keeper",
@@ -518,7 +518,7 @@ window.ISAAC_RECOMMENDATION_PROFILES = {
         {
           "characterId": "c16-jacob-and-esau",
           "bossId": "boss-rush",
-          "priority": "strong"
+          "priority": "recommended"
         },
         {
           "characterId": "c16-jacob-and-esau",
@@ -538,7 +538,7 @@ window.ISAAC_RECOMMENDATION_PROFILES = {
         {
           "characterId": "c16-jacob-and-esau",
           "bossId": "lamb",
-          "priority": "strong"
+          "priority": "recommended"
         },
         {
           "characterId": "c16-jacob-and-esau",
@@ -853,7 +853,7 @@ window.ISAAC_RECOMMENDATION_PROFILES = {
         {
           "characterId": "c25-tainted-lazarus",
           "bossId": "delirium",
-          "priority": "strong"
+          "priority": "recommended"
         },
         {
           "characterId": "c25-tainted-lazarus",
@@ -913,7 +913,7 @@ window.ISAAC_RECOMMENDATION_PROFILES = {
         {
           "characterId": "c27-tainted-lost",
           "bossId": "beast",
-          "priority": "strong"
+          "priority": "recommended"
         },
         {
           "characterId": "c27-tainted-lost",
@@ -1008,7 +1008,7 @@ window.ISAAC_RECOMMENDATION_PROFILES = {
         {
           "characterId": "c30-tainted-apollyon",
           "bossId": "delirium",
-          "priority": "strong"
+          "priority": "recommended"
         },
         {
           "characterId": "c30-tainted-apollyon",
@@ -1089,6 +1089,11 @@ window.ISAAC_RECOMMENDATION_PROFILES = {
           "characterId": "c33-tainted-jacob",
           "bossId": "greedier",
           "priority": "strong"
+        },
+        {
+          "characterId": "c08-lazarus",
+          "bossId": "boss-rush",
+          "priority": "discouraged"
         }
       ],
       "challenges": [
@@ -1102,7 +1107,7 @@ window.ISAAC_RECOMMENDATION_PROFILES = {
         },
         {
           "challengeId": 3,
-          "priority": "strong"
+          "priority": "recommended"
         },
         {
           "challengeId": 4,
@@ -1150,7 +1155,7 @@ window.ISAAC_RECOMMENDATION_PROFILES = {
         },
         {
           "challengeId": 15,
-          "priority": "strong"
+          "priority": "recommended"
         },
         {
           "challengeId": 16,
@@ -1202,7 +1207,7 @@ window.ISAAC_RECOMMENDATION_PROFILES = {
         },
         {
           "challengeId": 28,
-          "priority": "strong"
+          "priority": "normal"
         },
         {
           "challengeId": 29,
@@ -1238,7 +1243,7 @@ window.ISAAC_RECOMMENDATION_PROFILES = {
         },
         {
           "challengeId": 37,
-          "priority": "strong"
+          "priority": "recommended"
         },
         {
           "challengeId": 38,
@@ -1287,6 +1292,10 @@ window.ISAAC_RECOMMENDATION_PROFILES = {
           "priority": "strong"
         },
         {
+          "achievementId": 154,
+          "priority": "recommended"
+        },
+        {
           "achievementId": 156,
           "priority": "recommended"
         },
@@ -1303,12 +1312,24 @@ window.ISAAC_RECOMMENDATION_PROFILES = {
           "priority": "recommended"
         },
         {
+          "achievementId": 337,
+          "priority": "normal"
+        },
+        {
+          "achievementId": 341,
+          "priority": "recommended"
+        },
+        {
           "achievementId": 354,
           "priority": "strong"
         },
         {
           "achievementId": 360,
           "priority": "normal"
+        },
+        {
+          "achievementId": 485,
+          "priority": "strong"
         },
         {
           "achievementId": 547,

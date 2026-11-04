@@ -8,6 +8,7 @@ from __future__ import annotations
 from pathlib import Path
 import json,re
 from build_recommendation_profiles import achievement_entries
+from build_research_rankings import validate as validate_research
 
 ROOT=Path(__file__).resolve().parents[1]
 UNLOCKS=ROOT/'data'/'unlocks.js'
@@ -70,6 +71,7 @@ def main():
     achievement_ratings=[]
     for profile in manifest['profiles']:
         achievement_ratings.extend(achievement_entries(profile['id'],profile.get('achievementFile')))
+    validate_research(json.loads((ROOT/'tools'/'research_rankings.json').read_text('utf-8')))
 
     def rule_priority(rule):
         vals=[pair_priority.get((rule['characterId'],b),'normal') for b in rule['bossIds']]

@@ -9,8 +9,8 @@
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
   <title>以撒开荒解锁规划器</title>
-  <link rel="icon" type="image/png" href="./assets/icon.png?v=20261103-ratings1" />
-  <link rel="stylesheet" href="./styles.css?v=20261103-ratings1" />
+  <link rel="icon" type="image/png" href="./assets/icon.png?v=20261104-rankings1" />
+  <link rel="stylesheet" href="./styles.css?v=20261104-rankings1" />
 </head>
 <body>
   <div class="app-shell">
@@ -68,7 +68,7 @@
           </div>
           <div class="selection-summary" id="guideSummary" role="status" aria-live="polite"></div>
         </div>
-        <p class="guide-intro">汇总项目现有的角色、挑战与其他成就。分类可以任意组合，同一成就只列一次；按重要度排序后，沿列表逐项推进。</p>
+        <p class="guide-intro">汇总角色、挑战与其他成就，分类可以任意组合。按解锁排名参考已研究目标的先后；每日、捐款等任务可与主线并行推进。</p>
         <div class="guide-toolbar">
           <div class="guide-presets" role="group" aria-label="快速选择分类">
             <button class="secondary-button compact-button" type="button" data-guide-preset="all">全部</button>
@@ -113,6 +113,8 @@
               <div class="segmented" role="group" aria-label="排列顺序">
                 <button type="button" class="segment" data-sort="default">默认顺序</button>
                 <button type="button" class="segment active" data-sort="priority">重要度顺序</button>
+                <button type="button" class="segment" data-sort="rank">解锁排名</button>
+                <button type="button" class="segment" data-sort="community">社区强度</button>
               </div>
               <label class="switch-control">
                 <input type="checkbox" id="showUnlocked" checked />
@@ -129,6 +131,7 @@
           <span><i class="legend-swatch normal"></i>普通</span>
           <span><i class="legend-swatch discouraged"></i>不推荐提前解锁</span>
         </div>
+        <p class="ranking-note" id="rankingNote"></p>
 
         <div class="table-wrap" id="standardResults">
           <table class="unlock-table">
@@ -162,15 +165,17 @@
     </footer>
   </div>
 
-  <!-- CACHE_VERSION: 20261103-ratings1。发布新版本前运行 python tools/bump_cache_version.py -->
-  <script src="./data/unlocks.js?v=20261103-ratings1"></script>
-  <script src="./data/challenges.js?v=20261103-ratings1"></script>
-  <script src="./data/achievements.js?v=20261103-ratings1"></script>
-  <script src="./data/effects.js?v=20261103-ratings1"></script>
-  <script src="./data/overrides.js?v=20261103-ratings1"></script>
-  <script src="./data/recommendation_profiles.js?v=20261103-ratings1"></script>
-  <script src="./js/save-parser.js?v=20261103-ratings1"></script>
-  <script src="./js/guide.js?v=20261103-ratings1"></script>
-  <script src="./js/app.js?v=20261103-ratings1"></script>
+  <!-- CACHE_VERSION: 20261104-rankings1。发布新版本前运行 python tools/bump_cache_version.py -->
+  <script src="./data/unlocks.js?v=20261104-rankings1"></script>
+  <script src="./data/challenges.js?v=20261104-rankings1"></script>
+  <script src="./data/achievements.js?v=20261104-rankings1"></script>
+  <script src="./data/effects.js?v=20261104-rankings1"></script>
+  <script src="./data/overrides.js?v=20261104-rankings1"></script>
+  <script src="./data/recommendation_profiles.js?v=20261104-rankings1"></script>
+  <script src="./data/research_rankings.js?v=20261104-rankings1"></script>
+  <script src="./js/save-parser.js?v=20261104-rankings1"></script>
+  <script src="./js/guide.js?v=20261104-rankings1"></script>
+  <script src="./js/rankings.js?v=20261104-rankings1"></script>
+  <script src="./js/app.js?v=20261104-rankings1"></script>
 </body>
 </html>

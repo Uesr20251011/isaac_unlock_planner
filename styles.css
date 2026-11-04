@@ -142,7 +142,7 @@ h2 { margin: 4px 0 0; font-size: 23px; }
 }
 .entity-thumb { width: 46px; height: 46px; }
 .controls { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; justify-content: flex-end; }
-.segmented { display: inline-flex; border: 1px solid var(--line); background: #171412; border-radius: 10px; padding: 3px; }
+.segmented { display: inline-flex; flex-wrap: wrap; max-width: 100%; border: 1px solid var(--line); background: #171412; border-radius: 10px; padding: 3px; }
 .segment { border: 0; background: transparent; color: var(--muted); padding: 7px 11px; border-radius: 7px; cursor: pointer; font-size: 12px; }
 .segment.active { color: var(--ink); background: #39312c; }
 .switch-control { display: inline-flex; align-items: center; gap: 8px; color: #d6cec6; font-size: 12px; cursor: pointer; user-select: none; }
@@ -177,7 +177,7 @@ h2 { margin: 4px 0 0; font-size: 23px; }
 
 .achievement-sprite {
   width: 64px; height: 64px; flex: 0 0 64px; display: inline-block;
-  background-image: url("./assets/achievement/Achievement_sprite.jpg?v=20261103-ratings1");
+  background-image: url("./assets/achievement/Achievement_sprite.jpg?v=20261104-rankings1");
   background-repeat: no-repeat;
   background-size: 1280px 2112px;
   background-position: var(--ach-x) var(--ach-y);
@@ -227,6 +227,20 @@ code { background: rgba(255,255,255,.05); padding: 2px 5px; border-radius: 5px; 
 }
 
 .effect-text { white-space: pre-line; }
+.ranking-note { color: var(--muted); font-size: 12px; line-height: 1.7; margin: 0 0 14px; max-width: 100%; }
+.research-info { margin-top: 9px; max-width: 510px; font-size: 11px; line-height: 1.6; }
+.research-badges { display: flex; flex-wrap: wrap; align-items: center; gap: 5px 8px; }
+.research-rank, .research-strength, .community-rank { display: inline-block; padding: 1px 6px; border: 1px solid var(--line); border-radius: 4px; }
+.research-rank { color: var(--accent); background: rgba(231,196,123,.055); font-weight: 800; }
+.research-strength { color: var(--ink); }
+.community-rank { color: var(--muted); }
+.research-details { color: var(--muted); margin-top: 5px; overflow-wrap: anywhere; }
+.research-details summary { cursor: pointer; width: fit-content; }
+.research-details summary:hover { color: var(--accent); }
+.research-details p { margin: 6px 0; }
+.research-correction { color: var(--ink); }
+.research-sources { border-top: 1px solid var(--line); padding-top: 7px; margin-top: 7px; }
+.research-unreviewed { margin-top: 7px; color: var(--muted); font-size: 10px; opacity: .7; }
 
 /* Curated achievement lists */
 .achievement-results { display: grid; gap: 34px; }
