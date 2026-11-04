@@ -64,6 +64,14 @@
   const researchSources = new Map(RESEARCH.sources.map(x => [x.id, x]));
   const numberedCount = RESEARCH.entries.filter(x => x.unlockRank != null).length;
   const parallelCount = RESEARCH.entries.filter(x => x.parallelOrder != null).length;
+  const guideByAchievement = new Map(guideEntries.map(row => [row.achievementId, row]));
+  const communityTargetsByItem = new Map();
+  for (const target of RESEARCH.communityTargets || []) {
+    for (const id of target.collectibleIds) {
+      if (!communityTargetsByItem.has(id)) communityTargetsByItem.set(id, []);
+      communityTargetsByItem.get(id).push(target.achievementId);
+    }
+  }
 
   const runtimePriority = {
     recommendationByPair: new Map(),
@@ -77,6 +85,7 @@
     view: 'guide',
     guideCategories: Guide.categories.map(x => x.id),
     guideQuery: '',
+    communityQuery: '',
     localSyncPaused: false,
     selectedCharacterId: DATA.characters[0].id,
     selectedBossId: DATA.bosses[0].id,
@@ -95,6 +104,12 @@
     guideSummary: document.getElementById('guideSummary'),
     guideFilters: document.getElementById('guideFilters'),
     guideSearch: document.getElementById('guideSearch'),
+    communitySection: document.getElementById('communitySection'),
+    communitySearch: document.getElementById('communitySearch'),
+    communitySummary: document.getElementById('communitySummary'),
+    communityIntro: document.getElementById('communityIntro'),
+    unlockControls: document.getElementById('unlockControls'),
+    priorityLegend: document.getElementById('priorityLegend'),
     localSaveControls: document.getElementById('localSaveControls'),
     localSaveStatus: document.getElementById('localSaveStatus'),
     syncLocalSaveBtn: document.getElementById('syncLocalSaveBtn'),
@@ -403,15 +418,28 @@
     return `<span class="priority-pill">${PRIORITY_LABEL[priority]}</span>`;
   }
 
+  function communityBadges(votes) {
+    return votes.map((vote, i) => `<span class="community-rank"${i === 0 ? ` data-community-rank="${vote.rank}"` : ''}>${votes.length > 1 ? `${esc(vote.nameZh || vote.name)} · ` : ''}社区 #${vote.rank}/${RESEARCH.community.total}</span>`).join('');
+  }
+
+  function communityEvidence(votes) {
+    const source = researchSources.get('RT1');
+    const counts = votes.map(vote => `${vote.nameZh || vote.name || '该道具'}：${vote.itemVoterCount} 条投票记录`).join('；');
+    return `<p>社区参考：${esc(RESEARCH.community.snapshotDate)} 快照，版本标注 ${esc(RESEARCH.community.version)}。${esc(counts)}。投票偏好不等于胜率或综合解锁建议。${votes.length > 1 ? '本目标奖励多件道具，分别保留名次，排序采用其中最靠前的一件。' : ''}</p>
+      <div class="research-sources"><a class="reward-link" href="${esc(source.url)}" target="_blank" rel="noopener noreferrer">${esc(source.title)}</a></div>`;
+  }
+
   function researchMarkup(achievementId) {
     const entry = rankings.get(achievementId);
-    if (!entry) return '<div class="research-unreviewed">未评审 · 暂无排名</div>';
+    const votes = rankings.communityFor(achievementId);
+    const community = communityBadges(votes);
+    if (!entry) return votes.length
+      ? `<div class="research-info"><div class="research-badges">${community}</div><div class="research-unreviewed">社区排名已收录 · 尚未综合复核解锁顺序</div><details class="research-details"><summary>社区排名来源</summary>${communityEvidence(votes)}</details></div>`
+      : '<div class="research-unreviewed">尚未综合复核 · 暂无适用的社区名次</div>';
     const position = entry.parallelOrder != null
       ? '<span class="research-rank" data-parallel-task="true">并行推进</span>'
       : `<span class="research-rank" data-unlock-rank="${entry.unlockRank}">解锁 #${entry.unlockRank}/${numberedCount}</span>`;
     const strength = entry.strength === '—' ? '起始能力 / 机制' : `强度 ${entry.strength}`;
-    const vote = entry.communityReference;
-    const community = vote ? `<span class="community-rank" data-community-rank="${vote.rank}">社区 #${vote.rank}/${RESEARCH.community.total}</span>` : '';
     const correction = entry.correctionReason
       ? `<p class="research-correction">研究方案修订：${PRIORITY_LABEL[entry.previousPriority]} → ${PRIORITY_LABEL[entry.priority]}。${esc(entry.correctionReason)}</p>` : '';
     const sources = entry.sourceIds.map(id => researchSources.get(id)).filter(Boolean).map(source =>
@@ -421,20 +449,22 @@
       <details class="research-details"><summary>评级依据</summary>
         <p>${esc(entry.phaseName)} · 综合判断置信度：${esc(entry.confidence)}${entry.parallelOrder != null ? ' · 有前置时先推进主线，无需等此项完成' : ''}</p>
         <p>解锁条件：${esc(entry.condition)}</p><p>${esc(entry.reason)}</p><p>${esc(entry.caveat)}</p>${correction}
-        ${vote ? `<p>社区参考：${RESEARCH.community.snapshotDate} 快照，${vote.itemVoterCount} 条该道具投票记录；版本标注 ${RESEARCH.community.version}。投票偏好不等于胜率，未在此榜收录的饰品和卡牌不据此比较。</p>` : ''}
+        ${votes.length ? communityEvidence(votes) : ''}
         <p>强度和建议名次为编辑性综合；各来源提供路线、机制或意见，不代表一致赞同本条等级。</p>
         <div class="research-sources">参考来源：${sources}</div>
       </details></div>`;
   }
 
   function renderRankingNote() {
-    const basis = `已研究 ${rankings.reviewedCount}/${guideEntries.length} 项 · 编号建议 ${numberedCount} 项 · 并行任务 ${parallelCount} 项。`;
+    const note = document.getElementById('rankingNote');
+    note.hidden = state.view === 'community';
+    const basis = `综合复核 ${rankings.reviewedCount}/${guideEntries.length} 项 · 编号建议 ${numberedCount} 项 · 并行任务 ${parallelCount} 项；全量社区榜 ${rankings.communityItems.length} 条，已关联 ${rankings.communityTargetCount} 个解锁目标。`;
     const mode = state.sort === 'community'
-      ? `按 Unduel 的 ${RESEARCH.community.total} 件道具榜排序（${RESEARCH.community.version}，${RESEARCH.community.snapshotDate} 快照）；它反映投票偏好，未收录的目标排在后面。`
+      ? `按 Unduel 的全局名次排序（${RESEARCH.community.version}，${RESEARCH.community.snapshotDate} 快照），无需经过综合复核；无适用名次的目标排在后面，多道具奖励取最靠前名次。完整榜单可在“道具总榜”查看。`
       : state.sort === 'rank'
         ? '并行任务是随主线累计的提醒；编号表示研究范围内的解锁建议先后，有前置时先跳过。未评审目标排在后面，筛选不会重编号。'
         : '颜色表示解锁优先级；强度与名次另列。未评审目标沿用已有评级或默认值，不能理解为已经复核。';
-    document.getElementById('rankingNote').textContent = `${basis} ${mode}${state.currentProfile?.customized ? ' 当前颜色沿用你的自定义配置，名次供研究参考。' : ''}`;
+    note.textContent = `${basis} ${mode}${state.currentProfile?.customized ? ' 当前颜色沿用你的自定义配置，名次供研究参考。' : ''}`;
   }
 
   function requirementText(rule, currentBossId) {
@@ -963,6 +993,10 @@
   }
 
   function renderHeader() {
+    if (state.view === 'community') {
+      el.tableHead.innerHTML = '<tr><th>社区名次</th><th>道具</th><th>投票记录</th><th>关联解锁目标 / 进度</th></tr>';
+      return;
+    }
     if (state.view === 'guide') {
       el.tableHead.innerHTML = '<tr><th>目标 / 解锁条件</th><th>解锁道具 / 奖励</th><th>道具效果</th><th>是否解锁</th><th class="options-column" aria-label="选项"></th></tr>';
       return;
@@ -1061,6 +1095,10 @@
 
   function renderRows() {
     closePriorityMenu();
+    if (state.view === 'community') {
+      renderCommunityRows();
+      return;
+    }
     if (state.view === 'guide') {
       renderGuideRows();
       return;
@@ -1110,7 +1148,35 @@
       parts.push(character?.name, character?.nameEn, ...row.rule.bossIds.map(id => bosses.get(id)?.name), reward.name, reward.condition);
     }
     if (row.challenge) parts.push(`挑战 #${row.challenge.challengeId}`, row.challenge.rewardName, EFFECTS[String(row.achievementId)]?.name);
+    parts.push(...rankings.communityFor(row.achievementId).flatMap(item => [item.name, item.nameZh]));
     return parts.filter(Boolean).join(' ');
+  }
+
+  function renderCommunityRows() {
+    const query = state.communityQuery.trim().toLocaleLowerCase();
+    const rows = rankings.communityItems.filter(item => [item.name, item.nameZh, item.collectibleId]
+      .filter(value => value != null).join(' ').toLocaleLowerCase().includes(query));
+    el.communitySummary.textContent = `显示 ${rows.length} / ${rankings.communityItems.length} 条 · 已关联 ${rankings.communityTargetCount} 个解锁目标`;
+    const source = researchSources.get('RT1');
+    el.communityIntro.innerHTML = `<a class="reward-link" href="${esc(source.url)}" target="_blank" rel="noopener noreferrer">Unduel 原始全量榜</a> · ${esc(RESEARCH.community.version)} · ${esc(RESEARCH.community.snapshotDate)} 快照。719 条为收藏道具的社区投票偏好，不含饰品、卡牌；包含初始道具和一条旧版记录。不等于解锁顺序或多来源共识，可通过关联目标查看解锁条件与存档进度。`;
+    if (!rows.length) {
+      el.tableBody.innerHTML = '<tr class="empty-state"><td colspan="4"><strong>没有匹配的道具</strong><span>尝试中文名、英文名或道具 ID。</span></td></tr>';
+      return;
+    }
+    el.tableBody.innerHTML = rows.map(item => {
+      const targets = communityTargetsByItem.get(item.collectibleId) || [];
+      const links = targets.map(id => {
+        const row = guideByAchievement.get(id);
+        const label = row?.kind === 'rule' ? `${characters.get(row.rule.characterId)?.name} · ${row.rule.bossIds.map(id => bosses.get(id)?.name).join(' + ')}`
+          : row?.kind === 'challenge' ? `挑战 #${row.challenge.challengeId}` : row?.entry?.name || `成就 #${id}`;
+        return `<div class="community-target"><button type="button" class="community-target-link" data-open-achievement="${id}" aria-label="查看解锁目标：${esc(label)}">${esc(label)} <span class="meta-line">#${id} ↗</span></button>${statusBadge(unlockStatus(id))}</div>`;
+      }).join('');
+      return `<tr data-community-item="${item.collectibleId ?? `legacy-${item.rank}`}" data-community-position="${item.rank}">
+        <td><span class="research-rank">#${item.rank}/${RESEARCH.community.total}</span></td>
+        <td><strong>${esc(item.nameZh)}</strong><div class="meta-line">${esc(item.name)}${item.collectibleId != null ? ` · ID ${item.collectibleId}` : ''}</div>${item.mappingNote ? `<p class="community-mapping-note">${esc(item.mappingNote)}</p>` : ''}</td>
+        <td>${item.itemVoterCount}<div class="meta-line">条该道具投票记录</div></td>
+        <td>${links || '<span class="effect-missing">项目未记录对应解锁目标</span>'}</td></tr>`;
+    }).join('');
   }
 
   function renderGuideRows() {
@@ -1279,8 +1345,13 @@
     renderRankingNote();
     const hasSelector = state.view === 'character' || state.view === 'boss';
     const isAchievement = state.view === 'achievement';
+    const isCommunity = state.view === 'community';
     el.guideSection.hidden = state.view !== 'guide';
+    el.communitySection.hidden = !isCommunity;
+    el.unlockControls.hidden = isCommunity;
+    el.priorityLegend.hidden = isCommunity;
     el.standardResults.classList.toggle('guide-table-wrap', state.view === 'guide');
+    el.standardResults.classList.toggle('community-table-wrap', isCommunity);
     el.selectorSection.hidden = !hasSelector;
     el.standardResults.hidden = isAchievement;
     el.achievementResults.hidden = !isAchievement;
@@ -1351,6 +1422,10 @@
     state.guideQuery = el.guideSearch.value;
     renderRows();
   });
+  el.communitySearch.addEventListener('input', () => {
+    state.communityQuery = el.communitySearch.value;
+    renderRows();
+  });
   el.syncLocalSaveBtn.addEventListener('click', () => {
     state.localSyncPaused = false;
     localSync.revision = '';
@@ -1411,6 +1486,18 @@
   }
 
   el.tableBody.addEventListener('click', handleRowMenuClick);
+  el.tableBody.addEventListener('click', event => {
+    const button = event.target.closest('[data-open-achievement]');
+    if (!button) return;
+    state.view = 'guide';
+    state.guideCategories = Guide.categories.map(x => x.id);
+    state.guideQuery = `#${button.dataset.openAchievement}`;
+    state.showUnlocked = true;
+    el.guideSearch.value = state.guideQuery;
+    persistUiPreferences();
+    render();
+    el.guideSection.scrollIntoView({ block: 'start' });
+  });
   el.achievementResults.addEventListener('click', handleRowMenuClick);
 
   el.priorityMenu.addEventListener('click', (event) => {

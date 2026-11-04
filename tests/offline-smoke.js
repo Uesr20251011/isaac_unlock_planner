@@ -22,8 +22,12 @@ async page => {
     await page.getByRole('button', { name: '仅挑战', exact: true }).click();
     await page.getByRole('checkbox', { name: '主线推进', exact: false }).check();
     if (await page.locator('[data-guide-achievement]').count() !== 53) throw new Error('Offline combined filtering failed');
+    await page.getByRole('button', { name:'道具总榜', exact:true }).click();
+    if (await page.locator('[data-community-item]').count() !== 719) throw new Error('Offline full community board did not load all719 source entries');
+    await page.getByRole('searchbox', { name:'搜索全部道具', exact:true }).fill('Godhead');
+    if (await page.locator('[data-community-item]').count() !== 1) throw new Error('Offline community item search failed');
     const externalAssets = blocked.filter(url => !url.endsWith('/api/health'));
     if (externalAssets.length) throw new Error(`The single-file page requested external assets: ${externalAssets.join(', ')}`);
-    return { passed: true, targets: 606, characterTargets: 372, combinedCategories: 53, externalAssets: [] };
+    return { passed: true, targets: 606, characterTargets: 372, combinedCategories: 53, communityItems:719, externalAssets: [] };
   } finally { await page.unroute('**/*'); }
 }

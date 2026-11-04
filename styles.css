@@ -177,7 +177,7 @@ h2 { margin: 4px 0 0; font-size: 23px; }
 
 .achievement-sprite {
   width: 64px; height: 64px; flex: 0 0 64px; display: inline-block;
-  background-image: url("./assets/achievement/Achievement_sprite.jpg?v=20261104-rankings1");
+  background-image: url("./assets/achievement/Achievement_sprite.jpg?v=20261104-community1");
   background-repeat: no-repeat;
   background-size: 1280px 2112px;
   background-position: var(--ach-x) var(--ach-y);
@@ -241,6 +241,15 @@ code { background: rgba(255,255,255,.05); padding: 2px 5px; border-radius: 5px; 
 .research-correction { color: var(--ink); }
 .research-sources { border-top: 1px solid var(--line); padding-top: 7px; margin-top: 7px; }
 .research-unreviewed { margin-top: 7px; color: var(--muted); font-size: 10px; opacity: .7; }
+.legend[hidden], .results-heading[hidden] { display: none; }
+.community-table-wrap th:first-child { width: 13%; }
+.community-table-wrap th:nth-child(2) { width: 33%; }
+.community-target { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin: 5px 0; }
+.community-target-link { border: 0; padding: 0; background: transparent; color: var(--accent); text-align: left; cursor: pointer; font-weight: 700; }
+.community-target-link:hover { text-decoration: underline; }
+.community-target-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.community-target-link .meta-line { display: block; }
+.community-mapping-note { max-width: 440px; color: var(--muted); font-size: 11px; line-height: 1.6; }
 
 /* Curated achievement lists */
 .achievement-results { display: grid; gap: 34px; }

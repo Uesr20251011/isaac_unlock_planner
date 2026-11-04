@@ -143,6 +143,7 @@ python tools/build_achievements.py "temp/achievements.html"
 | `tools/challenge_priority.json` | 挑战 ID 的优先级 |
 | `tools/achievement_priority.json` | 已研究的其他成就奖励优先级及依据 |
 | `tools/research_rankings.json` | 已研究目标的解锁排名、并行任务、强度、修订记录和来源 |
+| `tools/community_rankings.json` | 全量719条社区名次、道具中英文名、实体ID、投票记录数、快照版本及映射例外 |
 
 角色/Boss 配置条目只包含以下字段：
 
@@ -172,7 +173,13 @@ python tools/build_research_rankings.py
 
 浏览器读取生成的 JS，不运行时请求配置 JSON。用户可在页面内调整优先级并导入、导出自己的配置；其他成就未设置推荐等级时使用 `normal`。推荐变动完成后，同样执行发布准备。
 
-研究排名的来源是 `research_rankings.json`，编译后写入 `data/research_rankings.js`，由 `js/rankings.js` 提供独立排序。每个已研究条目只能有一个位置：`unlockRank` 为编号建议，或 `parallelOrder` 为并行提醒；各序列从1连续编号。`priority` 必须与当前角色、挑战或成就配置一致，修改时同步两处；`previousPriority` 与 `correctionReason` 保留修订记录。社区参考只可用于有对应收藏道具的记录，保留全局名次、投票记录数、版本、快照日期与来源，不给饰品、卡牌或未研究条目伪造名次。
+研究排名的来源是 `research_rankings.json`，编译后写入 `data/research_rankings.js`，由 `js/rankings.js` 提供独立排序。每个已研究条目只能有一个位置：`unlockRank` 为编号建议，或 `parallelOrder` 为并行提醒；各序列从1连续编号。`priority` 必须与当前角色、挑战或成就配置一致，修改时同步两处；`previousPriority` 与 `correctionReason` 保留修订记录。
+
+社区名次独立于综合复核：`community_rankings.json` 保存原榜719条全量记录，由同一构建器生成 `communityItems` 与 `communityTargets`。通过角色奖励实体、挑战奖励、其他成就 `collectibleIds` 及已确认的多奖励映射，关联271个解锁目标。`sourceItemId` 是原站UUID，不能当成游戏ID；游戏实体使用 `collectibleId`。每条保留全局名次、投票记录数、版本、快照日期与来源。总榜可查看所有条目，总攻略及原视图为对应道具显示社区名次，不要求该目标已完成综合复核；饰品、卡牌等不套用收藏道具榜。
+
+当前映射保留718个不同道具ID，以及一条 `collectibleId: null` 的旧版 Tonsil（社区#710）。后者必须保留 `mappingNote`，不得映射为当前ID474的损坏的玻璃大炮或扁桃体饰品。Damocles 使用主动道具577，不使用隐藏被动656；Book of Belial 使用34，不使用 Birthright 内部实体。`excludedTargets` 及 `exclusionNotes` 记录起始装备升级（#248、#250）等不应被误认成道具入池解锁的例外。多道具目标分别显示名次，排序取最靠前的一件。
+
+构建器检查719个名次连续唯一、非空实体ID唯一、旧版例外说明、投票数、快照元数据、现有36条重点研究社区引用与全量源一致，以及项目道具映射完整性。修改源后运行 `python tools/build_research_rankings.py`，再执行发布准备以更新离线版。
 
 `python -m unittest discover -s tests -p "test_*.py"` 覆盖排名唯一性、来源、社区榜覆盖与运行时评级一致性。排名是公开研究数据，独立于用户导入/导出的颜色配置；自定义配置保留颜色，同时仍可查看研究名次和依据。
 

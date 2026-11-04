@@ -62,6 +62,14 @@ test('search is case insensitive and searches an entry only within selected cate
   assert.equal(guide.selectEntries(entries, { ...options, categories: ['main'] }).length, 0);
 });
 
+test('a hash-prefixed achievement ID is exact, including single-digit IDs', () => {
+  const entries = [6,66,116].map((achievementId,order) => ({ achievementId, order, categories:['character'] }));
+  const select = query => Array.from(guide.selectEntries(entries, { query }), row => row.achievementId);
+  assert.deepEqual(select('#6'), [6]);
+  assert.deepEqual(select('6'), [6,66,116]);
+  assert.deepEqual(select('#44'), []);
+});
+
 test('the actual project catalogue appears once per achievement in the overview', () => {
   assert.ok(guide, 'The overview model must be available');
   const dataContext = { window: {} };

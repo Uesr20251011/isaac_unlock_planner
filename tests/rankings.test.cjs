@@ -31,6 +31,30 @@ test('community preference is independent of unlock priority and missing ranks s
   assert.equal(index.compare(1,2,'default'), 0);
 });
 
+test('community positions do not require an editorial review or an unlock-suggestion rank', () => {
+  assert.ok(Ranking);
+  const index = Ranking.createIndex({
+    ...fixture,
+    communityItems: [{ collectibleId: 699, rank: 31, name: 'Unreviewed item' }],
+    communityTargets: [{ achievementId: 99, collectibleIds: [699] }]
+  });
+  assert.equal(index.get(99), null);
+  assert.equal(index.communityFor(99)[0].rank, 31);
+  assert.deepEqual([4,99,1].sort((a,b) => index.compare(a,b,'community')), [1,99,4]);
+});
+
+test('the whole collected ranking and the screenshot examples reach the generated data', () => {
+  const source = path.join(__dirname, '../data/research_rankings.js');
+  vm.runInNewContext(fs.readFileSync(source, 'utf8'), context);
+  const data = context.window.ISAAC_RESEARCH_RANKINGS;
+  assert.equal(data.communityItems?.length, 719, 'All collected items must be published');
+  const index = Ranking.createIndex(data);
+  for (const achievementId of [108,54,452,198]) {
+    assert.equal(index.get(achievementId), null, 'These targets remain outside the 65 editorial reviews');
+    assert.ok(index.communityFor(achievementId).length, `Screenshot achievement #${achievementId} must have a community rank`);
+  }
+});
+
 test('combined categories, hiding completed targets and searches preserve original rank numbers', () => {
   assert.ok(Ranking);
   const index = Ranking.createIndex(fixture);

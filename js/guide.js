@@ -40,10 +40,12 @@
   } = {}) {
     const selectedIds = new Set(selected);
     const search = String(query).trim().toLocaleLowerCase();
+    const exactId = /^#(\d+)$/.exec(search);
     const rows = entries.filter(row => (
       row.categories.some(id => selectedIds.has(id)) &&
       (showUnlocked || !save || !save.isAchievementUnlocked(row.achievementId)) &&
-      (!search || `${row.achievementId} ${searchTextFor(row)}`.toLocaleLowerCase().includes(search))
+      (!search || (exactId ? row.achievementId === Number(exactId[1])
+        : `${row.achievementId} ${searchTextFor(row)}`.toLocaleLowerCase().includes(search)))
     ));
     rows.sort((a, b) => (sort === 'priority' ? priorityFor(b) - priorityFor(a)
       : ['rank', 'community'].includes(sort) ? compareFor(a, b, sort) : 0) || a.order - b.order);
