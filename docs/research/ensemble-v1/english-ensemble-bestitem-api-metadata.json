@@ -1,0 +1,22 @@
+{
+  "url": "https://bestitem.onrender.com/ranking",
+  "status": 200,
+  "retrievedAt": "2026-11-04T13:18:43.377Z",
+  "headers": {
+    "access-control-allow-origin": "*",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a553e7fdf9ee83ef-LAX",
+    "content-encoding": "br",
+    "content-type": "application/json; charset=utf-8",
+    "date": "Wed, 04 Nov 2026 13:18:43 GMT",
+    "etag": "W/\"e6d1-ZlzstKXM131/E8t+meOL69VFh1A\"",
+    "priority": "u=1,i",
+    "rndr-id": "98033cad-31d8-43c1",
+    "server": "cloudflare",
+    "server-timing": "cfExtPri",
+    "vary": "Accept-Encoding",
+    "x-powered-by": "Express",
+    "x-render-origin-server": "Render"
+  }
+}

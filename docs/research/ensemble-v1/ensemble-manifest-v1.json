@@ -1,0 +1,17 @@
+{
+  "ensemble-inputs-v1.json": "d3e7d49cbacad3457d760f8be95217ac109c692e07468ab6fe91050f32849f0d",
+  "ensemble-results-v1.json": "961556bae6c5f5512b4e70533a1db606aabad7aadc8614729a27872db9a0a91d",
+  "ensemble-results-v1.csv": "cebe437e297d2153eed97bbf121bbf6c69a4643d8b226413eb2928afa2745665",
+  "道具综合试算榜-v1.csv": "f711d68d8946015b177672dceaeab04fc0ac17523673ba30866edbab421a5a34",
+  "ensemble_model.py": "2698edca3533cbf5ebf63b0e60d067a9131f98c1c5b8aba54e678a0bb8df2cc7",
+  "run_ensemble.py": "f6366a8d3922d036c72619194b112ec2223558632abc6ea1835454320017f1ed",
+  "test_ensemble_model.py": "604d9e50fb5fdae6c5afbfabd9fc5489c210cdbe72ed07e71b8211b6fb84d114",
+  "prepare_bestitem.py": "50268c285f0bdc5a2c9686b1b2b742564e05fcadbae982be789060d300f5863b",
+  "ensemble-formula-v1.md": "8aa2f9cd85a182071f7b08aa0db6c4281eba048de3550e28b41568d7a9abbbe1",
+  "ensemble-trial-report-v1.md": "3855c518cc3881dd13565b68a14deb30eb6fd07b78be2ca7d159960d448f93a9",
+  "bestitem-mapping-audit.json": "9a241db5c0868f469f99c4f19c448ed74ee0d41d4dbbacf943046b276388d9bd",
+  "english-ensemble-bestitem-ranking-raw.json": "6b99a4cfe2db35b0daeeb3547f1b393c226ed97d8952d9045c9e4940c793e93f",
+  "english-ensemble-bestitem-api-metadata.json": "9e1c5367627dce9ef18fc2a6ec6d6dd0c4149e4ead56fa5cbd2c9c5610d3d133",
+  "ensemble-sources-extra.json": "332d2721653f5e73ad23a00de6c12c5d672eb3b987af9a04ccd4f3a172fdf084",
+  "write_trial_report.py": "b42a82fc8102ad55c7481cde5c9e43320cf0ff105c454b2afe870ee34db8202d"
+}

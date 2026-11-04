@@ -1,0 +1,3683 @@
+{
+  "source": "bestitem-20261104",
+  "rawSha256": "6b99a4cfe2db35b0daeeb3547f1b393c226ed97d8952d9045c9e4940c793e93f",
+  "retrievedAt": "2026-11-04T13:18:43.377Z",
+  "originalRows": 400,
+  "mappedRows": 399,
+  "excluded": [
+    {
+      "platformId": 108,
+      "originalName": "Broken Shovel 2 (head)",
+      "rawScore": -35,
+      "segment": "worst",
+      "collectibleId": 551,
+      "mappingReason": "second passive quest piece, outside this 718-item universe",
+      "excludedReason": "outside declared universe; retain raw record, do not map a second shovel piece onto the handle"
+    }
+  ],
+  "scoreCounts": {
+    "-53": 1,
+    "-42": 1,
+    "-35": 1,
+    "-34": 1,
+    "-32": 1,
+    "-31": 3,
+    "-30": 3,
+    "-28": 3,
+    "-27": 1,
+    "-26": 4,
+    "-25": 5,
+    "-24": 6,
+    "-23": 3,
+    "-22": 9,
+    "-21": 7,
+    "-20": 5,
+    "-19": 7,
+    "-18": 8,
+    "-17": 14,
+    "-16": 7,
+    "-15": 16,
+    "-14": 15,
+    "-13": 13,
+    "-12": 13,
+    "-11": 19,
+    "-10": 22,
+    "-9": 12,
+    "8": 12,
+    "9": 12,
+    "10": 13,
+    "11": 20,
+    "12": 10,
+    "13": 12,
+    "14": 13,
+    "15": 14,
+    "16": 8,
+    "17": 10,
+    "18": 8,
+    "19": 9,
+    "20": 5,
+    "21": 6,
+    "22": 8,
+    "23": 4,
+    "24": 6,
+    "25": 4,
+    "26": 2,
+    "27": 1,
+    "28": 2,
+    "29": 2,
+    "30": 1,
+    "31": 5,
+    "33": 3,
+    "34": 2,
+    "35": 1,
+    "37": 2,
+    "38": 1,
+    "39": 1,
+    "44": 1,
+    "47": 1,
+    "58": 1
+  },
+  "note": "No exposure counts are inferred from raw score. Equal raw scores do not create internal order.",
+  "mappings": [
+    {
+      "platformId": 191,
+      "originalName": "Death Certificate",
+      "rawScore": 58,
+      "segment": "best",
+      "collectibleId": 628,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Death Certificate"
+    },
+    {
+      "platformId": 273,
+      "originalName": "Glitched Crown",
+      "rawScore": 47,
+      "segment": "best",
+      "collectibleId": 689,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Glitched Crown"
+    },
+    {
+      "platformId": 540,
+      "originalName": "Sacred Heart",
+      "rawScore": 44,
+      "segment": "best",
+      "collectibleId": 182,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Sacred Heart"
+    },
+    {
+      "platformId": 514,
+      "originalName": "R Key",
+      "rawScore": 39,
+      "segment": "best",
+      "collectibleId": 636,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "R Key"
+    },
+    {
+      "platformId": 119,
+      "originalName": "C Section",
+      "rawScore": 38,
+      "segment": "best",
+      "collectibleId": 678,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "C Section"
+    },
+    {
+      "platformId": 104,
+      "originalName": "Brimstone",
+      "rawScore": 37,
+      "segment": "best",
+      "collectibleId": 118,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Brimstone"
+    },
+    {
+      "platformId": 541,
+      "originalName": "Sacred Orb",
+      "rawScore": 37,
+      "segment": "best",
+      "collectibleId": 691,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Sacred Orb"
+    },
+    {
+      "platformId": 587,
+      "originalName": "Spindown Dice",
+      "rawScore": 35,
+      "segment": "best",
+      "collectibleId": 723,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Spindown Dice"
+    },
+    {
+      "platformId": 280,
+      "originalName": "Godhead",
+      "rawScore": 34,
+      "segment": "best",
+      "collectibleId": 331,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Godhead"
+    },
+    {
+      "platformId": 306,
+      "originalName": "Holy Mantle",
+      "rawScore": 34,
+      "segment": "best",
+      "collectibleId": 313,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Holy Mantle"
+    },
+    {
+      "platformId": 528,
+      "originalName": "Rock Bottom",
+      "rawScore": 33,
+      "segment": "best",
+      "collectibleId": 562,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Rock Bottom"
+    },
+    {
+      "platformId": 642,
+      "originalName": "The D6",
+      "rawScore": 33,
+      "segment": "best",
+      "collectibleId": 105,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The D6"
+    },
+    {
+      "platformId": 410,
+      "originalName": "Mega Mush",
+      "rawScore": 33,
+      "segment": "best",
+      "collectibleId": 625,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mega Mush"
+    },
+    {
+      "platformId": 318,
+      "originalName": "Incubus",
+      "rawScore": 31,
+      "segment": "best",
+      "collectibleId": 360,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Incubus"
+    },
+    {
+      "platformId": 164,
+      "originalName": "D Infinity",
+      "rawScore": 31,
+      "segment": "best",
+      "collectibleId": 489,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "D Infinity"
+    },
+    {
+      "platformId": 433,
+      "originalName": "Mom's Knife",
+      "rawScore": 31,
+      "segment": "best",
+      "collectibleId": 114,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mom's Knife"
+    },
+    {
+      "platformId": 689,
+      "originalName": "Twisted Pair",
+      "rawScore": 31,
+      "segment": "best",
+      "collectibleId": 698,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Twisted Pair"
+    },
+    {
+      "platformId": 525,
+      "originalName": "Revelation",
+      "rawScore": 31,
+      "segment": "best",
+      "collectibleId": 643,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Revelation"
+    },
+    {
+      "platformId": 671,
+      "originalName": "The Wafer",
+      "rawScore": 30,
+      "segment": "best",
+      "collectibleId": 108,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Wafer"
+    },
+    {
+      "platformId": 3,
+      "originalName": "20 20",
+      "rawScore": 29,
+      "segment": "best",
+      "collectibleId": 245,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "20/20"
+    },
+    {
+      "platformId": 500,
+      "originalName": "Polyphemus",
+      "rawScore": 29,
+      "segment": "best",
+      "collectibleId": 169,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Polyphemus"
+    },
+    {
+      "platformId": 458,
+      "originalName": "Mutant Spider",
+      "rawScore": 28,
+      "segment": "best",
+      "collectibleId": 153,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mutant Spider"
+    },
+    {
+      "platformId": 395,
+      "originalName": "Magic Mushroom",
+      "rawScore": 28,
+      "segment": "best",
+      "collectibleId": 12,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Magic Mushroom"
+    },
+    {
+      "platformId": 293,
+      "originalName": "Haemolacria",
+      "rawScore": 27,
+      "segment": "best",
+      "collectibleId": 531,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Haemolacria"
+    },
+    {
+      "platformId": 620,
+      "originalName": "Tech X",
+      "rawScore": 26,
+      "segment": "best",
+      "collectibleId": 395,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Tech X"
+    },
+    {
+      "platformId": 60,
+      "originalName": "Birthright",
+      "rawScore": 26,
+      "segment": "best",
+      "collectibleId": 619,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Birthright"
+    },
+    {
+      "platformId": 668,
+      "originalName": "The Stairway",
+      "rawScore": 25,
+      "segment": "best",
+      "collectibleId": 586,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Stairway"
+    },
+    {
+      "platformId": 278,
+      "originalName": "Goat Head",
+      "rawScore": 25,
+      "segment": "best",
+      "collectibleId": 215,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Goat Head"
+    },
+    {
+      "platformId": 687,
+      "originalName": "Trisagion",
+      "rawScore": 25,
+      "segment": "best",
+      "collectibleId": 533,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Trisagion"
+    },
+    {
+      "platformId": 202,
+      "originalName": "Diplopia",
+      "rawScore": 25,
+      "segment": "best",
+      "collectibleId": 347,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Diplopia"
+    },
+    {
+      "platformId": 591,
+      "originalName": "Spoon Bender",
+      "rawScore": 24,
+      "segment": "best",
+      "collectibleId": 3,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Spoon Bender"
+    },
+    {
+      "platformId": 157,
+      "originalName": "Crown of Light",
+      "rawScore": 24,
+      "segment": "best",
+      "collectibleId": 415,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Crown of Light"
+    },
+    {
+      "platformId": 154,
+      "originalName": "Cricket's Body",
+      "rawScore": 24,
+      "segment": "best",
+      "collectibleId": 224,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Cricket's Body"
+    },
+    {
+      "platformId": 330,
+      "originalName": "Jacob's Ladder",
+      "rawScore": 24,
+      "segment": "best",
+      "collectibleId": 494,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Jacob's Ladder"
+    },
+    {
+      "platformId": 217,
+      "originalName": "Eden's Blessing",
+      "rawScore": 24,
+      "segment": "best",
+      "collectibleId": 381,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Eden's Blessing"
+    },
+    {
+      "platformId": 155,
+      "originalName": "Cricket's Head",
+      "rawScore": 24,
+      "segment": "best",
+      "collectibleId": 4,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Cricket's Head"
+    },
+    {
+      "platformId": 305,
+      "originalName": "Holy Light",
+      "rawScore": 23,
+      "segment": "best",
+      "collectibleId": 374,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Holy Light"
+    },
+    {
+      "platformId": 39,
+      "originalName": "Athame",
+      "rawScore": 23,
+      "segment": "best",
+      "collectibleId": 408,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Athame"
+    },
+    {
+      "platformId": 512,
+      "originalName": "Pyromaniac",
+      "rawScore": 23,
+      "segment": "best",
+      "collectibleId": 223,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Pyromaniac"
+    },
+    {
+      "platformId": 505,
+      "originalName": "Proptosis",
+      "rawScore": 23,
+      "segment": "best",
+      "collectibleId": 261,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Proptosis"
+    },
+    {
+      "platformId": 263,
+      "originalName": "Genesis",
+      "rawScore": 22,
+      "segment": "best",
+      "collectibleId": 622,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Genesis"
+    },
+    {
+      "platformId": 41,
+      "originalName": "Backstabber",
+      "rawScore": 22,
+      "segment": "best",
+      "collectibleId": 506,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Backstabber"
+    },
+    {
+      "platformId": 323,
+      "originalName": "Ipecac",
+      "rawScore": 22,
+      "segment": "best",
+      "collectibleId": 149,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Ipecac"
+    },
+    {
+      "platformId": 405,
+      "originalName": "Maw of the Void",
+      "rawScore": 22,
+      "segment": "best",
+      "collectibleId": 399,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Maw of the Void"
+    },
+    {
+      "platformId": 550,
+      "originalName": "Satanic Bible",
+      "rawScore": 22,
+      "segment": "best",
+      "collectibleId": 292,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Satanic Bible"
+    },
+    {
+      "platformId": 456,
+      "originalName": "Mucormycosis",
+      "rawScore": 22,
+      "segment": "best",
+      "collectibleId": 553,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mucormycosis"
+    },
+    {
+      "platformId": 134,
+      "originalName": "Chaos",
+      "rawScore": 22,
+      "segment": "best",
+      "collectibleId": 402,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Chaos"
+    },
+    {
+      "platformId": 506,
+      "originalName": "Psy Fly",
+      "rawScore": 22,
+      "segment": "best",
+      "collectibleId": 581,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Psy Fly"
+    },
+    {
+      "platformId": 9,
+      "originalName": "8 Inch Nails",
+      "rawScore": 21,
+      "segment": "best",
+      "collectibleId": 359,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "8 Inch Nails"
+    },
+    {
+      "platformId": 603,
+      "originalName": "Stop Watch",
+      "rawScore": 21,
+      "segment": "best",
+      "collectibleId": 232,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Stop Watch"
+    },
+    {
+      "platformId": 266,
+      "originalName": "Ghost Pepper",
+      "rawScore": 21,
+      "segment": "best",
+      "collectibleId": 495,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Ghost Pepper"
+    },
+    {
+      "platformId": 210,
+      "originalName": "Dr. Fetus",
+      "rawScore": 21,
+      "segment": "best",
+      "collectibleId": 52,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Dr. Fetus"
+    },
+    {
+      "platformId": 226,
+      "originalName": "Eucharist",
+      "rawScore": 21,
+      "segment": "best",
+      "collectibleId": 499,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Eucharist"
+    },
+    {
+      "platformId": 209,
+      "originalName": "Dogma",
+      "rawScore": 21,
+      "segment": "best",
+      "collectibleId": 633,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Dogma (Item)"
+    },
+    {
+      "platformId": 466,
+      "originalName": "Neptunus",
+      "rawScore": 20,
+      "segment": "best",
+      "collectibleId": 597,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Neptunus"
+    },
+    {
+      "platformId": 624,
+      "originalName": "Technology",
+      "rawScore": 20,
+      "segment": "best",
+      "collectibleId": 68,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Technology"
+    },
+    {
+      "platformId": 520,
+      "originalName": "Red Key",
+      "rawScore": 20,
+      "segment": "best",
+      "collectibleId": 580,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Red Key"
+    },
+    {
+      "platformId": 228,
+      "originalName": "Eve's Mascara",
+      "rawScore": 20,
+      "segment": "best",
+      "collectibleId": 310,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Eve's Mascara"
+    },
+    {
+      "platformId": 629,
+      "originalName": "Terra",
+      "rawScore": 20,
+      "segment": "best",
+      "collectibleId": 592,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Terra"
+    },
+    {
+      "platformId": 178,
+      "originalName": "Damocles",
+      "rawScore": 19,
+      "segment": "best",
+      "collectibleId": 577,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Damocles"
+    },
+    {
+      "platformId": 646,
+      "originalName": "The Inner Eye",
+      "rawScore": 19,
+      "segment": "best",
+      "collectibleId": 2,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Inner Eye"
+    },
+    {
+      "platformId": 673,
+      "originalName": "There's Options",
+      "rawScore": 19,
+      "segment": "best",
+      "collectibleId": 249,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "There's Options"
+    },
+    {
+      "platformId": 221,
+      "originalName": "Epic Fetus",
+      "rawScore": 19,
+      "segment": "best",
+      "collectibleId": 168,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Epic Fetus"
+    },
+    {
+      "platformId": 590,
+      "originalName": "Spirit Sword",
+      "rawScore": 19,
+      "segment": "best",
+      "collectibleId": 579,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Spirit Sword"
+    },
+    {
+      "platformId": 248,
+      "originalName": "Flip",
+      "rawScore": 19,
+      "segment": "best",
+      "collectibleId": 711,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Flip"
+    },
+    {
+      "platformId": 658,
+      "originalName": "The Parasite",
+      "rawScore": 19,
+      "segment": "best",
+      "collectibleId": 104,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Parasite"
+    },
+    {
+      "platformId": 56,
+      "originalName": "Binge Eater",
+      "rawScore": 19,
+      "segment": "best",
+      "collectibleId": 664,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Binge Eater"
+    },
+    {
+      "platformId": 193,
+      "originalName": "Death's Touch",
+      "rawScore": 19,
+      "segment": "best",
+      "collectibleId": 237,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Death's Touch"
+    },
+    {
+      "platformId": 35,
+      "originalName": "Apple!",
+      "rawScore": 18,
+      "segment": "best",
+      "collectibleId": 443,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Apple!"
+    },
+    {
+      "platformId": 682,
+      "originalName": "Toxic Shock",
+      "rawScore": 18,
+      "segment": "best",
+      "collectibleId": 350,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Toxic Shock"
+    },
+    {
+      "platformId": 317,
+      "originalName": "Immaculate Heart",
+      "rawScore": 18,
+      "segment": "best",
+      "collectibleId": 573,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Immaculate Heart"
+    },
+    {
+      "platformId": 702,
+      "originalName": "Void",
+      "rawScore": 18,
+      "segment": "best",
+      "collectibleId": 477,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Void"
+    },
+    {
+      "platformId": 225,
+      "originalName": "Eternal D6",
+      "rawScore": 18,
+      "segment": "best",
+      "collectibleId": 609,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Eternal D6"
+    },
+    {
+      "platformId": 574,
+      "originalName": "SMB Super Fan",
+      "rawScore": 18,
+      "segment": "best",
+      "collectibleId": 189,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "SMB Super Fan"
+    },
+    {
+      "platformId": 308,
+      "originalName": "Host Hat",
+      "rawScore": 18,
+      "segment": "best",
+      "collectibleId": 375,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Host Hat"
+    },
+    {
+      "platformId": 683,
+      "originalName": "Tractor Beam",
+      "rawScore": 18,
+      "segment": "best",
+      "collectibleId": 397,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Tractor Beam"
+    },
+    {
+      "platformId": 275,
+      "originalName": "Glowing Hourglass",
+      "rawScore": 17,
+      "segment": "best",
+      "collectibleId": 422,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Glowing Hourglass"
+    },
+    {
+      "platformId": 657,
+      "originalName": "The Pact",
+      "rawScore": 17,
+      "segment": "best",
+      "collectibleId": 80,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Pact"
+    },
+    {
+      "platformId": 143,
+      "originalName": "Compound Fracture",
+      "rawScore": 17,
+      "segment": "best",
+      "collectibleId": 453,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Compound Fracture"
+    },
+    {
+      "platformId": 450,
+      "originalName": "More Options",
+      "rawScore": 17,
+      "segment": "best",
+      "collectibleId": 414,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "More Options"
+    },
+    {
+      "platformId": 552,
+      "originalName": "Sausage",
+      "rawScore": 17,
+      "segment": "best",
+      "collectibleId": 669,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Sausage"
+    },
+    {
+      "platformId": 555,
+      "originalName": "Schoolbag",
+      "rawScore": 17,
+      "segment": "best",
+      "collectibleId": 534,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Schoolbag"
+    },
+    {
+      "platformId": 18,
+      "originalName": "Abaddon",
+      "rawScore": 17,
+      "segment": "best",
+      "collectibleId": 230,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Abaddon"
+    },
+    {
+      "platformId": 59,
+      "originalName": "Bird's Eye",
+      "rawScore": 17,
+      "segment": "best",
+      "collectibleId": 616,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Bird's Eye"
+    },
+    {
+      "platformId": 644,
+      "originalName": "The Halo",
+      "rawScore": 17,
+      "segment": "best",
+      "collectibleId": 101,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Halo"
+    },
+    {
+      "platformId": 432,
+      "originalName": "Mom's Key",
+      "rawScore": 17,
+      "segment": "best",
+      "collectibleId": 199,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mom's Key"
+    },
+    {
+      "platformId": 494,
+      "originalName": "Playdough Cookie",
+      "rawScore": 16,
+      "segment": "best",
+      "collectibleId": 570,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Playdough Cookie"
+    },
+    {
+      "platformId": 384,
+      "originalName": "Lord of the Pit",
+      "rawScore": 16,
+      "segment": "best",
+      "collectibleId": 82,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Lord of the Pit"
+    },
+    {
+      "platformId": 61,
+      "originalName": "Black Candle",
+      "rawScore": 16,
+      "segment": "best",
+      "collectibleId": 260,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Black Candle"
+    },
+    {
+      "platformId": 411,
+      "originalName": "Member Card",
+      "rawScore": 16,
+      "segment": "best",
+      "collectibleId": 602,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Member Card"
+    },
+    {
+      "platformId": 380,
+      "originalName": "Little Horn",
+      "rawScore": 16,
+      "segment": "best",
+      "collectibleId": 503,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Little Horn (Item)"
+    },
+    {
+      "platformId": 692,
+      "originalName": "Uranus",
+      "rawScore": 16,
+      "segment": "best",
+      "collectibleId": 596,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Uranus"
+    },
+    {
+      "platformId": 227,
+      "originalName": "Euthanasia",
+      "rawScore": 16,
+      "segment": "best",
+      "collectibleId": 496,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Euthanasia"
+    },
+    {
+      "platformId": 13,
+      "originalName": "A Lump of Coal",
+      "rawScore": 16,
+      "segment": "best",
+      "collectibleId": 132,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "A Lump of Coal"
+    },
+    {
+      "platformId": 283,
+      "originalName": "Growth Hormones",
+      "rawScore": 15,
+      "segment": "best",
+      "collectibleId": 70,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Growth Hormones"
+    },
+    {
+      "platformId": 271,
+      "originalName": "Glass Eye",
+      "rawScore": 15,
+      "segment": "best",
+      "collectibleId": 730,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Glass Eye"
+    },
+    {
+      "platformId": 106,
+      "originalName": "Broken Modem",
+      "rawScore": 15,
+      "segment": "best",
+      "collectibleId": 514,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Broken Modem"
+    },
+    {
+      "platformId": 578,
+      "originalName": "Soy Milk",
+      "rawScore": 15,
+      "segment": "best",
+      "collectibleId": 330,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Soy Milk"
+    },
+    {
+      "platformId": 623,
+      "originalName": "Technology Zero",
+      "rawScore": 15,
+      "segment": "best",
+      "collectibleId": 524,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Technology Zero"
+    },
+    {
+      "platformId": 187,
+      "originalName": "Dead Eye",
+      "rawScore": 15,
+      "segment": "best",
+      "collectibleId": 373,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Dead Eye"
+    },
+    {
+      "platformId": 666,
+      "originalName": "The Small Rock",
+      "rawScore": 15,
+      "segment": "best",
+      "collectibleId": 90,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Small Rock"
+    },
+    {
+      "platformId": 607,
+      "originalName": "Succubus",
+      "rawScore": 15,
+      "segment": "best",
+      "collectibleId": 417,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Succubus"
+    },
+    {
+      "platformId": 235,
+      "originalName": "Eye of Belial",
+      "rawScore": 15,
+      "segment": "best",
+      "collectibleId": 462,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Eye of Belial"
+    },
+    {
+      "platformId": 597,
+      "originalName": "Steam Sale",
+      "rawScore": 15,
+      "segment": "best",
+      "collectibleId": 64,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Steam Sale"
+    },
+    {
+      "platformId": 186,
+      "originalName": "Dead Dove",
+      "rawScore": 15,
+      "segment": "best",
+      "collectibleId": 185,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Dead Dove"
+    },
+    {
+      "platformId": 359,
+      "originalName": "Lemegeton",
+      "rawScore": 15,
+      "segment": "best",
+      "collectibleId": 712,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Lemegeton"
+    },
+    {
+      "platformId": 342,
+      "originalName": "Keeper's Sack",
+      "rawScore": 15,
+      "segment": "best",
+      "collectibleId": 716,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Keeper's Sack"
+    },
+    {
+      "platformId": 126,
+      "originalName": "Capricorn",
+      "rawScore": 15,
+      "segment": "best",
+      "collectibleId": 307,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Capricorn"
+    },
+    {
+      "platformId": 462,
+      "originalName": "Mysterious Liquid",
+      "rawScore": 14,
+      "segment": "best",
+      "collectibleId": 317,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mysterious Liquid"
+    },
+    {
+      "platformId": 320,
+      "originalName": "Infestation 2",
+      "rawScore": 14,
+      "segment": "best",
+      "collectibleId": 234,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Infestation 2"
+    },
+    {
+      "platformId": 123,
+      "originalName": "Camo Undies",
+      "rawScore": 14,
+      "segment": "best",
+      "collectibleId": 497,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Camo Undies"
+    },
+    {
+      "platformId": 510,
+      "originalName": "Purity",
+      "rawScore": 14,
+      "segment": "best",
+      "collectibleId": 407,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Purity"
+    },
+    {
+      "platformId": 651,
+      "originalName": "The Mark",
+      "rawScore": 14,
+      "segment": "best",
+      "collectibleId": 79,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Mark"
+    },
+    {
+      "platformId": 129,
+      "originalName": "Cat-O-Nine-Tails",
+      "rawScore": 14,
+      "segment": "best",
+      "collectibleId": 165,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Cat-O-Nine-Tails"
+    },
+    {
+      "platformId": 535,
+      "originalName": "Rubber Cement",
+      "rawScore": 14,
+      "segment": "best",
+      "collectibleId": 221,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Rubber Cement"
+    },
+    {
+      "platformId": 89,
+      "originalName": "Book of Revelations",
+      "rawScore": 14,
+      "segment": "best",
+      "collectibleId": 78,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Book of Revelations"
+    },
+    {
+      "platformId": 124,
+      "originalName": "Cancer",
+      "rawScore": 14,
+      "segment": "best",
+      "collectibleId": 301,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Cancer"
+    },
+    {
+      "platformId": 588,
+      "originalName": "Spirit of the Night",
+      "rawScore": 14,
+      "segment": "best",
+      "collectibleId": 159,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Spirit of the Night"
+    },
+    {
+      "platformId": 482,
+      "originalName": "Parasitoid",
+      "rawScore": 14,
+      "segment": "best",
+      "collectibleId": 461,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Parasitoid"
+    },
+    {
+      "platformId": 93,
+      "originalName": "Book of Virtues",
+      "rawScore": 14,
+      "segment": "best",
+      "collectibleId": 584,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Book of Virtues"
+    },
+    {
+      "platformId": 559,
+      "originalName": "Seraphim",
+      "rawScore": 14,
+      "segment": "best",
+      "collectibleId": 390,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Seraphim"
+    },
+    {
+      "platformId": 287,
+      "originalName": "Guppy's Eye",
+      "rawScore": 13,
+      "segment": "best",
+      "collectibleId": 665,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Guppy's Eye"
+    },
+    {
+      "platformId": 20,
+      "originalName": "Abyss",
+      "rawScore": 13,
+      "segment": "best",
+      "collectibleId": 706,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Abyss"
+    },
+    {
+      "platformId": 652,
+      "originalName": "The Mind",
+      "rawScore": 13,
+      "segment": "best",
+      "collectibleId": 333,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Mind"
+    },
+    {
+      "platformId": 218,
+      "originalName": "Eden's Soul",
+      "rawScore": 13,
+      "segment": "best",
+      "collectibleId": 490,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Eden's Soul"
+    },
+    {
+      "platformId": 460,
+      "originalName": "My Reflection",
+      "rawScore": 13,
+      "segment": "best",
+      "collectibleId": 5,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "My Reflection"
+    },
+    {
+      "platformId": 622,
+      "originalName": "Technology 2",
+      "rawScore": 13,
+      "segment": "best",
+      "collectibleId": 152,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Technology 2"
+    },
+    {
+      "platformId": 576,
+      "originalName": "Sol",
+      "rawScore": 13,
+      "segment": "best",
+      "collectibleId": 588,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Sol"
+    },
+    {
+      "platformId": 621,
+      "originalName": "Tech.5",
+      "rawScore": 13,
+      "segment": "best",
+      "collectibleId": 244,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Tech.5"
+    },
+    {
+      "platformId": 298,
+      "originalName": "Head of the Keeper",
+      "rawScore": 13,
+      "segment": "best",
+      "collectibleId": 429,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Head of the Keeper"
+    },
+    {
+      "platformId": 681,
+      "originalName": "Tough Love",
+      "rawScore": 13,
+      "segment": "best",
+      "collectibleId": 150,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Tough Love"
+    },
+    {
+      "platformId": 304,
+      "originalName": "Holy Grail",
+      "rawScore": 13,
+      "segment": "best",
+      "collectibleId": 184,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Holy Grail"
+    },
+    {
+      "platformId": 391,
+      "originalName": "Lusty Blood",
+      "rawScore": 13,
+      "segment": "best",
+      "collectibleId": 411,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Lusty Blood"
+    },
+    {
+      "platformId": 487,
+      "originalName": "PHD",
+      "rawScore": 12,
+      "segment": "best",
+      "collectibleId": 75,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "PHD"
+    },
+    {
+      "platformId": 653,
+      "originalName": "The Mulligan",
+      "rawScore": 12,
+      "segment": "best",
+      "collectibleId": 151,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Mulligan"
+    },
+    {
+      "platformId": 444,
+      "originalName": "Money = Power",
+      "rawScore": 12,
+      "segment": "best",
+      "collectibleId": 109,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Money = Power"
+    },
+    {
+      "platformId": 78,
+      "originalName": "Blue Cap",
+      "rawScore": 12,
+      "segment": "best",
+      "collectibleId": 342,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Blue Cap"
+    },
+    {
+      "platformId": 684,
+      "originalName": "Transcendence",
+      "rawScore": 12,
+      "segment": "best",
+      "collectibleId": 20,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Transcendence"
+    },
+    {
+      "platformId": 71,
+      "originalName": "Blood of the Martyr",
+      "rawScore": 12,
+      "segment": "best",
+      "collectibleId": 7,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Blood of the Martyr"
+    },
+    {
+      "platformId": 667,
+      "originalName": "The Soul",
+      "rawScore": 12,
+      "segment": "best",
+      "collectibleId": 335,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Soul"
+    },
+    {
+      "platformId": 147,
+      "originalName": "Continuum",
+      "rawScore": 12,
+      "segment": "best",
+      "collectibleId": 369,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Continuum"
+    },
+    {
+      "platformId": 96,
+      "originalName": "Bot Fly",
+      "rawScore": 12,
+      "segment": "best",
+      "collectibleId": 629,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Bot Fly"
+    },
+    {
+      "platformId": 385,
+      "originalName": "Lost Contact",
+      "rawScore": 12,
+      "segment": "best",
+      "collectibleId": 213,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Lost Contact"
+    },
+    {
+      "platformId": 536,
+      "originalName": "Rune Bag",
+      "rawScore": 11,
+      "segment": "best",
+      "collectibleId": 389,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Rune Bag"
+    },
+    {
+      "platformId": 53,
+      "originalName": "BFFS!",
+      "rawScore": 11,
+      "segment": "best",
+      "collectibleId": 247,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "BFFS!"
+    },
+    {
+      "platformId": 127,
+      "originalName": "Car Battery",
+      "rawScore": 11,
+      "segment": "best",
+      "collectibleId": 356,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Car Battery"
+    },
+    {
+      "platformId": 185,
+      "originalName": "Dead Cat",
+      "rawScore": 11,
+      "segment": "best",
+      "collectibleId": 81,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Dead Cat"
+    },
+    {
+      "platformId": 180,
+      "originalName": "Dark Bum",
+      "rawScore": 11,
+      "segment": "best",
+      "collectibleId": 278,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Dark Bum"
+    },
+    {
+      "platformId": 177,
+      "originalName": "Daddy Longlegs",
+      "rawScore": 11,
+      "segment": "best",
+      "collectibleId": 170,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Daddy Longlegs"
+    },
+    {
+      "platformId": 237,
+      "originalName": "Eye of the Occult",
+      "rawScore": 11,
+      "segment": "best",
+      "collectibleId": 572,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Eye of the Occult"
+    },
+    {
+      "platformId": 216,
+      "originalName": "Echo Chamber",
+      "rawScore": 11,
+      "segment": "best",
+      "collectibleId": 700,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Echo Chamber"
+    },
+    {
+      "platformId": 208,
+      "originalName": "Dog Tooth",
+      "rawScore": 11,
+      "segment": "best",
+      "collectibleId": 445,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Dog Tooth"
+    },
+    {
+      "platformId": 251,
+      "originalName": "Forget Me Now",
+      "rawScore": 11,
+      "segment": "best",
+      "collectibleId": 127,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Forget Me Now"
+    },
+    {
+      "platformId": 311,
+      "originalName": "Humbling Bundle",
+      "rawScore": 11,
+      "segment": "best",
+      "collectibleId": 203,
+      "mappingReason": "EID canonical spelling Humbleing Bundle",
+      "canonicalName": "Humbleing Bundle"
+    },
+    {
+      "platformId": 292,
+      "originalName": "Habit",
+      "rawScore": 11,
+      "segment": "best",
+      "collectibleId": 156,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Habit"
+    },
+    {
+      "platformId": 409,
+      "originalName": "Mega Blast",
+      "rawScore": 11,
+      "segment": "best",
+      "collectibleId": 441,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mega Blast"
+    },
+    {
+      "platformId": 440,
+      "originalName": "Mom's Ring",
+      "rawScore": 11,
+      "segment": "best",
+      "collectibleId": 732,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mom's Ring"
+    },
+    {
+      "platformId": 447,
+      "originalName": "Monstro's Lung",
+      "rawScore": 11,
+      "segment": "best",
+      "collectibleId": 229,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Monstro's Lung"
+    },
+    {
+      "platformId": 453,
+      "originalName": "Mr. Dolly",
+      "rawScore": 11,
+      "segment": "best",
+      "collectibleId": 370,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mr. Dolly"
+    },
+    {
+      "platformId": 524,
+      "originalName": "Restock",
+      "rawScore": 11,
+      "segment": "best",
+      "collectibleId": 376,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Restock"
+    },
+    {
+      "platformId": 567,
+      "originalName": "Sinus Infection",
+      "rawScore": 11,
+      "segment": "best",
+      "collectibleId": 459,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Sinus Infection"
+    },
+    {
+      "platformId": 595,
+      "originalName": "Star of Bethlehem",
+      "rawScore": 11,
+      "segment": "best",
+      "collectibleId": 651,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Star of Bethlehem"
+    },
+    {
+      "platformId": 181,
+      "originalName": "Dark Matter",
+      "rawScore": 11,
+      "segment": "best",
+      "collectibleId": 259,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Dark Matter"
+    },
+    {
+      "platformId": 132,
+      "originalName": "Ceremonial Robes",
+      "rawScore": 10,
+      "segment": "best",
+      "collectibleId": 216,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Ceremonial Robes"
+    },
+    {
+      "platformId": 57,
+      "originalName": "Binky",
+      "rawScore": 10,
+      "segment": "best",
+      "collectibleId": 438,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Binky"
+    },
+    {
+      "platformId": 454,
+      "originalName": "Mr. ME!",
+      "rawScore": 10,
+      "segment": "best",
+      "collectibleId": 527,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mr. ME!"
+    },
+    {
+      "platformId": 473,
+      "originalName": "Odd Mushroom (fat)",
+      "rawScore": 10,
+      "segment": "best",
+      "collectibleId": 121,
+      "mappingReason": "large mushroom variant, not thin variant C120",
+      "canonicalName": "Odd Mushroom (Large)"
+    },
+    {
+      "platformId": 532,
+      "originalName": "Rotten Baby",
+      "rawScore": 10,
+      "segment": "best",
+      "collectibleId": 268,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Rotten Baby"
+    },
+    {
+      "platformId": 91,
+      "originalName": "Book of Shadows",
+      "rawScore": 10,
+      "segment": "best",
+      "collectibleId": 58,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Book of Shadows"
+    },
+    {
+      "platformId": 496,
+      "originalName": "Pluto",
+      "rawScore": 10,
+      "segment": "best",
+      "collectibleId": 598,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Pluto"
+    },
+    {
+      "platformId": 663,
+      "originalName": "The Relic",
+      "rawScore": 10,
+      "segment": "best",
+      "collectibleId": 98,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Relic"
+    },
+    {
+      "platformId": 594,
+      "originalName": "Stapler",
+      "rawScore": 10,
+      "segment": "best",
+      "collectibleId": 708,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Stapler"
+    },
+    {
+      "platformId": 609,
+      "originalName": "Sulfuric Acid",
+      "rawScore": 10,
+      "segment": "best",
+      "collectibleId": 463,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Sulfuric Acid"
+    },
+    {
+      "platformId": 483,
+      "originalName": "Paschal Candle",
+      "rawScore": 10,
+      "segment": "best",
+      "collectibleId": 567,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Paschal Candle"
+    },
+    {
+      "platformId": 486,
+      "originalName": "Pentagram",
+      "rawScore": 10,
+      "segment": "best",
+      "collectibleId": 51,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Pentagram"
+    },
+    {
+      "platformId": 593,
+      "originalName": "Squeezy",
+      "rawScore": 10,
+      "segment": "best",
+      "collectibleId": 196,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Squeezy"
+    },
+    {
+      "platformId": 542,
+      "originalName": "Sacrificial Altar",
+      "rawScore": 9,
+      "segment": "best",
+      "collectibleId": 536,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Sacrificial Altar"
+    },
+    {
+      "platformId": 352,
+      "originalName": "Lachryphagy",
+      "rawScore": 9,
+      "segment": "best",
+      "collectibleId": 532,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Lachryphagy"
+    },
+    {
+      "platformId": 611,
+      "originalName": "Super Bandage",
+      "rawScore": 9,
+      "segment": "best",
+      "collectibleId": 92,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Super Bandage"
+    },
+    {
+      "platformId": 368,
+      "originalName": "Lil Dumpy",
+      "rawScore": 9,
+      "segment": "best",
+      "collectibleId": 615,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Lil Dumpy"
+    },
+    {
+      "platformId": 399,
+      "originalName": "Mama Mega!",
+      "rawScore": 9,
+      "segment": "best",
+      "collectibleId": 483,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mama Mega!"
+    },
+    {
+      "platformId": 472,
+      "originalName": "Ocular Rift",
+      "rawScore": 9,
+      "segment": "best",
+      "collectibleId": 606,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Ocular Rift"
+    },
+    {
+      "platformId": 357,
+      "originalName": "Lead Pencil",
+      "rawScore": 9,
+      "segment": "best",
+      "collectibleId": 444,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Lead Pencil"
+    },
+    {
+      "platformId": 140,
+      "originalName": "Clear Rune",
+      "rawScore": 9,
+      "segment": "best",
+      "collectibleId": 263,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Clear Rune"
+    },
+    {
+      "platformId": 407,
+      "originalName": "MEAT!",
+      "rawScore": 9,
+      "segment": "best",
+      "collectibleId": 193,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "MEAT!"
+    },
+    {
+      "platformId": 277,
+      "originalName": "Gnawed Leaf",
+      "rawScore": 9,
+      "segment": "best",
+      "collectibleId": 210,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Gnawed Leaf"
+    },
+    {
+      "platformId": 213,
+      "originalName": "Duality",
+      "rawScore": 9,
+      "segment": "best",
+      "collectibleId": 498,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Duality"
+    },
+    {
+      "platformId": 105,
+      "originalName": "Brittle Bones",
+      "rawScore": 9,
+      "segment": "best",
+      "collectibleId": 549,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Brittle Bones"
+    },
+    {
+      "platformId": 319,
+      "originalName": "Infamy",
+      "rawScore": 8,
+      "segment": "best",
+      "collectibleId": 242,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Infamy"
+    },
+    {
+      "platformId": 437,
+      "originalName": "Mom's Perfume",
+      "rawScore": 8,
+      "segment": "best",
+      "collectibleId": 228,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mom's Perfume"
+    },
+    {
+      "platformId": 389,
+      "originalName": "Luna",
+      "rawScore": 8,
+      "segment": "best",
+      "collectibleId": 589,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Luna"
+    },
+    {
+      "platformId": 557,
+      "originalName": "Scorpio",
+      "rawScore": 8,
+      "segment": "best",
+      "collectibleId": 305,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Scorpio"
+    },
+    {
+      "platformId": 599,
+      "originalName": "Steven",
+      "rawScore": 8,
+      "segment": "best",
+      "collectibleId": 50,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Steven (Item)"
+    },
+    {
+      "platformId": 615,
+      "originalName": "Synthoil",
+      "rawScore": 8,
+      "segment": "best",
+      "collectibleId": 345,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Synthoil"
+    },
+    {
+      "platformId": 412,
+      "originalName": "Mercurius",
+      "rawScore": 8,
+      "segment": "best",
+      "collectibleId": 590,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mercurius"
+    },
+    {
+      "platformId": 48,
+      "originalName": "Belly Jelly",
+      "rawScore": 8,
+      "segment": "best",
+      "collectibleId": 690,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Belly Jelly"
+    },
+    {
+      "platformId": 138,
+      "originalName": "Chocolate Milk",
+      "rawScore": 8,
+      "segment": "best",
+      "collectibleId": 69,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Chocolate Milk"
+    },
+    {
+      "platformId": 700,
+      "originalName": "Venus",
+      "rawScore": 8,
+      "segment": "best",
+      "collectibleId": 591,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Venus"
+    },
+    {
+      "platformId": 428,
+      "originalName": "Mom's Contacts",
+      "rawScore": 8,
+      "segment": "best",
+      "collectibleId": 110,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mom's Contacts"
+    },
+    {
+      "platformId": 422,
+      "originalName": "Mitre",
+      "rawScore": 8,
+      "segment": "best",
+      "collectibleId": 173,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mitre"
+    },
+    {
+      "platformId": 107,
+      "originalName": "Broken Shovel 1 (handle)",
+      "rawScore": -53,
+      "segment": "worst",
+      "collectibleId": 550,
+      "mappingReason": "active handle; separate head C551 is excluded below",
+      "canonicalName": "Broken Shovel"
+    },
+    {
+      "platformId": 420,
+      "originalName": "Missing No.",
+      "rawScore": -42,
+      "segment": "worst",
+      "collectibleId": 258,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Missing No."
+    },
+    {
+      "platformId": 108,
+      "originalName": "Broken Shovel 2 (head)",
+      "rawScore": -35,
+      "segment": "worst",
+      "collectibleId": 551,
+      "mappingReason": "second passive quest piece, outside this 718-item universe",
+      "excludedReason": "outside declared universe; retain raw record, do not map a second shovel piece onto the handle"
+    },
+    {
+      "platformId": 325,
+      "originalName": "Isaac's Heart",
+      "rawScore": -34,
+      "segment": "worst",
+      "collectibleId": 276,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Isaac's Heart"
+    },
+    {
+      "platformId": 253,
+      "originalName": "Free Lemonade",
+      "rawScore": -32,
+      "segment": "worst",
+      "collectibleId": 578,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Free Lemonade"
+    },
+    {
+      "platformId": 303,
+      "originalName": "Hold",
+      "rawScore": -31,
+      "segment": "worst",
+      "collectibleId": 715,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Hold"
+    },
+    {
+      "platformId": 175,
+      "originalName": "Dad's Note",
+      "rawScore": -31,
+      "segment": "worst",
+      "collectibleId": 668,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Dad's Note"
+    },
+    {
+      "platformId": 162,
+      "originalName": "Curse of the Tower",
+      "rawScore": -31,
+      "segment": "worst",
+      "collectibleId": 371,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Curse of the Tower"
+    },
+    {
+      "platformId": 349,
+      "originalName": "Knife Piece 1 (handle)",
+      "rawScore": -30,
+      "segment": "worst",
+      "collectibleId": 626,
+      "mappingReason": "first knife piece, canonical C626",
+      "canonicalName": "Knife Piece 1"
+    },
+    {
+      "platformId": 163,
+      "originalName": "Cursed Eye",
+      "rawScore": -30,
+      "segment": "worst",
+      "collectibleId": 316,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Cursed Eye"
+    },
+    {
+      "platformId": 141,
+      "originalName": "Clicker",
+      "rawScore": -30,
+      "segment": "worst",
+      "collectibleId": 482,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Clicker"
+    },
+    {
+      "platformId": 677,
+      "originalName": "TMTRAINER",
+      "rawScore": -28,
+      "segment": "worst",
+      "collectibleId": 721,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "TMTRAINER"
+    },
+    {
+      "platformId": 631,
+      "originalName": "The Bean",
+      "rawScore": -28,
+      "segment": "worst",
+      "collectibleId": 111,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Bean"
+    },
+    {
+      "platformId": 705,
+      "originalName": "Wavy Cap",
+      "rawScore": -28,
+      "segment": "worst",
+      "collectibleId": 582,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Wavy Cap"
+    },
+    {
+      "platformId": 142,
+      "originalName": "Compost",
+      "rawScore": -27,
+      "segment": "worst",
+      "collectibleId": 480,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Compost"
+    },
+    {
+      "platformId": 406,
+      "originalName": "Meat Cleaver",
+      "rawScore": -26,
+      "segment": "worst",
+      "collectibleId": 631,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Meat Cleaver"
+    },
+    {
+      "platformId": 435,
+      "originalName": "Mom's Pad",
+      "rawScore": -26,
+      "segment": "worst",
+      "collectibleId": 41,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mom's Pad"
+    },
+    {
+      "platformId": 495,
+      "originalName": "Plum Flute",
+      "rawScore": -26,
+      "segment": "worst",
+      "collectibleId": 650,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Plum Flute"
+    },
+    {
+      "platformId": 315,
+      "originalName": "IBS",
+      "rawScore": -26,
+      "segment": "worst",
+      "collectibleId": 725,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "IBS"
+    },
+    {
+      "platformId": 215,
+      "originalName": "E. Coli",
+      "rawScore": -25,
+      "segment": "worst",
+      "collectibleId": 236,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "E. Coli"
+    },
+    {
+      "platformId": 662,
+      "originalName": "The Poop",
+      "rawScore": -25,
+      "segment": "worst",
+      "collectibleId": 36,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Poop"
+    },
+    {
+      "platformId": 339,
+      "originalName": "Kamikaze!",
+      "rawScore": -25,
+      "segment": "worst",
+      "collectibleId": 40,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Kamikaze!"
+    },
+    {
+      "platformId": 360,
+      "originalName": "Lemon Mishap",
+      "rawScore": -25,
+      "segment": "worst",
+      "collectibleId": 56,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Lemon Mishap"
+    },
+    {
+      "platformId": 376,
+      "originalName": "Little Baggy",
+      "rawScore": -25,
+      "segment": "worst",
+      "collectibleId": 252,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Little Baggy"
+    },
+    {
+      "platformId": 556,
+      "originalName": "Scissors",
+      "rawScore": -24,
+      "segment": "worst",
+      "collectibleId": 325,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Scissors"
+    },
+    {
+      "platformId": 562,
+      "originalName": "Shard of Glass",
+      "rawScore": -24,
+      "segment": "worst",
+      "collectibleId": 448,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Shard of Glass"
+    },
+    {
+      "platformId": 619,
+      "originalName": "Tear Detonator",
+      "rawScore": -24,
+      "segment": "worst",
+      "collectibleId": 383,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Tear Detonator"
+    },
+    {
+      "platformId": 281,
+      "originalName": "Golden Razor",
+      "rawScore": -24,
+      "segment": "worst",
+      "collectibleId": 555,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Golden Razor"
+    },
+    {
+      "platformId": 715,
+      "originalName": "Yuck Heart",
+      "rawScore": -24,
+      "segment": "worst",
+      "collectibleId": 639,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Yuck Heart"
+    },
+    {
+      "platformId": 64,
+      "originalName": "Black Powder",
+      "rawScore": -24,
+      "segment": "worst",
+      "collectibleId": 420,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Black Powder"
+    },
+    {
+      "platformId": 634,
+      "originalName": "The Black Bean",
+      "rawScore": -23,
+      "segment": "worst",
+      "collectibleId": 180,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Black Bean"
+    },
+    {
+      "platformId": 618,
+      "originalName": "Taurus",
+      "rawScore": -23,
+      "segment": "worst",
+      "collectibleId": 299,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Taurus"
+    },
+    {
+      "platformId": 467,
+      "originalName": "Night Light",
+      "rawScore": -23,
+      "segment": "worst",
+      "collectibleId": 425,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Night Light"
+    },
+    {
+      "platformId": 375,
+      "originalName": "Linger Bean",
+      "rawScore": -22,
+      "segment": "worst",
+      "collectibleId": 447,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Linger Bean"
+    },
+    {
+      "platformId": 269,
+      "originalName": "Glass Cannon (broken)",
+      "rawScore": -22,
+      "segment": "worst",
+      "collectibleId": 474,
+      "mappingReason": "broken state C474, not intact Glass Cannon C352",
+      "canonicalName": "Broken Glass Cannon"
+    },
+    {
+      "platformId": 46,
+      "originalName": "BBF",
+      "rawScore": -22,
+      "segment": "worst",
+      "collectibleId": 272,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "BBF"
+    },
+    {
+      "platformId": 648,
+      "originalName": "The Jar",
+      "rawScore": -22,
+      "segment": "worst",
+      "collectibleId": 290,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Jar"
+    },
+    {
+      "platformId": 346,
+      "originalName": "Kidney Bean",
+      "rawScore": -22,
+      "segment": "worst",
+      "collectibleId": 421,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Kidney Bean"
+    },
+    {
+      "platformId": 257,
+      "originalName": "Friendly Ball",
+      "rawScore": -22,
+      "segment": "worst",
+      "collectibleId": 382,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Friendly Ball"
+    },
+    {
+      "platformId": 401,
+      "originalName": "Marked",
+      "rawScore": -22,
+      "segment": "worst",
+      "collectibleId": 394,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Marked"
+    },
+    {
+      "platformId": 586,
+      "originalName": "Spin to Win",
+      "rawScore": -22,
+      "segment": "worst",
+      "collectibleId": 655,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Spin to Win"
+    },
+    {
+      "platformId": 189,
+      "originalName": "Dead Sea Scrolls",
+      "rawScore": -22,
+      "segment": "worst",
+      "collectibleId": 124,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Dead Sea Scrolls"
+    },
+    {
+      "platformId": 373,
+      "originalName": "Lil Portal",
+      "rawScore": -21,
+      "segment": "worst",
+      "collectibleId": 681,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Lil Portal"
+    },
+    {
+      "platformId": 184,
+      "originalName": "Dead Bird",
+      "rawScore": -21,
+      "segment": "worst",
+      "collectibleId": 117,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Dead Bird"
+    },
+    {
+      "platformId": 200,
+      "originalName": "Dessert",
+      "rawScore": -21,
+      "segment": "worst",
+      "collectibleId": 24,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Dessert"
+    },
+    {
+      "platformId": 484,
+      "originalName": "Pause",
+      "rawScore": -21,
+      "segment": "worst",
+      "collectibleId": 478,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Pause"
+    },
+    {
+      "platformId": 523,
+      "originalName": "Remote Detonator",
+      "rawScore": -21,
+      "segment": "worst",
+      "collectibleId": 137,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Remote Detonator"
+    },
+    {
+      "platformId": 111,
+      "originalName": "Brown Nugget",
+      "rawScore": -21,
+      "segment": "worst",
+      "collectibleId": 504,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Brown Nugget"
+    },
+    {
+      "platformId": 665,
+      "originalName": "The Scooper",
+      "rawScore": -21,
+      "segment": "worst",
+      "collectibleId": 605,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Scooper"
+    },
+    {
+      "platformId": 425,
+      "originalName": "Mom's Bra",
+      "rawScore": -20,
+      "segment": "worst",
+      "collectibleId": 39,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mom's Bra"
+    },
+    {
+      "platformId": 326,
+      "originalName": "Isaac's Tears",
+      "rawScore": -20,
+      "segment": "worst",
+      "collectibleId": 323,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Isaac's Tears"
+    },
+    {
+      "platformId": 19,
+      "originalName": "Abel",
+      "rawScore": -20,
+      "segment": "worst",
+      "collectibleId": 188,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Abel"
+    },
+    {
+      "platformId": 321,
+      "originalName": "Infestation",
+      "rawScore": -20,
+      "segment": "worst",
+      "collectibleId": 148,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Infestation"
+    },
+    {
+      "platformId": 493,
+      "originalName": "Plan C",
+      "rawScore": -20,
+      "segment": "worst",
+      "collectibleId": 475,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Plan C"
+    },
+    {
+      "platformId": 73,
+      "originalName": "Blood Rights",
+      "rawScore": -19,
+      "segment": "worst",
+      "collectibleId": 186,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Blood Rights"
+    },
+    {
+      "platformId": 356,
+      "originalName": "Lazarus' Rags",
+      "rawScore": -19,
+      "segment": "worst",
+      "collectibleId": 332,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Lazarus' Rags"
+    },
+    {
+      "platformId": 345,
+      "originalName": "Key Piece 2 (tooth end)",
+      "rawScore": -19,
+      "segment": "worst",
+      "collectibleId": 239,
+      "mappingReason": "second key piece",
+      "canonicalName": "Key Piece 2"
+    },
+    {
+      "platformId": 214,
+      "originalName": "Dull Razor",
+      "rawScore": -19,
+      "segment": "worst",
+      "collectibleId": 486,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Dull Razor"
+    },
+    {
+      "platformId": 34,
+      "originalName": "Anti-Gravity",
+      "rawScore": -19,
+      "segment": "worst",
+      "collectibleId": 222,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Anti-Gravity"
+    },
+    {
+      "platformId": 561,
+      "originalName": "Shade",
+      "rawScore": -19,
+      "segment": "worst",
+      "collectibleId": 468,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Shade"
+    },
+    {
+      "platformId": 628,
+      "originalName": "Teleport",
+      "rawScore": -19,
+      "segment": "worst",
+      "collectibleId": 44,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Teleport!"
+    },
+    {
+      "platformId": 704,
+      "originalName": "Wait What",
+      "rawScore": -18,
+      "segment": "worst",
+      "collectibleId": 484,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Wait What?"
+    },
+    {
+      "platformId": 118,
+      "originalName": "Butter Bean",
+      "rawScore": -18,
+      "segment": "worst",
+      "collectibleId": 294,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Butter Bean"
+    },
+    {
+      "platformId": 398,
+      "originalName": "Magneto",
+      "rawScore": -18,
+      "segment": "worst",
+      "collectibleId": 53,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Magneto"
+    },
+    {
+      "platformId": 362,
+      "originalName": "Leprosy",
+      "rawScore": -18,
+      "segment": "worst",
+      "collectibleId": 525,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Leprosy"
+    },
+    {
+      "platformId": 672,
+      "originalName": "The Wiz",
+      "rawScore": -18,
+      "segment": "worst",
+      "collectibleId": 358,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Wiz"
+    },
+    {
+      "platformId": 471,
+      "originalName": "Obsessed Fan",
+      "rawScore": -18,
+      "segment": "worst",
+      "collectibleId": 426,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Obsessed Fan"
+    },
+    {
+      "platformId": 260,
+      "originalName": "GB Bug",
+      "rawScore": -18,
+      "segment": "worst",
+      "collectibleId": 405,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "GB Bug"
+    },
+    {
+      "platformId": 343,
+      "originalName": "Key Bum",
+      "rawScore": -18,
+      "segment": "worst",
+      "collectibleId": 388,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Key Bum"
+    },
+    {
+      "platformId": 28,
+      "originalName": "Anarchist Cookbook",
+      "rawScore": -17,
+      "segment": "worst",
+      "collectibleId": 65,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Anarchist Cookbook"
+    },
+    {
+      "platformId": 350,
+      "originalName": "Knife Piece 2 (blade)",
+      "rawScore": -17,
+      "segment": "worst",
+      "collectibleId": 627,
+      "mappingReason": "second knife piece, canonical C627",
+      "canonicalName": "Knife Piece 2"
+    },
+    {
+      "platformId": 24,
+      "originalName": "Akeldama",
+      "rawScore": -17,
+      "segment": "worst",
+      "collectibleId": 641,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Akeldama"
+    },
+    {
+      "platformId": 394,
+      "originalName": "Magic Fingers",
+      "rawScore": -17,
+      "segment": "worst",
+      "collectibleId": 295,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Magic Fingers"
+    },
+    {
+      "platformId": 115,
+      "originalName": "Bumbo",
+      "rawScore": -17,
+      "segment": "worst",
+      "collectibleId": 385,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Bumbo"
+    },
+    {
+      "platformId": 249,
+      "originalName": "Flush!",
+      "rawScore": -17,
+      "segment": "worst",
+      "collectibleId": 291,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Flush!"
+    },
+    {
+      "platformId": 51,
+      "originalName": "Best Friend",
+      "rawScore": -17,
+      "segment": "worst",
+      "collectibleId": 136,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Best Friend"
+    },
+    {
+      "platformId": 50,
+      "originalName": "Best Bud",
+      "rawScore": -17,
+      "segment": "worst",
+      "collectibleId": 274,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Best Bud"
+    },
+    {
+      "platformId": 517,
+      "originalName": "Razor Blade",
+      "rawScore": -17,
+      "segment": "worst",
+      "collectibleId": 126,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Razor Blade"
+    },
+    {
+      "platformId": 344,
+      "originalName": "Key Piece 1 (loop end)",
+      "rawScore": -17,
+      "segment": "worst",
+      "collectibleId": 238,
+      "mappingReason": "first key piece",
+      "canonicalName": "Key Piece 1"
+    },
+    {
+      "platformId": 431,
+      "originalName": "Mom's Heels",
+      "rawScore": -17,
+      "segment": "worst",
+      "collectibleId": 30,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mom's Heels"
+    },
+    {
+      "platformId": 353,
+      "originalName": "Large Zit",
+      "rawScore": -17,
+      "segment": "worst",
+      "collectibleId": 502,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Large Zit"
+    },
+    {
+      "platformId": 434,
+      "originalName": "Mom's Lipstick",
+      "rawScore": -17,
+      "segment": "worst",
+      "collectibleId": 31,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mom's Lipstick"
+    },
+    {
+      "platformId": 604,
+      "originalName": "Strange Attractor",
+      "rawScore": -17,
+      "segment": "worst",
+      "collectibleId": 315,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Strange Attractor"
+    },
+    {
+      "platformId": 94,
+      "originalName": "Boom!",
+      "rawScore": -16,
+      "segment": "worst",
+      "collectibleId": 19,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Boom!"
+    },
+    {
+      "platformId": 554,
+      "originalName": "Scatter Bombs",
+      "rawScore": -16,
+      "segment": "worst",
+      "collectibleId": 366,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Scatter Bombs"
+    },
+    {
+      "platformId": 267,
+      "originalName": "Giant Cell",
+      "rawScore": -16,
+      "segment": "worst",
+      "collectibleId": 658,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Giant Cell"
+    },
+    {
+      "platformId": 674,
+      "originalName": "Thunder Thighs",
+      "rawScore": -16,
+      "segment": "worst",
+      "collectibleId": 314,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Thunder Thighs"
+    },
+    {
+      "platformId": 114,
+      "originalName": "Bum Friend",
+      "rawScore": -16,
+      "segment": "worst",
+      "collectibleId": 144,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Bum Friend"
+    },
+    {
+      "platformId": 625,
+      "originalName": "Telekinesis",
+      "rawScore": -16,
+      "segment": "worst",
+      "collectibleId": 522,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Telekinesis"
+    },
+    {
+      "platformId": 171,
+      "originalName": "D7",
+      "rawScore": -16,
+      "segment": "worst",
+      "collectibleId": 437,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "D7"
+    },
+    {
+      "platformId": 166,
+      "originalName": "D10",
+      "rawScore": -15,
+      "segment": "worst",
+      "collectibleId": 285,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "D10"
+    },
+    {
+      "platformId": 361,
+      "originalName": "Leo",
+      "rawScore": -15,
+      "segment": "worst",
+      "collectibleId": 302,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Leo"
+    },
+    {
+      "platformId": 423,
+      "originalName": "Mom's Bottle of Pills",
+      "rawScore": -15,
+      "segment": "worst",
+      "collectibleId": 102,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mom's Bottle of Pills"
+    },
+    {
+      "platformId": 33,
+      "originalName": "Ankh",
+      "rawScore": -15,
+      "segment": "worst",
+      "collectibleId": 161,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Ankh"
+    },
+    {
+      "platformId": 696,
+      "originalName": "Varicose Veins",
+      "rawScore": -15,
+      "segment": "worst",
+      "collectibleId": 452,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Varicose Veins"
+    },
+    {
+      "platformId": 255,
+      "originalName": "Friend Finder",
+      "rawScore": -15,
+      "segment": "worst",
+      "collectibleId": 687,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Friend Finder"
+    },
+    {
+      "platformId": 643,
+      "originalName": "The Gamekid",
+      "rawScore": -15,
+      "segment": "worst",
+      "collectibleId": 93,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Gamekid"
+    },
+    {
+      "platformId": 427,
+      "originalName": "Mom's Coin Purse",
+      "rawScore": -15,
+      "segment": "worst",
+      "collectibleId": 195,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mom's Coin Purse"
+    },
+    {
+      "platformId": 70,
+      "originalName": "Blood Oath",
+      "rawScore": -15,
+      "segment": "worst",
+      "collectibleId": 569,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Blood Oath"
+    },
+    {
+      "platformId": 421,
+      "originalName": "Missing Page 2",
+      "rawScore": -15,
+      "segment": "worst",
+      "collectibleId": 262,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Missing Page 2"
+    },
+    {
+      "platformId": 204,
+      "originalName": "Distant Admiration",
+      "rawScore": -15,
+      "segment": "worst",
+      "collectibleId": 57,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Distant Admiration"
+    },
+    {
+      "platformId": 81,
+      "originalName": "Bob's Curse",
+      "rawScore": -15,
+      "segment": "worst",
+      "collectibleId": 140,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Bob's Curse"
+    },
+    {
+      "platformId": 168,
+      "originalName": "D12",
+      "rawScore": -15,
+      "segment": "worst",
+      "collectibleId": 386,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "D12"
+    },
+    {
+      "platformId": 605,
+      "originalName": "Strawman",
+      "rawScore": -15,
+      "segment": "worst",
+      "collectibleId": 667,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Strawman"
+    },
+    {
+      "platformId": 62,
+      "originalName": "Black Hole",
+      "rawScore": -15,
+      "segment": "worst",
+      "collectibleId": 512,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Black Hole"
+    },
+    {
+      "platformId": 583,
+      "originalName": "Spider Butt",
+      "rawScore": -15,
+      "segment": "worst",
+      "collectibleId": 171,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Spider Butt"
+    },
+    {
+      "platformId": 699,
+      "originalName": "Ventricle Razor",
+      "rawScore": -14,
+      "segment": "worst",
+      "collectibleId": 396,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Ventricle Razor"
+    },
+    {
+      "platformId": 348,
+      "originalName": "King Baby",
+      "rawScore": -14,
+      "segment": "worst",
+      "collectibleId": 472,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "King Baby"
+    },
+    {
+      "platformId": 502,
+      "originalName": "Portable Slot",
+      "rawScore": -14,
+      "segment": "worst",
+      "collectibleId": 177,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Portable Slot"
+    },
+    {
+      "platformId": 102,
+      "originalName": "Breath of Life",
+      "rawScore": -14,
+      "segment": "worst",
+      "collectibleId": 326,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Breath of Life"
+    },
+    {
+      "platformId": 338,
+      "originalName": "Jupiter",
+      "rawScore": -14,
+      "segment": "worst",
+      "collectibleId": 594,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Jupiter"
+    },
+    {
+      "platformId": 31,
+      "originalName": "Angry Fly",
+      "rawScore": -14,
+      "segment": "worst",
+      "collectibleId": 511,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Angry Fly"
+    },
+    {
+      "platformId": 183,
+      "originalName": "Dataminer",
+      "rawScore": -14,
+      "segment": "worst",
+      "collectibleId": 481,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Dataminer"
+    },
+    {
+      "platformId": 507,
+      "originalName": "Punching Bag",
+      "rawScore": -14,
+      "segment": "worst",
+      "collectibleId": 281,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Punching Bag"
+    },
+    {
+      "platformId": 585,
+      "originalName": "Spiderbaby",
+      "rawScore": -14,
+      "segment": "worst",
+      "collectibleId": 211,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Spiderbaby"
+    },
+    {
+      "platformId": 439,
+      "originalName": "Mom's Razor",
+      "rawScore": -14,
+      "segment": "worst",
+      "collectibleId": 508,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mom's Razor"
+    },
+    {
+      "platformId": 80,
+      "originalName": "Bob's Brain",
+      "rawScore": -14,
+      "segment": "worst",
+      "collectibleId": 273,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Bob's Brain"
+    },
+    {
+      "platformId": 448,
+      "originalName": "Monstro's Tooth",
+      "rawScore": -14,
+      "segment": "worst",
+      "collectibleId": 86,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Monstro's Tooth"
+    },
+    {
+      "platformId": 717,
+      "originalName": "Zodiac",
+      "rawScore": -14,
+      "segment": "worst",
+      "collectibleId": 392,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Zodiac"
+    },
+    {
+      "platformId": 697,
+      "originalName": "Vasculitis",
+      "rawScore": -14,
+      "segment": "worst",
+      "collectibleId": 657,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Vasculitis"
+    },
+    {
+      "platformId": 418,
+      "originalName": "Mine Crafter",
+      "rawScore": -14,
+      "segment": "worst",
+      "collectibleId": 427,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mine Crafter"
+    },
+    {
+      "platformId": 242,
+      "originalName": "Fast Bombs",
+      "rawScore": -13,
+      "segment": "worst",
+      "collectibleId": 517,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Fast Bombs"
+    },
+    {
+      "platformId": 77,
+      "originalName": "Blue Baby's Only Friend",
+      "rawScore": -13,
+      "segment": "worst",
+      "collectibleId": 320,
+      "mappingReason": "canonical ???'s Only Friend",
+      "canonicalName": "???'s Only Friend"
+    },
+    {
+      "platformId": 328,
+      "originalName": "It Hurts",
+      "rawScore": -13,
+      "segment": "worst",
+      "collectibleId": 560,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "It Hurts"
+    },
+    {
+      "platformId": 711,
+      "originalName": "Wooden Spoon",
+      "rawScore": -13,
+      "segment": "worst",
+      "collectibleId": 27,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Wooden Spoon"
+    },
+    {
+      "platformId": 616,
+      "originalName": "Tammy's Head",
+      "rawScore": -13,
+      "segment": "worst",
+      "collectibleId": 38,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Tammy's Head"
+    },
+    {
+      "platformId": 45,
+      "originalName": "Battery Pack",
+      "rawScore": -13,
+      "segment": "worst",
+      "collectibleId": 603,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Battery Pack"
+    },
+    {
+      "platformId": 98,
+      "originalName": "Box of Spiders",
+      "rawScore": -13,
+      "segment": "worst",
+      "collectibleId": 288,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Box of Spiders"
+    },
+    {
+      "platformId": 377,
+      "originalName": "Little C.H.A.D.",
+      "rawScore": -13,
+      "segment": "worst",
+      "collectibleId": 96,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Little C.H.A.D."
+    },
+    {
+      "platformId": 112,
+      "originalName": "Bucket of Lard",
+      "rawScore": -13,
+      "segment": "worst",
+      "collectibleId": 129,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Bucket of Lard"
+    },
+    {
+      "platformId": 259,
+      "originalName": "Fruity Plum",
+      "rawScore": -13,
+      "segment": "worst",
+      "collectibleId": 649,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Fruity Plum"
+    },
+    {
+      "platformId": 87,
+      "originalName": "Bomber Boy",
+      "rawScore": -13,
+      "segment": "worst",
+      "collectibleId": 353,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Bomber Boy"
+    },
+    {
+      "platformId": 374,
+      "originalName": "Lil Spewer",
+      "rawScore": -13,
+      "segment": "worst",
+      "collectibleId": 537,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Lil Spewer"
+    },
+    {
+      "platformId": 203,
+      "originalName": "Dirty Mind",
+      "rawScore": -13,
+      "segment": "worst",
+      "collectibleId": 576,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Dirty Mind"
+    },
+    {
+      "platformId": 309,
+      "originalName": "Hot Bombs",
+      "rawScore": -12,
+      "segment": "worst",
+      "collectibleId": 256,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Hot Bombs"
+    },
+    {
+      "platformId": 29,
+      "originalName": "Anemic",
+      "rawScore": -12,
+      "segment": "worst",
+      "collectibleId": 214,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Anemic"
+    },
+    {
+      "platformId": 563,
+      "originalName": "Sharp Key",
+      "rawScore": -12,
+      "segment": "worst",
+      "collectibleId": 623,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Sharp Key"
+    },
+    {
+      "platformId": 58,
+      "originalName": "Bird Cage",
+      "rawScore": -12,
+      "segment": "worst",
+      "collectibleId": 610,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Bird Cage"
+    },
+    {
+      "platformId": 15,
+      "originalName": "A Pound of Flesh",
+      "rawScore": -12,
+      "segment": "worst",
+      "collectibleId": 672,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "A Pound of Flesh"
+    },
+    {
+      "platformId": 526,
+      "originalName": "Robo-Baby 2.0",
+      "rawScore": -12,
+      "segment": "worst",
+      "collectibleId": 267,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Robo-Baby 2.0"
+    },
+    {
+      "platformId": 675,
+      "originalName": "Tiny Planet",
+      "rawScore": -12,
+      "segment": "worst",
+      "collectibleId": 233,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Tiny Planet"
+    },
+    {
+      "platformId": 592,
+      "originalName": "Sprinkler",
+      "rawScore": -12,
+      "segment": "worst",
+      "collectibleId": 516,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Sprinkler"
+    },
+    {
+      "platformId": 417,
+      "originalName": "Milk!",
+      "rawScore": -12,
+      "segment": "worst",
+      "collectibleId": 436,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Milk!"
+    },
+    {
+      "platformId": 109,
+      "originalName": "Broken Watch",
+      "rawScore": -12,
+      "segment": "worst",
+      "collectibleId": 337,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Broken Watch"
+    },
+    {
+      "platformId": 190,
+      "originalName": "Dead Tooth",
+      "rawScore": -12,
+      "segment": "worst",
+      "collectibleId": 446,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Dead Tooth"
+    },
+    {
+      "platformId": 86,
+      "originalName": "Bomb Bag",
+      "rawScore": -12,
+      "segment": "worst",
+      "collectibleId": 131,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Bomb Bag"
+    },
+    {
+      "platformId": 463,
+      "originalName": "Mystery Egg",
+      "rawScore": -12,
+      "segment": "worst",
+      "collectibleId": 539,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mystery Egg"
+    },
+    {
+      "platformId": 688,
+      "originalName": "Tropicamide",
+      "rawScore": -11,
+      "segment": "worst",
+      "collectibleId": 659,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Tropicamide"
+    },
+    {
+      "platformId": 649,
+      "originalName": "The Ladder",
+      "rawScore": -11,
+      "segment": "worst",
+      "collectibleId": 60,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Ladder"
+    },
+    {
+      "platformId": 660,
+      "originalName": "The Pinking Shears",
+      "rawScore": -11,
+      "segment": "worst",
+      "collectibleId": 107,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Pinking Shears"
+    },
+    {
+      "platformId": 149,
+      "originalName": "Converter",
+      "rawScore": -11,
+      "segment": "worst",
+      "collectibleId": 296,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Converter"
+    },
+    {
+      "platformId": 470,
+      "originalName": "Number Two",
+      "rawScore": -11,
+      "segment": "worst",
+      "collectibleId": 378,
+      "mappingReason": "canonical No. 2",
+      "canonicalName": "No. 2"
+    },
+    {
+      "platformId": 272,
+      "originalName": "Glaucoma",
+      "rawScore": -11,
+      "segment": "worst",
+      "collectibleId": 460,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Glaucoma"
+    },
+    {
+      "platformId": 282,
+      "originalName": "Greed's Gullet",
+      "rawScore": -11,
+      "segment": "worst",
+      "collectibleId": 501,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Greed's Gullet"
+    },
+    {
+      "platformId": 17,
+      "originalName": "A Snack",
+      "rawScore": -11,
+      "segment": "worst",
+      "collectibleId": 346,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "A Snack"
+    },
+    {
+      "platformId": 52,
+      "originalName": "Betrayal",
+      "rawScore": -11,
+      "segment": "worst",
+      "collectibleId": 391,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Betrayal"
+    },
+    {
+      "platformId": 498,
+      "originalName": "Poke Go",
+      "rawScore": -11,
+      "segment": "worst",
+      "collectibleId": 505,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Poke Go"
+    },
+    {
+      "platformId": 691,
+      "originalName": "Unicorn Stump",
+      "rawScore": -11,
+      "segment": "worst",
+      "collectibleId": 298,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Unicorn Stump"
+    },
+    {
+      "platformId": 569,
+      "originalName": "Sister Maggy",
+      "rawScore": -11,
+      "segment": "worst",
+      "collectibleId": 67,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Sister Maggy"
+    },
+    {
+      "platformId": 645,
+      "originalName": "The Hourglass",
+      "rawScore": -11,
+      "segment": "worst",
+      "collectibleId": 66,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Hourglass"
+    },
+    {
+      "platformId": 117,
+      "originalName": "Butt Bombs",
+      "rawScore": -11,
+      "segment": "worst",
+      "collectibleId": 209,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Butt Bombs"
+    },
+    {
+      "platformId": 285,
+      "originalName": "Guillotine",
+      "rawScore": -11,
+      "segment": "worst",
+      "collectibleId": 206,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Guillotine"
+    },
+    {
+      "platformId": 650,
+      "originalName": "The Ludovico Technique",
+      "rawScore": -11,
+      "segment": "worst",
+      "collectibleId": 329,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Ludovico Technique"
+    },
+    {
+      "platformId": 245,
+      "originalName": "Finger!",
+      "rawScore": -11,
+      "segment": "worst",
+      "collectibleId": 467,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Finger!"
+    },
+    {
+      "platformId": 655,
+      "originalName": "The Necronomicon",
+      "rawScore": -11,
+      "segment": "worst",
+      "collectibleId": 35,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Necronomicon"
+    },
+    {
+      "platformId": 402,
+      "originalName": "Marrow",
+      "rawScore": -11,
+      "segment": "worst",
+      "collectibleId": 541,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Marrow"
+    },
+    {
+      "platformId": 566,
+      "originalName": "Shoop Da Whoop!",
+      "rawScore": -10,
+      "segment": "worst",
+      "collectibleId": 49,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Shoop Da Whoop!"
+    },
+    {
+      "platformId": 600,
+      "originalName": "Sticky Bombs",
+      "rawScore": -10,
+      "segment": "worst",
+      "collectibleId": 367,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Sticky Bombs"
+    },
+    {
+      "platformId": 372,
+      "originalName": "Lil Monstro",
+      "rawScore": -10,
+      "segment": "worst",
+      "collectibleId": 471,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Lil Monstro"
+    },
+    {
+      "platformId": 313,
+      "originalName": "Hushy",
+      "rawScore": -10,
+      "segment": "worst",
+      "collectibleId": 470,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Hushy"
+    },
+    {
+      "platformId": 533,
+      "originalName": "Rotten Meat",
+      "rawScore": -10,
+      "segment": "worst",
+      "collectibleId": 26,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Rotten Meat"
+    },
+    {
+      "platformId": 74,
+      "originalName": "Bloodshot Eye",
+      "rawScore": -10,
+      "segment": "worst",
+      "collectibleId": 509,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Bloodshot Eye"
+    },
+    {
+      "platformId": 379,
+      "originalName": "Little Gish",
+      "rawScore": -10,
+      "segment": "worst",
+      "collectibleId": 99,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Little Gish"
+    },
+    {
+      "platformId": 396,
+      "originalName": "Magic Scab",
+      "rawScore": -10,
+      "segment": "worst",
+      "collectibleId": 253,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Magic Scab"
+    },
+    {
+      "platformId": 442,
+      "originalName": "Mom's Underwear",
+      "rawScore": -10,
+      "segment": "worst",
+      "collectibleId": 29,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mom's Underwear"
+    },
+    {
+      "platformId": 468,
+      "originalName": "Notched Axe",
+      "rawScore": -10,
+      "segment": "worst",
+      "collectibleId": 147,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Notched Axe"
+    },
+    {
+      "platformId": 85,
+      "originalName": "Boiled Baby",
+      "rawScore": -10,
+      "segment": "worst",
+      "collectibleId": 607,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Boiled Baby"
+    },
+    {
+      "platformId": 194,
+      "originalName": "Decap Attack",
+      "rawScore": -10,
+      "segment": "worst",
+      "collectibleId": 729,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Decap Attack"
+    },
+    {
+      "platformId": 441,
+      "originalName": "Mom's Shovel",
+      "rawScore": -10,
+      "segment": "worst",
+      "collectibleId": 552,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mom's Shovel"
+    },
+    {
+      "platformId": 54,
+      "originalName": "Big Chubby",
+      "rawScore": -10,
+      "segment": "worst",
+      "collectibleId": 473,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Big Chubby"
+    },
+    {
+      "platformId": 49,
+      "originalName": "Berserk",
+      "rawScore": -10,
+      "segment": "worst",
+      "collectibleId": 704,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Berserk!"
+    },
+    {
+      "platformId": 459,
+      "originalName": "My Little Unicorn",
+      "rawScore": -10,
+      "segment": "worst",
+      "collectibleId": 77,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "My Little Unicorn"
+    },
+    {
+      "platformId": 613,
+      "originalName": "Supper",
+      "rawScore": -10,
+      "segment": "worst",
+      "collectibleId": 707,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Supper"
+    },
+    {
+      "platformId": 548,
+      "originalName": "Samson's Chains",
+      "rawScore": -10,
+      "segment": "worst",
+      "collectibleId": 321,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Samson's Chains"
+    },
+    {
+      "platformId": 232,
+      "originalName": "Experimental Treatment",
+      "rawScore": -10,
+      "segment": "worst",
+      "collectibleId": 240,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Experimental Treatment"
+    },
+    {
+      "platformId": 256,
+      "originalName": "Friend Zone",
+      "rawScore": -10,
+      "segment": "worst",
+      "collectibleId": 364,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Friend Zone"
+    },
+    {
+      "platformId": 452,
+      "originalName": "Mr. Boom",
+      "rawScore": -10,
+      "segment": "worst",
+      "collectibleId": 37,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mr. Boom"
+    },
+    {
+      "platformId": 414,
+      "originalName": "Metronome",
+      "rawScore": -10,
+      "segment": "worst",
+      "collectibleId": 488,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Metronome"
+    },
+    {
+      "platformId": 371,
+      "originalName": "Lil Loki",
+      "rawScore": -9,
+      "segment": "worst",
+      "collectibleId": 435,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Lil Loki"
+    },
+    {
+      "platformId": 690,
+      "originalName": "Undefined",
+      "rawScore": -9,
+      "segment": "worst",
+      "collectibleId": 324,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Undefined"
+    },
+    {
+      "platformId": 160,
+      "originalName": "Cube of Meat",
+      "rawScore": -9,
+      "segment": "worst",
+      "collectibleId": 73,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Cube of Meat"
+    },
+    {
+      "platformId": 443,
+      "originalName": "Mom's Wig",
+      "rawScore": -9,
+      "segment": "worst",
+      "collectibleId": 217,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mom's Wig"
+    },
+    {
+      "platformId": 430,
+      "originalName": "Mom's Eyeshadow",
+      "rawScore": -9,
+      "segment": "worst",
+      "collectibleId": 200,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Mom's Eyeshadow"
+    },
+    {
+      "platformId": 529,
+      "originalName": "Rocket in a Jar",
+      "rawScore": -9,
+      "segment": "worst",
+      "collectibleId": 583,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Rocket in a Jar"
+    },
+    {
+      "platformId": 481,
+      "originalName": "Papa Fly",
+      "rawScore": -9,
+      "segment": "worst",
+      "collectibleId": 430,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Papa Fly"
+    },
+    {
+      "platformId": 383,
+      "originalName": "Loki's Horns",
+      "rawScore": -9,
+      "segment": "worst",
+      "collectibleId": 87,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Loki's Horns"
+    },
+    {
+      "platformId": 219,
+      "originalName": "Empty Heart",
+      "rawScore": -9,
+      "segment": "worst",
+      "collectibleId": 676,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Empty Heart"
+    },
+    {
+      "platformId": 659,
+      "originalName": "The Peeper",
+      "rawScore": -9,
+      "segment": "worst",
+      "collectibleId": 155,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "The Peeper"
+    },
+    {
+      "platformId": 331,
+      "originalName": "Jar of Flies",
+      "rawScore": -9,
+      "segment": "worst",
+      "collectibleId": 434,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Jar of Flies"
+    },
+    {
+      "platformId": 710,
+      "originalName": "Wooden Nickel",
+      "rawScore": -9,
+      "segment": "worst",
+      "collectibleId": 349,
+      "mappingReason": "unique normalized name within the declared canonical universe",
+      "canonicalName": "Wooden Nickel"
+    }
+  ]
+}

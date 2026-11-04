@@ -123,6 +123,12 @@ Steam 云存档也可能在 `Steam/userdata/<账号数字ID>/250900/remote/` 下
 
 参考 [jnub 解锁取舍指南](https://steamcommunity.com/sharedfiles/filedetails/?id=2994836310)、[完整 Rep+ 路线](https://steamcommunity.com/sharedfiles/filedetails/?id=3712501774)、[NiCobra 解锁依赖图](https://maniacobra.com/isaac-graph/)、中文打标路线与 IsaacGuru 机制资料，逐项来源保存在 [tools/research_rankings.json](tools/research_rankings.json)。名次和颜色为编辑性综合，没有直接平均不同口径榜单。社区名次单独引自 [Unduel](https://unduel.com/t/the-binding-of-isaac-rebirth/the-binding-of-isaac-items-75IgVOPw3H343hrv6Vh4MP/ranked-list) 的719件道具榜、2026-10-28快照，版本标注为 Repentance；投票偏好不等于胜率，也不冒充忏悔+专榜或多来源共识。饰品、卡牌不在该榜范围。
 
+### 多来源综合公式与试算（2026-11-04）
+
+[公式与权重](docs/research/ensemble-v1/ensemble-formula-v1.md)、[试算报告](docs/research/ensemble-v1/ensemble-trial-report-v1.md)和[完整718项结果](docs/research/ensemble-v1/ensemble-results-v1.csv)提供一版可重算的综合强度排名。它将已核验的原始比较按来源质量、版本、覆盖与曝光加权，同源合并限权，再求统一分数；相对等级采用S前5%、A累计前20%、B累计前45%、C累计前70%、D累计前90%、F后10%。
+
+本轮纳入Unduel 718项、Best Item 399项及Another Matt已核对的天使池S级12项，共399项有至少两族意见、319项仍是单来源估计。结果附来源数及13种情景的敏感性名次范围；该范围不代表统计置信区间。饰品、卡牌与解锁成本另行处理，资料缺失不补造名次。页面当前仍显示上文说明的原始社区榜，综合公式试算作为独立研究数据保留，详见同目录的冻结输入、检查记录与复算脚本。
+
 ## 目录
 
 ```text

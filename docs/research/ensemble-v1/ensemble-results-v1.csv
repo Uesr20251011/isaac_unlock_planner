@@ -1,0 +1,719 @@
+﻿rank,rankLow,rankHigh,id,name,nameZh,score,relativeTier,familyCount,weightScenarioRankMin,weightScenarioRankMax,originalRank,note
+1.0,1,1,182,Sacred Heart,圣心,89.6678,S,3,1,3,2,multi-source comparison evidence; not calibrated gameplay performance
+2.0,2,2,628,Death Certificate,死亡证明,88.9021,S,2,1,3,1,multi-source comparison evidence; not calibrated gameplay performance
+3.0,3,3,689,Glitched Crown,错误王冠,88.7373,S,2,2,4,3,multi-source comparison evidence; not calibrated gameplay performance
+4.0,4,4,636,R Key,R键,88.5002,S,2,4,6,5,multi-source comparison evidence; not calibrated gameplay performance
+5.0,5,5,678,C Section,剖腹产,88.4759,S,2,5,5,4,multi-source comparison evidence; not calibrated gameplay performance
+6.0,6,6,118,Brimstone,硫磺火,87.9013,S,2,6,13,14,multi-source comparison evidence; not calibrated gameplay performance
+7.0,7,7,723,Spindown Dice,计数二十面骰,87.8295,S,2,7,12,13,multi-source comparison evidence; not calibrated gameplay performance
+8.0,8,8,105,The D6,六面骰,87.7535,S,2,8,11,9,multi-source comparison evidence; not calibrated gameplay performance
+9.0,9,9,331,Godhead,神性,87.7523,S,3,6,11,8,multi-source comparison evidence; not calibrated gameplay performance
+10.0,10,10,698,Twisted Pair,作孽双子,87.6226,S,2,7,12,6,multi-source comparison evidence; not calibrated gameplay performance
+11.0,11,11,562,Rock Bottom,谷底石,87.608,S,2,10,13,12,multi-source comparison evidence; not calibrated gameplay performance
+12.0,12,12,691,Sacred Orb,十字圣球,87.5417,S,3,6,16,7,multi-source comparison evidence; not calibrated gameplay performance
+13.0,13,13,114,Mom's Knife,妈妈的菜刀,87.3784,S,2,10,14,11,multi-source comparison evidence; not calibrated gameplay performance
+14.0,14,14,586,The Stairway,天堂阶梯,87.3442,S,3,2,33,42,multi-source comparison evidence; not calibrated gameplay performance
+15.0,15,15,360,Incubus,淫魔,87.1329,S,2,14,15,16,multi-source comparison evidence; not calibrated gameplay performance
+16.0,16,16,489,D Infinity,无限面骰,86.8861,S,2,15,22,21,multi-source comparison evidence; not calibrated gameplay performance
+17.0,17,17,643,Revelation,终末天启,86.6533,S,3,17,24,35,multi-source comparison evidence; not calibrated gameplay performance
+18.0,18,18,108,The Wafer,圣饼,86.6223,S,3,17,25,41,multi-source comparison evidence; not calibrated gameplay performance
+19.0,19,19,395,Tech X,科技X,86.4457,S,2,14,20,15,multi-source comparison evidence; not calibrated gameplay performance
+20.0,20,20,313,Holy Mantle,神圣屏障,86.3211,S,3,9,37,10,multi-source comparison evidence; not calibrated gameplay performance
+21.0,21,21,12,Magic Mushroom,魔法蘑菇,86.2738,S,2,18,25,23,multi-source comparison evidence; not calibrated gameplay performance
+22.0,22,22,153,Mutant Spider,变异蜘蛛,86.2238,S,2,19,26,24,multi-source comparison evidence; not calibrated gameplay performance
+23.0,23,23,619,Birthright,长子名分,86.1961,S,2,19,23,20,multi-source comparison evidence; not calibrated gameplay performance
+24.0,24,24,4,Cricket's Head,柯吉猫的头,85.7373,S,2,17,25,18,multi-source comparison evidence; not calibrated gameplay performance
+25.0,25,25,494,Jacob's Ladder,雅各布天梯,85.6865,S,2,19,28,19,multi-source comparison evidence; not calibrated gameplay performance
+26.0,26,26,625,Mega Mush,超级蘑菇,85.6221,S,2,24,51,52,multi-source comparison evidence; not calibrated gameplay performance
+27.0,27,27,215,Goat Head,山羊头,85.5886,S,2,25,30,28,multi-source comparison evidence; not calibrated gameplay performance
+28.0,28,28,347,Diplopia,复视,85.5378,S,2,27,31,29,multi-source comparison evidence; not calibrated gameplay performance
+29.0,29,29,169,Polyphemus,巨人独眼,85.4226,S,2,26,42,43,multi-source comparison evidence; not calibrated gameplay performance
+30.0,30,30,245,20/20,完美视力,85.117,S,2,30,48,49,multi-source comparison evidence; not calibrated gameplay performance
+31.0,31,31,3,Spoon Bender,弯勺魔术,84.9709,S,2,30,34,33,multi-source comparison evidence; not calibrated gameplay performance
+32.0,32,32,581,Psy Fly,灵能苍蝇,84.7302,S,2,23,34,22,multi-source comparison evidence; not calibrated gameplay performance
+33.0,33,33,374,Holy Light,圣光,84.7188,S,2,32,35,30,multi-source comparison evidence; not calibrated gameplay performance
+34.0,34,34,402,Chaos,混沌,84.4708,S,2,29,36,27,multi-source comparison evidence; not calibrated gameplay performance
+35.0,35,35,531,Haemolacria,泪血症,84.4252,S,2,32,56,57,multi-source comparison evidence; not calibrated gameplay performance
+36.0,36,36,224,Cricket's Body,柯吉猫的身体,84.3503,S,2,35,44,45,multi-source comparison evidence; not calibrated gameplay performance
+37.0,37,37,495,Ghost Pepper,断魂椒,83.9982,A,2,27,39,25,multi-source comparison evidence; not calibrated gameplay performance
+38.0,38,38,223,Pyromaniac,纵火狂,83.8357,A,2,37,46,47,multi-source comparison evidence; not calibrated gameplay performance
+39.0,39,39,579,Spirit Sword,英灵剑,83.6418,A,3,20,56,63,multi-source comparison evidence; not calibrated gameplay performance
+40.0,40,40,232,Stop Watch,怀表,83.5259,A,2,35,41,34,multi-source comparison evidence; not calibrated gameplay performance
+41.0,41,41,415,Crown of Light,光明之冠,83.471,A,3,22,59,17,multi-source comparison evidence; not calibrated gameplay performance
+42.0,42,42,104,The Parasite,寄生虫,82.9896,A,2,28,49,26,multi-source comparison evidence; not calibrated gameplay performance
+43.0,43,43,381,Eden's Blessing,伊甸的祝福,82.9302,A,2,41,70,72,multi-source comparison evidence; not calibrated gameplay performance
+44.0,44,44,499,Eucharist,圣餐,82.8907,A,2,43,46,46,multi-source comparison evidence; not calibrated gameplay performance
+45.0,45,45,408,Athame,祭祀之刃,82.8336,A,2,43,64,66,multi-source comparison evidence; not calibrated gameplay performance
+46.0,46,46,261,Proptosis,眼球突出,82.7804,A,2,44,65,67,multi-source comparison evidence; not calibrated gameplay performance
+47.0,47,47,68,Technology,科技,82.7504,A,2,41,51,40,multi-source comparison evidence; not calibrated gameplay performance
+48.0,48,48,506,Backstabber,背刺,82.7306,A,2,45,58,60,multi-source comparison evidence; not calibrated gameplay performance
+49.0,49,49,399,Maw of the Void,虚空之喉,82.6236,A,2,47,61,62,multi-source comparison evidence; not calibrated gameplay performance
+50.0,50,50,533,Trisagion,三圣颂,82.6153,A,3,30,80,32,multi-source comparison evidence; not calibrated gameplay performance
+51.0,51,51,553,Mucormycosis,毛霉菌病,82.5165,A,2,48,62,64,multi-source comparison evidence; not calibrated gameplay performance
+52.0,52,52,580,Red Key,红钥匙,82.0545,A,2,51,54,53,multi-source comparison evidence; not calibrated gameplay performance
+53.0,53,53,237,Death's Touch,死神之触,82.0236,A,2,43,54,44,multi-source comparison evidence; not calibrated gameplay performance
+54.0,54,54,573,Immaculate Heart,无瑕圣心,82.0076,A,2,33,55,31,multi-source comparison evidence; not calibrated gameplay performance
+55.0,55,55,359,8 Inch Nails,八寸钉,81.8725,A,2,53,63,65,multi-source comparison evidence; not calibrated gameplay performance
+56.0,56,56,443,Apple!,苹果！,81.6829,A,2,38,56,37,multi-source comparison evidence; not calibrated gameplay performance
+57.0,57,57,414,More Options,更多选择,80.9225,A,2,39,59,38,multi-source comparison evidence; not calibrated gameplay performance
+58.0,58,58,375,Host Hat,寄居骷髅帽,80.9198,A,2,50,58,51,multi-source comparison evidence; not calibrated gameplay performance
+59.0,59,59,592,Terra,地球,80.6423,A,2,57,77,79,multi-source comparison evidence; not calibrated gameplay performance
+60.0,60,60,397,Tractor Beam,牵引光束,80.4803,A,2,57,60,59,multi-source comparison evidence; not calibrated gameplay performance
+61.0,61,61,101,The Halo,光环,80.2611,A,2,49,63,50,multi-source comparison evidence; not calibrated gameplay performance
+62.0,62,62,669,Sausage,腊肠,79.9839,A,2,54,66,55,multi-source comparison evidence; not calibrated gameplay performance
+63.0,63,63,577,Damocles,达摩克里斯之剑,79.8307,A,2,62,83,84,multi-source comparison evidence; not calibrated gameplay performance
+64.0,64,64,230,Abaddon,亚巴顿,79.65,A,2,60,69,61,multi-source comparison evidence; not calibrated gameplay performance
+65.0,65,65,189,SMB Super Fan,超级食肉男孩死忠粉,79.6497,A,2,64,72,74,multi-source comparison evidence; not calibrated gameplay performance
+66.0,66,66,310,Eve's Mascara,夏娃的睫毛膏,79.5383,A,2,64,99,99,multi-source comparison evidence; not calibrated gameplay performance
+67.0,67,67,622,Genesis,创世记,79.4523,A,2,61,120,120,multi-source comparison evidence; not calibrated gameplay performance
+68.0,68,68,373,Dead Eye,死亡之眼,79.41,A,2,36,73,36,multi-source comparison evidence; not calibrated gameplay performance
+69.0,69,69,711,Flip,生死逆转,79.3289,A,2,68,93,93,multi-source comparison evidence; not calibrated gameplay performance
+70.0,70,70,132,A Lump of Coal,煤块,79.255,A,2,53,72,54,multi-source comparison evidence; not calibrated gameplay performance
+71.0,71,71,417,Succubus,魅魔,79.2413,A,2,40,75,39,multi-source comparison evidence; not calibrated gameplay performance
+72.0,72,72,149,Ipecac,吐根酊,79.173,A,2,65,125,125,multi-source comparison evidence; not calibrated gameplay performance
+73.0,73,73,616,Bird's Eye,鸟眼椒,79.1467,A,2,68,73,70,multi-source comparison evidence; not calibrated gameplay performance
+74.0,74,74,664,Binge Eater,大胃王,79.105,A,2,70,97,97,multi-source comparison evidence; not calibrated gameplay performance
+75.0,75,75,80,The Pact,契约,78.5277,A,2,75,79,81,multi-source comparison evidence; not calibrated gameplay performance
+76.0,76,76,524,Technology Zero,科技零,78.2792,A,2,55,78,56,multi-source comparison evidence; not calibrated gameplay performance
+77.0,77,77,2,The Inner Eye,内眼,78.2037,A,2,74,113,113,multi-source comparison evidence; not calibrated gameplay performance
+78.0,78,78,609,Eternal D6,永恒六面骰,77.9076,A,2,77,105,105,multi-source comparison evidence; not calibrated gameplay performance
+79.0,79,79,260,Black Candle,黑蜡烛,77.9033,A,2,76,79,78,multi-source comparison evidence; not calibrated gameplay performance
+80.0,80,80,64,Steam Sale,Steam大促,77.594,A,2,66,82,68,multi-source comparison evidence; not calibrated gameplay performance
+81.0,81,81,503,Little Horn (Item),小魔角,77.3913,A,2,80,87,87,multi-source comparison evidence; not calibrated gameplay performance
+82.0,82,82,462,Eye of Belial,彼列之眼,77.0769,A,2,75,85,77,multi-source comparison evidence; not calibrated gameplay performance
+83.0,83,83,199,Mom's Key,妈妈的钥匙,77.048,A,2,81,107,107,multi-source comparison evidence; not calibrated gameplay performance
+84.0,84,84,515,Mystery Gift,神秘礼物,76.9383,A,1,67,100,69,single-source estimate
+85.0,85,85,496,Euthanasia,安乐死,76.934,A,2,83,95,95,multi-source comparison evidence; not calibrated gameplay performance
+86.0,86,86,350,Toxic Shock,毒性休克,76.594,A,2,83,128,128,multi-source comparison evidence; not calibrated gameplay performance
+87.0,87,87,401,Explosivo,爆炸物,76.4177,A,1,73,105,75,single-source estimate
+88.0,88,88,82,Lord of the Pit,深渊领主,76.4169,A,2,86,104,104,multi-source comparison evidence; not calibrated gameplay performance
+89.0,89,89,307,Capricorn,摩羯座,76.3253,A,2,87,90,90,multi-source comparison evidence; not calibrated gameplay performance
+90.0,90,90,79,The Mark,咒印,76.1189,A,2,71,94,73,multi-source comparison evidence; not calibrated gameplay performance
+91.0,91,91,596,Uranus,天王星,75.9552,A,2,89,112,112,multi-source comparison evidence; not calibrated gameplay performance
+92.0,92,92,185,Dead Dove,死鸽,75.7435,A,2,90,100,100,multi-source comparison evidence; not calibrated gameplay performance
+93.0,93,93,301,Cancer,巨蟹座,75.5368,A,2,82,97,83,multi-source comparison evidence; not calibrated gameplay performance
+94.0,94,94,221,Rubber Cement,橡胶胶水,75.3615,A,2,85,99,86,multi-source comparison evidence; not calibrated gameplay performance
+95.0,95,95,597,Neptunus,海王星,75.2166,A,2,87,175,175,multi-source comparison evidence; not calibrated gameplay performance
+96.0,96,96,150,Tough Love,严厉的爱,75.1214,A,2,69,101,71,multi-source comparison evidence; not calibrated gameplay performance
+97.0,97,97,257,Fire Mind,火焰意志,74.9294,A,1,91,118,92,single-source estimate
+98.0,98,98,165,Cat-O-Nine-Tails,九尾鞭,74.8929,A,2,94,100,94,multi-source comparison evidence; not calibrated gameplay performance
+99.0,99,99,633,Dogma (Item),教条,74.7823,A,2,90,191,191,multi-source comparison evidence; not calibrated gameplay performance
+100.0,100,100,602,Member Card,会员卡,74.6752,A,2,97,134,134,multi-source comparison evidence; not calibrated gameplay performance
+101.0,101,101,234,Infestation 2,害虫横行II,74.6578,A,2,98,103,98,multi-source comparison evidence; not calibrated gameplay performance
+102.0,102,102,333,The Mind,思想,74.5937,A,2,78,105,80,multi-source comparison evidence; not calibrated gameplay performance
+103.0,103,103,411,Lusty Blood,血嗜,74.2995,A,2,84,108,85,multi-source comparison evidence; not calibrated gameplay performance
+104.0,104,104,292,Satanic Bible,撒但圣经,74.2395,A,2,92,211,211,multi-source comparison evidence; not calibrated gameplay performance
+105.0,105,105,249,There's Options,额外选择,74.1623,A,2,96,183,183,multi-source comparison evidence; not calibrated gameplay performance
+106.0,106,106,116,9 Volt,9伏特,74.1341,A,1,96,125,101,single-source estimate
+107.0,107,107,184,Holy Grail,圣杯,74.0636,A,2,89,109,89,multi-source comparison evidence; not calibrated gameplay performance
+108.0,108,108,534,Schoolbag,书包,73.6108,A,2,103,166,166,multi-source comparison evidence; not calibrated gameplay performance
+109.0,109,109,492,YO LISTEN!,嘿，听好！,73.4231,A,1,104,132,109,single-source estimate
+110.0,110,110,317,Mysterious Liquid,神秘液体,73.2376,A,2,107,122,122,multi-source comparison evidence; not calibrated gameplay performance
+111.0,111,111,429,Head of the Keeper,店主的头,73.2343,A,2,103,116,103,multi-source comparison evidence; not calibrated gameplay performance
+112.0,112,112,453,Compound Fracture,复杂性骨折,73.1962,A,2,105,173,173,multi-source comparison evidence; not calibrated gameplay performance
+113.0,113,113,70,Growth Hormones,生长激素,73.1477,A,2,110,144,144,multi-source comparison evidence; not calibrated gameplay performance
+114.0,114,114,75,PHD,药学博士证,73.1312,A,2,88,122,88,multi-source comparison evidence; not calibrated gameplay performance
+115.0,115,115,651,Star of Bethlehem,伯列恒之星,72.8985,A,3,86,126,58,multi-source comparison evidence; not calibrated gameplay performance
+116.0,116,116,712,Lemegeton,所罗门魔典,72.8493,A,2,112,149,149,multi-source comparison evidence; not calibrated gameplay performance
+117.0,117,117,584,Book of Virtues,美德之书,72.7009,A,2,113,131,131,multi-source comparison evidence; not calibrated gameplay performance
+118.0,118,118,90,The Small Rock,小石头,72.6699,A,2,114,152,152,multi-source comparison evidence; not calibrated gameplay performance
+119.0,119,119,7,Blood of the Martyr,殉道者之血,72.6554,A,2,96,125,96,multi-source comparison evidence; not calibrated gameplay performance
+120.0,120,120,216,Ceremonial Robes,仪式法袍,72.6416,A,2,47,131,48,multi-source comparison evidence; not calibrated gameplay performance
+121.0,121,121,407,Purity,纯洁,72.5813,A,2,117,133,133,multi-source comparison evidence; not calibrated gameplay performance
+122.0,122,122,138,Stigmata,圣痕,72.3499,A,1,111,140,121,single-source estimate
+123.0,123,123,52,Dr. Fetus,胎儿博士,72.307,A,2,106,233,233,multi-source comparison evidence; not calibrated gameplay performance
+124.0,124,124,330,Soy Milk,豆奶,72.2503,A,2,118,159,159,multi-source comparison evidence; not calibrated gameplay performance
+125.0,125,125,497,Camo Undies,迷彩内裤,72.1619,A,2,122,140,140,multi-source comparison evidence; not calibrated gameplay performance
+126.0,126,126,665,Guppy's Eye,嗝屁猫的眼睛,72.04,A,2,123,128,123,multi-source comparison evidence; not calibrated gameplay performance
+127.0,127,127,5,My Reflection,我的镜像,71.86,A,2,124,129,126,multi-source comparison evidence; not calibrated gameplay performance
+128.0,128,128,418,Fruit Cake,水果蛋糕,71.8104,A,1,119,143,127,single-source estimate
+129.0,129,129,213,Lost Contact,丢失的隐形眼镜,71.7587,A,2,111,132,111,multi-source comparison evidence; not calibrated gameplay performance
+130.0,130,130,259,Dark Matter,暗物质,71.6453,A,2,91,137,91,multi-source comparison evidence; not calibrated gameplay performance
+131.0,131,131,1,The Sad Onion,悲伤洋葱,71.6302,A,1,124,146,129,single-source estimate
+132.0,132,132,477,Void,虚空,71.3607,A,2,119,217,217,multi-source comparison evidence; not calibrated gameplay performance
+133.0,133,133,168,Epic Fetus,史诗胎儿博士,71.2485,A,2,116,232,232,multi-source comparison evidence; not calibrated gameplay performance
+134.0,134,134,390,Seraphim,撒拉弗,71.1985,A,2,129,156,156,multi-source comparison evidence; not calibrated gameplay performance
+135.0,135,135,244,Tech.5,科技0.5,71.1977,A,2,131,137,137,multi-source comparison evidence; not calibrated gameplay performance
+136.0,136,136,203,Humbleing Bundle,慈善捆绑包,70.9749,A,2,102,139,102,multi-source comparison evidence; not calibrated gameplay performance
+137.0,137,137,51,Pentagram,五芒星,70.9577,A,2,74,145,76,multi-source comparison evidence; not calibrated gameplay performance
+138.0,138,138,595,Saturnus,土星,70.8167,A,1,132,149,138,single-source estimate
+139.0,139,139,81,Dead Cat,嗝屁猫,70.7304,A,2,106,143,106,multi-source comparison evidence; not calibrated gameplay performance
+140.0,140,140,109,Money = Power,金钱=力量,70.6143,A,2,130,143,130,multi-source comparison evidence; not calibrated gameplay performance
+141.0,141,141,598,Pluto,冥王星,70.5942,A,2,81,149,82,multi-source comparison evidence; not calibrated gameplay performance
+142.0,142,142,32,Wire Coat Hanger,铁丝衣架,70.5447,A,1,134,152,141,single-source estimate
+143.0,143,143,78,Book of Revelations,启示录,70.3882,A,3,136,176,182,multi-source comparison evidence; not calibrated gameplay performance
+144.0,144,144,682,Worm Friend,触手朋友,70.3631,A,1,138,156,143,single-source estimate
+145.0,145,145,514,Broken Modem,损坏的调制解调器,70.2555,B,2,134,192,192,multi-source comparison evidence; not calibrated gameplay performance
+146.0,146,146,335,The Soul,灵魂,70.251,B,2,136,147,136,multi-source comparison evidence; not calibrated gameplay performance
+147.0,147,147,170,Daddy Longlegs,长腿蛛父,70.1173,B,2,116,149,116,multi-source comparison evidence; not calibrated gameplay performance
+148.0,148,148,156,Habit,修女服,69.9944,B,2,118,151,118,multi-source comparison evidence; not calibrated gameplay performance
+149.0,149,149,547,Divorce Papers,离婚协议书,69.9083,B,1,145,161,148,single-source estimate
+150.0,150,150,11,1up!,1UP!,69.7261,B,1,146,162,150,single-source estimate
+151.0,151,151,229,Monstro's Lung,萌死戳的肺,69.625,B,2,124,154,124,multi-source comparison evidence; not calibrated gameplay performance
+152.0,152,152,621,Red Stew,红豆汤,69.4524,B,1,150,165,153,single-source estimate
+153.0,153,153,304,Libra,天秤座,69.087,B,1,152,170,157,single-source estimate
+154.0,154,154,268,Rotten Baby,腐烂宝宝,69.0088,B,2,108,164,108,multi-source comparison evidence; not calibrated gameplay performance
+155.0,155,155,370,Mr. Dolly,玩偶先生,68.9456,B,2,135,159,135,multi-source comparison evidence; not calibrated gameplay performance
+156.0,156,156,286,Blank Card,空白卡牌,68.8124,B,1,154,174,160,single-source estimate
+157.0,157,157,247,BFFS!,好朋友一辈子！,68.6978,B,2,139,162,139,multi-source comparison evidence; not calibrated gameplay performance
+158.0,158,158,208,Champion Belt,冠军腰带,68.6292,B,1,155,175,162,single-source estimate
+159.0,159,159,490,Eden's Soul,伊甸的灵魂,68.5802,B,2,153,181,180,multi-source comparison evidence; not calibrated gameplay performance
+160.0,160,160,708,Stapler,订书机,68.5791,B,2,115,169,115,multi-source comparison evidence; not calibrated gameplay performance
+161.0,161,161,159,Spirit of the Night,夜之幽魂,68.578,B,2,151,199,199,multi-source comparison evidence; not calibrated gameplay performance
+162.0,162,162,46,Lucky Foot,幸运脚,68.5375,B,1,156,176,163,single-source estimate
+163.0,163,163,716,Keeper's Sack,店主的胯袋,68.4809,B,2,148,221,221,multi-source comparison evidence; not calibrated gameplay performance
+164.0,164,164,570,Playdough Cookie,黏土饼干,68.3829,B,2,146,239,239,multi-source comparison evidence; not calibrated gameplay performance
+165.0,165,165,196,Squeezy,挤压玩具,68.3332,B,2,119,171,119,multi-source comparison evidence; not calibrated gameplay performance
+166.0,166,166,572,Eye of the Occult,玄秘魔眼,68.3255,B,2,145,168,145,multi-source comparison evidence; not calibrated gameplay performance
+167.0,167,167,152,Technology 2,科技II,68.0885,B,2,159,188,188,multi-source comparison evidence; not calibrated gameplay performance
+168.0,168,168,246,Blue Map,蓝地图,67.8947,B,1,163,181,170,single-source estimate
+169.0,169,169,122,Whore of Babylon,巴比伦大淫妇,67.8027,B,1,165,183,171,single-source estimate
+170.0,170,170,606,Ocular Rift,邪眼裂口,67.784,B,2,110,184,110,multi-source comparison evidence; not calibrated gameplay performance
+171.0,171,171,679,Lil Abaddon,亚巴顿宝宝,67.7106,B,1,169,185,172,single-source estimate
+172.0,172,172,356,Car Battery,车载电池,67.7032,B,2,155,175,155,multi-source comparison evidence; not calibrated gameplay performance
+173.0,173,173,342,Blue Cap,蓝盖蘑菇,67.6225,B,2,166,180,179,multi-source comparison evidence; not calibrated gameplay performance
+174.0,174,174,532,Lachryphagy,食泪症,67.5374,B,2,114,185,114,multi-source comparison evidence; not calibrated gameplay performance
+175.0,175,175,601,Act of Contrition,痛悔短祷,67.5265,B,1,171,186,174,single-source estimate
+176.0,176,176,369,Continuum,连续统,67.4992,B,2,167,182,181,multi-source comparison evidence; not calibrated gameplay performance
+177.0,177,177,306,Sagittarius,人马座,67.3421,B,1,172,189,176,single-source estimate
+178.0,178,178,732,Mom's Ring,妈妈的戒指,67.3287,B,2,161,180,161,multi-source comparison evidence; not calibrated gameplay performance
+179.0,179,179,528,Angelic Prism,天使棱镜,67.2499,B,1,174,190,177,single-source estimate
+180.0,180,180,179,Fate,宿命,67.1577,B,1,176,191,178,single-source estimate
+181.0,181,181,376,Restock,补货,67.1412,B,2,164,181,164,multi-source comparison evidence; not calibrated gameplay performance
+182.0,182,182,700,Echo Chamber,回声室,67.0787,B,2,165,183,165,multi-source comparison evidence; not calibrated gameplay performance
+183.0,183,183,730,Glass Eye,玻璃眼,67.0605,B,2,162,244,244,multi-source comparison evidence; not calibrated gameplay performance
+184.0,184,184,629,Bot Fly,机器苍蝇,66.696,B,2,177,194,194,multi-source comparison evidence; not calibrated gameplay performance
+185.0,185,185,463,Sulfuric Acid,硫酸,66.6015,B,2,147,189,147,multi-source comparison evidence; not calibrated gameplay performance
+186.0,186,186,63,The Battery,蓄电池,66.5109,B,1,184,198,185,single-source estimate
+187.0,187,187,483,Mama Mega!,妈咪炸弹！,66.4231,B,2,132,195,132,multi-source comparison evidence; not calibrated gameplay performance
+188.0,188,188,438,Binky,奶嘴,66.3528,B,2,151,192,151,multi-source comparison evidence; not calibrated gameplay performance
+189.0,189,189,225,Gimpy,兽性面具,66.3258,B,1,185,200,187,single-source estimate
+190.0,190,190,345,Synthoil,合成油脂,66.2308,B,2,117,199,117,multi-source comparison evidence; not calibrated gameplay performance
+191.0,191,191,705,Dark Arts,暗仪刺刀,66.1405,B,1,188,202,189,single-source estimate
+192.0,192,192,134,Guppy's Tail,嗝屁猫的尾巴,66.0478,B,1,189,203,190,single-source estimate
+193.0,193,193,422,Glowing Hourglass,发光沙漏,66.0257,B,2,167,291,291,multi-source comparison evidence; not calibrated gameplay performance
+194.0,194,194,444,Lead Pencil,铅笔,65.8011,B,2,142,200,142,multi-source comparison evidence; not calibrated gameplay performance
+195.0,195,195,710,Bag of Crafting,合成宝袋,65.7696,B,1,193,204,193,single-source estimate
+196.0,196,196,127,Forget Me Now,遗忘药,65.7606,B,2,186,197,186,multi-source comparison evidence; not calibrated gameplay performance
+197.0,197,197,498,Duality,二元性,65.5518,B,2,146,205,146,multi-source comparison evidence; not calibrated gameplay performance
+198.0,198,198,18,A Dollar,一美元,65.4911,B,1,195,205,196,single-source estimate
+199.0,199,199,461,Parasitoid,拟寄生物,65.4178,B,2,186,250,250,multi-source comparison evidence; not calibrated gameplay performance
+200.0,200,200,58,Book of Shadows,影之书,65.3547,B,2,167,202,167,multi-source comparison evidence; not calibrated gameplay performance
+201.0,201,201,527,Mr. ME!,自我先生！,65.2296,B,2,169,206,169,multi-source comparison evidence; not calibrated gameplay performance
+202.0,202,202,459,Sinus Infection,鼻窦炎,65.193,B,2,195,205,195,multi-source comparison evidence; not calibrated gameplay performance
+203.0,203,203,556,Sulfur,炼金硫磺,65.0263,B,1,199,207,201,single-source estimate
+204.0,204,204,706,Abyss,无底坑,64.9854,B,2,192,238,238,multi-source comparison evidence; not calibrated gameplay performance
+205.0,205,205,647,4.5 Volt,4.5伏特,64.9332,B,1,202,209,202,single-source estimate
+206.0,206,206,278,Dark Bum,黑暗乞丐,64.8771,B,2,199,209,200,multi-source comparison evidence; not calibrated gameplay performance
+207.0,207,207,485,Crooked Penny,被掰弯的硬币,64.8401,B,1,203,210,203,single-source estimate
+208.0,208,208,341,Torn Photo,撕碎的照片,64.6538,B,1,205,212,205,single-source estimate
+209.0,209,209,445,Dog Tooth,狗牙,64.624,B,2,201,212,204,multi-source comparison evidence; not calibrated gameplay performance
+210.0,210,210,637,Knockout Drops,强力安眠药,64.5606,B,1,206,213,206,single-source estimate
+211.0,211,211,393,Serpent's Kiss,蛇蝎之吻,64.4674,B,1,207,214,207,single-source estimate
+212.0,212,212,205,Sharp Plug,锋利插头,64.3742,B,1,208,215,208,single-source estimate
+213.0,213,213,243,Trinity Shield,三位一体盾,64.1876,B,1,210,218,210,single-source estimate
+214.0,214,214,600,Eye Drops,眼药水,64.0009,B,1,212,220,212,single-source estimate
+215.0,215,215,242,Infamy,耻辱假面,63.918,B,2,154,222,154,multi-source comparison evidence; not calibrated gameplay performance
+216.0,216,216,309,Pisces,双鱼座,63.8141,B,1,214,221,214,single-source estimate
+217.0,217,217,275,Lil Brimstone,硫磺火宝宝,63.7207,B,1,215,223,215,single-source estimate
+218.0,218,218,305,Scorpio,天蝎座,63.6665,B,2,158,225,158,multi-source comparison evidence; not calibrated gameplay performance
+219.0,219,219,574,Monstrance,圣体匣,63.6272,B,1,216,224,216,single-source estimate
+220.0,220,220,670,Options?,选择？,63.4402,B,1,218,226,218,single-source estimate
+221.0,221,221,567,Paschal Candle,逾越节蜡烛,63.4077,B,2,198,222,198,multi-source comparison evidence; not calibrated gameplay performance
+222.0,222,222,451,Tarot Cloth,塔罗牌桌布,63.3466,B,1,219,227,219,single-source estimate
+223.0,223,223,424,Sack Head,福袋头,63.0658,B,1,222,229,222,single-source estimate
+224.0,224,224,110,Mom's Contacts,妈妈的美瞳,63.0364,B,2,168,235,168,multi-source comparison evidence; not calibrated gameplay performance
+225.0,225,225,181,White Pony,小白马,62.9722,B,1,223,230,223,single-source estimate
+226.0,226,226,151,The Mulligan,虫群复击,62.9465,B,2,215,254,254,multi-source comparison evidence; not calibrated gameplay performance
+227.0,227,227,334,The Body,肉体,62.8785,B,1,224,231,224,single-source estimate
+228.0,228,228,521,Coupon,代金券,62.7848,B,1,225,232,225,single-source estimate
+229.0,229,229,121,Odd Mushroom (Large),怪异蘑菇(大),62.7129,B,2,209,231,209,multi-source comparison evidence; not calibrated gameplay performance
+230.0,230,230,191,3 Dollar Bill,3美元纸币,62.691,B,1,226,234,226,single-source estimate
+231.0,231,231,84,We Need to Go Deeper!,我们需要深入挖掘！,62.5973,B,1,227,235,227,single-source estimate
+232.0,232,232,98,The Relic,圣遗物,62.4598,B,2,213,235,213,multi-source comparison evidence; not calibrated gameplay performance
+233.0,233,233,428,PJs,睡衣,62.4097,B,1,229,236,229,single-source estimate
+234.0,234,234,615,Lil Dumpy,屁球宝宝,62.3468,B,2,197,238,197,multi-source comparison evidence; not calibrated gameplay performance
+235.0,235,235,183,Tooth Picks,牙签,62.3159,B,1,230,237,230,single-source estimate
+236.0,236,236,34,The Book of Belial,彼列之书,62.222,B,1,231,238,231,single-source estimate
+237.0,237,237,173,Mitre,主教冠,62.0248,B,2,184,242,184,multi-source comparison evidence; not calibrated gameplay performance
+238.0,238,238,226,Black Lotus,黑莲花,61.9403,B,1,234,239,234,single-source estimate
+239.0,239,239,387,Censer,香炉,61.6583,B,1,237,242,237,single-source estimate
+240.0,240,240,588,Sol,太阳,61.5206,B,2,226,293,293,multi-source comparison evidence; not calibrated gameplay performance
+241.0,241,241,303,Virgo,室女座,61.3762,B,1,240,244,240,single-source estimate
+242.0,242,242,76,X-Ray Vision,X光透视,61.2821,B,1,241,245,241,single-source estimate
+243.0,243,243,466,Contagion,传染病,61.188,B,1,242,246,242,single-source estimate
+244.0,244,244,48,Cupid's Arrow,丘比特之箭,61.0938,B,1,243,247,243,single-source estimate
+245.0,245,245,72,Rosary,念珠,60.9055,B,1,245,248,245,single-source estimate
+246.0,246,246,210,Gnawed Leaf,狸猫树叶,60.8875,B,2,220,250,220,multi-source comparison evidence; not calibrated gameplay performance
+247.0,247,247,54,Treasure Map,藏宝图,60.7171,B,1,246,250,247,single-source estimate
+248.0,248,248,20,Transcendence,超凡升天,60.6685,B,2,239,290,290,multi-source comparison evidence; not calibrated gameplay performance
+249.0,249,249,696,Salvation,救恩,60.6228,B,1,247,251,248,single-source estimate
+250.0,250,250,559,120 Volt,220伏,60.5286,B,1,248,252,249,single-source estimate
+251.0,251,251,441,Mega Blast,超级喷射,60.4759,B,2,243,269,269,multi-source comparison evidence; not calibrated gameplay performance
+252.0,252,252,520,Jumper Cables,跨接电缆,60.34,B,1,250,253,251,single-source estimate
+253.0,253,253,120,Odd Mushroom (Thin),怪异蘑菇(小),60.2457,B,1,251,254,252,single-source estimate
+254.0,254,254,599,Voodoo Head,巫毒娃娃头,60.1513,B,1,252,255,253,single-source estimate
+255.0,255,255,640,Urn of Souls,灵魂之瓮,59.9626,B,1,254,257,255,single-source estimate
+256.0,256,256,145,Guppy's Head,嗝屁猫的头,59.8681,B,1,256,258,256,single-source estimate
+257.0,257,257,389,Rune Bag,符文袋,59.8326,B,2,249,279,279,multi-source comparison evidence; not calibrated gameplay performance
+258.0,258,258,178,Holy Water,圣水,59.7737,B,1,257,259,257,single-source estimate
+259.0,259,259,17,Skeleton Key,骷髅钥匙,59.6793,B,1,258,260,258,single-source estimate
+260.0,260,260,218,Placenta,胎盘,59.5848,B,1,259,261,259,single-source estimate
+261.0,261,261,115,Ouija Board,通灵板,59.3958,B,1,261,263,261,single-source estimate
+262.0,262,262,526,7 Seals,七印,59.3013,B,1,262,264,262,single-source estimate
+263.0,263,263,69,Chocolate Milk,巧克力牛奶,59.2233,B,2,228,267,228,multi-source comparison evidence; not calibrated gameplay performance
+264.0,264,264,192,Telepathy for Dummies,心灵感应傻瓜式教程,59.2068,B,1,263,265,263,single-source estimate
+265.0,265,265,172,Sacrificial Dagger,献祭匕首,59.1122,B,1,264,267,264,single-source estimate
+266.0,266,266,248,Hive Mind,虫群之心,59.0177,B,1,265,268,265,single-source estimate
+267.0,267,267,564,A Bar of Soap,肥皂,58.9231,B,1,266,269,266,single-source estimate
+268.0,268,268,212,Guppy's Collar,嗝屁猫的项圈,58.7338,B,1,268,271,268,single-source estimate
+269.0,269,269,50,Steven (Item),史蒂文,58.7113,B,2,236,273,236,multi-source comparison evidence; not calibrated gameplay performance
+270.0,270,270,585,Alabaster Box,白玉香膏盒,58.5445,B,1,269,273,270,single-source estimate
+271.0,271,271,336,Dead Onion,烂洋葱,58.4499,B,1,270,274,271,single-source estimate
+272.0,272,272,62,Charm of the Vampire,吸血鬼之魅,58.3552,B,1,271,275,272,single-source estimate
+273.0,273,273,536,Sacrificial Altar,祭坛,58.3327,B,2,260,273,260,multi-source comparison evidence; not calibrated gameplay performance
+274.0,274,274,540,Flat Stone,扁石,58.1657,B,1,274,277,274,single-source estimate
+275.0,275,275,133,Guppy's Paw,嗝屁猫的爪子,58.071,B,1,275,278,275,single-source estimate
+276.0,276,276,589,Luna,月亮,58.0702,B,2,246,280,246,multi-source comparison evidence; not calibrated gameplay performance
+277.0,277,277,158,Crystal Ball,水晶球,57.9763,B,1,276,279,276,single-source estimate
+278.0,278,278,193,MEAT!,生肉！,57.8837,B,2,267,279,267,multi-source comparison evidence; not calibrated gameplay performance
+279.0,279,279,251,Starter Deck,新手牌组,57.8815,B,1,277,280,277,single-source estimate
+280.0,280,280,535,Blanket,毛毯,57.7867,B,1,278,281,278,single-source estimate
+281.0,281,281,403,Spider Mod,蜘蛛模组,57.5971,B,1,280,282,280,single-source estimate
+282.0,282,282,549,Brittle Bones,脆骨症,57.4985,B,2,273,282,273,multi-source comparison evidence; not calibrated gameplay performance
+283.0,283,283,728,Gello,格罗,57.4074,B,1,282,283,282,single-source estimate
+284.0,284,284,568,Divine Intervention,神圣干预,57.3126,B,1,283,284,283,single-source estimate
+285.0,285,285,190,Pyro,烟火盛宴,57.2177,B,1,284,285,284,single-source estimate
+286.0,286,286,157,Bloody Lust,嗜血,57.1228,B,1,285,286,285,single-source estimate
+287.0,287,287,265,Dry Baby,枯骨宝宝,57.0279,B,1,286,287,286,single-source estimate
+288.0,288,288,538,Marbles,弹珠袋,56.933,B,1,287,288,287,single-source estimate
+289.0,289,289,297,Pandora's Box,潘多拉魔盒,56.8381,B,1,288,289,288,single-source estimate
+290.0,290,290,142,Scapular,肩衣,56.7431,B,1,289,290,289,single-source estimate
+291.0,291,291,608,Freezer Baby,冰冻宝宝,56.4582,B,1,291,292,292,single-source estimate
+292.0,292,292,379,Pupula Duplex,双瞳,56.2682,B,1,292,294,294,single-source estimate
+293.0,293,293,130,A Pony,小黑马,56.1732,B,1,293,295,295,single-source estimate
+294.0,294,294,146,Prayer Card,祈祷卡,56.0782,B,1,294,296,296,single-source estimate
+295.0,295,295,263,Clear Rune,透明符文,55.9542,B,2,291,297,297,multi-source comparison evidence; not calibrated gameplay performance
+296.0,296,296,308,Aquarius,宝瓶座,55.8881,B,1,296,298,298,single-source estimate
+297.0,297,297,590,Mercurius,水星,55.8187,B,2,281,300,281,multi-source comparison evidence; not calibrated gameplay performance
+298.0,298,298,21,The Compass,指南针,55.7931,B,1,297,299,299,single-source estimate
+299.0,299,299,71,Mini Mush,小蘑菇,55.698,B,1,298,300,300,single-source estimate
+300.0,300,300,440,Kidney Stone,肾结石,55.6029,B,1,299,301,301,single-source estimate
+301.0,301,301,644,Consolation Prize,安慰奖,55.5078,B,1,301,302,302,single-source estimate
+302.0,302,302,16,Raw Liver,生肝,55.4127,B,1,302,303,303,single-source estimate
+303.0,303,303,112,Guardian Angel,守护天使,55.2225,B,1,303,305,305,single-source estimate
+304.0,304,304,546,Dad's Ring,爸爸的戒指,55.1273,B,1,304,306,306,single-source estimate
+305.0,305,305,91,Spelunker Hat,探窟帽,55.0322,B,1,305,307,307,single-source estimate
+306.0,306,306,355,Mom's Pearls,妈妈的珍珠项链,54.937,B,1,306,308,308,single-source estimate
+307.0,307,307,684,Hungry Soul,饥饿幽魂,54.8419,B,1,307,309,309,single-source estimate
+308.0,308,308,661,Quints,五胞胎,54.7467,B,1,308,310,310,single-source estimate
+309.0,309,309,204,Fanny Pack,挎包,54.5563,B,1,309,312,312,single-source estimate
+310.0,310,310,154,Chemical Peel,化学剥皮法,54.4611,B,1,310,313,313,single-source estimate
+311.0,311,311,197,Jesus Juice,耶稣果汁,54.3659,B,1,311,314,314,single-source estimate
+312.0,312,312,228,Mom's Perfume,妈妈的香水,54.3337,B,2,304,313,304,multi-source comparison evidence; not calibrated gameplay performance
+313.0,313,313,416,Deep Pockets,深口袋,54.2707,B,1,312,315,315,single-source estimate
+314.0,314,314,329,The Ludovico Technique,鲁多维科科技,54.2444,B,2,235,328,235,multi-source comparison evidence; not calibrated gameplay performance
+315.0,315,315,254,Blood Clot,血块,54.1755,B,1,314,316,316,single-source estimate
+316.0,316,316,693,The Swarm,虫群,54.0802,B,1,315,317,317,single-source estimate
+317.0,317,317,119,Blood Bag,血袋,53.8898,B,1,316,319,319,single-source estimate
+318.0,318,318,660,Card Reading,牌意解读,53.7945,B,1,317,320,320,single-source estimate
+319.0,319,319,255,Screw,螺丝,53.6992,B,1,318,321,321,single-source estimate
+320.0,320,320,571,Orphan Socks,孤儿的袜子,53.604,B,1,319,322,322,single-source estimate
+321.0,321,321,14,Roid Rage,过量类固醇,53.5087,B,1,320,323,323,single-source estimate
+322.0,322,322,529,Pop!,噗！,53.4134,B,1,321,324,324,single-source estimate
+323.0,323,323,575,The Intruder,侵体蜘蛛,53.3181,B,1,322,325,325,single-source estimate
+324.0,324,324,686,Soul Locket,灵魂吊坠,53.2228,C,1,323,326,326,single-source estimate
+325.0,325,325,201,Iron Bar,铁块,53.1275,C,1,324,327,327,single-source estimate
+326.0,326,326,561,Almond Milk,杏仁奶,53.0322,C,1,325,328,328,single-source estimate
+327.0,327,327,83,The Nail,钉子,52.9369,C,1,326,329,329,single-source estimate
+328.0,328,328,73,Cube of Meat,肉块,52.931,C,2,311,330,311,multi-source comparison evidence; not calibrated gameplay performance
+329.0,329,329,357,Box of Friends,朋友盒,52.7462,C,1,327,331,331,single-source estimate
+330.0,330,330,363,Sworn Protector,宣誓守护者,52.6509,C,1,329,332,332,single-source estimate
+331.0,331,331,695,Bloody Gust,嗜血腥风,52.5555,C,1,331,333,333,single-source estimate
+332.0,332,332,593,Mars,火星,52.4602,C,1,332,334,334,single-source estimate
+333.0,333,333,312,Maggy's Bow,抹大拉的蝴蝶结,52.3648,C,1,333,335,335,single-source estimate
+334.0,334,334,270,Leech,水蛭,52.2695,C,1,334,336,336,single-source estimate
+335.0,335,335,591,Venus,金星,52.198,C,2,334,337,337,multi-source comparison evidence; not calibrated gameplay performance
+336.0,336,336,642,Magic Skin,玄奇驴皮,52.0788,C,1,336,338,338,single-source estimate
+337.0,337,337,663,Tooth and Nail,肉中刺,51.9834,C,1,337,339,339,single-source estimate
+338.0,338,338,618,Rotten Tomato,烂番茄,51.888,C,1,338,340,340,single-source estimate
+339.0,339,339,311,Judas' Shadow,犹大的影子,51.7927,C,1,339,341,341,single-source estimate
+340.0,340,340,435,Lil Loki,洛基宝宝,51.7013,C,2,330,343,330,multi-source comparison evidence; not calibrated gameplay performance
+341.0,341,341,454,Polydactyly,多指畸形,51.6973,C,1,340,342,342,single-source estimate
+342.0,342,342,479,Smelter,熔炉,51.6019,C,1,341,343,343,single-source estimate
+343.0,343,343,652,Cube Baby,冰块宝宝,51.5065,C,1,342,344,344,single-source estimate
+344.0,344,344,457,Cone Head,蛋头,51.4111,C,1,344,345,345,single-source estimate
+345.0,345,345,566,Dream Catcher,捕梦网,51.3157,C,1,345,346,346,single-source estimate
+346.0,346,346,439,Mom's Box,妈妈的盒子,51.2203,C,1,346,347,347,single-source estimate
+347.0,347,347,423,Circle of Protection,保护之环,51.1249,C,1,347,348,348,single-source estimate
+348.0,348,348,654,False PHD,伪造药学博士证,51.0295,C,1,348,349,349,single-source estimate
+349.0,349,349,372,Charged Baby,充电宝宝,50.9341,C,1,349,350,350,single-source estimate
+350.0,350,350,6,Number One,小号,50.8387,C,1,350,351,351,single-source estimate
+351.0,351,351,287,Book of Secrets,秘密之书,50.7433,C,1,351,352,352,single-source estimate
+352.0,352,352,85,Deck of Cards,卡牌盒,50.6479,C,1,352,353,353,single-source estimate
+353.0,353,353,458,Belly Button,肚脐,50.5525,C,1,353,354,354,single-source estimate
+354.0,354,354,617,Lodestone,磁石,50.4571,C,1,354,355,355,single-source estimate
+355.0,355,355,327,The Polaroid,全家福,50.3617,C,1,355,356,356,single-source estimate
+356.0,356,356,412,Cambion Conception,恶魔受胎,50.2662,C,1,356,357,357,single-source estimate
+357.0,357,357,523,Moving Box,搬家盒,50.1708,C,1,357,358,358,single-source estimate
+358.0,358,358,409,Empty Vessel,空容器,50.0754,C,1,358,359,359,single-source estimate
+359.0,359,359,646,Brimstone Bombs,硫磺火炸弹,49.98,C,1,359,360,360,single-source estimate
+360.0,360,360,322,Mongo Baby,蒙戈宝宝,49.7892,C,1,360,362,362,single-source estimate
+361.0,361,361,100,Little Steven,史蒂文宝宝,49.6937,C,1,361,363,363,single-source estimate
+362.0,362,362,87,Loki's Horns,洛基的角,49.6923,C,2,360,363,361,multi-source comparison evidence; not calibrated gameplay performance
+363.0,363,363,143,Speed Ball,混合麻药,49.5029,C,1,362,365,365,single-source estimate
+364.0,364,364,709,Suplex!,背摔！,49.4075,C,1,364,366,366,single-source estimate
+365.0,365,365,431,Multidimensional Baby,多维宝宝,49.3121,C,1,365,367,367,single-source estimate
+366.0,366,366,699,Azazel's Rage,阿撒泻勒之怒,49.1212,C,1,366,369,369,single-source estimate
+367.0,367,367,673,Redemption,赎罪,48.9304,C,1,367,371,371,single-source estimate
+368.0,368,368,659,Tropicamide,托吡卡胺,48.8399,C,2,318,381,318,multi-source comparison evidence; not calibrated gameplay performance
+369.0,369,369,219,Old Bandage,旧绷带,48.835,C,1,368,372,372,single-source estimate
+370.0,370,370,400,Spear of Destiny,命运之矛,48.7396,C,1,369,373,373,single-source estimate
+371.0,371,371,13,The Virus,病毒,48.6442,C,1,370,374,374,single-source estimate
+372.0,372,372,362,Lil Chest,小箱子,48.5488,C,1,371,375,375,single-source estimate
+373.0,373,373,697,Vanishing Twin,消失的胞胎,48.4534,C,1,372,376,376,single-source estimate
+374.0,374,374,300,Aries,白羊座,48.2626,C,1,373,378,378,single-source estimate
+375.0,375,375,677,Astral Projection,灵魂出窍,48.1672,C,1,374,379,379,single-source estimate
+376.0,376,376,339,Safety Pin,安全别针,48.0718,C,1,375,380,380,single-source estimate
+377.0,377,377,166,D20,二十面骰,47.9764,C,1,377,381,381,single-source estimate
+378.0,378,378,545,Book of the Dead,亡者之书,47.881,C,1,378,382,382,single-source estimate
+379.0,379,379,253,Magic Scab,魔法血痂,47.7925,C,2,368,386,368,multi-source comparison evidence; not calibrated gameplay performance
+380.0,380,380,513,Bozo,派对帽,47.7856,C,1,379,383,383,single-source estimate
+381.0,381,381,690,Belly Jelly,肚肚软糖,47.7253,C,2,375,406,406,multi-source comparison evidence; not calibrated gameplay performance
+382.0,382,382,683,Bone Spurs,骨刺,47.6902,C,1,380,384,384,single-source estimate
+383.0,383,383,328,The Negative,底片,47.5948,C,1,381,385,385,single-source estimate
+384.0,384,384,518,Buddy in a Box,伙伴盲盒,47.4995,C,1,382,386,386,single-source estimate
+385.0,385,385,727,Ghost Bombs,幽灵炸弹,47.4041,C,1,384,387,387,single-source estimate
+386.0,386,386,519,Lil Delirium,精神错乱宝宝,47.3087,C,1,385,388,388,single-source estimate
+387.0,387,387,583,Rocket in a Jar,罐中火箭,47.2283,C,2,386,399,399,multi-source comparison evidence; not calibrated gameplay performance
+388.0,388,388,94,Sack of Pennies,硬币袋,47.2134,C,1,387,389,389,single-source estimate
+389.0,389,389,319,Cain's Other Eye,该隐的另一只眼,47.118,C,1,388,390,390,single-source estimate
+390.0,390,390,202,Midas' Touch,弥达斯之触,47.0227,C,1,389,391,391,single-source estimate
+391.0,391,391,10,Halo of Flies,苍蝇光环,46.9273,C,1,390,392,392,single-source estimate
+392.0,392,392,410,Evil Eye,邪恶之眼,46.832,C,1,391,393,393,single-source estimate
+393.0,393,393,8,Brother Bobby,波比兄弟,46.7366,C,1,393,394,394,single-source estimate
+394.0,394,394,318,Gemini (Item),双子座,46.6413,C,1,394,395,395,single-source estimate
+395.0,395,395,55,Mom's Eye,妈妈的眼睛,46.546,C,1,395,396,396,single-source estimate
+396.0,396,396,554,2Spooky,恐怖如斯,46.4507,C,1,396,397,397,single-source estimate
+397.0,397,397,635,Stitches,织布魔偶,46.3554,C,1,397,398,398,single-source estimate
+398.0,398,398,92,Super Bandage,超级绷带,46.2474,C,2,390,447,447,multi-source comparison evidence; not calibrated gameplay performance
+399.0,399,399,95,Robo-Baby,机器宝宝,46.1648,C,1,398,400,400,single-source estimate
+400.0,400,400,139,Mom's Purse,妈妈的钱包,46.0695,C,1,399,401,401,single-source estimate
+401.0,401,401,241,Contract From Below,地狱契约,45.9742,C,1,400,402,402,single-source estimate
+402.0,402,402,354,Crack Jacks,琥珀爆米花,45.8789,C,1,401,403,403,single-source estimate
+403.0,403,403,467,Finger!,手指！,45.8387,C,2,364,411,364,multi-source comparison evidence; not calibrated gameplay performance
+404.0,404,404,465,Analog Stick,模拟摇杆,45.7836,C,1,403,404,404,single-source estimate
+405.0,405,405,442,Dark Prince's Crown,黑王子之冠,45.4026,C,1,404,408,408,single-source estimate
+406.0,406,406,449,Metal Plate,金属板,45.3074,C,1,405,409,409,single-source estimate
+407.0,407,407,155,The Peeper,窥眼,45.2848,C,2,404,429,429,multi-source comparison evidence; not calibrated gameplay performance
+408.0,408,408,624,Booster Pack (Item),扩展包,45.2121,C,1,406,410,410,single-source estimate
+409.0,409,409,343,Latch Key,弹簧锁钥匙,45.1169,C,1,408,411,411,single-source estimate
+410.0,410,410,163,Ghost Baby,幽灵宝宝,45.0217,C,1,409,412,412,single-source estimate
+411.0,411,411,45,Yum Heart,美味的心,44.9265,C,1,410,413,413,single-source estimate
+412.0,412,412,558,Eye Sore,眼瘤,44.8313,C,1,411,414,414,single-source estimate
+413.0,413,413,632,Evil Charm,邪眼护符,44.6409,C,1,412,416,416,single-source estimate
+414.0,414,414,349,Wooden Nickel,木制镍币,44.573,C,2,412,440,440,multi-source comparison evidence; not calibrated gameplay performance
+415.0,415,415,688,Inner Child,内在孩童,44.5458,C,1,414,417,417,single-source estimate
+416.0,416,416,493,Adrenaline,肾上腺素,44.4506,C,1,415,418,418,single-source estimate
+417.0,417,417,269,Headless Baby,无头宝宝,44.3555,C,1,416,419,419,single-source estimate
+418.0,418,418,227,Piggy Bank,小猪存钱罐,44.2603,C,1,417,420,420,single-source estimate
+419.0,419,419,194,Magic 8 Ball,魔力八号球,44.1652,C,1,418,421,421,single-source estimate
+420.0,420,420,33,The Bible,圣经,44.0701,C,1,419,422,422,single-source estimate
+421.0,421,421,175,Dad's Key,爸爸的钥匙,43.975,C,1,420,423,423,single-source estimate
+422.0,422,422,233,Tiny Planet,小小星球,43.8893,C,2,370,434,370,multi-source comparison evidence; not calibrated gameplay performance
+423.0,423,423,289,Red Candle,红蜡烛,43.8799,C,1,421,424,424,single-source estimate
+424.0,424,424,164,The Candle,蓝蜡烛,43.7848,C,1,423,425,425,single-source estimate
+425.0,425,425,455,Dad's Lost Coin,爸爸丢失的硬币,43.6897,C,1,424,426,426,single-source estimate
+426.0,426,426,283,D100,一百面骰,43.5947,C,1,425,427,427,single-source estimate
+427.0,427,427,419,Teleport 2.0,传送2.0,43.4996,C,1,426,428,428,single-source estimate
+428.0,428,428,113,Demon Baby,恶魔宝宝,43.3095,C,1,427,430,430,single-source estimate
+429.0,429,429,60,The Ladder,梯子,43.1687,C,2,405,437,405,multi-source comparison evidence; not calibrated gameplay performance
+430.0,430,430,167,Harlequin Baby,小丑宝宝,43.0245,C,1,428,433,433,single-source estimate
+431.0,431,431,361,Fate's Reward,宿命的报答,42.9296,C,1,429,434,434,single-source estimate
+432.0,432,432,543,Hallowed Ground,圣地大便,42.8346,C,1,430,435,435,single-source estimate
+433.0,433,433,367,Sticky Bombs,粘性炸弹,42.7576,C,2,430,445,445,multi-source comparison evidence; not calibrated gameplay performance
+434.0,434,434,368,Epiphora,溢泪症,42.7396,C,1,431,436,436,single-source estimate
+435.0,435,435,634,Purgatory,炼狱恶鬼,42.6447,C,1,433,437,437,single-source estimate
+436.0,436,436,280,Sissy Longlegs,长腿蛛妹妹,42.5498,C,1,434,438,438,single-source estimate
+437.0,437,437,106,Mr. Mega,大爆弹先生,42.4549,C,1,435,439,439,single-source estimate
+438.0,438,438,500,Sack of Sacks,袋中袋,42.2651,C,1,436,441,441,single-source estimate
+439.0,439,439,464,Glyph of Balance,平衡符号,42.1702,C,1,438,442,442,single-source estimate
+440.0,440,440,38,Tammy's Head,塔米猫的头,42.1158,C,2,377,453,377,multi-source comparison evidence; not calibrated gameplay performance
+441.0,441,441,530,Death's List,死神名册,42.0753,C,1,439,443,443,single-source estimate
+442.0,442,442,250,Bogo Bombs,炸弹买一送一,41.9805,C,1,440,444,444,single-source estimate
+443.0,443,443,471,Lil Monstro,萌死戳宝宝,41.9102,C,2,440,458,458,multi-source comparison evidence; not calibrated gameplay performance
+444.0,444,444,200,Mom's Eyeshadow,妈妈的眼影,41.8624,C,2,438,482,482,multi-source comparison evidence; not calibrated gameplay performance
+445.0,445,445,701,Isaac's Tomb,以撒的坟墓,41.7908,C,1,441,446,446,single-source estimate
+446.0,446,446,282,How to Jump,跳跃教程,41.6013,C,1,443,448,448,single-source estimate
+447.0,447,447,541,Marrow,骨髓,41.4807,C,2,431,452,431,multi-source comparison evidence; not calibrated gameplay performance
+448.0,448,448,724,Hypercoagulation,高凝血,41.4117,C,1,444,450,450,single-source estimate
+449.0,449,449,413,Immaculate Conception,圣灵受胎,41.1276,C,1,445,453,453,single-source estimate
+450.0,450,450,103,The Common Cold,普通感冒,41.0329,C,1,447,454,454,single-source estimate
+451.0,451,451,231,Ball of Tar,焦油球,40.9382,C,1,448,455,455,single-source estimate
+452.0,452,452,509,Bloodshot Eye,血丝眼,40.8692,C,2,449,474,474,multi-source comparison evidence; not calibrated gameplay performance
+453.0,453,453,279,Big Fan,大粉丝,40.8435,C,1,450,456,456,single-source estimate
+454.0,454,454,674,Spirit Shackles,灵魂枷锁,40.3705,C,1,453,461,461,single-source estimate
+455.0,455,455,731,Stye,麦粒肿,40.2759,C,1,454,462,462,single-source estimate
+456.0,456,456,74,A Quarter,25美分,40.1814,C,1,455,463,463,single-source estimate
+457.0,457,457,702,Vengeful Spirit,复仇之魂,40.0869,C,1,456,464,464,single-source estimate
+458.0,458,458,240,Experimental Treatment,实验性疗法,39.9602,C,2,455,488,488,multi-source comparison evidence; not calibrated gameplay performance
+459.0,459,459,612,Lost Soul,迷失游魂,39.8979,C,1,457,466,466,single-source estimate
+460.0,460,460,377,Bursting Sack,爆裂虫卵,39.8034,C,1,458,467,467,single-source estimate
+461.0,461,461,378,No. 2,大号,39.6696,C,2,459,472,459,multi-source comparison evidence; not calibrated gameplay performance
+462.0,462,462,713,Sumptorium,圣血吸管,39.6146,C,1,460,469,469,single-source estimate
+463.0,463,463,548,Jaw Bone,颌骨,39.4258,C,1,461,471,471,single-source estimate
+464.0,464,464,614,Blood Bombs,鲜血炸弹,39.3314,C,1,462,472,472,single-source estimate
+465.0,465,465,391,Betrayal,背叛,39.2826,C,2,462,474,465,multi-source comparison evidence; not calibrated gameplay performance
+466.0,466,466,89,Spider Bite,蜘蛛之咬,39.2371,C,1,463,473,473,single-source estimate
+467.0,467,467,680,Montezuma's Revenge,水土不服症,39.0484,C,1,464,475,475,single-source estimate
+468.0,468,468,432,Glitter Bombs,闪光炸弹,38.9541,C,1,465,476,476,single-source estimate
+469.0,469,469,392,Zodiac,黄道十二宫,38.9002,C,2,407,489,407,multi-source comparison evidence; not calibrated gameplay performance
+470.0,470,470,15,<3,<3,38.8599,C,1,466,477,477,single-source estimate
+471.0,471,471,217,Mom's Wig,妈妈的假发,38.8479,C,2,462,529,529,multi-source comparison evidence; not calibrated gameplay performance
+472.0,472,472,141,Pageant Boy,盛装男孩,38.7656,C,1,467,478,478,single-source estimate
+473.0,473,473,722,Anima Sola,孤魂铁索,38.6714,C,1,469,479,479,single-source estimate
+474.0,474,474,704,Berserk!,狂怒！,38.6005,C,2,469,509,509,multi-source comparison evidence; not calibrated gameplay performance
+475.0,475,475,353,Bomber Boy,炸弹人,38.5866,C,2,432,486,432,multi-source comparison evidence; not calibrated gameplay performance
+476.0,476,476,207,Ball of Bandages,绷带球,38.5772,C,1,470,480,480,single-source estimate
+477.0,477,477,557,Fortune Cookie,幸运饼干,38.483,C,1,471,481,481,single-source estimate
+478.0,478,478,607,Boiled Baby,脓液囊宝宝,38.3422,C,2,473,513,513,multi-source comparison evidence; not calibrated gameplay performance
+479.0,479,479,267,Robo-Baby 2.0,机器宝宝2.0,38.2997,C,2,457,485,457,multi-source comparison evidence; not calibrated gameplay performance
+480.0,480,480,174,Rainbow Baby,彩虹宝宝,38.2947,C,1,473,483,483,single-source estimate
+481.0,481,481,214,Anemic,贫血,38.1083,C,2,460,488,460,multi-source comparison evidence; not calibrated gameplay performance
+482.0,482,482,501,Greed's Gullet,贪婪的胃袋,37.9956,C,2,480,490,485,multi-source comparison evidence; not calibrated gameplay performance
+483.0,483,483,209,Butt Bombs,屁股炸弹,37.8672,C,2,483,492,487,multi-source comparison evidence; not calibrated gameplay performance
+484.0,484,484,430,Papa Fly,狙击蝇老爹,37.8276,C,2,474,545,545,multi-source comparison evidence; not calibrated gameplay performance
+485.0,485,485,162,Celtic Cross,凯尔特十字,37.7304,C,1,475,489,489,single-source estimate
+486.0,486,486,99,Little Gish,吉什宝宝,37.6971,C,2,479,523,523,multi-source comparison evidence; not calibrated gameplay performance
+487.0,487,487,28,The Belt,皮带,37.5425,C,1,477,491,491,single-source estimate
+488.0,488,488,649,Fruity Plum,甜甜糖梅宝,37.3752,C,2,451,503,451,multi-source comparison evidence; not calibrated gameplay performance
+489.0,489,489,611,Larynx,声带,37.3546,C,1,479,493,493,single-source estimate
+490.0,490,490,67,Sister Maggy,玛姬姐妹,37.354,C,2,487,499,495,multi-source comparison evidence; not calibrated gameplay performance
+491.0,491,491,460,Glaucoma,青光眼,37.2899,C,2,488,501,496,multi-source comparison evidence; not calibrated gameplay performance
+492.0,492,492,25,Breakfast,早餐,37.2608,C,1,480,494,494,single-source estimate
+493.0,493,493,271,Mystery Sack,神秘的袋子,36.8855,C,1,484,498,498,single-source estimate
+494.0,494,494,675,Cracked Orb,碎裂的宝珠,36.7917,C,1,486,499,499,single-source estimate
+495.0,495,495,671,Candy Heart,糖心,36.698,C,1,487,500,500,single-source estimate
+496.0,496,496,97,The Book of Sin,七原罪之书,36.6043,C,1,489,501,501,single-source estimate
+497.0,497,497,340,Caffeine Pill,咖啡因片,36.5106,C,1,491,502,502,single-source estimate
+498.0,498,498,49,Shoop Da Whoop!,嗖-哒-呜！,36.4751,C,2,492,542,542,multi-source comparison evidence; not calibrated gameplay performance
+499.0,499,499,37,Mr. Boom,炸弹先生,36.411,C,2,493,543,543,multi-source comparison evidence; not calibrated gameplay performance
+500.0,500,500,563,Nancy Bombs,魅彩炸弹,36.3233,C,1,494,504,504,single-source estimate
+501.0,501,501,264,Smart Fly,智能苍蝇,36.2297,C,1,495,505,505,single-source estimate
+502.0,502,502,176,Stem Cells,干细胞,36.0426,C,1,497,507,507,single-source estimate
+503.0,503,503,211,Spiderbaby,蜘蛛宝宝,36.0338,D,2,452,516,452,multi-source comparison evidence; not calibrated gameplay performance
+504.0,504,504,9,Skatole,粪臭素,35.9491,D,1,498,508,508,single-source estimate
+505.0,505,505,470,Hushy,死寂宝宝,35.8982,D,2,500,551,551,multi-source comparison evidence; not calibrated gameplay performance
+506.0,506,506,220,Sad Bombs,悲伤炸弹,35.7621,D,1,502,510,510,single-source estimate
+507.0,507,507,476,D1,一面骰,35.6687,D,1,503,511,511,single-source estimate
+508.0,508,508,450,Eye of Greed,贪婪的眼睛,35.3886,D,1,504,514,514,single-source estimate
+509.0,509,509,324,Undefined,未定义,35.2932,D,2,502,585,585,multi-source comparison evidence; not calibrated gameplay performance
+510.0,510,510,266,Juicy Sack,粘液卵囊,35.202,D,1,505,516,516,single-source estimate
+511.0,511,511,472,King Baby,国王宝宝,35.0214,D,2,468,528,468,multi-source comparison evidence; not calibrated gameplay performance
+512.0,512,512,135,IV Bag,献血袋,35.0155,D,1,506,518,518,single-source estimate
+513.0,513,513,96,Little C.H.A.D.,查德宝宝,34.9046,D,2,490,525,490,multi-source comparison evidence; not calibrated gameplay performance
+514.0,514,514,123,Monster Manual,怪物手册,34.8291,D,1,508,520,520,single-source estimate
+515.0,515,515,433,My Shadow,我的影子,34.7359,D,1,510,521,521,single-source estimate
+516.0,516,516,77,My Little Unicorn,彩虹独角兽,34.6845,D,2,509,570,570,multi-source comparison evidence; not calibrated gameplay performance
+517.0,517,517,729,Decap Attack,飞头攻击,34.5571,D,2,511,572,572,multi-source comparison evidence; not calibrated gameplay performance
+518.0,518,518,517,Fast Bombs,快速炸弹,34.4637,D,2,497,530,497,multi-source comparison evidence; not calibrated gameplay performance
+519.0,519,519,720,Everything Jar,百宝罐,34.4567,D,1,511,524,524,single-source estimate
+520.0,520,520,147,Notched Axe,残损铁镐,34.4298,D,2,513,574,574,multi-source comparison evidence; not calibrated gameplay performance
+521.0,521,521,510,Delirious,精神错乱,34.3637,D,1,512,525,525,single-source estimate
+522.0,522,522,206,Guillotine,断头台,34.2325,D,2,518,544,544,multi-source comparison evidence; not calibrated gameplay performance
+523.0,523,523,131,Bomb Bag,炸弹袋,34.1816,D,2,519,533,522,multi-source comparison evidence; not calibrated gameplay performance
+524.0,524,524,348,Placebo,安慰剂,34.1777,D,1,515,527,527,single-source estimate
+525.0,525,525,726,Hemoptysis,咯血症,34.0848,D,1,516,528,528,single-source estimate
+526.0,526,526,22,Lunch,午餐,33.8991,D,1,517,530,530,single-source estimate
+527.0,527,527,27,Wooden Spoon,木头勺子,33.8982,D,2,506,537,506,multi-source comparison evidence; not calibrated gameplay performance
+528.0,528,528,594,Jupiter,木星,33.8873,D,2,486,539,486,multi-source comparison evidence; not calibrated gameplay performance
+529.0,529,529,487,Potato Peeler,土豆削皮刀,33.8062,D,1,518,531,531,single-source estimate
+530.0,530,530,352,Glass Cannon,玻璃大炮,33.7135,D,1,519,533,532,single-source estimate
+531.0,531,531,19,Boom!,轰！,33.611,D,2,449,551,449,multi-source comparison evidence; not calibrated gameplay performance
+532.0,532,532,365,Lost Fly,迷路苍蝇,33.528,D,1,521,536,534,single-source estimate
+533.0,533,533,29,Mom's Underwear,妈妈的内裤,33.4137,D,2,522,590,590,multi-source comparison evidence; not calibrated gameplay performance
+534.0,534,534,703,Esau Jr.,小以扫,33.25,D,1,522,538,537,single-source estimate
+535.0,535,535,560,It Hurts,好疼,33.2089,D,2,517,545,517,multi-source comparison evidence; not calibrated gameplay performance
+536.0,536,536,638,Eraser,橡皮擦,33.1574,D,1,524,539,538,single-source estimate
+537.0,537,537,107,The Pinking Shears,锯齿剪,33.0963,D,2,533,562,562,multi-source comparison evidence; not calibrated gameplay performance
+538.0,538,538,685,Jar of Wisps,魂火罐,33.0648,D,1,526,540,539,single-source estimate
+539.0,539,539,469,Depression,抑郁症,32.9723,D,1,527,542,540,single-source estimate
+540.0,540,540,26,Rotten Meat,烂肉,32.7812,D,2,530,600,600,multi-source comparison evidence; not calibrated gameplay performance
+541.0,541,541,161,Ankh,安卡十字,32.5501,D,2,484,560,484,multi-source comparison evidence; not calibrated gameplay performance
+542.0,542,542,692,Sanguine Bond,血色羁绊,32.3257,D,1,534,550,547,single-source estimate
+543.0,543,543,366,Scatter Bombs,分裂炸弹,32.3058,D,2,470,569,470,multi-source comparison evidence; not calibrated gameplay performance
+544.0,544,544,256,Hot Bombs,炙热炸弹,32.3046,D,2,543,556,552,multi-source comparison evidence; not calibrated gameplay performance
+545.0,545,545,707,Supper,晚餐,32.2766,D,2,538,608,608,multi-source comparison evidence; not calibrated gameplay performance
+546.0,546,546,293,Head of Krampus,坎卜斯的头,32.2334,D,1,535,551,548,single-source estimate
+547.0,547,547,576,Dirty Mind,龌龊之心,32.2104,D,2,533,558,533,multi-source comparison evidence; not calibrated gameplay performance
+548.0,548,548,512,Black Hole,黑洞,32.0507,D,2,492,568,492,multi-source comparison evidence; not calibrated gameplay performance
+549.0,549,549,35,The Necronomicon,死灵之书,31.9665,D,2,543,580,580,multi-source comparison evidence; not calibrated gameplay performance
+550.0,550,550,346,A Snack,零食,31.904,D,2,545,581,581,multi-source comparison evidence; not calibrated gameplay performance
+551.0,551,551,681,Lil Portal,黑洞宝宝,31.881,D,2,415,584,415,multi-source comparison evidence; not calibrated gameplay performance
+552.0,552,552,160,Crack the Sky,撕裂苍穹,31.7728,D,1,538,555,553,single-source estimate
+553.0,553,553,277,Lil Haunt,恶灵宝宝,31.6808,D,1,540,556,554,single-source estimate
+554.0,554,554,23,Dinner,正餐,31.5889,D,1,541,558,555,single-source estimate
+555.0,555,555,125,Bobby-Bomb,波比炸弹,31.4969,D,1,543,561,556,single-source estimate
+556.0,556,556,452,Varicose Veins,静脉曲张,31.3659,D,2,503,573,503,multi-source comparison evidence; not calibrated gameplay performance
+557.0,557,557,198,Box,盒子,31.3132,D,1,544,563,558,single-source estimate
+558.0,558,558,298,Unicorn Stump,独角兽的残角,31.2795,D,2,552,591,591,multi-source comparison evidence; not calibrated gameplay performance
+559.0,559,559,603,Battery Pack,电池组,31.2171,D,2,549,569,549,multi-source comparison evidence; not calibrated gameplay performance
+560.0,560,560,456,Midnight Snack,夜宵,31.1296,D,1,547,564,560,single-source estimate
+561.0,561,561,296,Converter,转换器,30.9059,D,2,556,597,597,multi-source comparison evidence; not calibrated gameplay performance
+562.0,562,562,446,Dead Tooth,烂牙,30.8776,D,2,557,575,575,multi-source comparison evidence; not calibrated gameplay performance
+563.0,563,563,338,The Boomerang,回旋镖,30.8546,D,1,548,565,563,single-source estimate
+564.0,564,564,364,Friend Zone,浅交朋友,30.8335,D,2,550,631,631,multi-source comparison evidence; not calibrated gameplay performance
+565.0,565,565,653,Vade Retro,驱魔护符,30.7629,D,1,550,567,564,single-source estimate
+566.0,566,566,676,Empty Heart,空虚之心,30.7421,D,2,544,658,658,multi-source comparison evidence; not calibrated gameplay performance
+567.0,567,567,645,Tinytoma,小畸胎瘤,30.6714,D,1,551,568,565,single-source estimate
+568.0,568,568,380,Pay to Play,充钱游戏,30.5799,D,1,552,571,566,single-source estimate
+569.0,569,569,491,Acid Baby,毒瘾宝宝,30.3055,D,1,554,574,569,single-source estimate
+570.0,570,570,434,Jar of Flies,苍蝇罐,30.0048,D,2,556,670,670,multi-source comparison evidence; not calibrated gameplay performance
+571.0,571,571,398,God's Flesh,神体蘑菇,29.9404,D,1,560,580,573,single-source estimate
+572.0,572,572,321,Samson's Chains,参孙的脚镣,29.8988,D,2,562,646,646,multi-source comparison evidence; not calibrated gameplay performance
+573.0,573,573,129,Bucket of Lard,桶装猪油,29.8603,D,2,569,582,571,multi-source comparison evidence; not calibrated gameplay performance
+574.0,574,574,488,Metronome,节拍器,29.8366,D,2,564,647,647,multi-source comparison evidence; not calibrated gameplay performance
+575.0,575,575,384,Lil Gurdy,肉山宝宝,29.667,D,1,564,584,576,single-source estimate
+576.0,576,576,187,Guppy's Hair Ball,嗝屁猫的毛球,29.5759,D,1,565,586,577,single-source estimate
+577.0,577,577,522,Telekinesis,念力,29.539,D,2,515,594,515,multi-source comparison evidence; not calibrated gameplay performance
+578.0,578,578,337,Broken Watch,损坏的怀表,29.4622,D,2,575,598,598,multi-source comparison evidence; not calibrated gameplay performance
+579.0,579,579,714,Recall,召回,29.394,D,1,566,587,579,single-source estimate
+580.0,580,580,57,Distant Admiration,仰慕之交,29.3267,D,2,536,592,536,multi-source comparison evidence; not calibrated gameplay performance
+581.0,581,581,505,Poke Go,宝可GO,29.2349,D,2,575,624,624,multi-source comparison evidence; not calibrated gameplay performance
+582.0,582,582,657,Vasculitis,血管炎,29.2281,D,2,561,591,561,multi-source comparison evidence; not calibrated gameplay performance
+583.0,583,583,473,Big Chubby,大胖蛆,29.2167,D,2,571,657,657,multi-source comparison evidence; not calibrated gameplay performance
+584.0,584,584,610,Bird Cage,鸟肥笼,29.095,D,2,581,604,604,multi-source comparison evidence; not calibrated gameplay performance
+585.0,585,585,436,Milk!,牛奶！,29.0338,D,2,582,605,605,multi-source comparison evidence; not calibrated gameplay performance
+586.0,586,586,404,Farting Baby,放屁宝宝,29.0306,D,1,570,590,583,single-source estimate
+587.0,587,587,320,???'s Only Friend,???唯一的朋友,28.8806,D,2,580,595,587,multi-source comparison evidence; not calibrated gameplay performance
+588.0,588,588,516,Sprinkler,洒水器,28.7896,D,2,584,609,609,multi-source comparison evidence; not calibrated gameplay performance
+589.0,589,589,544,Pointy Rib,尖肋骨,28.7586,D,1,572,592,586,single-source estimate
+590.0,590,590,539,Mystery Egg,神秘的卵,28.4849,D,2,588,614,614,multi-source comparison evidence; not calibrated gameplay performance
+591.0,591,591,66,The Hourglass,沙漏,28.3143,D,2,585,639,639,multi-source comparison evidence; not calibrated gameplay performance
+592.0,592,592,511,Angry Fly,愤怒苍蝇,27.9456,D,2,582,603,582,multi-source comparison evidence; not calibrated gameplay performance
+593.0,593,593,344,Match Book,火柴盒,27.9451,D,1,576,597,595,single-source estimate
+594.0,594,594,719,Keeper's Box,店主的盒子,27.855,D,1,577,598,596,single-source estimate
+595.0,595,595,88,Little Chubby,小胖蛆,27.5849,D,1,581,601,599,single-source estimate
+596.0,596,596,552,Mom's Shovel,妈妈的铲子,27.4945,D,2,587,685,685,multi-source comparison evidence; not calibrated gameplay performance
+597.0,597,597,102,Mom's Bottle of Pills,妈妈的药瓶,27.4337,D,2,567,608,567,multi-source comparison evidence; not calibrated gameplay performance
+598.0,598,598,47,Doctor's Remote,胎儿博士的遥控器,27.3153,D,1,583,603,602,single-source estimate
+599.0,599,599,42,Bob's Rotten Head,鲍勃的烂头,27.2255,D,1,584,605,603,single-source estimate
+600.0,600,600,623,Sharp Key,尖头钥匙,27.1515,D,2,596,636,636,multi-source comparison evidence; not calibrated gameplay performance
+601.0,601,601,222,Anti-Gravity,反重力,27.0919,D,2,512,616,512,multi-source comparison evidence; not calibrated gameplay performance
+602.0,602,602,128,Forever Alone,孤独一生,26.867,D,1,590,608,607,single-source estimate
+603.0,603,603,672,A Pound of Flesh,一磅肉,26.7901,D,2,599,642,642,multi-source comparison evidence; not calibrated gameplay performance
+604.0,604,604,288,Box of Spiders,蜘蛛盒,26.6997,D,2,600,623,623,multi-source comparison evidence; not calibrated gameplay performance
+605.0,605,605,507,Sharp Straw,尖头吸管,26.5093,D,1,594,611,611,single-source estimate
+606.0,606,606,508,Mom's Razor,妈妈的剃刀,26.4935,D,2,602,613,606,multi-source comparison evidence; not calibrated gameplay performance
+607.0,607,607,542,Slipped Rib,滑肋骨,26.42,D,1,596,612,612,single-source estimate
+608.0,608,608,351,Mega Bean,超级豆子,26.3308,D,1,598,613,613,single-source estimate
+609.0,609,609,140,Bob's Curse,鲍勃的诅咒,26.1652,D,2,588,614,588,multi-source comparison evidence; not calibrated gameplay performance
+610.0,610,610,667,Strawman,稻草人,26.1051,D,2,589,615,589,multi-source comparison evidence; not calibrated gameplay performance
+611.0,611,611,326,Breath of Life,生命之息,25.953,D,2,607,616,615,multi-source comparison evidence; not calibrated gameplay performance
+612.0,612,612,604,Mom's Bracelet,妈妈的手镯,25.7078,D,1,601,620,620,single-source estimate
+613.0,613,613,24,Dessert,甜点,25.5822,D,2,519,622,519,multi-source comparison evidence; not calibrated gameplay performance
+614.0,614,614,284,D4,四面骰,25.5304,D,1,602,622,622,single-source estimate
+615.0,615,615,565,Blood Puppy,嗜血小宠,25.2646,D,1,604,625,625,single-source estimate
+616.0,616,616,406,D8,八面骰,24.9994,D,1,606,629,628,single-source estimate
+617.0,617,617,314,Thunder Thighs,霹雳大腿,24.9179,D,2,592,620,592,multi-source comparison evidence; not calibrated gameplay performance
+618.0,618,618,323,Isaac's Tears,以撒的泪盆,24.8422,D,2,541,628,541,multi-source comparison evidence; not calibrated gameplay performance
+619.0,619,619,694,Heartbreak,心碎,24.8229,D,1,607,633,630,single-source estimate
+620.0,620,620,177,Portable Slot,便携式老虎机,24.8193,D,2,615,634,634,multi-source comparison evidence; not calibrated gameplay performance
+621.0,621,621,273,Bob's Brain,鲍勃的脑浆子,24.76,D,2,616,635,635,multi-source comparison evidence; not calibrated gameplay performance
+622.0,622,622,396,Ventricle Razor,心室手术刀,24.6413,D,2,617,637,637,multi-source comparison evidence; not calibrated gameplay performance
+623.0,623,623,475,Plan C,计划C,24.5485,D,2,546,632,546,multi-source comparison evidence; not calibrated gameplay performance
+624.0,624,624,238,Key Piece 1,钥匙碎片1,24.4673,D,2,584,625,584,multi-source comparison evidence; not calibrated gameplay performance
+625.0,625,625,486,Dull Razor,钝剃刀片,24.304,D,2,559,634,559,multi-source comparison evidence; not calibrated gameplay performance
+626.0,626,626,427,Mine Crafter,工矿炸药包,23.9319,D,2,621,649,649,multi-source comparison evidence; not calibrated gameplay performance
+627.0,627,627,687,Friend Finder,寻友护符,23.9008,D,2,623,631,626,multi-source comparison evidence; not calibrated gameplay performance
+628.0,628,628,502,Large Zit,大青春痘,23.8772,D,2,594,631,594,multi-source comparison evidence; not calibrated gameplay performance
+629.0,629,629,569,Blood Oath,血誓,23.8418,D,2,624,632,627,multi-source comparison evidence; not calibrated gameplay performance
+630.0,630,630,117,Dead Bird,死鸟,23.7592,D,2,550,639,550,multi-source comparison evidence; not calibrated gameplay performance
+631.0,631,631,420,Black Powder,黑色粉末,23.556,D,2,526,644,526,multi-source comparison evidence; not calibrated gameplay performance
+632.0,632,632,302,Leo,狮子座,23.5472,D,2,627,636,632,multi-source comparison evidence; not calibrated gameplay performance
+633.0,633,633,195,Mom's Coin Purse,妈妈的零钱包,23.4883,D,2,629,637,633,multi-source comparison evidence; not calibrated gameplay performance
+634.0,634,634,30,Mom's Heels,妈妈的高跟鞋,23.4659,D,2,601,637,601,multi-source comparison evidence; not calibrated gameplay performance
+635.0,635,635,437,D7,七面骰,23.4532,D,2,617,636,617,multi-source comparison evidence; not calibrated gameplay performance
+636.0,636,636,299,Taurus,金牛座,23.4364,D,2,535,643,535,multi-source comparison evidence; not calibrated gameplay performance
+637.0,637,637,658,Giant Cell,巨细胞,23.3369,D,2,619,637,619,multi-source comparison evidence; not calibrated gameplay performance
+638.0,638,638,93,The Gamekid,游戏掌机,22.8433,D,2,636,644,644,multi-source comparison evidence; not calibrated gameplay performance
+639.0,639,639,281,Punching Bag,受气包,22.7595,D,2,631,669,669,multi-source comparison evidence; not calibrated gameplay performance
+640.0,640,640,537,Lil Spewer,呕吐虫宝宝,22.7387,D,2,626,690,690,multi-source comparison evidence; not calibrated gameplay performance
+641.0,641,641,295,Magic Fingers,魔术手指,22.2992,D,2,621,643,621,multi-source comparison evidence; not calibrated gameplay performance
+642.0,642,642,86,Monstro's Tooth,萌死戳的牙,22.2362,D,2,638,678,678,multi-source comparison evidence; not calibrated gameplay performance
+643.0,643,643,272,BBF,大美蝇,22.0459,D,2,568,650,568,multi-source comparison evidence; not calibrated gameplay performance
+644.0,644,644,262,Missing Page 2,遗失的书页2,21.8543,D,2,640,661,661,multi-source comparison evidence; not calibrated gameplay performance
+645.0,645,645,171,Spider Butt,蜘蛛屁股,21.7386,D,2,641,663,663,multi-source comparison evidence; not calibrated gameplay performance
+646.0,646,646,525,Leprosy,麻风病,21.6858,D,2,616,647,616,multi-source comparison evidence; not calibrated gameplay performance
+647.0,647,647,144,Bum Friend,乞丐朋友,21.5503,F,2,645,650,650,multi-source comparison evidence; not calibrated gameplay performance
+648.0,648,648,274,Best Bud,生死之交,21.2029,F,2,640,650,640,multi-source comparison evidence; not calibrated gameplay performance
+649.0,649,649,641,Akeldama,血田,21.1455,F,2,641,651,641,multi-source comparison evidence; not calibrated gameplay performance
+650.0,650,650,31,Mom's Lipstick,妈妈的口红,20.9164,F,2,645,654,645,multi-source comparison evidence; not calibrated gameplay performance
+651.0,651,651,332,Lazarus' Rags,拉撒路的绷带,20.8985,F,2,618,654,618,multi-source comparison evidence; not calibrated gameplay performance
+652.0,652,652,481,Dataminer,数据破解,20.74,F,2,646,704,704,multi-source comparison evidence; not calibrated gameplay performance
+653.0,653,653,582,Wavy Cap,迷幻蘑菇,20.5428,F,2,557,666,557,multi-source comparison evidence; not calibrated gameplay performance
+654.0,654,654,291,Flush!,冲水！,20.4598,F,2,653,656,653,multi-source comparison evidence; not calibrated gameplay performance
+655.0,655,655,425,Night Light,小夜灯,20.1272,F,2,593,665,593,multi-source comparison evidence; not calibrated gameplay performance
+656.0,656,656,385,Bumbo,乞丐宝,20.1189,F,2,655,659,659,multi-source comparison evidence; not calibrated gameplay performance
+657.0,657,657,386,D12,十二面骰,20.0197,F,2,652,693,693,multi-source comparison evidence; not calibrated gameplay performance
+658.0,658,658,388,Key Bum,钥匙乞丐,19.8709,F,2,648,659,648,multi-source comparison evidence; not calibrated gameplay performance
+659.0,659,659,650,Plum Flute,糖梅溜溜笛,19.746,F,2,578,670,578,multi-source comparison evidence; not calibrated gameplay performance
+660.0,660,660,382,Friendly Ball,友好球,19.6608,F,2,610,667,610,multi-source comparison evidence; not calibrated gameplay performance
+661.0,661,661,126,Razor Blade,剃刀片,19.61,F,2,658,668,668,multi-source comparison evidence; not calibrated gameplay performance
+662.0,662,662,239,Key Piece 2,钥匙碎片2,19.4914,F,2,643,665,643,multi-source comparison evidence; not calibrated gameplay performance
+663.0,663,663,53,Magneto,万磁王,19.4788,F,2,655,664,655,multi-source comparison evidence; not calibrated gameplay performance
+664.0,664,664,65,Anarchist Cookbook,无政府主义者食谱,19.3286,F,2,659,673,673,multi-source comparison evidence; not calibrated gameplay performance
+665.0,665,665,315,Strange Attractor,怪异磁铁,19.2724,F,2,661,674,674,multi-source comparison evidence; not calibrated gameplay performance
+666.0,666,666,285,D10,十面骰,19.2289,F,2,656,707,707,multi-source comparison evidence; not calibrated gameplay performance
+667.0,667,667,136,Best Friend,最好的朋友,18.9362,F,2,664,680,680,multi-source comparison evidence; not calibrated gameplay performance
+668.0,668,668,717,Keeper's Kin,店主的亲友,18.911,F,1,643,699,699,single-source estimate
+669.0,669,669,426,Obsessed Fan,狂热粉丝,18.811,F,2,666,669,667,multi-source comparison evidence; not calibrated gameplay performance
+670.0,670,670,188,Abel,亚伯,18.5122,F,2,652,672,652,multi-source comparison evidence; not calibrated gameplay performance
+671.0,671,671,627,Knife Piece 2,菜刀碎片2,18.4345,F,2,669,689,689,multi-source comparison evidence; not calibrated gameplay performance
+672.0,672,672,468,Shade,阴影,18.3276,F,2,664,673,664,multi-source comparison evidence; not calibrated gameplay performance
+673.0,673,673,358,The Wiz,蠢巫帽,18.1487,F,2,671,679,679,multi-source comparison evidence; not calibrated gameplay performance
+674.0,674,674,484,Wait What?,等等，啥？,17.9292,F,2,673,683,683,multi-source comparison evidence; not calibrated gameplay performance
+675.0,675,675,44,Teleport!,传送！,17.8888,F,2,672,676,672,multi-source comparison evidence; not calibrated gameplay performance
+676.0,676,676,148,Infestation,害虫横行,17.8001,F,2,665,676,665,multi-source comparison evidence; not calibrated gameplay performance
+677.0,677,677,448,Shard of Glass,玻璃碎片,17.7429,F,2,629,679,629,multi-source comparison evidence; not calibrated gameplay performance
+678.0,678,678,186,Blood Rights,血之权利,17.3983,F,2,678,681,681,multi-source comparison evidence; not calibrated gameplay performance
+679.0,679,679,447,Linger Bean,流连豆,17.3952,F,2,651,680,651,multi-source comparison evidence; not calibrated gameplay performance
+680.0,680,680,405,GB Bug,恶性漏洞,17.329,F,2,677,694,694,multi-source comparison evidence; not calibrated gameplay performance
+681.0,681,681,394,Marked,十字准星,17.232,F,2,654,681,654,multi-source comparison evidence; not calibrated gameplay performance
+682.0,682,682,236,E. Coli,大肠杆菌,16.8252,F,2,638,684,638,multi-source comparison evidence; not calibrated gameplay performance
+683.0,683,683,294,Butter Bean,棉豆,16.4652,F,2,682,710,711,multi-source comparison evidence; not calibrated gameplay performance
+684.0,684,684,504,Brown Nugget,棕色粪块,16.36,F,2,682,684,682,multi-source comparison evidence; not calibrated gameplay performance
+685.0,685,685,605,The Scooper,挖眼勺,15.8276,F,2,685,692,692,multi-source comparison evidence; not calibrated gameplay performance
+686.0,686,686,39,Mom's Bra,妈妈的胸罩,15.7597,F,2,685,703,703,multi-source comparison evidence; not calibrated gameplay performance
+687.0,687,687,325,Scissors,剪刀,15.7547,F,2,666,688,666,multi-source comparison evidence; not calibrated gameplay performance
+688.0,688,688,137,Remote Detonator,起爆器,15.616,F,2,687,696,696,multi-source comparison evidence; not calibrated gameplay performance
+689.0,689,689,383,Tear Detonator,眼泪引爆器,15.2278,F,2,676,690,676,multi-source comparison evidence; not calibrated gameplay performance
+690.0,690,690,478,Pause,暂停,15.1425,F,2,689,705,705,multi-source comparison evidence; not calibrated gameplay performance
+691.0,691,691,655,Spin to Win,幸运转盘,14.9369,F,2,691,697,697,multi-source comparison evidence; not calibrated gameplay performance
+692.0,692,692,721,TMTRAINER,错误技,14.8484,F,2,662,695,662,multi-source comparison evidence; not calibrated gameplay performance
+693.0,693,693,40,Kamikaze!,神风！,14.7627,F,2,677,694,677,multi-source comparison evidence; not calibrated gameplay performance
+694.0,694,694,316,Cursed Eye,诅咒之眼,14.7314,F,2,660,698,660,multi-source comparison evidence; not calibrated gameplay performance
+695.0,695,695,725,IBS,大肠激躁症,14.5219,F,2,675,699,675,multi-source comparison evidence; not calibrated gameplay performance
+696.0,696,696,276,Isaac's Heart,以撒的心脏,14.4829,F,2,656,704,656,multi-source comparison evidence; not calibrated gameplay performance
+697.0,697,697,124,Dead Sea Scrolls,死海古卷,14.4674,F,2,692,706,706,multi-source comparison evidence; not calibrated gameplay performance
+698.0,698,698,421,Kidney Bean,腰豆,14.3118,F,2,694,709,709,multi-source comparison evidence; not calibrated gameplay performance
+699.0,699,699,36,The Poop,大便,14.2969,F,2,686,700,686,multi-source comparison evidence; not calibrated gameplay performance
+700.0,700,700,252,Little Baggy,小药袋,14.1939,F,2,688,701,688,multi-source comparison evidence; not calibrated gameplay performance
+701.0,701,701,290,The Jar,罐子,14.1566,F,2,696,712,713,multi-source comparison evidence; not calibrated gameplay performance
+702.0,702,702,474,Broken Glass Cannon,损坏的玻璃大炮,14.0534,F,2,697,714,715,multi-source comparison evidence; not calibrated gameplay performance
+703.0,703,703,56,Lemon Mishap,烦事柠檬,14.0398,F,2,691,703,691,multi-source comparison evidence; not calibrated gameplay performance
+704.0,704,704,639,Yuck Heart,难吃的心,13.9317,F,2,701,705,701,multi-source comparison evidence; not calibrated gameplay performance
+705.0,705,705,480,Compost,堆肥,13.7504,F,2,687,706,687,multi-source comparison evidence; not calibrated gameplay performance
+706.0,706,706,180,The Black Bean,黑豆,13.6979,F,2,705,713,714,multi-source comparison evidence; not calibrated gameplay performance
+707.0,707,707,258,Missing No.,编号丢失,13.641,F,2,671,709,671,multi-source comparison evidence; not calibrated gameplay performance
+708.0,708,708,631,Meat Cleaver,切肉刀,13.3465,F,2,698,709,698,multi-source comparison evidence; not calibrated gameplay performance
+709.0,709,709,578,Free Lemonade,免费柠檬水,13.1395,F,2,684,710,684,multi-source comparison evidence; not calibrated gameplay performance
+710.0,710,710,555,Golden Razor,金剃刀片,13.1189,F,2,707,717,718,multi-source comparison evidence; not calibrated gameplay performance
+711.0,711,711,668,Dad's Note,爸爸的便条,12.7231,F,2,695,711,695,multi-source comparison evidence; not calibrated gameplay performance
+712.0,712,712,715,Hold,保留,12.376,F,2,702,714,702,multi-source comparison evidence; not calibrated gameplay performance
+713.0,713,713,111,The Bean,豆子,12.3649,F,2,711,713,712,multi-source comparison evidence; not calibrated gameplay performance
+714.0,714,714,41,Mom's Pad,妈妈的卫生巾,12.3473,F,2,712,718,719,multi-source comparison evidence; not calibrated gameplay performance
+715.0,715,715,550,Broken Shovel,铲子碎片,12.1236,F,2,700,717,700,multi-source comparison evidence; not calibrated gameplay performance
+716.0,716,716,371,Curse of the Tower,塔之诅咒,12.0807,F,2,708,716,708,multi-source comparison evidence; not calibrated gameplay performance
+717.0,717,717,482,Clicker,遥控器,11.9589,F,2,715,717,716,multi-source comparison evidence; not calibrated gameplay performance
+718.0,718,718,626,Knife Piece 1,菜刀碎片1,11.91,F,2,716,718,717,multi-source comparison evidence; not calibrated gameplay performance
