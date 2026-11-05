@@ -62,8 +62,12 @@
   const guideCategoryLabels = new Map(Guide.categories.map(x => [x.id, x.label]));
   const rankings = Rankings.createIndex(RESEARCH);
   const researchSources = new Map(RESEARCH.sources.map(x => [x.id, x]));
-  const numberedCount = RESEARCH.entries.filter(x => x.unlockRank != null).length;
-  const parallelCount = RESEARCH.entries.filter(x => x.parallelOrder != null).length;
+  const PLAN = RESEARCH.unlockPlan;
+  const numberedCount = PLAN?.numbered || RESEARCH.entries.filter(x => x.unlockRank != null).length;
+  const parallelCount = PLAN?.parallel || RESEARCH.entries.filter(x => x.parallelOrder != null).length;
+  const rewardTypeLabels = PLAN?.resourceTypeLabels || {};
+  const allRewardTypes = Object.keys(rewardTypeLabels);
+  const specialRewardTypes = ['trinket','card','rune','soulstone','pill','pickup','interactive'];
   const guideByAchievement = new Map(guideEntries.map(row => [row.achievementId, row]));
   const communityTargetsByItem = new Map();
   for (const target of RESEARCH.communityTargets || []) {
@@ -86,6 +90,9 @@
     guideCategories: Guide.categories.map(x => x.id),
     guideQuery: '',
     communityQuery: '',
+    rankingScope: 'ensemble',
+    guideRewardTypes: [...allRewardTypes],
+    resourceTypes: [...specialRewardTypes],
     localSyncPaused: false,
     selectedCharacterId: DATA.characters[0].id,
     selectedBossId: DATA.bosses[0].id,
@@ -103,6 +110,8 @@
     guideSection: document.getElementById('guideSection'),
     guideSummary: document.getElementById('guideSummary'),
     guideFilters: document.getElementById('guideFilters'),
+    guideRewardFilters: document.getElementById('guideRewardFilters'),
+    resourceFilters: document.getElementById('resourceFilters'),
     guideSearch: document.getElementById('guideSearch'),
     communitySection: document.getElementById('communitySection'),
     communitySearch: document.getElementById('communitySearch'),
@@ -306,6 +315,9 @@
       sort: state.sort,
       showUnlocked: state.showUnlocked,
       guideCategories: state.guideCategories,
+      guideRewardTypes: state.guideRewardTypes,
+      resourceTypes: state.resourceTypes,
+      rankingScope: state.rankingScope,
       localSyncPaused: state.localSyncPaused
     }));
   }
@@ -316,9 +328,12 @@
     try {
       const payload = JSON.parse(stored);
       if (Number(payload.version) !== 1) throw new Error('偏好格式不受支持');
-      if (['default', 'priority', 'rank', 'community'].includes(payload.sort)) state.sort = payload.sort;
+      if (['default', 'priority', 'rank', 'community','ensemble'].includes(payload.sort)) state.sort = payload.sort==='community'?'ensemble':payload.sort;
       if (typeof payload.showUnlocked === 'boolean') state.showUnlocked = payload.showUnlocked;
       if (Array.isArray(payload.guideCategories)) state.guideCategories = payload.guideCategories.filter(id => guideCategoryLabels.has(id));
+      if (Array.isArray(payload.guideRewardTypes)) state.guideRewardTypes=payload.guideRewardTypes.filter(id=>allRewardTypes.includes(id));
+      if (Array.isArray(payload.resourceTypes)) state.resourceTypes=payload.resourceTypes.filter(id=>specialRewardTypes.includes(id));
+      if (['ensemble','resources','community'].includes(payload.rankingScope)) state.rankingScope=payload.rankingScope;
       if (typeof payload.localSyncPaused === 'boolean') state.localSyncPaused = payload.localSyncPaused;
     } catch (error) {
       console.warn('本地页面偏好损坏，已清除。', error);
@@ -372,6 +387,9 @@
     const effectData = EFFECTS[key] || {};
     const override = OVERRIDES[key] || OVERRIDES[aid] || {};
     const merged = { ...base, ...effectData, ...override };
+    const plan = rankings.recommendationFor(aid);
+    if (plan?.effectOverride) merged.effect=plan.effectOverride;
+    if (plan?.displayNameOverride) merged.name=plan.displayNameOverride;
     return {
       ...merged,
       name: merged.name || `成就 #${aid}`,
@@ -430,6 +448,8 @@
   }
 
   function researchMarkup(achievementId) {
+    const suggestion=PLAN && rankings.recommendationFor(achievementId);
+    if (suggestion) return recommendationMarkup(suggestion);
     const entry = rankings.get(achievementId);
     const votes = rankings.communityFor(achievementId);
     const community = communityBadges(votes);
@@ -455,15 +475,54 @@
       </details></div>`;
   }
 
+  function ensembleBadges(refs) {
+    return (refs || []).map(item=>`<span class="research-strength" data-ensemble-rank="${item.rank}">${refs.length>1?`${esc(item.nameZh)} · `:''}综合 ${esc(item.relativeTier)} · ${Number(item.score).toFixed(1)}分 · #${item.rank}/${RESEARCH.ensemble.total}</span>`).join('');
+  }
+
+  function recommendationMarkup(entry,showPosition=true) {
+    const position=entry.parallelOrder!=null
+      ? '<span class="research-rank" data-parallel-task="true">并行推进</span>'
+      : `<span class="research-rank" data-unlock-rank="${entry.unlockRank}">解锁 #${entry.unlockRank}/${numberedCount}</span>`;
+    const evidenceLabels={'ensemble':'综合道具榜与成本估计','mixed-reward-review':'道具与资源的组合收益评估','mechanism-review':'机制核验与编辑建议','historical-single-author':'历史单作者参考','prior-editorial':'原研究意见','progression':'主线 / 角色前置','checklist':'全成就清单'};
+    const refs=entry.ensembleReferences || [];
+    const utility=entry.benefit>=85?'极高':entry.benefit>=70?'较高':entry.benefit>=50?'中等':entry.benefit>=30?'有限':'较低';
+    const strength=refs.length?ensembleBadges(refs):`<span class="research-strength">${entry.evidenceKind==='checklist'?'完成类目标':`解锁收益：${utility}`}</span>`;
+    const prerequisites=(entry.prerequisiteAchievementIds || []).map(id=>{
+      const before=rankings.recommendationFor(id);
+      const label=esc(before?.name || `成就 #${id}`);
+      const link=guideByAchievement.has(id)?`<button type="button" class="community-target-link" data-open-achievement="${id}">${label}</button>`
+        : `<a class="reward-link" href="https://isaac.huijiwiki.com/wiki/${encodeURIComponent('成就')}/${id}" target="_blank" rel="noopener noreferrer">${label} ↗</a>`;
+      return `<span>${link} ${statusBadge(unlockStatus(id))}</span>`;
+    }).join('');
+    const preparation=(entry.preparationIds || []).map(id=>rankings.recommendationFor(id)?.name || `#${id}`).join('、');
+    const prepares=(entry.preparationFor || []).map(id=>rankings.recommendationFor(id)?.name || `#${id}`).join('、');
+    const sources=(entry.sourceIds || []).map(id=>researchSources.get(id)).filter(Boolean).map(source=>
+      `<a class="reward-link" href="${esc(source.url)}" target="_blank" rel="noopener noreferrer" title="${esc(source.limitation)}">${esc(source.title)}</a>`).join(' · ');
+    const coverage=refs.map(item=>`${item.nameZh}：${item.familyCount===1?'单来源估计':`${item.familyCount}族来源`}；敏感性名次 ${item.weightScenarioRankMin}–${item.weightScenarioRankMax}`).join('；');
+    return `<div class="research-info" data-research-achievement="${entry.achievementId}">
+      <div class="research-badges">${showPosition?position:''}${strength}</div>
+      <details class="research-details"><summary>推荐依据${rankings.isBlocked(entry.achievementId,state.save)?' · 前置待完成':''}</summary>
+        <p>${esc(entry.phaseName)} · ${esc(evidenceLabels[entry.evidenceKind] || '编辑建议')}</p>
+        <p>解锁条件：${esc(entry.condition)}</p><p>${esc(entry.reason)}</p>${entry.caveat?`<p>${esc(entry.caveat)}</p>`:''}
+        ${prerequisites?`<p>前置进度：</p><div class="plan-prerequisites">${prerequisites}</div>`:''}
+        ${preparation?`<p>建议先准备：${esc(preparation)}。</p>`:''}
+        ${prepares?`<p>此标记同时用于准备：${esc(prepares)}，因此建议先推进。</p>`:''}
+        ${coverage?`<p>${esc(coverage)}。范围为参数与来源敏感性检查；综合分不等于胜率或解锁先后。</p>`:''}
+        ${entry.historicalReference?`<p>历史单作者解锁意见：${esc(entry.historicalReference.tier)}（2025归档）；当前推荐另计版本、取得成本与资源适用条件。</p>`:''}
+        <p>开荒优先分 ${Number(entry.priorityScore).toFixed(1)} · 成本${entry.effort>=90?'很高':entry.effort>=60?'较高':entry.effort>=30?'中等':'较低'}。阶段与前置也影响顺序；并行任务无需等做完才继续主线。</p>
+        <div class="research-sources">参考来源：${sources}</div></details></div>`;
+  }
+
   function renderRankingNote() {
     const note = document.getElementById('rankingNote');
     note.hidden = state.view === 'community';
-    const basis = `综合复核 ${rankings.reviewedCount}/${guideEntries.length} 项 · 编号建议 ${numberedCount} 项 · 并行任务 ${parallelCount} 项；全量社区榜 ${rankings.communityItems.length} 条，已关联 ${rankings.communityTargetCount} 个解锁目标。`;
+    const basis = `开荒建议覆盖 ${PLAN.total}/${guideEntries.length} 项 · 编号 ${numberedCount} 项 · 并行 ${parallelCount} 项；综合道具榜关联 ${PLAN.modelTargetCount} 个目标，特殊资源推荐 ${PLAN.resourceCount} 项。`;
     const mode = state.sort === 'community'
       ? `按 Unduel 的全局名次排序（${RESEARCH.community.version}，${RESEARCH.community.snapshotDate} 快照），无需经过综合复核；无适用名次的目标排在后面，多道具奖励取最靠前名次。完整榜单可在“道具总榜”查看。`
       : state.sort === 'rank'
-        ? '并行任务是随主线累计的提醒；编号表示研究范围内的解锁建议先后，有前置时先跳过。未评审目标排在后面，筛选不会重编号。'
-        : '颜色表示解锁优先级；强度与名次另列。未评审目标沿用已有评级或默认值，不能理解为已经复核。';
+        ? '按阶段、收益、取得成本与已记录前置安排；载入存档后前置已满足的目标优先，编号保留。特殊资源依照机制与编辑意见评估，来源覆盖在依据中说明。'
+        : state.sort === 'ensemble' ? '按718项综合道具榜排序；卡牌、魂石、饰品等可切回解锁排名查看，缺少收藏道具名次不代表收益低。'
+        : '颜色表示解锁优先级；收藏道具综合强度与资源收益另列。可通过奖励类型组合筛选。';
     note.textContent = `${basis} ${mode}${state.currentProfile?.customized ? ' 当前颜色沿用你的自定义配置，名次供研究参考。' : ''}`;
   }
 
@@ -935,7 +994,7 @@
     if (!state.showUnlocked && state.save) filtered = decorated.filter((x) => x.unlocked !== true);
 
     filtered.sort((a, b) => {
-      const ranked = rankings.compare(a.rule.achievementId, b.rule.achievementId, state.sort);
+      const ranked = rankings.compare(a.rule.achievementId, b.rule.achievementId, state.sort,state.save);
       if (ranked) return ranked;
       if (state.sort === 'priority') {
         const pd = PRIORITY_SCORE[b.priority] - PRIORITY_SCORE[a.priority];
@@ -994,7 +1053,10 @@
 
   function renderHeader() {
     if (state.view === 'community') {
-      el.tableHead.innerHTML = '<tr><th>社区名次</th><th>道具</th><th>投票记录</th><th>关联解锁目标 / 进度</th></tr>';
+      el.tableHead.innerHTML = state.rankingScope==='resources'
+        ? '<tr><th>开荒建议</th><th>奖励 / 类型</th><th>机制与依据</th><th>解锁目标 / 进度</th></tr>'
+        : state.rankingScope==='ensemble' ? '<tr><th>综合名次</th><th>道具</th><th>综合分 / 相对等级</th><th>关联解锁目标 / 进度</th></tr>'
+        : '<tr><th>社区名次</th><th>道具</th><th>投票记录</th><th>关联解锁目标 / 进度</th></tr>';
       return;
     }
     if (state.view === 'guide') {
@@ -1040,7 +1102,7 @@
     }));
     if (!state.showUnlocked && state.save) rows = rows.filter((x) => x.unlocked !== true);
     rows.sort((a, b) => {
-      const ranked = rankings.compare(a.challenge.rewardAchievementId, b.challenge.rewardAchievementId, state.sort);
+      const ranked = rankings.compare(a.challenge.rewardAchievementId, b.challenge.rewardAchievementId, state.sort,state.save);
       if (ranked) return ranked;
       if (state.sort === 'priority') {
         const pd = PRIORITY_SCORE[b.priority] - PRIORITY_SCORE[a.priority];
@@ -1084,7 +1146,7 @@
     const rewardWiki = `https://isaac.huijiwiki.com/wiki/${encodeURIComponent('成就')}/${challenge.rewardAchievementId}`;
     const effectEntry = EFFECTS[String(challenge.rewardAchievementId)] || null;
     const rewardName = effectEntry?.name || challenge.rewardName;
-    const effectText = effectEntry?.effect || challenge.effect || `解锁「${rewardName}」这一非收藏道具 / 机制内容。`;
+    const effectText = rankings.recommendationFor(challenge.rewardAchievementId)?.effectOverride || effectEntry?.effect || challenge.effect || `解锁「${rewardName}」这一非收藏道具 / 机制内容。`;
     return `
         <td><div class="reward-cell">${rewardImage}<div><div class="reward-name"><a class="reward-link" href="${esc(rewardWiki)}" target="_blank" rel="noopener noreferrer">${esc(rewardName)}</a></div><div class="meta-line">奖励成就 ID #${challenge.rewardAchievementId}</div></div></div></td>
         <td><div class="effect-text">${esc(effectText)}</div>${researchMarkup(challenge.rewardAchievementId)}</td>
@@ -1149,10 +1211,66 @@
     }
     if (row.challenge) parts.push(`挑战 #${row.challenge.challengeId}`, row.challenge.rewardName, EFFECTS[String(row.achievementId)]?.name);
     parts.push(...rankings.communityFor(row.achievementId).flatMap(item => [item.name, item.nameZh]));
+    const plan=rankings.recommendationFor(row.achievementId);
+    parts.push(plan?.name,plan?.nameEn,...(plan?.searchAliases || []),...(plan?.rewardTypes || []).map(id=>rewardTypeLabels[id]),plan?.historicalReference?.rawReward);
     return parts.filter(Boolean).join(' ');
   }
 
   function renderCommunityRows() {
+    document.querySelectorAll('[data-ranking-scope]').forEach(button=>{
+      const active=button.dataset.rankingScope===state.rankingScope;
+      button.classList.toggle('active',active);button.setAttribute('aria-pressed',String(active));
+    });
+    el.resourceFilters.hidden=state.rankingScope!=='resources';
+    if (state.rankingScope==='community') { renderOriginalCommunityRows();return; }
+    const query=state.communityQuery.trim().toLocaleLowerCase();
+    if (state.rankingScope==='resources') {
+      renderRewardFilters(el.resourceFilters,specialRewardTypes,state.resourceTypes);
+      const all=PLAN.entries.filter(entry=>entry.rewardTypes.some(type=>specialRewardTypes.includes(type)));
+      const rows=all.filter(entry=>entry.rewardTypes.some(type=>state.resourceTypes.includes(type)) &&
+        [entry.name,entry.nameEn,...entry.searchAliases,entry.historicalReference?.rawReward,entry.achievementId,...entry.rewardEntities.map(e=>e.entityId),...entry.rewardTypes.map(id=>rewardTypeLabels[id])].filter(x=>x!=null).join(' ').toLocaleLowerCase().includes(query));
+      rows.sort((a,b)=>rankings.compare(a.achievementId,b.achievementId,'rank',state.save));
+      el.communitySummary.textContent=`显示 ${rows.length} / ${all.length} 项 · 包含全部17种角色魂石`;
+      el.communityIntro.textContent='卡牌、符文、魂石、饰品、胶囊和互动资源的开荒推荐。按统一解锁建议顺序显示，载入存档后前置已满足的目标优先；收益依据机制核验、编辑判断或已注明的历史作者意见。这里的序号为解锁建议，收藏道具的S/A相对等级另列。资源类型可以任意组合，混合奖励保留在同一成就内。'+(state.currentProfile?.customized?' 当前颜色沿用你的自定义配置，建议名次保持研究顺序。':'');
+      el.tableBody.innerHTML=rows.length?rows.map(entry=>{
+        const priority=guidePriority(guideByAchievement.get(entry.achievementId));
+        return `<tr class="unlock-row priority-${priority}" data-resource-achievement="${entry.achievementId}">
+        <td><span class="research-rank">${entry.parallelOrder?'并行推进':`解锁 #${entry.unlockRank}/${numberedCount}`}</span>${priorityPill(priority)}<div class="meta-line">${esc(entry.phaseName)}</div></td>
+        <td><strong>${esc(entry.name)}</strong><div class="resource-kind">${esc(entry.rewardTypes.map(id=>rewardTypeLabels[id]).join(' / '))}</div></td>
+        <td><div class="effect-text">${esc(entry.effect || '按解锁条件开放相应资源。')}</div>${recommendationMarkup(entry,false)}</td>
+        <td>${communityTargetLinks([entry.achievementId])}</td></tr>`;}).join('')
+        : '<tr class="empty-state"><td colspan="4"><strong>没有匹配的特殊资源</strong><span>选择资源类型，或尝试其他关键词。</span></td></tr>';
+      return;
+    }
+    const items=RESEARCH.ensemble.entries;
+    const rows=items.filter(item=>[item.name,item.nameZh,item.id].join(' ').toLocaleLowerCase().includes(query));
+    el.communitySummary.textContent=`显示 ${rows.length} / ${items.length} 项 · ${RESEARCH.ensemble.multipleSourceItems}项多来源覆盖`;
+    el.communityIntro.textContent='718项收藏道具的综合试算榜：整合可核验来源，保留单来源标记和敏感性名次范围。S前5%、A累计前20%，其余按固定比例分级。总分表示相对偏好；开荒先后另计前置、成本和剩余价值。特殊资源可切换到“特殊资源推荐”查看。';
+    el.tableBody.innerHTML=rows.length?rows.map(item=>`<tr data-ensemble-item="${item.id}">
+      <td><span class="research-rank">#${item.rank}/${RESEARCH.ensemble.total}</span></td>
+      <td><strong>${esc(item.nameZh)}</strong><div class="meta-line">${esc(item.name)} · ID ${item.id}</div></td>
+      <td><span class="research-strength">${esc(item.relativeTier)} · ${Number(item.score).toFixed(1)}分</span><div class="meta-line">${item.familyCount===1?'单来源估计':`${item.familyCount}族来源`} · 敏感性名次 ${item.weightScenarioRankMin}–${item.weightScenarioRankMax}</div></td>
+      <td>${communityTargetLinks(communityTargetsByItem.get(item.id) || []) || '<span class="effect-missing">项目未记录对应解锁目标</span>'}</td></tr>`).join('')
+      : '<tr class="empty-state"><td colspan="4"><strong>没有匹配的道具</strong><span>尝试中文名、英文名或道具 ID。</span></td></tr>';
+  }
+
+  function communityTargetLinks(ids) {
+    return ids.map(id=>{
+      const row=guideByAchievement.get(id),plan=rankings.recommendationFor(id);
+      const label=plan?.condition || row?.entry?.name || `成就 #${id}`;
+      return `<div class="community-target"><button type="button" class="community-target-link" data-open-achievement="${id}" aria-label="查看解锁目标：${esc(label)}">${esc(label)} <span class="meta-line">#${id} ↗</span></button>${statusBadge(unlockStatus(id))}</div>`;
+    }).join('');
+  }
+
+  function renderRewardFilters(fieldset,types,selected) {
+    if (!fieldset.querySelector('input')) fieldset.insertAdjacentHTML('beforeend',types.map(id=>{
+      const count=PLAN.entries.filter(entry=>entry.rewardTypes.includes(id)).length;
+      return `<label class="guide-filter"><input type="checkbox" value="${esc(id)}" /><span>${esc(rewardTypeLabels[id])}</span><small>${count}</small></label>`;
+    }).join(''));
+    fieldset.querySelectorAll('input').forEach(input=>{input.checked=selected.includes(input.value);});
+  }
+
+  function renderOriginalCommunityRows() {
     const query = state.communityQuery.trim().toLocaleLowerCase();
     const rows = rankings.communityItems.filter(item => [item.name, item.nameZh, item.collectibleId]
       .filter(value => value != null).join(' ').toLocaleLowerCase().includes(query));
@@ -1180,6 +1298,7 @@
   }
 
   function renderGuideRows() {
+    renderRewardFilters(el.guideRewardFilters,allRewardTypes,state.guideRewardTypes);
     if (!el.guideFilters.querySelector('input')) {
       el.guideFilters.insertAdjacentHTML('beforeend', Guide.categories.map(category => {
         const count = guideEntries.filter(row => row.categories.includes(category.id)).length;
@@ -1195,14 +1314,16 @@
     const options = {
       categories: state.guideCategories, query: state.guideQuery, showUnlocked: state.showUnlocked,
       save: state.save, sort: state.sort, priorityFor: row => PRIORITY_SCORE[guidePriority(row)], searchTextFor: guideSearchText,
-      compareFor: (a, b, mode) => rankings.compare(a.achievementId, b.achievementId, mode)
+      compareFor: (a, b, mode) => rankings.compare(a.achievementId, b.achievementId, mode,state.save),
+      rewardTypes:state.guideRewardTypes,rewardTypesFor:row=>rankings.recommendationFor(row.achievementId)?.rewardTypes || []
     };
     const rows = Guide.selectEntries(guideEntries, options);
-    const selected = Guide.selectEntries(guideEntries, { categories: state.guideCategories });
+    const selected = Guide.selectEntries(guideEntries, { categories: state.guideCategories,rewardTypes:state.guideRewardTypes,rewardTypesFor:options.rewardTypesFor });
     const completed = state.save ? selected.filter(row => unlockStatus(row.achievementId)).length : null;
     el.guideSummary.textContent = `显示 ${rows.length} / ${selected.length} 项${completed == null ? ' · 读取存档后显示进度' : ` · 已解锁 ${completed} 项`} · 总收录 ${guideEntries.length} 项`;
     if (!rows.length) {
-      const message = !state.guideCategories.length ? '选择想要查看的分类' : state.guideQuery.trim() ? '没有匹配的目标' : '所选分类的奖励已全部解锁 🎉';
+      const message = !state.guideCategories.length || !state.guideRewardTypes.length ? '选择想要查看的分类和奖励类型'
+        : !selected.length ? '所选分类与奖励类型没有匹配目标' : state.guideQuery.trim() ? '没有匹配的目标' : '所选分类的奖励已全部解锁 🎉';
       const detail = !state.guideCategories.length ? '可任意勾选多个分类，或使用“全部”“仅角色”“仅挑战”。' : state.guideQuery.trim() ? '尝试其他关键词，或调整分类与“显示已解锁”。' : '可以选择其他分类，或打开“显示已解锁”查看完整列表。';
       el.tableBody.innerHTML = `<tr class="empty-state"><td colspan="5"><strong>${message}</strong><span>${detail}</span></td></tr>`;
       return;
@@ -1227,7 +1348,7 @@
         const wikiUrl = `https://isaac.huijiwiki.com/wiki/${encodeURIComponent('成就')}/${row.achievementId}`;
         target = `<div class="reward-cell">${achievementSprite(row.achievementId)}<div><div class="reward-name"><a class="reward-link" href="${esc(wikiUrl)}" target="_blank" rel="noopener noreferrer">${esc(entry.name)}</a></div>${tags}</div></div><div class="guide-condition achievement-condition">${esc(entry.condition)}</div>`;
         cells = `<td><div class="reward-name">${entry.rewardName ? esc(entry.rewardName) : '<span class="effect-missing">无额外奖励</span>'}${priorityPill(priority)}</div><div class="meta-line">成就 ID #${row.achievementId}</div></td>
-          <td><div class="effect-text${entry.rewardEffect ? '' : ' effect-missing'}">${esc(entry.rewardEffect || '—')}</div>${researchMarkup(row.achievementId)}</td>
+          <td><div class="effect-text">${esc(rankings.recommendationFor(row.achievementId)?.effectOverride || entry.rewardEffect || '—')}</div>${researchMarkup(row.achievementId)}</td>
           <td>${statusBadge(unlocked)}</td><td class="row-options">${rowMenuButton('achievement', row.achievementId, priority)}</td>`;
       }
       return `<tr class="unlock-row priority-${priority}" data-guide-achievement="${row.achievementId}"><td class="guide-target">${target}</td>${cells}</tr>`;
@@ -1243,7 +1364,7 @@
     }));
     if (!state.showUnlocked && state.save) rows = rows.filter((row) => row.unlocked !== true);
     rows.sort((a, b) => {
-      const ranked = rankings.compare(a.entry.achievementId, b.entry.achievementId, state.sort);
+      const ranked = rankings.compare(a.entry.achievementId, b.entry.achievementId, state.sort,state.save);
       if (ranked) return ranked;
       if (state.sort === 'priority') {
         const difference = PRIORITY_SCORE[b.priority] - PRIORITY_SCORE[a.priority];
@@ -1256,8 +1377,9 @@
 
   function achievementReward(entry) {
     if (!entry.rewardName) return '<span class="effect-missing">无额外奖励</span>';
-    const effect = entry.rewardEffect
-      ? `<div class="achievement-reward-effect">${esc(entry.rewardEffect)}</div>`
+    const effectText=rankings.recommendationFor(entry.achievementId)?.effectOverride || entry.rewardEffect;
+    const effect = effectText
+      ? `<div class="achievement-reward-effect">${esc(effectText)}</div>`
       : '';
     return `<div class="achievement-reward"><strong>${esc(entry.rewardName)}</strong>${effect}</div>`;
   }
@@ -1349,7 +1471,7 @@
     el.guideSection.hidden = state.view !== 'guide';
     el.communitySection.hidden = !isCommunity;
     el.unlockControls.hidden = isCommunity;
-    el.priorityLegend.hidden = isCommunity;
+    el.priorityLegend.hidden = isCommunity && state.rankingScope!=='resources';
     el.standardResults.classList.toggle('guide-table-wrap', state.view === 'guide');
     el.standardResults.classList.toggle('community-table-wrap', isCommunity);
     el.selectorSection.hidden = !hasSelector;
@@ -1409,11 +1531,23 @@
     persistUiPreferences();
     renderRows();
   });
+  el.guideRewardFilters.addEventListener('change',()=>{
+    state.guideRewardTypes=Array.from(el.guideRewardFilters.querySelectorAll('input:checked'),input=>input.value);
+    persistUiPreferences();renderRows();
+  });
+  el.resourceFilters.addEventListener('change',()=>{
+    state.resourceTypes=Array.from(el.resourceFilters.querySelectorAll('input:checked'),input=>input.value);
+    persistUiPreferences();renderRows();
+  });
+  document.querySelectorAll('[data-ranking-scope]').forEach(button=>button.addEventListener('click',()=>{
+    state.rankingScope=button.dataset.rankingScope;persistUiPreferences();render();
+  }));
   document.querySelectorAll('[data-guide-preset]').forEach(button => {
     button.addEventListener('click', () => {
       const preset = button.dataset.guidePreset;
       state.guideCategories = preset === 'all' ? Guide.categories.map(x => x.id)
         : preset === 'character' ? ['character', 'character-unlock'] : preset === 'challenge' ? ['challenge'] : [];
+      if (preset==='all') state.guideRewardTypes=[...allRewardTypes];
       persistUiPreferences();
       renderRows();
     });
@@ -1491,6 +1625,7 @@
     if (!button) return;
     state.view = 'guide';
     state.guideCategories = Guide.categories.map(x => x.id);
+    state.guideRewardTypes=[...allRewardTypes];
     state.guideQuery = `#${button.dataset.openAchievement}`;
     state.showUnlocked = true;
     el.guideSearch.value = state.guideQuery;

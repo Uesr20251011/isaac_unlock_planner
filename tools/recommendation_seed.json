@@ -6,6 +6,26 @@
   "entries": [
     {
       "characterId": "c00-isaac",
+      "bossId": "boss-rush",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c00-isaac",
+      "bossId": "moms-heart",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c00-isaac",
+      "bossId": "hush",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c00-isaac",
+      "bossId": "isaac-boss",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c00-isaac",
       "bossId": "satan",
       "priority": "strong"
     },
@@ -17,12 +37,22 @@
     {
       "characterId": "c00-isaac",
       "bossId": "lamb",
-      "priority": "recommended"
+      "priority": "strong"
+    },
+    {
+      "characterId": "c00-isaac",
+      "bossId": "mega-satan",
+      "priority": "normal"
     },
     {
       "characterId": "c00-isaac",
       "bossId": "delirium",
       "priority": "strong"
+    },
+    {
+      "characterId": "c00-isaac",
+      "bossId": "mother",
+      "priority": "normal"
     },
     {
       "characterId": "c00-isaac",
@@ -35,14 +65,24 @@
       "priority": "recommended"
     },
     {
+      "characterId": "c00-isaac",
+      "bossId": "greedier",
+      "priority": "normal"
+    },
+    {
       "characterId": "c01-magdalene",
       "bossId": "boss-rush",
       "priority": "recommended"
     },
     {
       "characterId": "c01-magdalene",
+      "bossId": "moms-heart",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c01-magdalene",
       "bossId": "hush",
-      "priority": "recommended"
+      "priority": "strong"
     },
     {
       "characterId": "c01-magdalene",
@@ -51,8 +91,13 @@
     },
     {
       "characterId": "c01-magdalene",
-      "bossId": "blue-baby",
+      "bossId": "satan",
       "priority": "recommended"
+    },
+    {
+      "characterId": "c01-magdalene",
+      "bossId": "blue-baby",
+      "priority": "normal"
     },
     {
       "characterId": "c01-magdalene",
@@ -61,18 +106,48 @@
     },
     {
       "characterId": "c01-magdalene",
+      "bossId": "mega-satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c01-magdalene",
       "bossId": "delirium",
       "priority": "strong"
     },
     {
       "characterId": "c01-magdalene",
+      "bossId": "mother",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c01-magdalene",
       "bossId": "beast",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c01-magdalene",
+      "bossId": "greed",
       "priority": "recommended"
     },
     {
       "characterId": "c01-magdalene",
       "bossId": "greedier",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c02-cain",
+      "bossId": "boss-rush",
       "priority": "recommended"
+    },
+    {
+      "characterId": "c02-cain",
+      "bossId": "moms-heart",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c02-cain",
+      "bossId": "hush",
+      "priority": "normal"
     },
     {
       "characterId": "c02-cain",
@@ -82,6 +157,26 @@
     {
       "characterId": "c02-cain",
       "bossId": "satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c02-cain",
+      "bossId": "blue-baby",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c02-cain",
+      "bossId": "lamb",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c02-cain",
+      "bossId": "mega-satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c02-cain",
+      "bossId": "delirium",
       "priority": "recommended"
     },
     {
@@ -92,22 +187,47 @@
     {
       "characterId": "c02-cain",
       "bossId": "beast",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c02-cain",
+      "bossId": "greed",
       "priority": "recommended"
     },
     {
       "characterId": "c02-cain",
       "bossId": "greedier",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c03-judas",
       "bossId": "boss-rush",
-      "priority": "strong"
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c03-judas",
+      "bossId": "moms-heart",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c03-judas",
+      "bossId": "hush",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c03-judas",
+      "bossId": "isaac-boss",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c03-judas",
+      "bossId": "satan",
+      "priority": "recommended"
     },
     {
       "characterId": "c03-judas",
       "bossId": "blue-baby",
-      "priority": "recommended"
+      "priority": "strong"
     },
     {
       "characterId": "c03-judas",
@@ -116,13 +236,48 @@
     },
     {
       "characterId": "c03-judas",
+      "bossId": "mega-satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c03-judas",
+      "bossId": "delirium",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c03-judas",
+      "bossId": "mother",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c03-judas",
       "bossId": "beast",
       "priority": "recommended"
     },
     {
       "characterId": "c03-judas",
+      "bossId": "greed",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c03-judas",
       "bossId": "greedier",
       "priority": "strong"
+    },
+    {
+      "characterId": "c04-4",
+      "bossId": "boss-rush",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c04-4",
+      "bossId": "moms-heart",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c04-4",
+      "bossId": "hush",
+      "priority": "normal"
     },
     {
       "characterId": "c04-4",
@@ -141,255 +296,505 @@
     },
     {
       "characterId": "c04-4",
-      "bossId": "mother",
-      "priority": "strong"
-    },
-    {
-      "characterId": "c05-eve",
-      "bossId": "boss-rush",
-      "priority": "recommended"
-    },
-    {
-      "characterId": "c05-eve",
-      "bossId": "hush",
-      "priority": "recommended"
-    },
-    {
-      "characterId": "c05-eve",
-      "bossId": "satan",
-      "priority": "recommended"
-    },
-    {
-      "characterId": "c05-eve",
-      "bossId": "delirium",
-      "priority": "strong"
-    },
-    {
-      "characterId": "c05-eve",
-      "bossId": "beast",
-      "priority": "recommended"
-    },
-    {
-      "characterId": "c06-samson",
-      "bossId": "isaac-boss",
-      "priority": "strong"
-    },
-    {
-      "characterId": "c06-samson",
-      "bossId": "satan",
-      "priority": "recommended"
-    },
-    {
-      "characterId": "c06-samson",
-      "bossId": "blue-baby",
-      "priority": "recommended"
-    },
-    {
-      "characterId": "c06-samson",
-      "bossId": "mother",
-      "priority": "strong"
-    },
-    {
-      "characterId": "c06-samson",
-      "bossId": "beast",
-      "priority": "recommended"
-    },
-    {
-      "characterId": "c06-samson",
-      "bossId": "greed",
-      "priority": "strong"
-    },
-    {
-      "characterId": "c07-azazel",
-      "bossId": "boss-rush",
-      "priority": "recommended"
-    },
-    {
-      "characterId": "c07-azazel",
-      "bossId": "hush",
-      "priority": "strong"
-    },
-    {
-      "characterId": "c07-azazel",
-      "bossId": "isaac-boss",
-      "priority": "strong"
-    },
-    {
-      "characterId": "c07-azazel",
-      "bossId": "blue-baby",
-      "priority": "strong"
-    },
-    {
-      "characterId": "c07-azazel",
-      "bossId": "mother",
-      "priority": "recommended"
-    },
-    {
-      "characterId": "c07-azazel",
-      "bossId": "beast",
-      "priority": "recommended"
-    },
-    {
-      "characterId": "c07-azazel",
-      "bossId": "greed",
-      "priority": "strong"
-    },
-    {
-      "characterId": "c08-lazarus",
-      "bossId": "hush",
-      "priority": "recommended"
-    },
-    {
-      "characterId": "c08-lazarus",
-      "bossId": "isaac-boss",
-      "priority": "recommended"
-    },
-    {
-      "characterId": "c08-lazarus",
-      "bossId": "blue-baby",
-      "priority": "recommended"
-    },
-    {
-      "characterId": "c08-lazarus",
       "bossId": "lamb",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
-      "characterId": "c08-lazarus",
+      "characterId": "c04-4",
+      "bossId": "mega-satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c04-4",
       "bossId": "delirium",
-      "priority": "strong"
+      "priority": "normal"
     },
     {
-      "characterId": "c08-lazarus",
-      "bossId": "beast",
-      "priority": "recommended"
-    },
-    {
-      "characterId": "c09-eden",
-      "bossId": "boss-rush",
-      "priority": "recommended"
-    },
-    {
-      "characterId": "c09-eden",
-      "bossId": "hush",
-      "priority": "recommended"
-    },
-    {
-      "characterId": "c09-eden",
-      "bossId": "isaac-boss",
-      "priority": "recommended"
-    },
-    {
-      "characterId": "c09-eden",
-      "bossId": "satan",
-      "priority": "recommended"
-    },
-    {
-      "characterId": "c09-eden",
-      "bossId": "lamb",
-      "priority": "recommended"
-    },
-    {
-      "characterId": "c09-eden",
-      "bossId": "delirium",
-      "priority": "recommended"
-    },
-    {
-      "characterId": "c09-eden",
+      "characterId": "c04-4",
       "bossId": "mother",
       "priority": "strong"
     },
     {
-      "characterId": "c09-eden",
+      "characterId": "c04-4",
       "bossId": "beast",
-      "priority": "strong"
+      "priority": "normal"
     },
     {
-      "characterId": "c09-eden",
+      "characterId": "c04-4",
+      "bossId": "greed",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c04-4",
       "bossId": "greedier",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
-      "characterId": "c10-the-lost",
+      "characterId": "c05-eve",
       "bossId": "boss-rush",
       "priority": "strong"
     },
     {
-      "characterId": "c10-the-lost",
-      "bossId": "isaac-boss",
-      "priority": "recommended"
+      "characterId": "c05-eve",
+      "bossId": "moms-heart",
+      "priority": "normal"
     },
     {
-      "characterId": "c10-the-lost",
-      "bossId": "satan",
-      "priority": "strong"
-    },
-    {
-      "characterId": "c10-the-lost",
-      "bossId": "blue-baby",
-      "priority": "recommended"
-    },
-    {
-      "characterId": "c10-the-lost",
-      "bossId": "lamb",
-      "priority": "recommended"
-    },
-    {
-      "characterId": "c10-the-lost",
-      "bossId": "delirium",
-      "priority": "recommended"
-    },
-    {
-      "characterId": "c11-lilith",
-      "bossId": "boss-rush",
-      "priority": "recommended"
-    },
-    {
-      "characterId": "c11-lilith",
+      "characterId": "c05-eve",
       "bossId": "hush",
       "priority": "strong"
     },
     {
-      "characterId": "c11-lilith",
+      "characterId": "c05-eve",
       "bossId": "isaac-boss",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
-      "characterId": "c11-lilith",
+      "characterId": "c05-eve",
       "bossId": "satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c05-eve",
+      "bossId": "blue-baby",
       "priority": "recommended"
     },
     {
-      "characterId": "c11-lilith",
-      "bossId": "blue-baby",
-      "priority": "strong"
-    },
-    {
-      "characterId": "c11-lilith",
+      "characterId": "c05-eve",
       "bossId": "lamb",
       "priority": "recommended"
     },
     {
-      "characterId": "c11-lilith",
+      "characterId": "c05-eve",
+      "bossId": "mega-satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c05-eve",
       "bossId": "delirium",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c05-eve",
+      "bossId": "mother",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c05-eve",
+      "bossId": "beast",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c05-eve",
+      "bossId": "greed",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c05-eve",
+      "bossId": "greedier",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c06-samson",
+      "bossId": "boss-rush",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c06-samson",
+      "bossId": "moms-heart",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c06-samson",
+      "bossId": "hush",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c06-samson",
+      "bossId": "isaac-boss",
       "priority": "recommended"
     },
     {
-      "characterId": "c11-lilith",
-      "bossId": "beast",
+      "characterId": "c06-samson",
+      "bossId": "satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c06-samson",
+      "bossId": "blue-baby",
       "priority": "strong"
     },
     {
-      "characterId": "c11-lilith",
-      "bossId": "greed",
+      "characterId": "c06-samson",
+      "bossId": "lamb",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c06-samson",
+      "bossId": "mega-satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c06-samson",
+      "bossId": "delirium",
+      "priority": "strong"
+    },
+    {
+      "characterId": "c06-samson",
+      "bossId": "mother",
       "priority": "recommended"
     },
     {
-      "characterId": "c12-keeper",
+      "characterId": "c06-samson",
+      "bossId": "beast",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c06-samson",
+      "bossId": "greed",
+      "priority": "strong"
+    },
+    {
+      "characterId": "c06-samson",
+      "bossId": "greedier",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c07-azazel",
+      "bossId": "boss-rush",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c07-azazel",
+      "bossId": "moms-heart",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c07-azazel",
+      "bossId": "hush",
+      "priority": "strong"
+    },
+    {
+      "characterId": "c07-azazel",
+      "bossId": "isaac-boss",
+      "priority": "strong"
+    },
+    {
+      "characterId": "c07-azazel",
+      "bossId": "satan",
+      "priority": "strong"
+    },
+    {
+      "characterId": "c07-azazel",
+      "bossId": "blue-baby",
+      "priority": "strong"
+    },
+    {
+      "characterId": "c07-azazel",
+      "bossId": "lamb",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c07-azazel",
+      "bossId": "mega-satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c07-azazel",
+      "bossId": "delirium",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c07-azazel",
+      "bossId": "mother",
+      "priority": "strong"
+    },
+    {
+      "characterId": "c07-azazel",
+      "bossId": "beast",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c07-azazel",
+      "bossId": "greed",
+      "priority": "strong"
+    },
+    {
+      "characterId": "c07-azazel",
+      "bossId": "greedier",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c08-lazarus",
       "bossId": "boss-rush",
       "priority": "discouraged"
     },
     {
+      "characterId": "c08-lazarus",
+      "bossId": "moms-heart",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c08-lazarus",
+      "bossId": "hush",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c08-lazarus",
+      "bossId": "isaac-boss",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c08-lazarus",
+      "bossId": "satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c08-lazarus",
+      "bossId": "blue-baby",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c08-lazarus",
+      "bossId": "lamb",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c08-lazarus",
+      "bossId": "mega-satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c08-lazarus",
+      "bossId": "delirium",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c08-lazarus",
+      "bossId": "mother",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c08-lazarus",
+      "bossId": "beast",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c08-lazarus",
+      "bossId": "greed",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c08-lazarus",
+      "bossId": "greedier",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c09-eden",
+      "bossId": "boss-rush",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c09-eden",
+      "bossId": "moms-heart",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c09-eden",
+      "bossId": "hush",
+      "priority": "strong"
+    },
+    {
+      "characterId": "c09-eden",
+      "bossId": "isaac-boss",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c09-eden",
+      "bossId": "satan",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c09-eden",
+      "bossId": "blue-baby",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c09-eden",
+      "bossId": "lamb",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c09-eden",
+      "bossId": "mega-satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c09-eden",
+      "bossId": "delirium",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c09-eden",
+      "bossId": "mother",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c09-eden",
+      "bossId": "beast",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c09-eden",
+      "bossId": "greed",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c09-eden",
+      "bossId": "greedier",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c10-the-lost",
+      "bossId": "boss-rush",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c10-the-lost",
+      "bossId": "moms-heart",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c10-the-lost",
+      "bossId": "hush",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c10-the-lost",
+      "bossId": "isaac-boss",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c10-the-lost",
+      "bossId": "satan",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c10-the-lost",
+      "bossId": "blue-baby",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c10-the-lost",
+      "bossId": "lamb",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c10-the-lost",
+      "bossId": "mega-satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c10-the-lost",
+      "bossId": "delirium",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c10-the-lost",
+      "bossId": "mother",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c10-the-lost",
+      "bossId": "beast",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c10-the-lost",
+      "bossId": "greed",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c10-the-lost",
+      "bossId": "greedier",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c11-lilith",
+      "bossId": "boss-rush",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c11-lilith",
+      "bossId": "moms-heart",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c11-lilith",
+      "bossId": "hush",
+      "priority": "strong"
+    },
+    {
+      "characterId": "c11-lilith",
+      "bossId": "isaac-boss",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c11-lilith",
+      "bossId": "satan",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c11-lilith",
+      "bossId": "blue-baby",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c11-lilith",
+      "bossId": "lamb",
+      "priority": "strong"
+    },
+    {
+      "characterId": "c11-lilith",
+      "bossId": "mega-satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c11-lilith",
+      "bossId": "delirium",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c11-lilith",
+      "bossId": "mother",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c11-lilith",
+      "bossId": "beast",
+      "priority": "strong"
+    },
+    {
+      "characterId": "c11-lilith",
+      "bossId": "greed",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c11-lilith",
+      "bossId": "greedier",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c12-keeper",
+      "bossId": "boss-rush",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c12-keeper",
+      "bossId": "moms-heart",
+      "priority": "normal"
+    },
+    {
       "characterId": "c12-keeper",
       "bossId": "hush",
       "priority": "recommended"
@@ -401,28 +806,53 @@
     },
     {
       "characterId": "c12-keeper",
+      "bossId": "satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c12-keeper",
       "bossId": "blue-baby",
       "priority": "recommended"
     },
     {
       "characterId": "c12-keeper",
       "bossId": "lamb",
-      "priority": "strong"
+      "priority": "normal"
+    },
+    {
+      "characterId": "c12-keeper",
+      "bossId": "mega-satan",
+      "priority": "normal"
     },
     {
       "characterId": "c12-keeper",
       "bossId": "delirium",
-      "priority": "strong"
+      "priority": "recommended"
     },
     {
       "characterId": "c12-keeper",
       "bossId": "mother",
-      "priority": "strong"
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c12-keeper",
+      "bossId": "beast",
+      "priority": "normal"
     },
     {
       "characterId": "c12-keeper",
       "bossId": "greed",
-      "priority": "recommended"
+      "priority": "normal"
+    },
+    {
+      "characterId": "c12-keeper",
+      "bossId": "greedier",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c13-apollyon",
+      "bossId": "boss-rush",
+      "priority": "normal"
     },
     {
       "characterId": "c13-apollyon",
@@ -431,13 +861,53 @@
     },
     {
       "characterId": "c13-apollyon",
+      "bossId": "hush",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c13-apollyon",
+      "bossId": "isaac-boss",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c13-apollyon",
+      "bossId": "satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c13-apollyon",
+      "bossId": "blue-baby",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c13-apollyon",
+      "bossId": "lamb",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c13-apollyon",
+      "bossId": "mega-satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c13-apollyon",
       "bossId": "delirium",
-      "priority": "strong"
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c13-apollyon",
+      "bossId": "mother",
+      "priority": "normal"
     },
     {
       "characterId": "c13-apollyon",
       "bossId": "beast",
-      "priority": "strong"
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c13-apollyon",
+      "bossId": "greed",
+      "priority": "normal"
     },
     {
       "characterId": "c13-apollyon",
@@ -452,37 +922,82 @@
     {
       "characterId": "c14-the-forgotten",
       "bossId": "moms-heart",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c14-the-forgotten",
       "bossId": "hush",
-      "priority": "recommended"
+      "priority": "normal"
+    },
+    {
+      "characterId": "c14-the-forgotten",
+      "bossId": "isaac-boss",
+      "priority": "normal"
     },
     {
       "characterId": "c14-the-forgotten",
       "bossId": "satan",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c14-the-forgotten",
       "bossId": "blue-baby",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c14-the-forgotten",
       "bossId": "lamb",
-      "priority": "strong"
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c14-the-forgotten",
+      "bossId": "mega-satan",
+      "priority": "normal"
     },
     {
       "characterId": "c14-the-forgotten",
       "bossId": "delirium",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c14-the-forgotten",
+      "bossId": "mother",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c14-the-forgotten",
+      "bossId": "beast",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c14-the-forgotten",
+      "bossId": "greed",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c14-the-forgotten",
+      "bossId": "greedier",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c15-bethany",
+      "bossId": "boss-rush",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c15-bethany",
+      "bossId": "moms-heart",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c15-bethany",
+      "bossId": "hush",
       "priority": "recommended"
     },
     {
       "characterId": "c15-bethany",
       "bossId": "isaac-boss",
-      "priority": "recommended"
+      "priority": "strong"
     },
     {
       "characterId": "c15-bethany",
@@ -493,6 +1008,16 @@
       "characterId": "c15-bethany",
       "bossId": "blue-baby",
       "priority": "strong"
+    },
+    {
+      "characterId": "c15-bethany",
+      "bossId": "lamb",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c15-bethany",
+      "bossId": "mega-satan",
+      "priority": "normal"
     },
     {
       "characterId": "c15-bethany",
@@ -503,6 +1028,11 @@
       "characterId": "c15-bethany",
       "bossId": "mother",
       "priority": "strong"
+    },
+    {
+      "characterId": "c15-bethany",
+      "bossId": "beast",
+      "priority": "normal"
     },
     {
       "characterId": "c15-bethany",
@@ -510,19 +1040,34 @@
       "priority": "recommended"
     },
     {
+      "characterId": "c15-bethany",
+      "bossId": "greedier",
+      "priority": "normal"
+    },
+    {
       "characterId": "c16-jacob-and-esau",
       "bossId": "boss-rush",
       "priority": "recommended"
     },
     {
       "characterId": "c16-jacob-and-esau",
+      "bossId": "moms-heart",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c16-jacob-and-esau",
       "bossId": "hush",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c16-jacob-and-esau",
       "bossId": "isaac-boss",
       "priority": "strong"
+    },
+    {
+      "characterId": "c16-jacob-and-esau",
+      "bossId": "satan",
+      "priority": "recommended"
     },
     {
       "characterId": "c16-jacob-and-esau",
@@ -536,13 +1081,28 @@
     },
     {
       "characterId": "c16-jacob-and-esau",
+      "bossId": "mega-satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c16-jacob-and-esau",
       "bossId": "delirium",
-      "priority": "recommended"
+      "priority": "normal"
+    },
+    {
+      "characterId": "c16-jacob-and-esau",
+      "bossId": "mother",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c16-jacob-and-esau",
+      "bossId": "beast",
+      "priority": "normal"
     },
     {
       "characterId": "c16-jacob-and-esau",
       "bossId": "greed",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c16-jacob-and-esau",
@@ -561,6 +1121,26 @@
     },
     {
       "characterId": "c17-tainted-isaac",
+      "bossId": "isaac-boss",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c17-tainted-isaac",
+      "bossId": "satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c17-tainted-isaac",
+      "bossId": "blue-baby",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c17-tainted-isaac",
+      "bossId": "lamb",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c17-tainted-isaac",
       "bossId": "mega-satan",
       "priority": "recommended"
     },
@@ -572,7 +1152,7 @@
     {
       "characterId": "c17-tainted-isaac",
       "bossId": "mother",
-      "priority": "strong"
+      "priority": "recommended"
     },
     {
       "characterId": "c17-tainted-isaac",
@@ -586,13 +1166,43 @@
     },
     {
       "characterId": "c18-tainted-magdalene",
-      "bossId": "mega-satan",
+      "bossId": "boss-rush",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c18-tainted-magdalene",
+      "bossId": "hush",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c18-tainted-magdalene",
+      "bossId": "isaac-boss",
       "priority": "recommended"
     },
     {
       "characterId": "c18-tainted-magdalene",
-      "bossId": "delirium",
+      "bossId": "satan",
       "priority": "recommended"
+    },
+    {
+      "characterId": "c18-tainted-magdalene",
+      "bossId": "blue-baby",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c18-tainted-magdalene",
+      "bossId": "lamb",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c18-tainted-magdalene",
+      "bossId": "mega-satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c18-tainted-magdalene",
+      "bossId": "delirium",
+      "priority": "normal"
     },
     {
       "characterId": "c18-tainted-magdalene",
@@ -612,12 +1222,12 @@
     {
       "characterId": "c19-tainted-cain",
       "bossId": "boss-rush",
-      "priority": "strong"
+      "priority": "recommended"
     },
     {
       "characterId": "c19-tainted-cain",
       "bossId": "hush",
-      "priority": "strong"
+      "priority": "recommended"
     },
     {
       "characterId": "c19-tainted-cain",
@@ -637,32 +1247,62 @@
     {
       "characterId": "c19-tainted-cain",
       "bossId": "lamb",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c19-tainted-cain",
+      "bossId": "mega-satan",
       "priority": "recommended"
     },
     {
       "characterId": "c19-tainted-cain",
       "bossId": "delirium",
-      "priority": "strong"
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c19-tainted-cain",
+      "bossId": "mother",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c19-tainted-cain",
+      "bossId": "beast",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c19-tainted-cain",
+      "bossId": "greedier",
+      "priority": "discouraged"
+    },
+    {
+      "characterId": "c20-tainted-judas",
+      "bossId": "boss-rush",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c20-tainted-judas",
+      "bossId": "hush",
+      "priority": "normal"
     },
     {
       "characterId": "c20-tainted-judas",
       "bossId": "isaac-boss",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c20-tainted-judas",
       "bossId": "satan",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c20-tainted-judas",
       "bossId": "blue-baby",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c20-tainted-judas",
       "bossId": "lamb",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c20-tainted-judas",
@@ -672,12 +1312,67 @@
     {
       "characterId": "c20-tainted-judas",
       "bossId": "delirium",
-      "priority": "strong"
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c20-tainted-judas",
+      "bossId": "mother",
+      "priority": "recommended"
     },
     {
       "characterId": "c20-tainted-judas",
       "bossId": "beast",
-      "priority": "strong"
+      "priority": "normal"
+    },
+    {
+      "characterId": "c20-tainted-judas",
+      "bossId": "greedier",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c21-tainted",
+      "bossId": "boss-rush",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c21-tainted",
+      "bossId": "hush",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c21-tainted",
+      "bossId": "isaac-boss",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c21-tainted",
+      "bossId": "satan",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c21-tainted",
+      "bossId": "blue-baby",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c21-tainted",
+      "bossId": "lamb",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c21-tainted",
+      "bossId": "mega-satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c21-tainted",
+      "bossId": "delirium",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c21-tainted",
+      "bossId": "mother",
+      "priority": "normal"
     },
     {
       "characterId": "c21-tainted",
@@ -692,37 +1387,42 @@
     {
       "characterId": "c22-tainted-eve",
       "bossId": "boss-rush",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c22-tainted-eve",
       "bossId": "hush",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c22-tainted-eve",
       "bossId": "isaac-boss",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c22-tainted-eve",
       "bossId": "satan",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c22-tainted-eve",
       "bossId": "blue-baby",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c22-tainted-eve",
       "bossId": "lamb",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c22-tainted-eve",
+      "bossId": "mega-satan",
       "priority": "recommended"
     },
     {
       "characterId": "c22-tainted-eve",
       "bossId": "delirium",
-      "priority": "strong"
+      "priority": "normal"
     },
     {
       "characterId": "c22-tainted-eve",
@@ -732,22 +1432,22 @@
     {
       "characterId": "c22-tainted-eve",
       "bossId": "beast",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c22-tainted-eve",
       "bossId": "greedier",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c23-tainted-samson",
       "bossId": "boss-rush",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c23-tainted-samson",
       "bossId": "hush",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c23-tainted-samson",
@@ -772,17 +1472,22 @@
     {
       "characterId": "c23-tainted-samson",
       "bossId": "mega-satan",
-      "priority": "recommended"
+      "priority": "strong"
     },
     {
       "characterId": "c23-tainted-samson",
       "bossId": "delirium",
-      "priority": "recommended"
+      "priority": "normal"
+    },
+    {
+      "characterId": "c23-tainted-samson",
+      "bossId": "mother",
+      "priority": "normal"
     },
     {
       "characterId": "c23-tainted-samson",
       "bossId": "beast",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c23-tainted-samson",
@@ -792,12 +1497,42 @@
     {
       "characterId": "c24-tainted-azazel",
       "bossId": "boss-rush",
-      "priority": "strong"
+      "priority": "recommended"
     },
     {
       "characterId": "c24-tainted-azazel",
       "bossId": "hush",
-      "priority": "strong"
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c24-tainted-azazel",
+      "bossId": "isaac-boss",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c24-tainted-azazel",
+      "bossId": "satan",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c24-tainted-azazel",
+      "bossId": "blue-baby",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c24-tainted-azazel",
+      "bossId": "lamb",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c24-tainted-azazel",
+      "bossId": "mega-satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c24-tainted-azazel",
+      "bossId": "delirium",
+      "priority": "normal"
     },
     {
       "characterId": "c24-tainted-azazel",
@@ -806,38 +1541,43 @@
     },
     {
       "characterId": "c24-tainted-azazel",
-      "bossId": "greedier",
+      "bossId": "beast",
       "priority": "recommended"
+    },
+    {
+      "characterId": "c24-tainted-azazel",
+      "bossId": "greedier",
+      "priority": "normal"
     },
     {
       "characterId": "c25-tainted-lazarus",
       "bossId": "boss-rush",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c25-tainted-lazarus",
       "bossId": "hush",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c25-tainted-lazarus",
       "bossId": "isaac-boss",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c25-tainted-lazarus",
       "bossId": "satan",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c25-tainted-lazarus",
       "bossId": "blue-baby",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c25-tainted-lazarus",
       "bossId": "lamb",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c25-tainted-lazarus",
@@ -851,23 +1591,48 @@
     },
     {
       "characterId": "c25-tainted-lazarus",
+      "bossId": "mother",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c25-tainted-lazarus",
       "bossId": "beast",
       "priority": "recommended"
     },
     {
       "characterId": "c25-tainted-lazarus",
       "bossId": "greedier",
-      "priority": "strong"
+      "priority": "recommended"
     },
     {
       "characterId": "c26-tainted-eden",
       "bossId": "boss-rush",
-      "priority": "strong"
+      "priority": "recommended"
     },
     {
       "characterId": "c26-tainted-eden",
       "bossId": "hush",
-      "priority": "strong"
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c26-tainted-eden",
+      "bossId": "isaac-boss",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c26-tainted-eden",
+      "bossId": "satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c26-tainted-eden",
+      "bossId": "blue-baby",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c26-tainted-eden",
+      "bossId": "lamb",
+      "priority": "normal"
     },
     {
       "characterId": "c26-tainted-eden",
@@ -876,22 +1641,52 @@
     },
     {
       "characterId": "c26-tainted-eden",
-      "bossId": "beast",
+      "bossId": "delirium",
       "priority": "discouraged"
     },
     {
       "characterId": "c26-tainted-eden",
-      "bossId": "greedier",
-      "priority": "strong"
+      "bossId": "mother",
+      "priority": "recommended"
     },
     {
-      "characterId": "c27-tainted-lost",
-      "bossId": "boss-rush",
+      "characterId": "c26-tainted-eden",
+      "bossId": "beast",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c26-tainted-eden",
+      "bossId": "greedier",
       "priority": "recommended"
     },
     {
       "characterId": "c27-tainted-lost",
+      "bossId": "boss-rush",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c27-tainted-lost",
       "bossId": "hush",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c27-tainted-lost",
+      "bossId": "isaac-boss",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c27-tainted-lost",
+      "bossId": "satan",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c27-tainted-lost",
+      "bossId": "blue-baby",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c27-tainted-lost",
+      "bossId": "lamb",
       "priority": "recommended"
     },
     {
@@ -901,6 +1696,11 @@
     },
     {
       "characterId": "c27-tainted-lost",
+      "bossId": "delirium",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c27-tainted-lost",
       "bossId": "mother",
       "priority": "recommended"
     },
@@ -912,17 +1712,37 @@
     {
       "characterId": "c27-tainted-lost",
       "bossId": "greedier",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c28-tainted-lilith",
       "bossId": "boss-rush",
-      "priority": "recommended"
+      "priority": "strong"
     },
     {
       "characterId": "c28-tainted-lilith",
       "bossId": "hush",
-      "priority": "recommended"
+      "priority": "strong"
+    },
+    {
+      "characterId": "c28-tainted-lilith",
+      "bossId": "isaac-boss",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c28-tainted-lilith",
+      "bossId": "satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c28-tainted-lilith",
+      "bossId": "blue-baby",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c28-tainted-lilith",
+      "bossId": "lamb",
+      "priority": "normal"
     },
     {
       "characterId": "c28-tainted-lilith",
@@ -932,7 +1752,7 @@
     {
       "characterId": "c28-tainted-lilith",
       "bossId": "delirium",
-      "priority": "strong"
+      "priority": "recommended"
     },
     {
       "characterId": "c28-tainted-lilith",
@@ -943,6 +1763,11 @@
       "characterId": "c28-tainted-lilith",
       "bossId": "beast",
       "priority": "strong"
+    },
+    {
+      "characterId": "c28-tainted-lilith",
+      "bossId": "greedier",
+      "priority": "discouraged"
     },
     {
       "characterId": "c29-tainted-keeper",
@@ -957,47 +1782,82 @@
     {
       "characterId": "c29-tainted-keeper",
       "bossId": "isaac-boss",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c29-tainted-keeper",
       "bossId": "satan",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c29-tainted-keeper",
       "bossId": "blue-baby",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c29-tainted-keeper",
       "bossId": "lamb",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c29-tainted-keeper",
       "bossId": "mega-satan",
-      "priority": "recommended"
+      "priority": "strong"
+    },
+    {
+      "characterId": "c29-tainted-keeper",
+      "bossId": "delirium",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c29-tainted-keeper",
+      "bossId": "mother",
+      "priority": "normal"
     },
     {
       "characterId": "c29-tainted-keeper",
       "bossId": "beast",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c29-tainted-keeper",
       "bossId": "greedier",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c30-tainted-apollyon",
       "bossId": "boss-rush",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c30-tainted-apollyon",
       "bossId": "hush",
-      "priority": "recommended"
+      "priority": "normal"
+    },
+    {
+      "characterId": "c30-tainted-apollyon",
+      "bossId": "isaac-boss",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c30-tainted-apollyon",
+      "bossId": "satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c30-tainted-apollyon",
+      "bossId": "blue-baby",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c30-tainted-apollyon",
+      "bossId": "lamb",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c30-tainted-apollyon",
+      "bossId": "mega-satan",
+      "priority": "normal"
     },
     {
       "characterId": "c30-tainted-apollyon",
@@ -1006,6 +1866,11 @@
     },
     {
       "characterId": "c30-tainted-apollyon",
+      "bossId": "mother",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c30-tainted-apollyon",
       "bossId": "beast",
       "priority": "recommended"
     },
@@ -1017,12 +1882,42 @@
     {
       "characterId": "c31-tainted-forgotten",
       "bossId": "boss-rush",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c31-tainted-forgotten",
       "bossId": "hush",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c31-tainted-forgotten",
+      "bossId": "isaac-boss",
       "priority": "recommended"
+    },
+    {
+      "characterId": "c31-tainted-forgotten",
+      "bossId": "satan",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c31-tainted-forgotten",
+      "bossId": "blue-baby",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c31-tainted-forgotten",
+      "bossId": "lamb",
+      "priority": "recommended"
+    },
+    {
+      "characterId": "c31-tainted-forgotten",
+      "bossId": "mega-satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c31-tainted-forgotten",
+      "bossId": "delirium",
+      "priority": "normal"
     },
     {
       "characterId": "c31-tainted-forgotten",
@@ -1032,12 +1927,47 @@
     {
       "characterId": "c31-tainted-forgotten",
       "bossId": "beast",
-      "priority": "recommended"
+      "priority": "normal"
+    },
+    {
+      "characterId": "c31-tainted-forgotten",
+      "bossId": "greedier",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c32-tainted-bethany",
+      "bossId": "boss-rush",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c32-tainted-bethany",
+      "bossId": "hush",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c32-tainted-bethany",
+      "bossId": "isaac-boss",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c32-tainted-bethany",
+      "bossId": "satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c32-tainted-bethany",
+      "bossId": "blue-baby",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c32-tainted-bethany",
+      "bossId": "lamb",
+      "priority": "normal"
     },
     {
       "characterId": "c32-tainted-bethany",
       "bossId": "mega-satan",
-      "priority": "recommended"
+      "priority": "strong"
     },
     {
       "characterId": "c32-tainted-bethany",
@@ -1046,28 +1976,58 @@
     },
     {
       "characterId": "c32-tainted-bethany",
-      "bossId": "beast",
+      "bossId": "mother",
       "priority": "recommended"
     },
     {
       "characterId": "c32-tainted-bethany",
+      "bossId": "beast",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c32-tainted-bethany",
       "bossId": "greedier",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c33-tainted-jacob",
       "bossId": "boss-rush",
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "characterId": "c33-tainted-jacob",
       "bossId": "hush",
-      "priority": "recommended"
+      "priority": "normal"
+    },
+    {
+      "characterId": "c33-tainted-jacob",
+      "bossId": "isaac-boss",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c33-tainted-jacob",
+      "bossId": "satan",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c33-tainted-jacob",
+      "bossId": "blue-baby",
+      "priority": "normal"
+    },
+    {
+      "characterId": "c33-tainted-jacob",
+      "bossId": "lamb",
+      "priority": "normal"
     },
     {
       "characterId": "c33-tainted-jacob",
       "bossId": "mega-satan",
       "priority": "recommended"
+    },
+    {
+      "characterId": "c33-tainted-jacob",
+      "bossId": "delirium",
+      "priority": "normal"
     },
     {
       "characterId": "c33-tainted-jacob",
@@ -1077,17 +2037,12 @@
     {
       "characterId": "c33-tainted-jacob",
       "bossId": "beast",
-      "priority": "strong"
+      "priority": "normal"
     },
     {
       "characterId": "c33-tainted-jacob",
       "bossId": "greedier",
-      "priority": "strong"
-    },
-    {
-      "characterId": "c08-lazarus",
-      "bossId": "boss-rush",
-      "priority": "discouraged"
+      "priority": "recommended"
     }
   ],
   "researchRevision": "2026-11-04"

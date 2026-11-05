@@ -2,23 +2,723 @@
   "version": 1,
   "researchDate": "2026-11-03",
   "objective": "提高后续全角色打标效率，最终走向全成就",
-  "scope": "交叉研究已审校的其他成就奖励与机制，面向全角色打标；原角色/挑战评级的修订见 research_rankings.json。",
+  "scope": "221项其他成就的内置建议，包含综合道具榜、资源机制复核、历史作者参考、前置与全成就清单；依据类型逐项标明。",
   "methodology": "priority为解锁优先级，strength为独立强度参考；综合后续全角色打标收益、获取成本、前置、角色适应性与跨天进度。结论为编辑性综合，不代表来源一致或受控胜率。",
   "entries": [
+    {
+      "achievementId": 250,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 341,
+      "priority": "strong"
+    },
     {
       "achievementId": 135,
       "priority": "strong"
     },
     {
-      "achievementId": 136,
-      "priority": "recommended"
+      "achievementId": 154,
+      "priority": "strong"
     },
     {
       "achievementId": 138,
       "priority": "strong"
     },
     {
-      "achievementId": 154,
+      "achievementId": 136,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 336,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 354,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 325,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 4,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 234,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 34,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 79,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 80,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 404,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 32,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 1,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 2,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 3,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 42,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 67,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 81,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 322,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 362,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 329,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 57,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 78,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 320,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 407,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 635,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 415,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 405,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 474,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 485,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 82,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 251,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 340,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 390,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 475,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 476,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 477,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 478,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 479,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 480,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 481,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 482,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 483,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 484,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 486,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 487,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 488,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 489,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 490,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 359,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 151,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 152,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 245,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 408,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 358,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 380,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 377,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 85,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 242,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 248,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 31,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 140,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 153,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 370,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 27,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 350,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 369,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 150,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 361,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 363,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 348,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 391,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 406,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 411,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 12,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 11,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 582,
+      "priority": "strong"
+    },
+    {
+      "achievementId": 379,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 139,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 134,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 61,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 7,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 378,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 64,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 388,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 373,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 243,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 371,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 35,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 8,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 364,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 545,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 383,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 367,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 385,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 372,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 382,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 17,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 66,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 142,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 337,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 342,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 343,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 344,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 345,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 386,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 523,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 389,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 5,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 16,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 18,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 68,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 86,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 87,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 88,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 155,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 347,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 412,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 413,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 414,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 641,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 275,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 375,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 147,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 374,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 6,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 366,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 247,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 546,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 24,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 15,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 328,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 353,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 355,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 357,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 244,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 19,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 137,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 59,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 249,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 28,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 58,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 376,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 10,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 141,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 381,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 23,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 409,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 22,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 25,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 356,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 338,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 143,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 349,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 36,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 65,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 365,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 351,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 14,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 387,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 352,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 148,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 26,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 384,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 13,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 368,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 410,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 145,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 30,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 146,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 583,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 326,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 327,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 323,
+      "priority": "recommended"
+    },
+    {
+      "achievementId": 321,
       "priority": "recommended"
     },
     {
@@ -26,47 +726,3111 @@
       "priority": "recommended"
     },
     {
-      "achievementId": 250,
-      "priority": "strong"
-    },
-    {
-      "achievementId": 325,
+      "achievementId": 330,
       "priority": "normal"
-    },
-    {
-      "achievementId": 336,
-      "priority": "recommended"
-    },
-    {
-      "achievementId": 337,
-      "priority": "normal"
-    },
-    {
-      "achievementId": 341,
-      "priority": "recommended"
-    },
-    {
-      "achievementId": 354,
-      "priority": "strong"
     },
     {
       "achievementId": 360,
       "priority": "normal"
     },
     {
-      "achievementId": 485,
-      "priority": "strong"
+      "achievementId": 547,
+      "priority": "normal"
     },
     {
-      "achievementId": 547,
+      "achievementId": 276,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 324,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 33,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 37,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 38,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 39,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 40,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 41,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 69,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 83,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 84,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 144,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 178,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 235,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 246,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 252,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 253,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 254,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 255,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 256,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 257,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 258,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 259,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 260,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 261,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 262,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 263,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 264,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 319,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 339,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 402,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 426,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 438,
       "priority": "normal"
     },
     {
       "achievementId": 636,
       "priority": "normal"
+    },
+    {
+      "achievementId": 637,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 638,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 639,
+      "priority": "normal"
+    },
+    {
+      "achievementId": 640,
+      "priority": "normal"
     }
   ],
   "reviews": [
+    {
+      "achievementId": 250,
+      "name": "神圣屏障",
+      "strength": "机制 / 编辑收益",
+      "reason": "游魂起始神圣屏障是后续游魂打标的重要准备；随贪婪捐款并行推进，不当作神圣屏障道具入池。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN1",
+        "M05"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 341,
+      "name": "困难贪婪模式",
+      "strength": "机制 / 编辑收益",
+      "reason": "500贪婪捐款开放更贪婪模式，是对应全角色标记的前置；和起始能力升级一起推进。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 135,
+      "name": "额外选择 / 更多选择",
+      "strength": "A",
+      "reason": "低额捐款同时开放选择类商店道具，随正常局保留余钱推进。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "mixed-reward-review"
+    },
+    {
+      "achievementId": 154,
+      "name": "商店将会出售6个物品",
+      "strength": "机制 / 编辑收益",
+      "reason": "商店升级提高后续商店的资源获取空间；作为累计捐款任务并行完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 138,
+      "name": "怀表",
+      "strength": "A",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 136,
+      "name": "黑蜡烛",
+      "strength": "A",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 336,
+      "name": "碎裂的王冠",
+      "strength": "机制 / 编辑收益",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN1",
+        "EN3",
+        "M09"
+      ],
+      "evidenceKind": "prior-editorial"
+    },
+    {
+      "achievementId": 354,
+      "name": "损坏的调制解调器",
+      "strength": "B",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 325,
+      "name": "呕！",
+      "strength": "机制 / 编辑收益",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN1",
+        "EN3",
+        "M01"
+      ],
+      "evidenceKind": "prior-editorial"
+    },
+    {
+      "achievementId": 4,
+      "name": "第四章",
+      "strength": "机制 / 编辑收益",
+      "reason": "优先开放主线分支，扩大后续可打标的路线与角色范围；此处按路线功能安排，不按奖励的战斗名次。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 234,
+      "name": "???",
+      "strength": "机制 / 编辑收益",
+      "reason": "优先开放主线分支，扩大后续可打标的路线与角色范围；此处按路线功能安排，不按奖励的战斗名次。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 34,
+      "name": "它还活着",
+      "strength": "机制 / 编辑收益",
+      "reason": "优先开放主线分支，扩大后续可打标的路线与角色范围；此处按路线功能安排，不按奖励的战斗名次。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 79,
+      "name": "阿撒泻勒",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 80,
+      "name": "拉撒路",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 404,
+      "name": "伯大尼",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 32,
+      "name": "???",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 1,
+      "name": "抹大拉",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 2,
+      "name": "该隐",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 3,
+      "name": "犹大",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 42,
+      "name": "夏娃",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 67,
+      "name": "参孙",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 81,
+      "name": "伊甸",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 322,
+      "name": "梅花A",
+      "strength": "机制 / 编辑收益",
+      "reason": "把非Boss敌人与掉落物等转为炸弹，兼具清房和资源转换，适合自然三连胜解锁。",
+      "caveat": "别为了它反复重开毁掉常规推进，单次转换也会移除原有补给。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_REP"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 362,
+      "name": "先祖召唤",
+      "strength": "机制 / 编辑收益",
+      "reason": "使用后补充3张卡牌，提高后续消耗品选择，累计用20次卡容易自然完成。",
+      "caveat": "抽取结果不确定；建议并行累计，不要求先做完才进入主线。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_ABPLUS"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 329,
+      "name": "红桃A",
+      "strength": "机制 / 编辑收益",
+      "reason": "把敌人及掉落物转为心，可在合适场景补生存资源；可顺路触发半心过层条件。",
+      "caveat": "心的类型随机且角色适用性不同，不建议为达条件故意把稳局压到危险血量。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_REP"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 57,
+      "name": "全家福",
+      "strength": "C",
+      "reason": "优先开放主线分支，扩大后续可打标的路线与角色范围；此处按路线功能安排，不按奖励的战斗名次。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 78,
+      "name": "底片",
+      "strength": "C",
+      "reason": "优先开放主线分支，扩大后续可打标的路线与角色范围；此处按路线功能安排，不按奖励的战斗名次。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 320,
+      "name": "虚空",
+      "strength": "机制 / 编辑收益",
+      "reason": "优先开放主线分支，扩大后续可打标的路线与角色范围；此处按路线功能安排，不按奖励的战斗名次。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 407,
+      "name": "秘密出口",
+      "strength": "机制 / 编辑收益",
+      "reason": "优先开放主线分支，扩大后续可打标的路线与角色范围；此处按路线功能安排，不按奖励的战斗名次。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 635,
+      "name": "奇怪的门",
+      "strength": "机制 / 编辑收益",
+      "reason": "优先开放主线分支，扩大后续可打标的路线与角色范围；此处按路线功能安排，不按奖励的战斗名次。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 415,
+      "name": "红钥匙 / 红钥匙碎片",
+      "strength": "A",
+      "reason": "红钥匙及一次性碎片提供红房间探索，并服务里角色开放，是路线收益而非单纯战斗数值。",
+      "caveat": "含C580与K78两种资源；不要因收藏道具榜名次而低估角色开放价值，首次到家仍按实际前置执行。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL",
+        "EID_REP"
+      ],
+      "evidenceKind": "mixed-reward-review"
+    },
+    {
+      "achievementId": 405,
+      "name": "雅各和以扫",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 474,
+      "name": "堕化以撒",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 485,
+      "name": "堕化莉莉丝",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 82,
+      "name": "游魂",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 251,
+      "name": "店主",
+      "strength": "机制 / 编辑收益",
+      "reason": "店主需要累计1000枚贪婪捐款，按捐款链逐步开放；先准备更易上手角色和基础资源，再集中推进店主标记。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4",
+        "M05"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 340,
+      "name": "亚玻伦",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 390,
+      "name": "遗骸",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 475,
+      "name": "堕化抹大拉",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 476,
+      "name": "堕化该隐",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 477,
+      "name": "堕化犹大",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 478,
+      "name": "堕化???",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 479,
+      "name": "堕化夏娃",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 480,
+      "name": "堕化参孙",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 481,
+      "name": "堕化阿撒泻勒",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 482,
+      "name": "堕化拉撒路",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 483,
+      "name": "堕化伊甸",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 484,
+      "name": "堕化游魂",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 486,
+      "name": "堕化店主",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 487,
+      "name": "堕化亚玻伦",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 488,
+      "name": "堕化遗骸",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 489,
+      "name": "堕化伯大尼",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 490,
+      "name": "堕化雅各",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN4"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 359,
+      "name": "木十字架",
+      "strength": "机制 / 编辑收益",
+      "reason": "木十字架每层提供一次护盾，有利于保命；在有床的局顺路完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_MECHANICS"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 151,
+      "name": "商店将会出售3个物品",
+      "strength": "机制 / 编辑收益",
+      "reason": "20枚普通捐款开放更大的商店货架，低额投入即可提高后续购物选择。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 152,
+      "name": "商店将会出售4个物品",
+      "strength": "机制 / 编辑收益",
+      "reason": "普通商店货架升级提高资源选择，和道具解锁捐款一起累计。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 245,
+      "name": "回形针",
+      "strength": "机制 / 编辑收益",
+      "reason": "回形针节约金箱子的钥匙成本，和贪婪捐款进度一并获得。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_MECHANICS",
+        "M05"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 408,
+      "name": "失落摇篮曲",
+      "strength": "机制 / 编辑收益",
+      "reason": "失落摇篮曲强化跟班射速；在尸宫遇到塞壬头颅时留炸弹完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_MECHANICS"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 358,
+      "name": "发夹",
+      "strength": "机制 / 编辑收益",
+      "reason": "发夹可在Boss战前给主动充能，累计捡电池即可顺路解锁。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_MECHANICS"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 380,
+      "name": "三圣颂",
+      "strength": "A",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 377,
+      "name": "泪血症",
+      "strength": "S",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 85,
+      "name": "幸运石",
+      "strength": "机制 / 编辑收益",
+      "reason": "幸运石提供幸运，破坏石头累计条件容易随正常探索完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_MECHANICS"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 242,
+      "name": "幸运硬币",
+      "strength": "机制 / 编辑收益",
+      "reason": "低额贪婪捐款开放幸运硬币，可和后续捐款任务一并完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 248,
+      "name": "剃刀片",
+      "strength": "机制 / 编辑收益",
+      "reason": "夏娃初始剃刀片有利于控制红心与启动伤害能力；它是起始升级，不是对应道具入池解锁。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 31,
+      "name": "寄生虫",
+      "strength": "A",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 140,
+      "name": "吐根酊",
+      "strength": "A",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 153,
+      "name": "商店将会出售5个物品",
+      "strength": "机制 / 编辑收益",
+      "reason": "继续扩展普通商店货架，随经济充足的正常局推进。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 370,
+      "name": "银丝羽毛",
+      "strength": "机制 / 编辑收益",
+      "reason": "银丝羽毛让后续天使战产出天使池道具，收益明显；仍须考虑当局是否需要钥匙碎片去超级撒但。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_MECHANICS"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 27,
+      "name": "光环",
+      "strength": "A",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 350,
+      "name": "神秘礼物",
+      "strength": "A",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 369,
+      "name": "科技零",
+      "strength": "A",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 150,
+      "name": "橡胶胶水",
+      "strength": "A",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 361,
+      "name": "变巨术",
+      "strength": "机制 / 编辑收益",
+      "reason": "房间内加7伤害并可踩石头，作为一次爆发资源实用。",
+      "caveat": "体型达到3的解锁条件依赖当局机会，建议顺路积累，不为了它专门刷随机药丸。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_REP"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 363,
+      "name": "时空漫步",
+      "strength": "机制 / 编辑收益",
+      "reason": "单房间减慢敌人并改善移速等，适合危险Boss战。",
+      "caveat": "需先收集怀表和损坏的怀表；收藏完成时顺便解锁，不应把随机商店出现率当成固定一局成本。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_ABPLUS"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 348,
+      "name": "黑洞",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放路线、房间或掉落资源，随正常探索推进；以解锁后续内容的作用评估。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 391,
+      "name": "骨心",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放路线、房间或掉落资源，随正常探索推进；以解锁后续内容的作用评估。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 406,
+      "name": "星象房",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放路线、房间或掉落资源，随正常探索推进；以解锁后续内容的作用评估。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 411,
+      "name": "腐心",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放路线、房间或掉落资源，随正常探索推进；以解锁后续内容的作用评估。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 12,
+      "name": "小石头",
+      "strength": "A",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 11,
+      "name": "胎儿博士",
+      "strength": "A",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 582,
+      "name": "会员卡",
+      "strength": "A",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 379,
+      "name": "书包",
+      "strength": "A",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 139,
+      "name": "铁丝衣架",
+      "strength": "A",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 134,
+      "name": "蓝地图",
+      "strength": "B",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 61,
+      "name": "幸运脚趾",
+      "strength": "机制 / 编辑收益",
+      "reason": "幸运脚趾改善掉落，正常探索中累计消灭商店店主即可。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_MECHANICS"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 7,
+      "name": "启示录",
+      "strength": "A",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 378,
+      "name": "食泪症",
+      "strength": "B",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 64,
+      "name": "假币",
+      "strength": "机制 / 编辑收益",
+      "reason": "假币可提高硬币收益，但累计赌博成本较高，适合经济充足时顺路推进。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_MECHANICS"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 388,
+      "name": "腐烂硬币",
+      "strength": "机制 / 编辑收益",
+      "reason": "腐烂硬币提供蓝苍蝇输出，有足够苍蝇生成手段时顺路完成条件。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_MECHANICS"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 373,
+      "name": "天使棱镜",
+      "strength": "B",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 243,
+      "name": "特殊隐藏房店主",
+      "strength": "机制 / 编辑收益",
+      "reason": "特殊隐藏房店主变体属于额外房间资源，随贪婪捐款顺路开放。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 371,
+      "name": "自我先生！",
+      "strength": "B",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 35,
+      "name": "妈妈的美瞳",
+      "strength": "B",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 8,
+      "name": "超凡升天",
+      "strength": "B",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 364,
+      "name": "代金券",
+      "strength": "B",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 545,
+      "name": "老旧电容",
+      "strength": "机制 / 编辑收益",
+      "reason": "老旧电容偏主动充能运营，累计消灭电池乞丐可以顺路完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_MECHANICS"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 383,
+      "name": "祭坛",
+      "strength": "B",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 367,
+      "name": "跨接电缆",
+      "strength": "B",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 385,
+      "name": "毛毯",
+      "strength": "B",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 372,
+      "name": "七印",
+      "strength": "B",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 382,
+      "name": "扁石",
+      "strength": "B",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 17,
+      "name": "查德",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放头目、章节变体、商店或其他游戏机制；按所列条件随正常打标推进，不当作收藏道具的战斗强度。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 66,
+      "name": "征服骑士",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放头目、章节变体、商店或其他游戏机制；按所列条件随正常打标推进，不当作收藏道具的战斗强度。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 142,
+      "name": "坎卜斯",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放头目、章节变体、商店或其他游戏机制；按所列条件随正常打标推进，不当作收藏道具的战斗强度。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 337,
+      "name": "续关",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放头目、章节变体、商店或其他游戏机制；按所列条件随正常打标推进，不当作收藏道具的战斗强度。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 342,
+      "name": "燃烧地下室",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放头目、章节变体、商店或其他游戏机制；按所列条件随正常打标推进，不当作收藏道具的战斗强度。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 343,
+      "name": "淹水洞穴",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放头目、章节变体、商店或其他游戏机制；按所列条件随正常打标推进，不当作收藏道具的战斗强度。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 344,
+      "name": "阴湿深牢",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放头目、章节变体、商店或其他游戏机制；按所列条件随正常打标推进，不当作收藏道具的战斗强度。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 345,
+      "name": "结痂子宫",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放头目、章节变体、商店或其他游戏机制；按所列条件随正常打标推进，不当作收藏道具的战斗强度。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 386,
+      "name": "弹珠袋",
+      "strength": "B",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 523,
+      "name": "充能硬币",
+      "strength": "机制 / 编辑收益",
+      "reason": "充能硬币给主动道具供能，需多次让电池乞丐给出道具，宜在有经济条件时推进。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_MECHANICS"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 389,
+      "name": "儿童弯勺",
+      "strength": "机制 / 编辑收益",
+      "reason": "儿童弯勺改善跟班命中，但依赖跟班构筑和追踪道具的收集机会。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_MECHANICS"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 5,
+      "name": "饥荒骑士",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放头目、章节变体、商店或其他游戏机制；按所列条件随正常打标推进，不当作收藏道具的战斗强度。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 16,
+      "name": "史蒂文",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放头目、章节变体、商店或其他游戏机制；按所列条件随正常打标推进，不当作收藏道具的战斗强度。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 18,
+      "name": "吉什",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放头目、章节变体、商店或其他游戏机制；按所列条件随正常打标推进，不当作收藏道具的战斗强度。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 68,
+      "name": "三腿蜘蛛",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放头目、章节变体、商店或其他游戏机制；按所列条件随正常打标推进，不当作收藏道具的战斗强度。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 86,
+      "name": "地窖",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放头目、章节变体、商店或其他游戏机制；按所列条件随正常打标推进，不当作收藏道具的战斗强度。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 87,
+      "name": "墓穴",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放头目、章节变体、商店或其他游戏机制；按所列条件随正常打标推进，不当作收藏道具的战斗强度。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 88,
+      "name": "坟场",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放头目、章节变体、商店或其他游戏机制；按所列条件随正常打标推进，不当作收藏道具的战斗强度。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 155,
+      "name": "乌列",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放头目、章节变体、商店或其他游戏机制；按所列条件随正常打标推进，不当作收藏道具的战斗强度。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 347,
+      "name": "骨堆畸胎",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放头目、章节变体、商店或其他游戏机制；按所列条件随正常打标推进，不当作收藏道具的战斗强度。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 412,
+      "name": "污水井",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放头目、章节变体、商店或其他游戏机制；按所列条件随正常打标推进，不当作收藏道具的战斗强度。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 413,
+      "name": "灰坑",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放头目、章节变体、商店或其他游戏机制；按所列条件随正常打标推进，不当作收藏道具的战斗强度。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 414,
+      "name": "炼狱",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放头目、章节变体、商店或其他游戏机制；按所列条件随正常打标推进，不当作收藏道具的战斗强度。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 641,
+      "name": "读它！",
+      "strength": "机制 / 编辑收益",
+      "reason": "开放头目、章节变体、商店或其他游戏机制；按所列条件随正常打标推进，不当作收藏道具的战斗强度。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "progression"
+    },
+    {
+      "achievementId": 275,
+      "name": "慷慨",
+      "strength": "机制 / 编辑收益",
+      "reason": "贪婪捐款完成奖励随店主与其起始能力升级共同推进，不为单项重复清空经济。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 375,
+      "name": "门挡",
+      "strength": "机制 / 编辑收益",
+      "reason": "门挡便于保留出口，效果偏便利；炸门累计不需专程刷。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_MECHANICS"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 147,
+      "name": "血袋",
+      "strength": "B",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 374,
+      "name": "噗！",
+      "strength": "B",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 6,
+      "name": "肉块 / 绷带球",
+      "strength": "C",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 366,
+      "name": "搬家盒",
+      "strength": "C",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 247,
+      "name": "特殊商店店主",
+      "strength": "机制 / 编辑收益",
+      "reason": "特殊商店店主变体随捐款进度开放，不需打断高收益目标专程刷。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 546,
+      "name": "硫磺火炸弹",
+      "strength": "C",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 24,
+      "name": "史蒂文宝宝",
+      "strength": "C",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 15,
+      "name": "洛基的角",
+      "strength": "C",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 328,
+      "name": "胆小的红心",
+      "strength": "机制 / 编辑收益",
+      "reason": "胆小红心是可追逐拾取的生命资源变体，解锁条件易达成，按需要顺路完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 353,
+      "name": "派对帽",
+      "strength": "C",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 355,
+      "name": "伙伴盲盒",
+      "strength": "C",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 357,
+      "name": "精神错乱宝宝",
+      "strength": "C",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 244,
+      "name": "木制镍币",
+      "strength": "C",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 19,
+      "name": "超级绷带",
+      "strength": "C",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 137,
+      "name": "红蜡烛",
+      "strength": "C",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 59,
+      "name": "蓝蜡烛",
+      "strength": "C",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 249,
+      "name": "商店钥匙",
+      "strength": "机制 / 编辑收益",
+      "reason": "商店钥匙节省进店钥匙，但收益受层数与商店质量限制，随捐款顺路获得即可。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_MECHANICS",
+        "M05"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 28,
+      "name": "大爆弹先生",
+      "strength": "C",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 58,
+      "name": "爸爸的钥匙",
+      "strength": "C",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 376,
+      "name": "死神名册",
+      "strength": "C",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 10,
+      "name": "25美分",
+      "strength": "C",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 141,
+      "name": "实验性疗法",
+      "strength": "C",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 381,
+      "name": "扩接电线",
+      "strength": "机制 / 编辑收益",
+      "reason": "扩接电线依赖跟班位置，收集条件有随机性，适合作为后续图鉴清单。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_MECHANICS"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 23,
+      "name": "吉什宝宝",
+      "strength": "C",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 409,
+      "name": "甜甜糖梅宝",
+      "strength": "C",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 22,
+      "name": "七原罪之书",
+      "strength": "C",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 25,
+      "name": "查德宝宝",
+      "strength": "D",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 356,
+      "name": "快速炸弹",
+      "strength": "D",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 338,
+      "name": "精神错乱",
+      "strength": "D",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 143,
+      "name": "坎卜斯的头",
+      "strength": "D",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 349,
+      "name": "黑洞",
+      "strength": "D",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 36,
+      "name": "死灵之书",
+      "strength": "D",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 65,
+      "name": "嗝屁猫的毛球",
+      "strength": "D",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 365,
+      "name": "念力",
+      "strength": "D",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 351,
+      "name": "洒水器",
+      "strength": "D",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 14,
+      "name": "小胖蛆",
+      "strength": "D",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 387,
+      "name": "神秘的卵",
+      "strength": "D",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 352,
+      "name": "愤怒苍蝇",
+      "strength": "D",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 148,
+      "name": "四面骰",
+      "strength": "D",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 26,
+      "name": "游戏掌机",
+      "strength": "D",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 384,
+      "name": "呕吐虫宝宝",
+      "strength": "D",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 13,
+      "name": "萌死戳的牙",
+      "strength": "D",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 368,
+      "name": "麻风病",
+      "strength": "D",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 410,
+      "name": "糖梅溜溜笛",
+      "strength": "F",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 145,
+      "name": "棉豆",
+      "strength": "F",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 30,
+      "name": "剪刀",
+      "strength": "F",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 146,
+      "name": "小药袋",
+      "strength": "F",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 583,
+      "name": "金剃刀片",
+      "strength": "F",
+      "reason": "按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 326,
+      "name": "方片A",
+      "strength": "机制 / 编辑收益",
+      "reason": "把敌人、箱子和掉落物转为硬币，常规流程有清房与购买价值。",
+      "caveat": "20分钟内打羊的取得成本高于卡牌本身；留给快跑成型局，而不是新档强行追。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_REP"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 327,
+      "name": "黑桃A",
+      "strength": "机制 / 编辑收益",
+      "reason": "把敌人与掉落物等转为钥匙，能修复钥匙短缺并快速清房。",
+      "caveat": "不拾取心、硬币、炸弹打羊是独立限制任务，适合后期专门完成。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_REP"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 323,
+      "name": "超级标记石头",
+      "strength": "机制 / 编辑收益",
+      "reason": "超级标记石头有额外掉落收益，但需要多角色连胜的门槛，放在基础角色补强后推进。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 321,
+      "name": "咕噜！",
+      "strength": "机制 / 编辑收益",
+      "reason": "咕噜药丸可吞下饰品并保留效果，收益可累积；跑圈解锁耗时，已有稳定构筑后再专程做。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_MECHANICS"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 156,
+      "name": "神性",
+      "strength": "S",
+      "reason": "综合强度为S，但需要游魂全困难标记；先补齐游魂起始神圣屏障，再把它作为集中清游魂标记的奖励。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 330,
+      "name": "嗝！",
+      "strength": "机制 / 编辑收益",
+      "reason": "嗝药丸可复制上次使用的药丸效果，依赖药丸运营；50件道具的条件适合有条件时顺路完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_MECHANICS"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 360,
+      "name": "黄油！",
+      "strength": "机制 / 编辑收益",
+      "reason": "黄油有主动道具搬运与重掷技巧价值，连续跑圈的额外时间使它不适合最早专程刷；全成就仍要做。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EN3",
+        "EN4",
+        "ZH5",
+        "M10",
+        "M10A"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 547,
+      "name": "超级蘑菇",
+      "strength": "S",
+      "reason": "这是大范围标记完成奖励，收益与到达该条件后的剩余进度分别看待；不为取得它而把完整清标当成早期步骤。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 276,
+      "name": "超级喷射",
+      "strength": "B",
+      "reason": "这是大范围标记完成奖励，收益与到达该条件后的剩余进度分别看待；不为取得它而把完整清标当成早期步骤。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 324,
+      "name": "感觉像漫步在阳光下！",
+      "strength": "机制 / 编辑收益",
+      "reason": "阳光药丸提供短时无敌和机动，完整怪物图鉴门槛高，作为全成就后期清单。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL",
+        "EID_MECHANICS"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 33,
+      "name": "普通模式与困难模式难度增加",
+      "strength": "机制 / 编辑收益",
+      "reason": "难度提升随主线通关次数自动发生；无需专程追求，也不应为规避它而阻止主线开放。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 37,
+      "name": "地下室小子",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 38,
+      "name": "探窟小子",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 39,
+      "name": "黑暗小子",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 40,
+      "name": "妈宝小子",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 41,
+      "name": "黄金大神",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 69,
+      "name": "白金大神！",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 83,
+      "name": "死亡小子",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 84,
+      "name": "真·白金大神！",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 144,
+      "name": "超级食肉男孩！",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 178,
+      "name": "苍蝇领主！",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 235,
+      "name": "1001%！！",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 246,
+      "name": "贪婪模式和困难贪婪模式难度增加",
+      "strength": "机制 / 编辑收益",
+      "reason": "贪婪难度变化是累计捐款的伴随进度，不计为主动补强奖励。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "mechanism-review"
+    },
+    {
+      "achievementId": 252,
+      "name": "虫巢宝宝",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 253,
+      "name": "无头宝宝",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 254,
+      "name": "彩色宝宝",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 255,
+      "name": "淫妇宝宝",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 256,
+      "name": "碎裂宝宝",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 257,
+      "name": "滴血宝宝",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 258,
+      "name": "亮瞎宝宝",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 259,
+      "name": "魅魔宝宝",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 260,
+      "name": "黑暗宝宝",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 261,
+      "name": "衣架宝宝",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 262,
+      "name": "复仇宝宝",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 263,
+      "name": "彼列宝宝",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 264,
+      "name": "折扣宝宝",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 319,
+      "name": "亚玻伦宝宝",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 339,
+      "name": "1000000%",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 402,
+      "name": "骨头宝宝",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 426,
+      "name": "希望宝宝",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 438,
+      "name": "所罗门宝宝",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 636,
+      "name": "死亡证明",
+      "strength": "S",
+      "reason": "这是大范围标记完成奖励，收益与到达该条件后的剩余进度分别看待；不为取得它而把完整清标当成早期步骤。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "ENS_V1",
+        "LOCAL"
+      ],
+      "evidenceKind": "ensemble"
+    },
+    {
+      "achievementId": 637,
+      "name": "弑神大神",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 638,
+      "name": "游玩联机模式",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 639,
+      "name": "通关联机模式",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    },
+    {
+      "achievementId": 640,
+      "name": "通关联机每日挑战",
+      "strength": "完成类目标",
+      "reason": "此目标主要用于完成类进度或联机外观；对当前单人全角色打标不计额外强度收益，最终全成就仍需完成。",
+      "caveat": "按已注明来源与规则生成的开荒建议；成本为相对估计，详细机制与个人适用条件见来源。",
+      "sourceIds": [
+        "LOCAL"
+      ],
+      "evidenceKind": "checklist"
+    }
+  ],
+  "sources": [
+    {
+      "id": "EN1",
+      "title": "jnub：Most & Least Important Unlocks",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2994836310",
+      "use": "核心：收益与获取成本",
+      "limitation": "有逐项理由与例外；个人偏好明显，不能当胜率实验。"
+    },
+    {
+      "id": "EN2",
+      "title": "Unfulfilled obligations / Thereisnofuture：Detailed Rep+ route",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3712501774",
+      "use": "核心：可执行的批次路线",
+      "limitation": "适合有经验玩家；英文版与俄文原路线只算一个作者组。"
+    },
+    {
+      "id": "EN3",
+      "title": "Piel：Dead God Roadmap",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2980920774",
+      "use": "辅助：补漏清单",
+      "limitation": "发现死寂入口、达摩克里斯解锁条件错误，机制必须另核。"
+    },
+    {
+      "id": "EN4",
+      "title": "NiCobra：Isaac Unlocks Graph",
+      "url": "https://maniacobra.com/isaac-graph/",
+      "use": "核心：前置关系与条件成本",
+      "limitation": "难度标注是在前置已经满足后计算；不能把 Automatic 当新档容易。"
+    },
+    {
+      "id": "EN4-DATA",
+      "title": "NiCobra：完整解锁数据表",
+      "url": "https://maniacobra.com/isaac-graph/secrets.html",
+      "use": "EN4 同源数据",
+      "limitation": "与图谱只算一个独立来源。"
+    },
+    {
+      "id": "ZH1",
+      "title": "狐九郎 v9.10 整理图",
+      "url": "https://www.bilibili.com/opus/1083165871339208713",
+      "use": "既有榜单与来源沿革",
+      "limitation": "与恺恺orz／陈哥1 属同一整理链，不能重复计票。"
+    },
+    {
+      "id": "ZH2",
+      "title": "恺恺orz：什么角色解锁道具好",
+      "url": "https://www.bilibili.com/video/BV11pj7zEEHL/",
+      "use": "历史原作者意见",
+      "limitation": "2025-05-26；后改简介明示饰品／挑战评级受后续更新影响。已检查实际帧。"
+    },
+    {
+      "id": "ZH3",
+      "title": "我是谁压实度：最佳打标顺序推荐",
+      "url": "https://www.bilibili.com/video/BV1Y8b46BEB2/",
+      "use": "核心：全角色打标路线",
+      "limitation": "2026-09-07；有完整30步文字描述及关键字幕，具体客户端补丁未注明。"
+    },
+    {
+      "id": "ZH4",
+      "title": "朱可乐oneeye：双子解锁价值",
+      "url": "https://www.bilibili.com/video/BV1MK4y1m7rr/",
+      "use": "历史交叉支持",
+      "limitation": "2021-04-02；仅确认天堂阶梯／长子名分的原作者推荐，不外推全榜。"
+    },
+    {
+      "id": "ZH5",
+      "title": "白玉螳：跑圈解锁测试",
+      "url": "https://www.bilibili.com/video/BV1ex4y1y78J/",
+      "use": "机制旁证",
+      "limitation": "2024-02-21；跑圈不推进普通成就，非优先级榜。"
+    },
+    {
+      "id": "RT1",
+      "title": "Unduel：719件道具社区榜",
+      "url": "https://unduel.com/t/the-binding-of-isaac-rebirth/the-binding-of-isaac-items-75IgVOPw3H343hrv6Vh4MP/ranked-list",
+      "use": "辅助：群体偏好",
+      "limitation": "2026-10-28快照；276个站点投票者、44344条道具投票记录；标注 Repentance，非可靠的 Rep+ 专榜。"
+    },
+    {
+      "id": "RT2",
+      "title": "Another Matt：Angel Item Tier List",
+      "url": "https://www.youtube.com/watch?v=89UIC_l02Nk",
+      "use": "辅助：独立作者、天使池内强度",
+      "limitation": "2025-06-07；S级命名幻灯片已核对；池内名次不能直接与全游戏名次比较。"
+    },
+    {
+      "id": "M01",
+      "title": "IsaacGuru：忏悔+道具数据库",
+      "url": "https://isaacguru.com/",
+      "use": "机制核查",
+      "limitation": "检索时页脚自报游戏1.9.7.17；与 Repentance 页面分开，不是评级投票。"
+    },
+    {
+      "id": "M02",
+      "title": "官方：Rep+ 1.9.7.11 更新",
+      "url": "https://steamcommunity.com/games/250900/announcements/detail/505075712851443813",
+      "use": "一手机制更改",
+      "limitation": "2025-05-01 UTC；确认错误王冠暂停行为、D20贪婪商店稀有度等。"
+    },
+    {
+      "id": "M03",
+      "title": "Wiki：Rune Shard",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Rune_Shard",
+      "use": "符文池机制",
+      "limitation": "当前规则不支持只解锁一枚就保证全掉该符文；6种含魂石后碎片停止生成。"
+    },
+    {
+      "id": "M04",
+      "title": "Wiki：Donation Machine",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Donation",
+      "use": "普通捐款机",
+      "limitation": "50二选一、150黑蜡烛、600最高捐款商店升级、999怀表。"
+    },
+    {
+      "id": "M05",
+      "title": "Wiki：Greed Donation Machine",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Greed_Donation_Machine",
+      "use": "贪婪捐款机",
+      "limitation": "与普通机器区分；500更贪婪、879游魂起始斗篷、1000店主。"
+    },
+    {
+      "id": "M06",
+      "title": "IsaacGuru：Death Certificate",
+      "url": "https://isaacguru.com/wiki/isaac/c628",
+      "use": "收尾条件",
+      "limitation": "全部表里角色困难标记完成后解锁，不能作为取得这些标记的前置工具。"
+    },
+    {
+      "id": "M07",
+      "title": "IsaacGuru：Mega Mush",
+      "url": "https://isaacguru.com/wiki/isaac/c625",
+      "use": "阶段性总奖励",
+      "limitation": "全部非堕化角色困难标记；不要因此延迟里角色核心道具。"
+    },
+    {
+      "id": "M08",
+      "title": "IsaacGuru：Rock Bottom",
+      "url": "https://isaacguru.com/wiki/isaac/c562",
+      "use": "条件引擎",
+      "limitation": "保留属性峰值，底层数值仍继续计算；单拿不提供初始属性增益。"
+    },
+    {
+      "id": "M09",
+      "title": "IsaacGuru：Cracked Crown",
+      "url": "https://isaacguru.com/wiki/isaac/t92",
+      "use": "饰品与每日",
+      "limitation": "按增益部分计算20%；每日5连胜不要求连续日期。"
+    },
+    {
+      "id": "M10",
+      "title": "Wiki：Butter!",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Butter%21",
+      "use": "运营与跑圈",
+      "limitation": "搬运主动底座、集中重掷／吸收；不是直接伤害道具。"
+    },
+    {
+      "id": "M10A",
+      "title": "IsaacGuru：Butter!",
+      "url": "https://isaacguru.com/wiki/isaac/t122",
+      "use": "跑圈触发补充",
+      "limitation": "明确写开始第3次跑圈；与只写完成2圈的表述区分。"
+    },
+    {
+      "id": "M11",
+      "title": "IsaacGuru：Broken Modem",
+      "url": "https://isaacguru.com/wiki/isaac/c514",
+      "use": "稳定性与每日",
+      "limitation": "控场／敌弹消除及合格清房奖励复制；累计7次每日胜利。"
+    },
+    {
+      "id": "M12",
+      "title": "IsaacGuru：Tech.5",
+      "url": "https://isaacguru.com/wiki/isaac/c244",
+      "use": "版本例外",
+      "limitation": "当前描述有5%随机状态效果；无伤角色应额外核查随机爆炸风险。"
+    },
+    {
+      "id": "M13",
+      "title": "Wiki：Magdalene",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Magdalene",
+      "use": "起始能力",
+      "limitation": "挑战32奖励按忏悔中的 Full Health 处理，不沿用旧 Speed Up 名称。"
+    },
+    {
+      "id": "M14",
+      "title": "IsaacGuru：Sigil of Baphomet",
+      "url": "https://isaacguru.com/wiki/isaac/t189",
+      "use": "饰品机制",
+      "limitation": "杀敌护盾及连续击杀叠加；挑战37的获取成本另算。"
+    },
+    {
+      "id": "M15",
+      "title": "IsaacGuru：D8",
+      "url": "https://isaacguru.com/wiki/isaac/c406",
+      "use": "随机运营",
+      "limitation": "属性重置会有0.5–2倍区间，不能等同无条件属性翻倍。"
+    },
+    {
+      "id": "LOCAL",
+      "title": "原项目公共解锁数据",
+      "url": "https://github.com/Uesr20251011/isaac_unlock_planner/tree/36f29874ff2cb4ba1f2fa4f1c242a59d872bb311/data",
+      "use": "名称／ID交叉映射",
+      "limitation": "606个已有目标的目录，不是独立评级意见；不含玩家存档。"
+    },
+    {
+      "id": "ENS_V1",
+      "title": "718项综合强度公式与试算",
+      "url": "https://github.com/Uesr20251011/isaac_unlock_planner/blob/feat/complete-guide-local-save/docs/research/ensemble-v1/ensemble-trial-report-v1.md",
+      "use": "收藏道具的模型分数、名次与来源覆盖",
+      "limitation": "399项多来源，319项单来源；相对强度不是解锁顺序或实战胜率。"
+    },
+    {
+      "id": "HIST_UNLOCKS",
+      "title": "Another Matt：2025解锁收益表归档",
+      "url": "https://github.com/luisgtez/isaac-best-unlocks/tree/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo",
+      "use": "特殊奖励的历史单作者意见",
+      "limitation": "2025归档，部分忏悔+机制已变化；不作为新的独立收藏道具强度票。"
+    },
+    {
+      "id": "EID_MECHANICS",
+      "title": "EID：奖励机制说明",
+      "url": "https://github.com/wofsauge/External-Item-Descriptions",
+      "use": "资源实际效果与版本变更",
+      "limitation": "机制说明不等于独立玩家评级。"
+    },
+    {
+      "id": "EID_ABPLUS",
+      "title": "EID ab+ current English descriptions",
+      "url": "https://github.com/wofsauge/External-Item-Descriptions/blob/master/descriptions/ab%2B/en_us.lua",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "机制资料与评级意见区分；详见来源原文。"
+    },
+    {
+      "id": "EID_REP",
+      "title": "EID rep current English descriptions",
+      "url": "https://github.com/wofsauge/External-Item-Descriptions/blob/master/descriptions/rep/en_us.lua",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "机制资料与评级意见区分；详见来源原文。"
+    },
+    {
+      "id": "EID_REPPLUS",
+      "title": "EID rep+ current English descriptions",
+      "url": "https://github.com/wofsauge/External-Item-Descriptions/blob/master/descriptions/rep%2B/en_us.lua",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "机制资料与评级意见区分；详见来源原文。"
+    },
+    {
+      "id": "AM_ARCHIVE",
+      "title": "特殊资源机制参考",
+      "url": "https://docs.google.com/spreadsheets/d/1w-JBw7sffHek3eckmz3dMXk0cyN_mV8y52xbRv1b9yw/edit?usp=sharing",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "机制资料与评级意见区分；详见来源原文。"
+    },
+    {
+      "id": "wiki-crane",
+      "title": "以撒维基：夹娃娃机与机器",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Machines",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-black-sack",
+      "title": "以撒维基：黑福袋",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Sacks",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-beggars",
+      "title": "以撒维基：乞丐",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Beggars",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-chests",
+      "title": "以撒维基：箱子",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Chests",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-pills",
+      "title": "以撒维基：胶囊",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Pills",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-rocks",
+      "title": "以撒维基：岩石",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Rocks",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-coins",
+      "title": "以撒维基：硬币",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Coins",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-batteries",
+      "title": "以撒维基：电池",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Batteries",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-trinkets",
+      "title": "以撒维基：饰品",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Trinkets",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-poops",
+      "title": "以撒维基：粪便",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Poops",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "matt2025",
+      "title": "Another Matt历史解锁表（2025归档）",
+      "url": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "One author; mixed item/unlock merit; archived source, not a newly verified Rep+ ranking."
+    },
+    {
+      "id": "eid-rep",
+      "title": "特殊资源机制参考",
+      "url": "https://github.com/wofsauge/External-Item-Descriptions/blob/master/descriptions/rep/en_us.lua",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "Fresh developer-maintained mod description; Wild Card K80 and Queen of Hearts K79."
+    },
+    {
+      "id": "eid-repplus-golden",
+      "title": "特殊资源机制参考",
+      "url": "https://github.com/wofsauge/External-Item-Descriptions/blob/master/descriptions/rep+/en_us.lua",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "Gold-trinket individual Rep+ effects differ; cannot assume a universal x2."
+    }
+  ],
+  "priorReviews": [
     {
       "achievementId": 354,
       "name": "坏猫／损坏的调制解调器",
@@ -329,209 +4093,5 @@
       ]
     }
   ],
-  "sources": [
-    {
-      "id": "EN1",
-      "title": "jnub：Most & Least Important Unlocks",
-      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2994836310",
-      "use": "核心：收益与获取成本",
-      "limitation": "有逐项理由与例外；个人偏好明显，不能当胜率实验。"
-    },
-    {
-      "id": "EN2",
-      "title": "Unfulfilled obligations / Thereisnofuture：Detailed Rep+ route",
-      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3712501774",
-      "use": "核心：可执行的批次路线",
-      "limitation": "适合有经验玩家；英文版与俄文原路线只算一个作者组。"
-    },
-    {
-      "id": "EN3",
-      "title": "Piel：Dead God Roadmap",
-      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2980920774",
-      "use": "辅助：补漏清单",
-      "limitation": "发现死寂入口、达摩克里斯解锁条件错误，机制必须另核。"
-    },
-    {
-      "id": "EN4",
-      "title": "NiCobra：Isaac Unlocks Graph",
-      "url": "https://maniacobra.com/isaac-graph/",
-      "use": "核心：前置关系与条件成本",
-      "limitation": "难度标注是在前置已经满足后计算；不能把 Automatic 当新档容易。"
-    },
-    {
-      "id": "EN4-DATA",
-      "title": "NiCobra：完整解锁数据表",
-      "url": "https://maniacobra.com/isaac-graph/secrets.html",
-      "use": "EN4 同源数据",
-      "limitation": "与图谱只算一个独立来源。"
-    },
-    {
-      "id": "ZH1",
-      "title": "狐九郎 v9.10 整理图",
-      "url": "https://www.bilibili.com/opus/1083165871339208713",
-      "use": "既有榜单与来源沿革",
-      "limitation": "与恺恺orz／陈哥1 属同一整理链，不能重复计票。"
-    },
-    {
-      "id": "ZH2",
-      "title": "恺恺orz：什么角色解锁道具好",
-      "url": "https://www.bilibili.com/video/BV11pj7zEEHL/",
-      "use": "历史原作者意见",
-      "limitation": "2025-05-26；后改简介明示饰品／挑战评级受后续更新影响。已检查实际帧。"
-    },
-    {
-      "id": "ZH3",
-      "title": "我是谁压实度：最佳打标顺序推荐",
-      "url": "https://www.bilibili.com/video/BV1Y8b46BEB2/",
-      "use": "核心：全角色打标路线",
-      "limitation": "2026-09-07；有完整30步文字描述及关键字幕，具体客户端补丁未注明。"
-    },
-    {
-      "id": "ZH4",
-      "title": "朱可乐oneeye：双子解锁价值",
-      "url": "https://www.bilibili.com/video/BV1MK4y1m7rr/",
-      "use": "历史交叉支持",
-      "limitation": "2021-04-02；仅确认天堂阶梯／长子名分的原作者推荐，不外推全榜。"
-    },
-    {
-      "id": "ZH5",
-      "title": "白玉螳：跑圈解锁测试",
-      "url": "https://www.bilibili.com/video/BV1ex4y1y78J/",
-      "use": "机制旁证",
-      "limitation": "2024-02-21；跑圈不推进普通成就，非优先级榜。"
-    },
-    {
-      "id": "RT1",
-      "title": "Unduel：719件道具社区榜",
-      "url": "https://unduel.com/t/the-binding-of-isaac-rebirth/the-binding-of-isaac-items-75IgVOPw3H343hrv6Vh4MP/ranked-list",
-      "use": "辅助：群体偏好",
-      "limitation": "2026-10-28快照；276个站点投票者、44344条道具投票记录；标注 Repentance，非可靠的 Rep+ 专榜。"
-    },
-    {
-      "id": "RT2",
-      "title": "Another Matt：Angel Item Tier List",
-      "url": "https://www.youtube.com/watch?v=89UIC_l02Nk",
-      "use": "辅助：独立作者、天使池内强度",
-      "limitation": "2025-06-07；S级命名幻灯片已核对；池内名次不能直接与全游戏名次比较。"
-    },
-    {
-      "id": "M01",
-      "title": "IsaacGuru：忏悔+道具数据库",
-      "url": "https://isaacguru.com/",
-      "use": "机制核查",
-      "limitation": "检索时页脚自报游戏1.9.7.17；与 Repentance 页面分开，不是评级投票。"
-    },
-    {
-      "id": "M02",
-      "title": "官方：Rep+ 1.9.7.11 更新",
-      "url": "https://steamcommunity.com/games/250900/announcements/detail/505075712851443813",
-      "use": "一手机制更改",
-      "limitation": "2025-05-01 UTC；确认错误王冠暂停行为、D20贪婪商店稀有度等。"
-    },
-    {
-      "id": "M03",
-      "title": "Wiki：Rune Shard",
-      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Rune_Shard",
-      "use": "符文池机制",
-      "limitation": "当前规则不支持只解锁一枚就保证全掉该符文；6种含魂石后碎片停止生成。"
-    },
-    {
-      "id": "M04",
-      "title": "Wiki：Donation Machine",
-      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Donation",
-      "use": "普通捐款机",
-      "limitation": "50二选一、150黑蜡烛、600最高捐款商店升级、999怀表。"
-    },
-    {
-      "id": "M05",
-      "title": "Wiki：Greed Donation Machine",
-      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Greed_Donation_Machine",
-      "use": "贪婪捐款机",
-      "limitation": "与普通机器区分；500更贪婪、879游魂起始斗篷、1000店主。"
-    },
-    {
-      "id": "M06",
-      "title": "IsaacGuru：Death Certificate",
-      "url": "https://isaacguru.com/wiki/isaac/c628",
-      "use": "收尾条件",
-      "limitation": "全部表里角色困难标记完成后解锁，不能作为取得这些标记的前置工具。"
-    },
-    {
-      "id": "M07",
-      "title": "IsaacGuru：Mega Mush",
-      "url": "https://isaacguru.com/wiki/isaac/c625",
-      "use": "阶段性总奖励",
-      "limitation": "全部非堕化角色困难标记；不要因此延迟里角色核心道具。"
-    },
-    {
-      "id": "M08",
-      "title": "IsaacGuru：Rock Bottom",
-      "url": "https://isaacguru.com/wiki/isaac/c562",
-      "use": "条件引擎",
-      "limitation": "保留属性峰值，底层数值仍继续计算；单拿不提供初始属性增益。"
-    },
-    {
-      "id": "M09",
-      "title": "IsaacGuru：Cracked Crown",
-      "url": "https://isaacguru.com/wiki/isaac/t92",
-      "use": "饰品与每日",
-      "limitation": "按增益部分计算20%；每日5连胜不要求连续日期。"
-    },
-    {
-      "id": "M10",
-      "title": "Wiki：Butter!",
-      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Butter%21",
-      "use": "运营与跑圈",
-      "limitation": "搬运主动底座、集中重掷／吸收；不是直接伤害道具。"
-    },
-    {
-      "id": "M10A",
-      "title": "IsaacGuru：Butter!",
-      "url": "https://isaacguru.com/wiki/isaac/t122",
-      "use": "跑圈触发补充",
-      "limitation": "明确写开始第3次跑圈；与只写完成2圈的表述区分。"
-    },
-    {
-      "id": "M11",
-      "title": "IsaacGuru：Broken Modem",
-      "url": "https://isaacguru.com/wiki/isaac/c514",
-      "use": "稳定性与每日",
-      "limitation": "控场／敌弹消除及合格清房奖励复制；累计7次每日胜利。"
-    },
-    {
-      "id": "M12",
-      "title": "IsaacGuru：Tech.5",
-      "url": "https://isaacguru.com/wiki/isaac/c244",
-      "use": "版本例外",
-      "limitation": "当前描述有5%随机状态效果；无伤角色应额外核查随机爆炸风险。"
-    },
-    {
-      "id": "M13",
-      "title": "Wiki：Magdalene",
-      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Magdalene",
-      "use": "起始能力",
-      "limitation": "挑战32奖励按忏悔中的 Full Health 处理，不沿用旧 Speed Up 名称。"
-    },
-    {
-      "id": "M14",
-      "title": "IsaacGuru：Sigil of Baphomet",
-      "url": "https://isaacguru.com/wiki/isaac/t189",
-      "use": "饰品机制",
-      "limitation": "杀敌护盾及连续击杀叠加；挑战37的获取成本另算。"
-    },
-    {
-      "id": "M15",
-      "title": "IsaacGuru：D8",
-      "url": "https://isaacguru.com/wiki/isaac/c406",
-      "use": "随机运营",
-      "limitation": "属性重置会有0.5–2倍区间，不能等同无条件属性翻倍。"
-    },
-    {
-      "id": "LOCAL",
-      "title": "原项目公共解锁数据",
-      "url": "https://github.com/Uesr20251011/isaac_unlock_planner/tree/36f29874ff2cb4ba1f2fa4f1c242a59d872bb311/data",
-      "use": "名称／ID交叉映射",
-      "limitation": "606个已有目标的目录，不是独立评级意见；不含玩家存档。"
-    }
-  ]
+  "revisionDate": "2026-11-05"
 }

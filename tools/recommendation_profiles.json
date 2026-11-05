@@ -5,7 +5,7 @@
     {
       "id": "beginner-9.10",
       "name": "萌新开荒推荐",
-      "description": "基于 v9.10 并结合交叉研究修订；已研究 65 项目标，提供解锁建议排名、强度参考及逐项依据，面向全角色打标与全成就。",
+      "description": "结合718项综合道具榜及卡牌、符文、魂石、饰品、互动资源机制修订，覆盖606项目标的开荒建议；计入前置、成本与全角色打标价值。",
       "source": "https://www.bilibili.com/opus/1083165871339208713",
       "characterBossFile": "recommendation_seed.json",
       "challengeFile": "challenge_priority.json",

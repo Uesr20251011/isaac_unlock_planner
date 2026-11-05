@@ -236,6 +236,33 @@ python tools/build_offline_html.py
 | 未匹配的 Baby / 外观类奖励 | 32 |
 | 其他成就中具有 EID 实体奖励的条目 | 112 |
 
-页面默认按重要度排序，挑战可切回 ID 顺序。角色解锁列表不显示奖励列；主线成就图按存档进度区分解锁状态。成就图标使用本地 `Achievement_sprite.jpg`，按成就 ID 定位；角色头像来自 `assets/character/`。
+页面默认按解锁排名排序，也可切回重要度、默认顺序或综合强度。角色解锁列表不显示奖励列；主线成就图按存档进度区分解锁状态。成就图标使用本地 `Achievement_sprite.jpg`，按成就 ID 定位；角色头像来自 `assets/character/`。
+
+## 7. 综合道具榜、特殊资源与当前开荒顺序
+
+`research_rankings.json`的65项人工意见保留作历史依据。运行时当前顺序使用`unlockPlan`：606个目标、596个固定编号与10项并行提醒；195个目标属于卡牌、符文、魂石、饰品、胶囊、特殊掉落或互动资源。
+
+| 输入 / 产物 | 用途 |
+|---|---|
+| `docs/research/ensemble-v1/ensemble-results-v1.json` | 冻结的718项综合道具分数、名次、等级与来源覆盖 |
+| `tools/unlock_resource_references.json` | 357条历史解锁意见，按角色与通关标记关联340个规则；不是额外的独立强度票 |
+| `tools/unlock_plan_reviews.json` | 资源收益、版本差异、成本修正、限制与原始资料标识 |
+| `tools/build_unlock_plan.py` | 生成全量建议，保持前置次序，并防止并行提醒把昂贵前置推为第一步 |
+| `tools/unlock_plan.json` | 公开的606项目标建议源产物 |
+| `tools/export_unlock_plan.py` | 导出可读说明及606项CSV |
+
+完整更新顺序：
+
+```bash
+python tools/build_unlock_plan.py --update-priorities
+python tools/build_recommendation_profiles.py
+python tools/build_research_rankings.py
+python tools/export_unlock_plan.py
+python tools/prepare_publish.py 20261105-unlocks2
+```
+
+`--update-priorities`同步修改公开内置的角色/Boss、挑战、其他成就评级及其来源记录。浏览器内已经自定义或导入的配置由原有迁移逻辑保留。综合构建器重新校验来源与混合奖励对应关系，并内嵌`unlockPlan`和`ensemble`，静态页面与离线版无需动态请求这些JSON。
+
+奖励类型筛选与原目标分类取交集，同一组勾选项取并集；卡牌/道具混合奖励保持同一成就。综合等级只用于收藏道具；资源的收益判断与历史作者意见分别标明。存档仅用于完成状态和已记录前置的可做性，建议编号不随筛选或完成状态重编号。
 
 存档解析独立于上述构建流程。`js/save-parser.js` 在浏览器本地校验 `ISAACNGSAVE09R  ` 魔数，读取 Achievement block，通过 `achievements[achievementId]` 判断解锁状态。工具不修改存档，也不进行 CRC 写回。

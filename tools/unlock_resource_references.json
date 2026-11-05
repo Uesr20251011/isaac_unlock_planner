@@ -1,0 +1,3587 @@
+{
+  "sourceFamily": "anothermatt",
+  "authorAttribution": "Another Matt Playing Isaac, as credited in the luisgtez repository README",
+  "primarySpreadsheetUrl": "https://docs.google.com/spreadsheets/d/1w-JBw7sffHek3eckmz3dMXk0cyN_mV8y52xbRv1b9yw/edit?usp=sharing",
+  "primaryVideoUrl": "https://www.youtube.com/watch?v=1I-RolW_WEc",
+  "archivedExportRepository": "https://github.com/luisgtez/isaac-best-unlocks",
+  "archiveCommit": "a7113097909428642b80d8ac84d547e1baec9d43",
+  "archiveCommitDate": "2025-04-15T17:01:07Z",
+  "retrievedDate": "2026-11-04",
+  "livePrimaryChecked": false,
+  "gameVersion": "Repentance; live Repentance+ applicability not verified",
+  "purposeStatus": "mixed-purpose-unverified",
+  "purposeNote": "Title and README concern unlock quality. No accessible original methodological statement yet confirms exclusion of acquisition cost or unlock value; treat as historical mixed-purpose sensitivity evidence.",
+  "usage": "Historical unlock-benefit context only; not an independent pure-strength vote in the collectible ensemble.",
+  "entries": [
+    {
+      "character": "Isaac",
+      "unlockMarkRaw": "Boss Rush",
+      "rawReward": "Isaac's Head (trinket)",
+      "tier": "SHIT",
+      "sourceCell": "B2",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Magdalene",
+      "unlockMarkRaw": "Boss Rush",
+      "rawReward": "Maggy's Bow",
+      "tier": "MILD",
+      "sourceCell": "C2",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Cain",
+      "unlockMarkRaw": "Boss Rush",
+      "rawReward": "Cain's Other Eye",
+      "tier": "GOD",
+      "sourceCell": "D2",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Judas",
+      "unlockMarkRaw": "Boss Rush",
+      "rawReward": "Judas' Shadow",
+      "tier": "GOOD",
+      "sourceCell": "E2",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "???",
+      "unlockMarkRaw": "Boss Rush",
+      "rawReward": "???'s Only Friend",
+      "tier": "BAD",
+      "sourceCell": "F2",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eve",
+      "unlockMarkRaw": "Boss Rush",
+      "rawReward": "Eve's Mascara",
+      "tier": "GOD",
+      "sourceCell": "G2",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Samson",
+      "unlockMarkRaw": "Boss Rush",
+      "rawReward": "Samson's Chains",
+      "tier": "SHIT",
+      "sourceCell": "H2",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Azazel",
+      "unlockMarkRaw": "Boss Rush",
+      "rawReward": "The Nail",
+      "tier": "MILD",
+      "sourceCell": "I2",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lazarus",
+      "unlockMarkRaw": "Boss Rush",
+      "rawReward": "Missing No.",
+      "tier": "SHIT",
+      "sourceCell": "J2",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eden",
+      "unlockMarkRaw": "Boss Rush",
+      "rawReward": "Undefined",
+      "tier": "GOOD",
+      "sourceCell": "K2",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Lost",
+      "unlockMarkRaw": "Boss Rush",
+      "rawReward": "D100",
+      "tier": "MILD",
+      "sourceCell": "L2",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lilith",
+      "unlockMarkRaw": "Boss Rush",
+      "rawReward": "Immaculate Conception",
+      "tier": "BAD",
+      "sourceCell": "M2",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Keeper",
+      "unlockMarkRaw": "Boss Rush",
+      "rawReward": "Sticky Nickels (Coins)",
+      "tier": "SHIT",
+      "sourceCell": "N2",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Apollyon",
+      "unlockMarkRaw": "Boss Rush",
+      "rawReward": "Locust of Conquest (Trinket)",
+      "tier": "BAD",
+      "sourceCell": "O2",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Forgotten",
+      "unlockMarkRaw": "Boss Rush",
+      "rawReward": "Divorce Papers",
+      "tier": "MILD",
+      "sourceCell": "P2",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Bethany",
+      "unlockMarkRaw": "Boss Rush",
+      "rawReward": "Beth's Faith (Trinket)",
+      "tier": "MILD",
+      "sourceCell": "Q2",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Jacob & Esau",
+      "unlockMarkRaw": "Boss Rush",
+      "rawReward": "Rock Bottom",
+      "tier": "GOD",
+      "sourceCell": "R2",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Isaac",
+      "unlockMarkRaw": "Mom's Heart",
+      "rawReward": "Lost Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "B3",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Magdalene",
+      "unlockMarkRaw": "Mom's Heart",
+      "rawReward": "Cute Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "C3",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Cain",
+      "unlockMarkRaw": "Mom's Heart",
+      "rawReward": "Glass Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "D3",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Judas",
+      "unlockMarkRaw": "Mom's Heart",
+      "rawReward": "Shadow Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "E3",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "???",
+      "unlockMarkRaw": "Mom's Heart",
+      "rawReward": "Dead Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "F3",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eve",
+      "unlockMarkRaw": "Mom's Heart",
+      "rawReward": "Crow Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "G3",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Samson",
+      "unlockMarkRaw": "Mom's Heart",
+      "rawReward": "Fighting Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "H3",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Azazel",
+      "unlockMarkRaw": "Mom's Heart",
+      "rawReward": "Begotten Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "I3",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lazarus",
+      "unlockMarkRaw": "Mom's Heart",
+      "rawReward": "Wrapped Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "J3",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eden",
+      "unlockMarkRaw": "Mom's Heart",
+      "rawReward": "Glitch Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "K3",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Lost",
+      "unlockMarkRaw": "Mom's Heart",
+      "rawReward": "-0- Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "L3",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lilith",
+      "unlockMarkRaw": "Mom's Heart",
+      "rawReward": "Goat Head Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "M3",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Keeper",
+      "unlockMarkRaw": "Mom's Heart",
+      "rawReward": "Super Greed Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "N3",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Apollyon",
+      "unlockMarkRaw": "Mom's Heart",
+      "rawReward": "Smelter",
+      "tier": "GOOD",
+      "sourceCell": "O3",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Forgotten",
+      "unlockMarkRaw": "Mom's Heart",
+      "rawReward": "Marrow",
+      "tier": "MILD",
+      "sourceCell": "P3",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Bethany",
+      "unlockMarkRaw": "Mom's Heart",
+      "rawReward": "Wisp Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "Q3",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Jacob & Esau",
+      "unlockMarkRaw": "Mom's Heart",
+      "rawReward": "Double Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "R3",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Isaac",
+      "unlockMarkRaw": "Satan",
+      "rawReward": "Mom's Knife",
+      "tier": "GOD",
+      "sourceCell": "B4",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Magdalene",
+      "unlockMarkRaw": "Satan",
+      "rawReward": "Guardian Angel",
+      "tier": "MILD",
+      "sourceCell": "C4",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Cain",
+      "unlockMarkRaw": "Satan",
+      "rawReward": "Bag of Bombs",
+      "tier": "MILD",
+      "sourceCell": "D4",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Judas",
+      "unlockMarkRaw": "Satan",
+      "rawReward": "Judas' Tongue (Trinket)",
+      "tier": "MILD",
+      "sourceCell": "E4",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "???",
+      "unlockMarkRaw": "Satan",
+      "rawReward": "Forget Me Now",
+      "tier": "GOD",
+      "sourceCell": "F4",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eve",
+      "unlockMarkRaw": "Satan",
+      "rawReward": "The Razor",
+      "tier": "SHIT",
+      "sourceCell": "G4",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Samson",
+      "unlockMarkRaw": "Satan",
+      "rawReward": "Blood Rights",
+      "tier": "SHIT",
+      "sourceCell": "H4",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Azazel",
+      "unlockMarkRaw": "Satan",
+      "rawReward": "Daemon's Tail (Trinket)",
+      "tier": "GOOD",
+      "sourceCell": "I4",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lazarus",
+      "unlockMarkRaw": "Satan",
+      "rawReward": "Broken Ankh (Trinket)",
+      "tier": "SHIT",
+      "sourceCell": "J4",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eden",
+      "unlockMarkRaw": "Satan",
+      "rawReward": "Book of Secrets",
+      "tier": "BAD",
+      "sourceCell": "K4",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Lost",
+      "unlockMarkRaw": "Satan",
+      "rawReward": "The Mind",
+      "tier": "GOD",
+      "sourceCell": "L4",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lilith",
+      "unlockMarkRaw": "Satan",
+      "rawReward": "Serpant's Kiss",
+      "tier": "MILD",
+      "sourceCell": "M4",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Keeper",
+      "unlockMarkRaw": "Satan",
+      "rawReward": "Keeper Holds Store Key",
+      "tier": "SHIT",
+      "sourceCell": "N4",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Apollyon",
+      "unlockMarkRaw": "Satan",
+      "rawReward": "Locust of Pestilence (Trinket)",
+      "tier": "BAD",
+      "sourceCell": "O4",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Forgotten",
+      "unlockMarkRaw": "Satan",
+      "rawReward": "Pointy Rib",
+      "tier": "MILD",
+      "sourceCell": "P4",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Bethany",
+      "unlockMarkRaw": "Satan",
+      "rawReward": "Urn of Souls",
+      "tier": "BAD",
+      "sourceCell": "Q4",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Jacob & Esau",
+      "unlockMarkRaw": "Satan",
+      "rawReward": "Red Stew",
+      "tier": "GOOD",
+      "sourceCell": "R4",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Isaac",
+      "unlockMarkRaw": "Isaac",
+      "rawReward": "Isaac's Tears",
+      "tier": "BAD",
+      "sourceCell": "B5",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Magdalene",
+      "unlockMarkRaw": "Isaac",
+      "rawReward": "The Relic",
+      "tier": "GOOD",
+      "sourceCell": "C5",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Cain",
+      "unlockMarkRaw": "Isaac",
+      "rawReward": "Bag of Pennies",
+      "tier": "MILD",
+      "sourceCell": "D5",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Judas",
+      "unlockMarkRaw": "Isaac",
+      "rawReward": "Guillotine",
+      "tier": "MILD",
+      "sourceCell": "E5",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "???",
+      "unlockMarkRaw": "Isaac",
+      "rawReward": "D6",
+      "tier": "GOD",
+      "sourceCell": "F5",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eve",
+      "unlockMarkRaw": "Isaac",
+      "rawReward": "Eve's Bird Foot (Trinket)",
+      "tier": "SHIT",
+      "sourceCell": "G5",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Samson",
+      "unlockMarkRaw": "Isaac",
+      "rawReward": "Bloody Lust",
+      "tier": "GOOD",
+      "sourceCell": "H5",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Azazel",
+      "unlockMarkRaw": "Isaac",
+      "rawReward": "Satanic Bible",
+      "tier": "GOD",
+      "sourceCell": "I5",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lazarus",
+      "unlockMarkRaw": "Isaac",
+      "rawReward": "Laz Rags",
+      "tier": "SHIT",
+      "sourceCell": "J5",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eden",
+      "unlockMarkRaw": "Isaac",
+      "rawReward": "Blank Card",
+      "tier": "MILD",
+      "sourceCell": "K5",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Lost",
+      "unlockMarkRaw": "Isaac",
+      "rawReward": "Isaac's Heart",
+      "tier": "SHIT",
+      "sourceCell": "L5",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lilith",
+      "unlockMarkRaw": "Isaac",
+      "rawReward": "Rune Bag",
+      "tier": "GOD",
+      "sourceCell": "M5",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Keeper",
+      "unlockMarkRaw": "Isaac",
+      "rawReward": "Keeper Holds Wood Nickel",
+      "tier": "BAD",
+      "sourceCell": "N5",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Apollyon",
+      "unlockMarkRaw": "Isaac",
+      "rawReward": "Locust of Wrath (Trinket)",
+      "tier": "BAD",
+      "sourceCell": "O5",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Forgotten",
+      "unlockMarkRaw": "Isaac",
+      "rawReward": "Slipped Rib",
+      "tier": "MILD",
+      "sourceCell": "P5",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Bethany",
+      "unlockMarkRaw": "Isaac",
+      "rawReward": "Book of Virtues",
+      "tier": "GOD",
+      "sourceCell": "Q5",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Jacob & Esau",
+      "unlockMarkRaw": "Isaac",
+      "rawReward": "The Stairway",
+      "tier": "GOD",
+      "sourceCell": "R5",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Isaac",
+      "unlockMarkRaw": "The Lamb",
+      "rawReward": "Missing Poster (Trinket)",
+      "tier": "GOD",
+      "sourceCell": "B6",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Magdalene",
+      "unlockMarkRaw": "The Lamb",
+      "rawReward": "Maggy's Faith (Trinket)",
+      "tier": "MILD",
+      "sourceCell": "C6",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Cain",
+      "unlockMarkRaw": "The Lamb",
+      "rawReward": "Abel",
+      "tier": "BAD",
+      "sourceCell": "D6",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Judas",
+      "unlockMarkRaw": "The Lamb",
+      "rawReward": "Curved Horn",
+      "tier": "GOD",
+      "sourceCell": "E6",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "???",
+      "unlockMarkRaw": "The Lamb",
+      "rawReward": "???'s Soul (Trinket)",
+      "tier": "SHIT",
+      "sourceCell": "F6",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eve",
+      "unlockMarkRaw": "The Lamb",
+      "rawReward": "Black Lipstick (Trinket)",
+      "tier": "MILD",
+      "sourceCell": "G6",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Samson",
+      "unlockMarkRaw": "The Lamb",
+      "rawReward": "Samson's Lock (Trinket)",
+      "tier": "BAD",
+      "sourceCell": "H6",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Azazel",
+      "unlockMarkRaw": "The Lamb",
+      "rawReward": "Demon Baby",
+      "tier": "BAD",
+      "sourceCell": "I6",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lazarus",
+      "unlockMarkRaw": "The Lamb",
+      "rawReward": "Pandora's Box",
+      "tier": "GOOD",
+      "sourceCell": "J6",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eden",
+      "unlockMarkRaw": "The Lamb",
+      "rawReward": "Mystery Sack",
+      "tier": "MILD",
+      "sourceCell": "K6",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Lost",
+      "unlockMarkRaw": "The Lamb",
+      "rawReward": "The Soul",
+      "tier": "GOD",
+      "sourceCell": "L6",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lilith",
+      "unlockMarkRaw": "The Lamb",
+      "rawReward": "Succubus",
+      "tier": "GOOD",
+      "sourceCell": "M6",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Keeper",
+      "unlockMarkRaw": "The Lamb",
+      "rawReward": "Karma (Trinket)",
+      "tier": "SHIT",
+      "sourceCell": "N6",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Apollyon",
+      "unlockMarkRaw": "The Lamb",
+      "rawReward": "Locust of Death (Trinket)",
+      "tier": "BAD",
+      "sourceCell": "O6",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Forgotten",
+      "unlockMarkRaw": "The Lamb",
+      "rawReward": "Brittle Bones",
+      "tier": "GOOD",
+      "sourceCell": "P6",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Bethany",
+      "unlockMarkRaw": "The Lamb",
+      "rawReward": "Alabaster Box",
+      "tier": "MILD",
+      "sourceCell": "Q6",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Jacob & Esau",
+      "unlockMarkRaw": "The Lamb",
+      "rawReward": "Damocles",
+      "tier": "GOD",
+      "sourceCell": "R6",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Isaac",
+      "unlockMarkRaw": "???",
+      "rawReward": "D20",
+      "tier": "GOOD",
+      "sourceCell": "B7",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Magdalene",
+      "unlockMarkRaw": "???",
+      "rawReward": "Celtic Cross",
+      "tier": "BAD",
+      "sourceCell": "C7",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Cain",
+      "unlockMarkRaw": "???",
+      "rawReward": "Cain's Eye (Trinket)",
+      "tier": "BAD",
+      "sourceCell": "D7",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Judas",
+      "unlockMarkRaw": "???",
+      "rawReward": "The Left Hand",
+      "tier": "GOD",
+      "sourceCell": "E7",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "???",
+      "unlockMarkRaw": "???",
+      "rawReward": "Fate",
+      "tier": "GOD",
+      "sourceCell": "F7",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eve",
+      "unlockMarkRaw": "???",
+      "rawReward": "Sacrificial Dagger",
+      "tier": "GOOD",
+      "sourceCell": "G7",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Samson",
+      "unlockMarkRaw": "???",
+      "rawReward": "Blood Penny (Trinket)",
+      "tier": "GOOD",
+      "sourceCell": "H7",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Azazel",
+      "unlockMarkRaw": "???",
+      "rawReward": "Abaddon",
+      "tier": "GOOD",
+      "sourceCell": "I7",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lazarus",
+      "unlockMarkRaw": "???",
+      "rawReward": "Store Credit (Trinket)",
+      "tier": "MILD",
+      "sourceCell": "J7",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eden",
+      "unlockMarkRaw": "???",
+      "rawReward": "Mysterious Paper (Trinket)",
+      "tier": "SHIT",
+      "sourceCell": "K7",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Lost",
+      "unlockMarkRaw": "???",
+      "rawReward": "The Body",
+      "tier": "GOOD",
+      "sourceCell": "L7",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lilith",
+      "unlockMarkRaw": "???",
+      "rawReward": "Cambion Conception",
+      "tier": "MILD",
+      "sourceCell": "M7",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Keeper",
+      "unlockMarkRaw": "???",
+      "rawReward": "Deep Pockets (Trinket)",
+      "tier": "SHIT",
+      "sourceCell": "N7",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Apollyon",
+      "unlockMarkRaw": "???",
+      "rawReward": "Locust of Famine (Trinket)",
+      "tier": "BAD",
+      "sourceCell": "O7",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Forgotten",
+      "unlockMarkRaw": "???",
+      "rawReward": "Jaw Bone",
+      "tier": "BAD",
+      "sourceCell": "P7",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Bethany",
+      "unlockMarkRaw": "???",
+      "rawReward": "Blessed Penny (Trinket)",
+      "tier": "GOD",
+      "sourceCell": "Q7",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Jacob & Esau",
+      "unlockMarkRaw": "???",
+      "rawReward": "Birthright",
+      "tier": "GOD",
+      "sourceCell": "R7",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Isaac",
+      "unlockMarkRaw": "Ultra Greed",
+      "rawReward": "Lil' Chest",
+      "tier": "MILD",
+      "sourceCell": "B8",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Magdalene",
+      "unlockMarkRaw": "Ultra Greed",
+      "rawReward": "Censer",
+      "tier": "MILD",
+      "sourceCell": "C8",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Cain",
+      "unlockMarkRaw": "Ultra Greed",
+      "rawReward": "Evil Eye",
+      "tier": "MILD",
+      "sourceCell": "D8",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Judas",
+      "unlockMarkRaw": "Ultra Greed",
+      "rawReward": "My Shadow",
+      "tier": "MILD",
+      "sourceCell": "E8",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "???",
+      "unlockMarkRaw": "Ultra Greed",
+      "rawReward": "Cracked Dice (Trinket)",
+      "tier": "BAD",
+      "sourceCell": "F8",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eve",
+      "unlockMarkRaw": "Ultra Greed",
+      "rawReward": "Black Feather (Trinket)",
+      "tier": "BAD",
+      "sourceCell": "G8",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Samson",
+      "unlockMarkRaw": "Ultra Greed",
+      "rawReward": "Lusty Blood",
+      "tier": "GOOD",
+      "sourceCell": "H8",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Azazel",
+      "unlockMarkRaw": "Ultra Greed",
+      "rawReward": "Lilith (Character)",
+      "tier": "GOD",
+      "sourceCell": "I8",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lazarus",
+      "unlockMarkRaw": "Ultra Greed",
+      "rawReward": "Key Bum",
+      "tier": "BAD",
+      "sourceCell": "J8",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eden",
+      "unlockMarkRaw": "Ultra Greed",
+      "rawReward": "GB Bug",
+      "tier": "BAD",
+      "sourceCell": "K8",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Lost",
+      "unlockMarkRaw": "Ultra Greed",
+      "rawReward": "Zodiac",
+      "tier": "SHIT",
+      "sourceCell": "L8",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lilith",
+      "unlockMarkRaw": "Ultra Greed",
+      "rawReward": "Box of Friends",
+      "tier": "BAD",
+      "sourceCell": "M8",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Keeper",
+      "unlockMarkRaw": "Ultra Greed",
+      "rawReward": "Rib of Greed (Trinket)",
+      "tier": "SHIT",
+      "sourceCell": "N8",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Apollyon",
+      "unlockMarkRaw": "Ultra Greed",
+      "rawReward": "Brown Nugget",
+      "tier": "SHIT",
+      "sourceCell": "O8",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Forgotten",
+      "unlockMarkRaw": "Ultra Greed",
+      "rawReward": "Finger Bone (Trinket)",
+      "tier": "SHIT",
+      "sourceCell": "P8",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Bethany",
+      "unlockMarkRaw": "Ultra Greed",
+      "rawReward": "Soul Locket",
+      "tier": "BAD",
+      "sourceCell": "Q8",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Jacob & Esau",
+      "unlockMarkRaw": "Ultra Greed",
+      "rawReward": "Inner Child",
+      "tier": "GOOD",
+      "sourceCell": "R8",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Isaac",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "D1",
+      "tier": "MILD",
+      "sourceCell": "B9",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Magdalene",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Glyph of Balance",
+      "tier": "BAD",
+      "sourceCell": "C9",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Cain",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Sack of Sacks",
+      "tier": "GOOD",
+      "sourceCell": "D9",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Judas",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Eye of Belial",
+      "tier": "GOD",
+      "sourceCell": "E9",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "???",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Meconium (Trinket)",
+      "tier": "SHIT",
+      "sourceCell": "F9",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eve",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Crow Heart (Trinket)",
+      "tier": "BAD",
+      "sourceCell": "G9",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Samson",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Stem Cell",
+      "tier": "SHIT",
+      "sourceCell": "H9",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Azazel",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Bat Wing (Trinket)",
+      "tier": "SHIT",
+      "sourceCell": "I9",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lazarus",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Plan C",
+      "tier": "SHIT",
+      "sourceCell": "J9",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eden",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Metronome",
+      "tier": "BAD",
+      "sourceCell": "K9",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Lost",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Dad's Lost Coin",
+      "tier": "BAD",
+      "sourceCell": "L9",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lilith",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Duality",
+      "tier": "GOOD",
+      "sourceCell": "M9",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Keeper",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Eye of Greed",
+      "tier": "SHIT",
+      "sourceCell": "N9",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Apollyon",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Black Rune (Card)",
+      "tier": "GOOD",
+      "sourceCell": "O9",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Forgotten",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Dad's Ring",
+      "tier": "BAD",
+      "sourceCell": "P9",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Bethany",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Vade Retro",
+      "tier": "BAD",
+      "sourceCell": "Q9",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Jacob & Esau",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Genesis",
+      "tier": "GOOD",
+      "sourceCell": "R9",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Isaac",
+      "unlockMarkRaw": "Hush",
+      "rawReward": "Fart Baby",
+      "tier": "MILD",
+      "sourceCell": "B10",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Magdalene",
+      "unlockMarkRaw": "Hush",
+      "rawReward": "Purity",
+      "tier": "MILD",
+      "sourceCell": "C10",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Cain",
+      "unlockMarkRaw": "Hush",
+      "rawReward": "D12",
+      "tier": "BAD",
+      "sourceCell": "D10",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Judas",
+      "unlockMarkRaw": "Hush",
+      "rawReward": "Betrayal",
+      "tier": "MILD",
+      "sourceCell": "E10",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "???",
+      "unlockMarkRaw": "Hush",
+      "rawReward": "Fate's Reward",
+      "tier": "BAD",
+      "sourceCell": "F10",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eve",
+      "unlockMarkRaw": "Hush",
+      "rawReward": "Athame",
+      "tier": "GOD",
+      "sourceCell": "G10",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Samson",
+      "unlockMarkRaw": "Hush",
+      "rawReward": "Blind Rage",
+      "tier": "BAD",
+      "sourceCell": "H10",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Azazel",
+      "unlockMarkRaw": "Hush",
+      "rawReward": "Maw of the Void",
+      "tier": "GOD",
+      "sourceCell": "I10",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lazarus",
+      "unlockMarkRaw": "Hush",
+      "rawReward": "Empty Vessel",
+      "tier": "MILD",
+      "sourceCell": "J10",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eden",
+      "unlockMarkRaw": "Hush",
+      "rawReward": "Eden's Blessing",
+      "tier": "GOD",
+      "sourceCell": "K10",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Lost",
+      "unlockMarkRaw": "Hush",
+      "rawReward": "Sworn Protector",
+      "tier": "BAD",
+      "sourceCell": "L10",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lilith",
+      "unlockMarkRaw": "Hush",
+      "rawReward": "Incubus",
+      "tier": "GOD",
+      "sourceCell": "M10",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Keeper",
+      "unlockMarkRaw": "Hush",
+      "rawReward": "Keeper +1 HP",
+      "tier": "MILD",
+      "sourceCell": "N10",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Apollyon",
+      "unlockMarkRaw": "Hush",
+      "rawReward": "Lil' Hushy",
+      "tier": "BAD",
+      "sourceCell": "O10",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Forgotten",
+      "unlockMarkRaw": "Hush",
+      "rawReward": "Hallowed Ground",
+      "tier": "BAD",
+      "sourceCell": "P10",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Bethany",
+      "unlockMarkRaw": "Hush",
+      "rawReward": "Divine Intervention",
+      "tier": "BAD",
+      "sourceCell": "Q10",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Jacob & Esau",
+      "unlockMarkRaw": "Hush",
+      "rawReward": "Vanishing Twin",
+      "tier": "GOOD",
+      "sourceCell": "R10",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Isaac",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Cry Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "B11",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Magdalene",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Red Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "C11",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Cain",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Green Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "D11",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Judas",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Brown Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "E11",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "???",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Blue Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "F11",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eve",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Lil' Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "G11",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Samson",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Rage Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "H11",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Azazel",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Black Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "I11",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lazarus",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Long Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "J11",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eden",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Yellow Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "K11",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Lost",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "White Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "L11",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lilith",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Big Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "M11",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Keeper",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Noose Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "N11",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Apollyon",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Mort Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "O11",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Forgotten",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Bound Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "P11",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Bethany",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Glowing Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "Q11",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Jacob & Esau",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Illusion Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "R11",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Isaac",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "D Infinity",
+      "tier": "GOD",
+      "sourceCell": "B12",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Magdalene",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Eucharist",
+      "tier": "GOD",
+      "sourceCell": "C12",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Cain",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Silver Dollar",
+      "tier": "GOOD",
+      "sourceCell": "D12",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Judas",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Shade",
+      "tier": "SHIT",
+      "sourceCell": "E12",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "???",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "King Baby",
+      "tier": "BAD",
+      "sourceCell": "F12",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eve",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Dull Razor",
+      "tier": "SHIT",
+      "sourceCell": "G12",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Samson",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Bloody Crown (Trinket)",
+      "tier": "GOD",
+      "sourceCell": "H12",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Azazel",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Dark Prince's Crown",
+      "tier": "MILD",
+      "sourceCell": "I12",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lazarus",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Compound Fracture",
+      "tier": "GOOD",
+      "sourceCell": "J12",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eden",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Eden's Soul",
+      "tier": "GOD",
+      "sourceCell": "K12",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Lost",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Holy Card (Card)",
+      "tier": "GOOD",
+      "sourceCell": "L12",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lilith",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Euthanasia",
+      "tier": "GOOD",
+      "sourceCell": "M12",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Keeper",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Crooked Penny",
+      "tier": "GOOD",
+      "sourceCell": "N12",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Apollyon",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Void",
+      "tier": "GOOD",
+      "sourceCell": "O12",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Forgotten",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Book of the Dead",
+      "tier": "GOOD",
+      "sourceCell": "P12",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Bethany",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Star of Bethlahem",
+      "tier": "GOD",
+      "sourceCell": "Q12",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Jacob & Esau",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Suplex",
+      "tier": "BAD",
+      "sourceCell": "R12",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Isaac",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Meat Cleaver",
+      "tier": "BAD",
+      "sourceCell": "B13",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Magdalene",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Yuck Heart",
+      "tier": "BAD",
+      "sourceCell": "C13",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Cain",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Guppy's Eye",
+      "tier": "GOD",
+      "sourceCell": "D13",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Judas",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Akeldama",
+      "tier": "MILD",
+      "sourceCell": "E13",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "???",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Eternal D6",
+      "tier": "GOD",
+      "sourceCell": "F13",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eve",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Bird Cage",
+      "tier": "BAD",
+      "sourceCell": "G13",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Samson",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Bloody Gust",
+      "tier": "GOOD",
+      "sourceCell": "H13",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Azazel",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Devil's Crown (Trinket)",
+      "tier": "GOD",
+      "sourceCell": "I13",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lazarus",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Tinytoma",
+      "tier": "MILD",
+      "sourceCell": "J13",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eden",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "M (Trinket)",
+      "tier": "MILD",
+      "sourceCell": "K13",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Lost",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Lost Soul (Trinket)",
+      "tier": "GOD",
+      "sourceCell": "L13",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lilith",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Blood Puppy",
+      "tier": "MILD",
+      "sourceCell": "M13",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Keeper",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Keeper's Sack",
+      "tier": "GOOD",
+      "sourceCell": "N13",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Apollyon",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Lil Portal",
+      "tier": "SHIT",
+      "sourceCell": "O13",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Forgotten",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Bone Spurs",
+      "tier": "MILD",
+      "sourceCell": "P13",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Bethany",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Revelation",
+      "tier": "GOD",
+      "sourceCell": "Q13",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Jacob & Esau",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Magic Skin",
+      "tier": "GOD",
+      "sourceCell": "R13",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Isaac",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Options?",
+      "tier": "GOOD",
+      "sourceCell": "B14",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Magdalene",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Candy Heart",
+      "tier": "MILD",
+      "sourceCell": "C14",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Cain",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Pound of Flesh",
+      "tier": "MILD",
+      "sourceCell": "D14",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Judas",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Redemption",
+      "tier": "GOOD",
+      "sourceCell": "E14",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "???",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Montezuma's Revenge",
+      "tier": "MILD",
+      "sourceCell": "F14",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eve",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Cracked Orb",
+      "tier": "GOOD",
+      "sourceCell": "G14",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Samson",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Empty Heart",
+      "tier": "MILD",
+      "sourceCell": "H14",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Azazel",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Lil Abaddon",
+      "tier": "BAD",
+      "sourceCell": "I14",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lazarus",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Astral Projection",
+      "tier": "MILD",
+      "sourceCell": "J14",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eden",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Everything Jar",
+      "tier": "BAD",
+      "sourceCell": "K14",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Lost",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Hungry Soul",
+      "tier": "MILD",
+      "sourceCell": "L14",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lilith",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "C Section",
+      "tier": "GOD",
+      "sourceCell": "M14",
+      "sourceClass": "s6",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Keeper",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Keeper's Box",
+      "tier": "MILD",
+      "sourceCell": "N14",
+      "sourceClass": "s5",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Apollyon",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Worm Friend",
+      "tier": "GOOD",
+      "sourceCell": "O14",
+      "sourceClass": "s7",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Forgotten",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Spirit Shackles",
+      "tier": "BAD",
+      "sourceCell": "P14",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Bethany",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Jar of Wisps",
+      "tier": "SHIT",
+      "sourceCell": "Q14",
+      "sourceClass": "s4",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Jacob & Esau",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Friend Finder",
+      "tier": "BAD",
+      "sourceCell": "R14",
+      "sourceClass": "s8",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Isaac",
+      "unlockMarkRaw": "All Marks",
+      "rawReward": "Buddy Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "B15",
+      "sourceClass": "s11",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Magdalene",
+      "unlockMarkRaw": "All Marks",
+      "rawReward": "Colofrul Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "C15",
+      "sourceClass": "s11",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Cain",
+      "unlockMarkRaw": "All Marks",
+      "rawReward": "Picky Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "D15",
+      "sourceClass": "s11",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Judas",
+      "unlockMarkRaw": "All Marks",
+      "rawReward": "Belial Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "E15",
+      "sourceClass": "s11",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "???",
+      "unlockMarkRaw": "All Marks",
+      "rawReward": "Hive Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "F15",
+      "sourceClass": "s11",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eve",
+      "unlockMarkRaw": "All Marks",
+      "rawReward": "Whore Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "G15",
+      "sourceClass": "s11",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Samson",
+      "unlockMarkRaw": "All Marks",
+      "rawReward": "Revenge Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "H15",
+      "sourceClass": "s11",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Azazel",
+      "unlockMarkRaw": "All Marks",
+      "rawReward": "Sucky Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "I15",
+      "sourceClass": "s11",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lazarus",
+      "unlockMarkRaw": "All Marks",
+      "rawReward": "Dripping Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "J15",
+      "sourceClass": "s11",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Eden",
+      "unlockMarkRaw": "All Marks",
+      "rawReward": "Cracked Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "K15",
+      "sourceClass": "s11",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Lost",
+      "unlockMarkRaw": "All Marks",
+      "rawReward": "Godhead",
+      "tier": "GOD",
+      "sourceCell": "L15",
+      "sourceClass": "s12",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Lilith",
+      "unlockMarkRaw": "All Marks",
+      "rawReward": "Dark Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "M15",
+      "sourceClass": "s11",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Keeper",
+      "unlockMarkRaw": "All Marks",
+      "rawReward": "Sale Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "N15",
+      "sourceClass": "s11",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Apollyon",
+      "unlockMarkRaw": "All Marks",
+      "rawReward": "Apollyon Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "O15",
+      "sourceClass": "s11",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "The Forgotten",
+      "unlockMarkRaw": "All Marks",
+      "rawReward": "Bone Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "P15",
+      "sourceClass": "s11",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Bethany",
+      "unlockMarkRaw": "All Marks",
+      "rawReward": "Hope Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "Q15",
+      "sourceClass": "s11",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Jacob & Esau",
+      "unlockMarkRaw": "All Marks",
+      "rawReward": "Solomon's Baby (Co-Op)",
+      "tier": "SHIT",
+      "sourceCell": "R15",
+      "sourceClass": "s11",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/Normal.html"
+    },
+    {
+      "character": "Tainted Isaac",
+      "unlockMarkRaw": "Isaac, ???, Satan, Lamb",
+      "rawReward": "Mom's Lock (Trinket)",
+      "tier": "BAD",
+      "sourceCell": "B2",
+      "sourceClass": "s2",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Magdalene",
+      "unlockMarkRaw": "Isaac, ???, Satan, Lamb",
+      "rawReward": "Holy Crown (Trinket)",
+      "tier": "GOOD",
+      "sourceCell": "C2",
+      "sourceClass": "s3",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Cain",
+      "unlockMarkRaw": "Isaac, ???, Satan, Lamb",
+      "rawReward": "Gilded Key (Trinket)",
+      "tier": "GOOD",
+      "sourceCell": "D2",
+      "sourceClass": "s3",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Judas",
+      "unlockMarkRaw": "Isaac, ???, Satan, Lamb",
+      "rawReward": "Your Soul (Trinket)",
+      "tier": "MILD",
+      "sourceCell": "E2",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted ???",
+      "unlockMarkRaw": "Isaac, ???, Satan, Lamb",
+      "rawReward": "Dingle Berry (Trinket)",
+      "tier": "GOOD",
+      "sourceCell": "F2",
+      "sourceClass": "s3",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Eve",
+      "unlockMarkRaw": "Isaac, ???, Satan, Lamb",
+      "rawReward": "Strange Key (Trinket)",
+      "tier": "MILD",
+      "sourceCell": "G2",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Samson",
+      "unlockMarkRaw": "Isaac, ???, Satan, Lamb",
+      "rawReward": "Temporary Tattoo (Trinket)",
+      "tier": "GOOD",
+      "sourceCell": "H2",
+      "sourceClass": "s3",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Azazel",
+      "unlockMarkRaw": "Isaac, ???, Satan, Lamb",
+      "rawReward": "Wicket Crown (Trinket)",
+      "tier": "GOOD",
+      "sourceCell": "I2",
+      "sourceClass": "s3",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Lazarus",
+      "unlockMarkRaw": "Isaac, ???, Satan, Lamb",
+      "rawReward": "Torn Pocket (Trinket)",
+      "tier": "BAD",
+      "sourceCell": "J2",
+      "sourceClass": "s2",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Eden",
+      "unlockMarkRaw": "Isaac, ???, Satan, Lamb",
+      "rawReward": "Nuh Uh! (Trinket)",
+      "tier": "MILD",
+      "sourceCell": "K2",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted The Lost",
+      "unlockMarkRaw": "Isaac, ???, Satan, Lamb",
+      "rawReward": "Kid's Drawing (Trinket)",
+      "tier": "GOOD",
+      "sourceCell": "L2",
+      "sourceClass": "s3",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Lilith",
+      "unlockMarkRaw": "Isaac, ???, Satan, Lamb",
+      "rawReward": "The Twins (Trinket)",
+      "tier": "MILD",
+      "sourceCell": "M2",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Keeper",
+      "unlockMarkRaw": "Isaac, ???, Satan, Lamb",
+      "rawReward": "Keeper's Bargain (Trinket)",
+      "tier": "MILD",
+      "sourceCell": "N2",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Apollyon",
+      "unlockMarkRaw": "Isaac, ???, Satan, Lamb",
+      "rawReward": "Cricket Leg (Trinket)",
+      "tier": "MILD",
+      "sourceCell": "O2",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted The Forgotten",
+      "unlockMarkRaw": "Isaac, ???, Satan, Lamb",
+      "rawReward": "Polished Bone (Trinket)",
+      "tier": "GOOD",
+      "sourceCell": "P2",
+      "sourceClass": "s3",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Bethany",
+      "unlockMarkRaw": "Isaac, ???, Satan, Lamb",
+      "rawReward": "Expansion Pack (Trinket)",
+      "tier": "MILD",
+      "sourceCell": "Q2",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Jacob & Esau",
+      "unlockMarkRaw": "Isaac, ???, Satan, Lamb",
+      "rawReward": "RC Remote (Trinket)",
+      "tier": "BAD",
+      "sourceCell": "R2",
+      "sourceClass": "s2",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Isaac",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Reverse Stars (Card)",
+      "tier": "GOD",
+      "sourceCell": "B3",
+      "sourceClass": "s5",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Magdalene",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Revers Lovers (Card)",
+      "tier": "GOD",
+      "sourceCell": "C3",
+      "sourceClass": "s5",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Cain",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Reverse Wheel of Fortune (Card)",
+      "tier": "SHIT",
+      "sourceCell": "D3",
+      "sourceClass": "s6",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Judas",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Reverse Magician (Card)",
+      "tier": "MILD",
+      "sourceCell": "E3",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted ???",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Reverse Emperor (Card)",
+      "tier": "GOOD",
+      "sourceCell": "F3",
+      "sourceClass": "s3",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Eve",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Reverse Empress (Card)",
+      "tier": "BAD",
+      "sourceCell": "G3",
+      "sourceClass": "s2",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Samson",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Reverse Strength (Cards)",
+      "tier": "MILD",
+      "sourceCell": "H3",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Azazel",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Reverse Devil (Card)",
+      "tier": "MILD",
+      "sourceCell": "I3",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Lazarus",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Reverse Judgement (Card)",
+      "tier": "GOD",
+      "sourceCell": "J3",
+      "sourceClass": "s5",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Eden",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Reverse World (Card)",
+      "tier": "GOOD",
+      "sourceCell": "K3",
+      "sourceClass": "s3",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted The Lost",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Reverse Fool (Card)",
+      "tier": "GOOD",
+      "sourceCell": "L3",
+      "sourceClass": "s3",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Lilith",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Reverse High Priestess (Card)",
+      "tier": "SHIT",
+      "sourceCell": "M3",
+      "sourceClass": "s6",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Keeper",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Reverse Hanged Man (Card)",
+      "tier": "MILD",
+      "sourceCell": "N3",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Apollyon",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Reverse Tower (Card)",
+      "tier": "GOD",
+      "sourceCell": "O3",
+      "sourceClass": "s5",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted The Forgotten",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Reverse Death (Card)",
+      "tier": "MILD",
+      "sourceCell": "P3",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Bethany",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Reverse Hierophant (Card)",
+      "tier": "MILD",
+      "sourceCell": "Q3",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Jacob & Esau",
+      "unlockMarkRaw": "Ultra Greedier",
+      "rawReward": "Reverse Sun & Moon (Cards)",
+      "tier": "GOD",
+      "sourceCell": "R3",
+      "sourceClass": "s5",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Isaac",
+      "unlockMarkRaw": "Boss Rush & Hush",
+      "rawReward": "Soul of Isaac (Card)",
+      "tier": "GOD",
+      "sourceCell": "B4",
+      "sourceClass": "s5",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Magdalene",
+      "unlockMarkRaw": "Boss Rush & Hush",
+      "rawReward": "Soul of Maggy (Card)",
+      "tier": "BAD",
+      "sourceCell": "C4",
+      "sourceClass": "s2",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Cain",
+      "unlockMarkRaw": "Boss Rush & Hush",
+      "rawReward": "Soul of Cain (Card)",
+      "tier": "GOD",
+      "sourceCell": "D4",
+      "sourceClass": "s5",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Judas",
+      "unlockMarkRaw": "Boss Rush & Hush",
+      "rawReward": "Soul of Judas (Card)",
+      "tier": "BAD",
+      "sourceCell": "E4",
+      "sourceClass": "s2",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted ???",
+      "unlockMarkRaw": "Boss Rush & Hush",
+      "rawReward": "Soul of ??? (Card)",
+      "tier": "SHIT",
+      "sourceCell": "F4",
+      "sourceClass": "s6",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Eve",
+      "unlockMarkRaw": "Boss Rush & Hush",
+      "rawReward": "Soul of Eve (Card)",
+      "tier": "MILD",
+      "sourceCell": "G4",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Samson",
+      "unlockMarkRaw": "Boss Rush & Hush",
+      "rawReward": "Soul of Samson (Card)",
+      "tier": "BAD",
+      "sourceCell": "H4",
+      "sourceClass": "s2",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Azazel",
+      "unlockMarkRaw": "Boss Rush & Hush",
+      "rawReward": "Soul of Azazel (Card)",
+      "tier": "MILD",
+      "sourceCell": "I4",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Lazarus",
+      "unlockMarkRaw": "Boss Rush & Hush",
+      "rawReward": "Soul of Laz (Card)",
+      "tier": "MILD",
+      "sourceCell": "J4",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Eden",
+      "unlockMarkRaw": "Boss Rush & Hush",
+      "rawReward": "Soul of Eden (Card)",
+      "tier": "GOD",
+      "sourceCell": "K4",
+      "sourceClass": "s5",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted The Lost",
+      "unlockMarkRaw": "Boss Rush & Hush",
+      "rawReward": "Soul of the Lost (Card)",
+      "tier": "MILD",
+      "sourceCell": "L4",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Lilith",
+      "unlockMarkRaw": "Boss Rush & Hush",
+      "rawReward": "Soul of Lilith (Card)",
+      "tier": "GOD",
+      "sourceCell": "M4",
+      "sourceClass": "s5",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Keeper",
+      "unlockMarkRaw": "Boss Rush & Hush",
+      "rawReward": "Soul of the Keeper (Card)",
+      "tier": "GOOD",
+      "sourceCell": "N4",
+      "sourceClass": "s3",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Apollyon",
+      "unlockMarkRaw": "Boss Rush & Hush",
+      "rawReward": "Soul of Apollyon (Card)",
+      "tier": "MILD",
+      "sourceCell": "O4",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted The Forgotten",
+      "unlockMarkRaw": "Boss Rush & Hush",
+      "rawReward": "Soul of the Forgotten (Card)",
+      "tier": "GOOD",
+      "sourceCell": "P4",
+      "sourceClass": "s3",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Bethany",
+      "unlockMarkRaw": "Boss Rush & Hush",
+      "rawReward": "Soul of Bethany (Card)",
+      "tier": "MILD",
+      "sourceCell": "Q4",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Jacob & Esau",
+      "unlockMarkRaw": "Boss Rush & Hush",
+      "rawReward": "Soul of Jacob & Esau (Card)",
+      "tier": "BAD",
+      "sourceCell": "R4",
+      "sourceClass": "s2",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Isaac",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Mega Chests",
+      "tier": "GOOD",
+      "sourceCell": "B5",
+      "sourceClass": "s3",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Magdalene",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Queen of Hearts (Card)",
+      "tier": "GOOD",
+      "sourceCell": "C5",
+      "sourceClass": "s3",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Cain",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Golden Pills",
+      "tier": "GOOD",
+      "sourceCell": "D5",
+      "sourceClass": "s3",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Judas",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Black Sacks",
+      "tier": "GOD",
+      "sourceCell": "E5",
+      "sourceClass": "s5",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted ???",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Charming Poop",
+      "tier": "MILD",
+      "sourceCell": "F5",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Eve",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Horse Pills",
+      "tier": "GOOD",
+      "sourceCell": "G5",
+      "sourceClass": "s3",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Samson",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Crane Games",
+      "tier": "GOD",
+      "sourceCell": "H5",
+      "sourceClass": "s5",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Azazel",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Hell Games",
+      "tier": "MILD",
+      "sourceCell": "I5",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Lazarus",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Wooden Chests",
+      "tier": "GOOD",
+      "sourceCell": "J5",
+      "sourceClass": "s3",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Eden",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Wild Card (Card)",
+      "tier": "GOD",
+      "sourceCell": "K5",
+      "sourceClass": "s5",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted The Lost",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Haunted Chests",
+      "tier": "SHIT",
+      "sourceCell": "L5",
+      "sourceClass": "s6",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Lilith",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Fool's Gold (Money Rocks)",
+      "tier": "GOOD",
+      "sourceCell": "M5",
+      "sourceClass": "s3",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Keeper",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Golden Pennies",
+      "tier": "GOD",
+      "sourceCell": "N5",
+      "sourceClass": "s5",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Apollyon",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Rotten Beggars",
+      "tier": "MILD",
+      "sourceCell": "O5",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted The Forgotten",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Golden Batteries",
+      "tier": "MILD",
+      "sourceCell": "P5",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Bethany",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Confessionals",
+      "tier": "GOD",
+      "sourceCell": "Q5",
+      "sourceClass": "s5",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Jacob & Esau",
+      "unlockMarkRaw": "Mega Satan",
+      "rawReward": "Golden Trinkets",
+      "tier": "GOD",
+      "sourceCell": "R5",
+      "sourceClass": "s5",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Isaac",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Spindown Dice",
+      "tier": "GOD",
+      "sourceCell": "B6",
+      "sourceClass": "s5",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Magdalene",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Hypercoagulation",
+      "tier": "GOOD",
+      "sourceCell": "C6",
+      "sourceClass": "s3",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Cain",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Bag of Crafting",
+      "tier": "MILD",
+      "sourceCell": "D6",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Judas",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Dark Arts",
+      "tier": "MILD",
+      "sourceCell": "E6",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted ???",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "IBS",
+      "tier": "SHIT",
+      "sourceCell": "F6",
+      "sourceClass": "s6",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Eve",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Sumptorium",
+      "tier": "MILD",
+      "sourceCell": "G6",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Samson",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Berserk!",
+      "tier": "BAD",
+      "sourceCell": "H6",
+      "sourceClass": "s2",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Azazel",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Hemoptysis",
+      "tier": "MILD",
+      "sourceCell": "I6",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Lazarus",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Flip",
+      "tier": "GOD",
+      "sourceCell": "J6",
+      "sourceClass": "s5",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Eden",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Corrupted Data (Glitch Items)",
+      "tier": "SHIT",
+      "sourceCell": "K6",
+      "sourceClass": "s6",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted The Lost",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Ghost Bombs",
+      "tier": "MILD",
+      "sourceCell": "L6",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Lilith",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Gello",
+      "tier": "MILD",
+      "sourceCell": "M6",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Keeper",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Keeper's Kin",
+      "tier": "BAD",
+      "sourceCell": "N6",
+      "sourceClass": "s2",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Apollyon",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Abyss",
+      "tier": "MILD",
+      "sourceCell": "O6",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted The Forgotten",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Decap Attack",
+      "tier": "SHIT",
+      "sourceCell": "P6",
+      "sourceClass": "s6",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Bethany",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Lemegeton",
+      "tier": "GOD",
+      "sourceCell": "Q6",
+      "sourceClass": "s5",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Jacob & Esau",
+      "unlockMarkRaw": "Delirium",
+      "rawReward": "Anima Sola",
+      "tier": "MILD",
+      "sourceCell": "R6",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Isaac",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Dice Bag",
+      "tier": "GOOD",
+      "sourceCell": "B7",
+      "sourceClass": "s3",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Magdalene",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Mother's Kiss (Trinket)",
+      "tier": "MILD",
+      "sourceCell": "C7",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Cain",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Lucky Sack (Trinket)",
+      "tier": "BAD",
+      "sourceCell": "D7",
+      "sourceClass": "s2",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Judas",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Number Magnet (Trinket)",
+      "tier": "MILD",
+      "sourceCell": "E7",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted ???",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Ring Cap (Trinket)",
+      "tier": "BAD",
+      "sourceCell": "F7",
+      "sourceClass": "s2",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Eve",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Lil' Clot (Trinket)",
+      "tier": "MILD",
+      "sourceCell": "G7",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Samson",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Swallowed M80 (Trinket)",
+      "tier": "BAD",
+      "sourceCell": "H7",
+      "sourceClass": "s2",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Azazel",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Azazel's Stump (Trinket)",
+      "tier": "MILD",
+      "sourceCell": "I7",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Lazarus",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Torn Card (Trinket)",
+      "tier": "SHIT",
+      "sourceCell": "J7",
+      "sourceClass": "s6",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Eden",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Modeling Clay (Trinket)",
+      "tier": "MILD",
+      "sourceCell": "K7",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted The Lost",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Crystal Key (Trinket)",
+      "tier": "GOD",
+      "sourceCell": "L7",
+      "sourceClass": "s5",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Lilith",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Adoption Papers (Trinket)",
+      "tier": "MILD",
+      "sourceCell": "M7",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Keeper",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Cursed Penny (Trinket)",
+      "tier": "SHIT",
+      "sourceCell": "N7",
+      "sourceClass": "s6",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Apollyon",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Apollyon's Best Friend (Trinket)",
+      "tier": "MILD",
+      "sourceCell": "O7",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted The Forgotten",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Hollow Heart (Trinket)",
+      "tier": "MILD",
+      "sourceCell": "P7",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Bethany",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Beth's Essence (Trinket)",
+      "tier": "MILD",
+      "sourceCell": "Q7",
+      "sourceClass": "s4",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Jacob & Esau",
+      "unlockMarkRaw": "Mother",
+      "rawReward": "Found Souls (Trinket)",
+      "tier": "GOOD",
+      "sourceCell": "R7",
+      "sourceClass": "s3",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Isaac",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Glitched Crown",
+      "tier": "GOD",
+      "sourceCell": "B8",
+      "sourceClass": "s8",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Magdalene",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Belly Jelly",
+      "tier": "MILD",
+      "sourceCell": "C8",
+      "sourceClass": "s9",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Cain",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Blue Key (Trinket)",
+      "tier": "BAD",
+      "sourceCell": "D8",
+      "sourceClass": "s10",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Judas",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Sanguine Bond",
+      "tier": "BAD",
+      "sourceCell": "E8",
+      "sourceClass": "s10",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted ???",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "The Swarm",
+      "tier": "MILD",
+      "sourceCell": "F8",
+      "sourceClass": "s9",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Eve",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Heartbreak",
+      "tier": "MILD",
+      "sourceCell": "G8",
+      "sourceClass": "s9",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Samson",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Larynx",
+      "tier": "MILD",
+      "sourceCell": "H8",
+      "sourceClass": "s9",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Azazel",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Azazel's Rage",
+      "tier": "BAD",
+      "sourceCell": "I8",
+      "sourceClass": "s10",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Lazarus",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Salvation",
+      "tier": "GOOD",
+      "sourceCell": "J8",
+      "sourceClass": "s11",
+      "sourceColor": "#ffff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Eden",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "TMTRAINER",
+      "tier": "BAD",
+      "sourceCell": "K8",
+      "sourceClass": "s10",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted The Lost",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Sacred Orb",
+      "tier": "GOD",
+      "sourceCell": "L8",
+      "sourceClass": "s8",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Lilith",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Twisted Pair",
+      "tier": "GOD",
+      "sourceCell": "M8",
+      "sourceClass": "s8",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Keeper",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Strawman",
+      "tier": "BAD",
+      "sourceCell": "N8",
+      "sourceClass": "s10",
+      "sourceColor": "#ea4335",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Apollyon",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Echo Chamber",
+      "tier": "GOD",
+      "sourceCell": "O8",
+      "sourceClass": "s8",
+      "sourceColor": "#00ff00",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted The Forgotten",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Isaac's Tomb",
+      "tier": "MILD",
+      "sourceCell": "P8",
+      "sourceClass": "s9",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Bethany",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Vengeful Spirit",
+      "tier": "MILD",
+      "sourceCell": "Q8",
+      "sourceClass": "s9",
+      "sourceColor": "#cccccc",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    },
+    {
+      "character": "Tainted Jacob & Esau",
+      "unlockMarkRaw": "The Beast",
+      "rawReward": "Esau Jr.",
+      "tier": "SHIT",
+      "sourceCell": "R8",
+      "sourceClass": "s12",
+      "sourceColor": "#783f04",
+      "sourceUrl": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html"
+    }
+  ]
+}

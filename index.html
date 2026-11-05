@@ -9,8 +9,8 @@
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
   <title>以撒开荒解锁规划器</title>
-  <link rel="icon" type="image/png" href="./assets/icon.png?v=20261104-community1" />
-  <link rel="stylesheet" href="./styles.css?v=20261104-community1" />
+  <link rel="icon" type="image/png" href="./assets/icon.png?v=20261105-unlocks2" />
+  <link rel="stylesheet" href="./styles.css?v=20261105-unlocks2" />
 </head>
 <body>
   <div class="app-shell">
@@ -53,7 +53,7 @@
 
     <nav class="page-tabs" aria-label="页面切换">
       <button class="page-tab active" type="button" data-view="guide">总攻略</button>
-      <button class="page-tab" type="button" data-view="community">道具总榜</button>
+      <button class="page-tab" type="button" data-view="community">道具与资源榜</button>
       <button class="page-tab" type="button" data-view="character">按角色</button>
       <button class="page-tab" type="button" data-view="boss">按 Boss</button>
       <button class="page-tab" type="button" data-view="challenge">挑战解锁</button>
@@ -69,7 +69,7 @@
           </div>
           <div class="selection-summary" id="guideSummary" role="status" aria-live="polite"></div>
         </div>
-        <p class="guide-intro">汇总角色、挑战与其他成就，分类可以任意组合。按解锁排名参考已研究目标的先后；每日、捐款等任务可与主线并行推进。</p>
+        <p class="guide-intro">汇总角色、挑战与其他成就，分类与奖励类型均可组合。按解锁排名参考收益、成本和前置安排；每日、捐款等任务可与主线并行推进。</p>
         <div class="guide-toolbar">
           <div class="guide-presets" role="group" aria-label="快速选择分类">
             <button class="secondary-button compact-button" type="button" data-guide-preset="all">全部</button>
@@ -85,16 +85,27 @@
         <fieldset class="guide-filters" id="guideFilters">
           <legend>查看分类（可多选）</legend>
         </fieldset>
+        <fieldset class="guide-filters" id="guideRewardFilters">
+          <legend>奖励类型（可多选）</legend>
+        </fieldset>
       </section>
       <section class="guide-section" id="communitySection" aria-labelledby="communityTitle" hidden>
         <div class="section-heading">
-          <div><span class="section-kicker">社区强度参考</span><h2 id="communityTitle">道具总榜</h2></div>
+          <div><span class="section-kicker">强度与开荒收益</span><h2 id="communityTitle">道具与资源榜</h2></div>
           <div class="selection-summary" id="communitySummary" role="status" aria-live="polite"></div>
         </div>
         <p class="guide-intro" id="communityIntro"></p>
-        <label class="guide-search-label" for="communitySearch">
-          <span>搜索全部道具</span><input type="search" id="communitySearch" placeholder="中文名、英文名或道具 ID" />
-        </label>
+        <div class="community-toolbar">
+          <div class="segmented" role="group" aria-label="总榜内容">
+            <button type="button" class="scope-button active" data-ranking-scope="ensemble">综合道具榜</button>
+            <button type="button" class="scope-button" data-ranking-scope="resources">特殊资源推荐</button>
+            <button type="button" class="scope-button" data-ranking-scope="community">社区原榜</button>
+          </div>
+          <label class="guide-search-label" for="communitySearch">
+            <span>搜索奖励</span><input type="search" id="communitySearch" placeholder="中文名、英文名或 ID" />
+          </label>
+        </div>
+        <fieldset class="guide-filters" id="resourceFilters" hidden><legend>资源类型（可多选）</legend></fieldset>
       </section>
       <section class="selector-section" id="selectorSection">
         <div class="section-heading">
@@ -125,7 +136,7 @@
                 <button type="button" class="segment" data-sort="default">默认顺序</button>
                 <button type="button" class="segment active" data-sort="priority">重要度顺序</button>
                 <button type="button" class="segment" data-sort="rank">解锁排名</button>
-                <button type="button" class="segment" data-sort="community">社区强度</button>
+                <button type="button" class="segment" data-sort="ensemble">综合强度</button>
               </div>
               <label class="switch-control">
                 <input type="checkbox" id="showUnlocked" checked />
@@ -176,17 +187,17 @@
     </footer>
   </div>
 
-  <!-- CACHE_VERSION: 20261104-community1。发布新版本前运行 python tools/bump_cache_version.py -->
-  <script src="./data/unlocks.js?v=20261104-community1"></script>
-  <script src="./data/challenges.js?v=20261104-community1"></script>
-  <script src="./data/achievements.js?v=20261104-community1"></script>
-  <script src="./data/effects.js?v=20261104-community1"></script>
-  <script src="./data/overrides.js?v=20261104-community1"></script>
-  <script src="./data/recommendation_profiles.js?v=20261104-community1"></script>
-  <script src="./data/research_rankings.js?v=20261104-community1"></script>
-  <script src="./js/save-parser.js?v=20261104-community1"></script>
-  <script src="./js/guide.js?v=20261104-community1"></script>
-  <script src="./js/rankings.js?v=20261104-community1"></script>
-  <script src="./js/app.js?v=20261104-community1"></script>
+  <!-- CACHE_VERSION: 20261105-unlocks2。发布新版本前运行 python tools/bump_cache_version.py -->
+  <script src="./data/unlocks.js?v=20261105-unlocks2"></script>
+  <script src="./data/challenges.js?v=20261105-unlocks2"></script>
+  <script src="./data/achievements.js?v=20261105-unlocks2"></script>
+  <script src="./data/effects.js?v=20261105-unlocks2"></script>
+  <script src="./data/overrides.js?v=20261105-unlocks2"></script>
+  <script src="./data/recommendation_profiles.js?v=20261105-unlocks2"></script>
+  <script src="./data/research_rankings.js?v=20261105-unlocks2"></script>
+  <script src="./js/save-parser.js?v=20261105-unlocks2"></script>
+  <script src="./js/guide.js?v=20261105-unlocks2"></script>
+  <script src="./js/rankings.js?v=20261105-unlocks2"></script>
+  <script src="./js/app.js?v=20261105-unlocks2"></script>
 </body>
 </html>

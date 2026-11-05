@@ -143,8 +143,8 @@ h2 { margin: 4px 0 0; font-size: 23px; }
 .entity-thumb { width: 46px; height: 46px; }
 .controls { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; justify-content: flex-end; }
 .segmented { display: inline-flex; flex-wrap: wrap; max-width: 100%; border: 1px solid var(--line); background: #171412; border-radius: 10px; padding: 3px; }
-.segment { border: 0; background: transparent; color: var(--muted); padding: 7px 11px; border-radius: 7px; cursor: pointer; font-size: 12px; }
-.segment.active { color: var(--ink); background: #39312c; }
+.segment, .scope-button { border: 0; background: transparent; color: var(--muted); padding: 7px 11px; border-radius: 7px; cursor: pointer; font-size: 12px; }
+.segment.active, .scope-button.active { color: var(--ink); background: #39312c; }
 .switch-control { display: inline-flex; align-items: center; gap: 8px; color: #d6cec6; font-size: 12px; cursor: pointer; user-select: none; }
 .switch-control input { position: absolute; opacity: 0; pointer-events: none; }
 .switch { width: 34px; height: 20px; border-radius: 999px; background: #514943; position: relative; transition: background .15s; }
@@ -177,7 +177,7 @@ h2 { margin: 4px 0 0; font-size: 23px; }
 
 .achievement-sprite {
   width: 64px; height: 64px; flex: 0 0 64px; display: inline-block;
-  background-image: url("./assets/achievement/Achievement_sprite.jpg?v=20261104-community1");
+  background-image: url("./assets/achievement/Achievement_sprite.jpg?v=20261105-unlocks2");
   background-repeat: no-repeat;
   background-size: 1280px 2112px;
   background-position: var(--ach-x) var(--ach-y);
@@ -241,6 +241,11 @@ code { background: rgba(255,255,255,.05); padding: 2px 5px; border-radius: 5px; 
 .research-correction { color: var(--ink); }
 .research-sources { border-top: 1px solid var(--line); padding-top: 7px; margin-top: 7px; }
 .research-unreviewed { margin-top: 7px; color: var(--muted); font-size: 10px; opacity: .7; }
+.community-toolbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 18px; }
+.community-toolbar .segmented { flex-wrap: wrap; }
+.guide-filters[hidden] { display: none; }
+.resource-kind { color: var(--muted); font-size: 11px; margin-top: 6px; }
+.plan-prerequisites { display: flex; flex-wrap: wrap; gap: 5px 10px; margin: 7px 0; }
 .legend[hidden], .results-heading[hidden] { display: none; }
 .community-table-wrap th:first-child { width: 13%; }
 .community-table-wrap th:nth-child(2) { width: 33%; }

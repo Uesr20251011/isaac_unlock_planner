@@ -1,0 +1,1902 @@
+{
+  "version": 1,
+  "date": "2026-11-05",
+  "note": "人工解锁收益与成本评估；数字为公开的编辑锚点，不是多榜实战测量。未覆盖的历史作者意见保留单来源标记。",
+  "entries": [
+    {
+      "achievementId": 29,
+      "effort": 22,
+      "reason": "D6改变以撒的起始能力，并开放稳定重掷工具；先解锁???，再用其击败以撒。",
+      "gateway": 10
+    },
+    {
+      "achievementId": 33,
+      "utility": 0,
+      "futureFactor": 0,
+      "effort": 0,
+      "phase": 4,
+      "reason": "难度提升随主线通关次数自动发生；无需专程追求，也不应为规避它而阻止主线开放。",
+      "sourceIds": [
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 60,
+      "utility": 45,
+      "effort": 35,
+      "reason": "焦灼硬币以捡钱触发灼烧效果，早期稳定收益较有限，完成更关键的挑战后再补。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 61,
+      "utility": 60,
+      "effort": 15,
+      "reason": "幸运脚趾改善掉落，正常探索中累计消灭商店店主即可。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 64,
+      "utility": 70,
+      "effort": 40,
+      "reason": "假币可提高硬币收益，但累计赌博成本较高，适合经济充足时顺路推进。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 85,
+      "utility": 65,
+      "effort": 5,
+      "reason": "幸运石提供幸运，破坏石头累计条件容易随正常探索完成。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 89,
+      "utility": 60,
+      "phase": 2,
+      "priority": "normal",
+      "reason": "开石头与石头类敌人可获得地形、资源收益，忏悔+效果比只写清岩石更广。",
+      "caveat": "不保证每次有道具或补给，不值得仅为它打断高收益主线。",
+      "sourceIds": [
+        "EID_REPPLUS"
+      ],
+      "searchAliases": [
+        "Hagalaz"
+      ]
+    },
+    {
+      "achievementId": 90,
+      "utility": 90,
+      "phase": 1,
+      "priority": "strong",
+      "reason": "复制现有掉落物，能放大资源、箱子等已出现的好机会，后续适用面广。",
+      "caveat": "收益取决于可复制目标；不能直接理解为复制底座道具或保证无限循环。",
+      "sourceIds": [
+        "EID_ABPLUS"
+      ],
+      "searchAliases": [
+        "Jera"
+      ]
+    },
+    {
+      "achievementId": 91,
+      "utility": 78,
+      "phase": 1,
+      "priority": "recommended",
+      "reason": "可利用带装饰的地面生成暗门，比只当作跳层工具更有价值。",
+      "caveat": "需要辨认地面装饰，暗门不保证给道具；不建议随意跳过未取资源的楼层。",
+      "sourceIds": [
+        "EID_REP"
+      ],
+      "searchAliases": [
+        "Ehwaz"
+      ]
+    },
+    {
+      "achievementId": 92,
+      "utility": 78,
+      "phase": 1,
+      "priority": "recommended",
+      "reason": "提供魂心并清除当前层诅咒，兼顾生存与信息，普通流程容易用好。",
+      "caveat": "单次收益有限；移除诅咒不代表之后楼层永久免疫。",
+      "sourceIds": [
+        "EID_ABPLUS"
+      ],
+      "searchAliases": [
+        "Dagaz"
+      ]
+    },
+    {
+      "achievementId": 93,
+      "utility": 78,
+      "phase": 1,
+      "priority": "strong",
+      "reason": "本层完整地图能减少绕路，兼顾找秘密房和限时Boss Rush/Hush路线。",
+      "caveat": "仅本层生效，不能只因地图奖励较少就推断为永久探图能力。",
+      "sourceIds": [
+        "EID_ABPLUS"
+      ],
+      "searchAliases": [
+        "Ansuz"
+      ]
+    },
+    {
+      "achievementId": 94,
+      "utility": 90,
+      "phase": 1,
+      "priority": "strong",
+      "reason": "重抽房内底座道具，为大多数角色提供更多选择，优先解锁价值稳定。",
+      "caveat": "先选择有高价值池或差道具的房间，不要把已满意的道具一起重抽。",
+      "sourceIds": [
+        "EID_ABPLUS"
+      ],
+      "searchAliases": [
+        "Perthro"
+      ]
+    },
+    {
+      "achievementId": 95,
+      "utility": 60,
+      "phase": 2,
+      "priority": "normal",
+      "reason": "忏悔+改为本房间召唤3只Abyss蝗虫，具有直接战斗帮助，不能照旧版三蝇三蛛评价。",
+      "caveat": "效果仅本房间；旧版弱收益结论需重新审视，但不因此冒称多来源一致高分。",
+      "sourceIds": [
+        "EID_REPPLUS"
+      ],
+      "effectText": "在当前房间中生成3只追击敌人的蝗虫（忏悔+效果）。",
+      "searchAliases": [
+        "Berkano"
+      ]
+    },
+    {
+      "achievementId": 96,
+      "utility": 90,
+      "phase": 1,
+      "priority": "strong",
+      "reason": "20秒无敌能覆盖危险战斗的关键窗口，对后续困难打标有直接帮助。",
+      "caveat": "不是旧版30秒；战斗持续更久仍须准备，不能保证一次消耗品解决所有Boss。",
+      "sourceIds": [
+        "EID_REP"
+      ],
+      "searchAliases": [
+        "Algiz"
+      ]
+    },
+    {
+      "achievementId": 97,
+      "utility": 78,
+      "phase": 1,
+      "priority": "recommended",
+      "reason": "投掷命中可直接解决许多难敌，适合留给明确的难点。",
+      "caveat": "不作用于精神错乱和祸兽，且需要命中；不要声称能无条件跳过所有最终Boss。",
+      "sourceIds": [
+        "EID_REP"
+      ],
+      "searchAliases": [
+        "Chaos Card"
+      ]
+    },
+    {
+      "achievementId": 98,
+      "utility": 90,
+      "phase": 1,
+      "priority": "strong",
+      "reason": "将商店或恶魔房可购买物品变为免费，能把一次强购买机会转为实际收益。",
+      "caveat": "需要找到有价值的可购买物品，普通空房使用没有等额收益。",
+      "sourceIds": [
+        "EID_ABPLUS"
+      ],
+      "searchAliases": [
+        "Credit Card"
+      ]
+    },
+    {
+      "achievementId": 99,
+      "utility": 20,
+      "phase": 4,
+      "priority": "normal",
+      "reason": "主要显示提示文本，清单与收集意义高于后续通关帮助。",
+      "caveat": "最终全成就仍需要完成；低优先级不等于永远不解锁。",
+      "sourceIds": [
+        "EID_ABPLUS"
+      ],
+      "searchAliases": [
+        "Rules Card"
+      ]
+    },
+    {
+      "achievementId": 100,
+      "utility": 60,
+      "phase": 2,
+      "priority": "normal",
+      "reason": "大量便便可与掉落、破坏便便类效果组合换取补给。",
+      "caveat": "清理耗时、收益依赖配合，不能按默认无限资源来提前。",
+      "sourceIds": [
+        "EID_ABPLUS"
+      ],
+      "searchAliases": [
+        "A Card Against Humanity"
+      ]
+    },
+    {
+      "achievementId": 101,
+      "utility": 70,
+      "effort": 35,
+      "reason": "被吞下的硬币可配合受伤与经济运营，需注意忏悔店主交互与角色差异。",
+      "sourceIds": [
+        "EN1",
+        "EID_MECHANICS"
+      ]
+    },
+    {
+      "achievementId": 105,
+      "priority": "discouraged",
+      "risk": 25,
+      "reason": "编号丢失会反复重构已有构筑；提前入池存在破坏稳定组合的风险，后续全成就阶段仍须完成。"
+    },
+    {
+      "achievementId": 120,
+      "utility": 20,
+      "phase": 4,
+      "priority": "discouraged",
+      "reason": "掉落奖励以立即死亡为代价，普通开荒的稳定收益很低。",
+      "caveat": "只在明确有复活方案且理解后果时考虑；最终全成就仍需清理。",
+      "sourceIds": [
+        "EID_ABPLUS"
+      ],
+      "searchAliases": [
+        "Suicide King"
+      ]
+    },
+    {
+      "achievementId": 135,
+      "utility": 90,
+      "reason": "低额捐款同时开放选择类商店道具，随正常局保留余钱推进。"
+    },
+    {
+      "achievementId": 151,
+      "utility": 85,
+      "effort": 12,
+      "reason": "20枚普通捐款开放更大的商店货架，低额投入即可提高后续购物选择。",
+      "sourceIds": [
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 152,
+      "utility": 85,
+      "effort": 25,
+      "reason": "普通商店货架升级提高资源选择，和道具解锁捐款一起累计。",
+      "sourceIds": [
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 153,
+      "utility": 85,
+      "effort": 40,
+      "reason": "继续扩展普通商店货架，随经济充足的正常局推进。",
+      "sourceIds": [
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 154,
+      "utility": 85,
+      "reason": "商店升级提高后续商店的资源获取空间；作为累计捐款任务并行完成。"
+    },
+    {
+      "achievementId": 156,
+      "phase": 3,
+      "effort": 95,
+      "reason": "综合强度为S，但需要游魂全困难标记；先补齐游魂起始神圣屏障，再把它作为集中清游魂标记的奖励。",
+      "preparationIds": [
+        250
+      ]
+    },
+    {
+      "achievementId": 224,
+      "utility": 55,
+      "effort": 45,
+      "reason": "金心破碎时提供硬币，收益依赖受伤与角色血量类型，适合补齐核心挑战后完成。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 225,
+      "utility": 60,
+      "phase": 2,
+      "priority": "normal",
+      "reason": "打开房内门，提供钥匙与路线方面的单次便利。",
+      "caveat": "有前置和挑战成本；不是提前开放所有主线分支的万能钥匙。",
+      "sourceIds": [
+        "EID_ABPLUS"
+      ],
+      "searchAliases": [
+        "Get Out Of Jail Free Card"
+      ]
+    },
+    {
+      "achievementId": 226,
+      "utility": 80,
+      "effort": 50,
+      "reason": "金炸弹提供本层炸弹使用收益，有利于探索和资源运营，按挑战前置与自身熟练度安排。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 227,
+      "utility": 40,
+      "effort": 50,
+      "reason": "止痛药与上瘾药丸捆绑解锁，正负效果都会进入药丸池，优先级低于稳定核心资源。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 228,
+      "utility": 40,
+      "effort": 50,
+      "reason": "放松与问号药丸捆绑入池，实用性依赖房间和玩法，先完成更直接的资源补强。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 229,
+      "utility": 55,
+      "effort": 45,
+      "reason": "筹码偏赌博收益，实际帮助依赖经济与赌博机会，可在稳定核心解锁后补。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 230,
+      "utility": 45,
+      "effort": 55,
+      "reason": "饰钉定位器偏饰品产出运营，挑战成本与构筑条件使其优先级居中。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 233,
+      "utility": 78,
+      "phase": 2,
+      "priority": "recommended",
+      "reason": "空白符文带随机符文效果及25%自我复制机会，同时解锁透明符文，属于组合奖励。",
+      "caveat": "随机效果不能等价于稳定收获或签筒；透明符文应另保留收藏道具综合分，不能漏掉任一奖励。",
+      "sourceIds": [
+        "EID_ABPLUS"
+      ],
+      "searchAliases": [
+        "Blank Rune"
+      ]
+    },
+    {
+      "achievementId": 236,
+      "utility": 95,
+      "effort": 32,
+      "gateway": 10,
+      "reason": "店主初始木制硬币直接改善后续店主打标的回血与经济，属于起始能力强化。",
+      "sourceIds": [
+        "EN1",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 240,
+      "utility": 55,
+      "risk": 0,
+      "priority": "normal",
+      "reason": "黏性镍币的生成替换规则在忏悔+与旧版本不同，不直接沿用旧表的严格降级结论；作为店主Boss Rush标记顺路完成。",
+      "sourceIds": [
+        "wiki-coins",
+        "HIST_UNLOCKS"
+      ],
+      "caveat": "本地使用忏悔+；不把旧版替换普通镍币的结论当作当前规则。",
+      "displayName": "黏性镍币"
+    },
+    {
+      "achievementId": 242,
+      "utility": 65,
+      "effort": 5,
+      "reason": "低额贪婪捐款开放幸运硬币，可和后续捐款任务一并完成。",
+      "sourceIds": [
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 243,
+      "utility": 55,
+      "effort": 12,
+      "reason": "特殊隐藏房店主变体属于额外房间资源，随贪婪捐款顺路开放。",
+      "sourceIds": [
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 245,
+      "utility": 80,
+      "effort": 18,
+      "reason": "回形针节约金箱子的钥匙成本，和贪婪捐款进度一并获得。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "M05"
+      ]
+    },
+    {
+      "achievementId": 246,
+      "utility": 0,
+      "futureFactor": 0,
+      "effort": 0,
+      "phase": 4,
+      "reason": "贪婪难度变化是累计捐款的伴随进度，不计为主动补强奖励。",
+      "sourceIds": [
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 247,
+      "utility": 50,
+      "effort": 35,
+      "reason": "特殊商店店主变体随捐款进度开放，不需打断高收益目标专程刷。",
+      "sourceIds": [
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 248,
+      "utility": 80,
+      "reason": "夏娃初始剃刀片有利于控制红心与启动伤害能力；它是起始升级，不是对应道具入池解锁。",
+      "sourceIds": [
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 249,
+      "utility": 50,
+      "effort": 50,
+      "reason": "商店钥匙节省进店钥匙，但收益受层数与商店质量限制，随捐款顺路获得即可。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "M05"
+      ]
+    },
+    {
+      "achievementId": 250,
+      "utility": 100,
+      "reason": "游魂起始神圣屏障是后续游魂打标的重要准备；随贪婪捐款并行推进，不当作神圣屏障道具入池。",
+      "sourceIds": [
+        "EN1",
+        "M05"
+      ]
+    },
+    {
+      "achievementId": 251,
+      "utility": 90,
+      "effort": 95,
+      "phase": 2,
+      "gateway": 10,
+      "reason": "店主需要累计1000枚贪婪捐款，按捐款链逐步开放；先准备更易上手角色和基础资源，再集中推进店主标记。",
+      "sourceIds": [
+        "M05",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 275,
+      "utility": 75,
+      "effort": 85,
+      "reason": "贪婪捐款完成奖励随店主与其起始能力升级共同推进，不为单项重复清空经济。",
+      "sourceIds": [
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 293,
+      "utility": 78,
+      "phase": 3,
+      "priority": "recommended",
+      "reason": "一次性神圣屏障护盾能承受一次伤害，是困难角色的生存资源。",
+      "caveat": "获取条件是游魂打精神错乱，成本较高；不沿用旧版只持续一房间、25%再生的描述。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "Holy Card"
+      ]
+    },
+    {
+      "achievementId": 309,
+      "utility": 78,
+      "phase": 2,
+      "priority": "recommended",
+      "reason": "把不需要的底座道具转为属性，可让差道具仍产生收益。",
+      "caveat": "同时消耗房内掉落物和底座，需先确认不需要它们，不能按新增好道具来理解。",
+      "sourceIds": [
+        "EID_ABPLUS",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "Black Rune"
+      ]
+    },
+    {
+      "achievementId": 321,
+      "utility": 80,
+      "effort": 70,
+      "phase": 3,
+      "reason": "咕噜药丸可吞下饰品并保留效果，收益可累积；跑圈解锁耗时，已有稳定构筑后再专程做。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 322,
+      "utility": 78,
+      "phase": 1,
+      "priority": "recommended",
+      "reason": "把非Boss敌人与掉落物等转为炸弹，兼具清房和资源转换，适合自然三连胜解锁。",
+      "caveat": "别为了它反复重开毁掉常规推进，单次转换也会移除原有补给。",
+      "sourceIds": [
+        "EID_REP"
+      ],
+      "searchAliases": [
+        "Ace of Clubs"
+      ]
+    },
+    {
+      "achievementId": 323,
+      "utility": 85,
+      "effort": 80,
+      "phase": 3,
+      "reason": "超级标记石头有额外掉落收益，但需要多角色连胜的门槛，放在基础角色补强后推进。",
+      "sourceIds": [
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 324,
+      "utility": 30,
+      "effort": 95,
+      "phase": 4,
+      "reason": "阳光药丸提供短时无敌和机动，完整怪物图鉴门槛高，作为全成就后期清单。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 326,
+      "utility": 78,
+      "phase": 3,
+      "priority": "normal",
+      "reason": "把敌人、箱子和掉落物转为硬币，常规流程有清房与购买价值。",
+      "caveat": "20分钟内打羊的取得成本高于卡牌本身；留给快跑成型局，而不是新档强行追。",
+      "sourceIds": [
+        "EID_REP"
+      ],
+      "searchAliases": [
+        "Ace of Diamonds"
+      ]
+    },
+    {
+      "achievementId": 327,
+      "utility": 78,
+      "phase": 3,
+      "priority": "normal",
+      "reason": "把敌人与掉落物等转为钥匙，能修复钥匙短缺并快速清房。",
+      "caveat": "不拾取心、硬币、炸弹打羊是独立限制任务，适合后期专门完成。",
+      "sourceIds": [
+        "EID_REP"
+      ],
+      "searchAliases": [
+        "Ace of Spades"
+      ]
+    },
+    {
+      "achievementId": 328,
+      "utility": 40,
+      "effort": 10,
+      "reason": "胆小红心是可追逐拾取的生命资源变体，解锁条件易达成，按需要顺路完成。",
+      "sourceIds": [
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 329,
+      "utility": 60,
+      "phase": 1,
+      "priority": "recommended",
+      "reason": "把敌人及掉落物转为心，可在合适场景补生存资源；可顺路触发半心过层条件。",
+      "caveat": "心的类型随机且角色适用性不同，不建议为达条件故意把稳局压到危险血量。",
+      "sourceIds": [
+        "EID_REP"
+      ],
+      "searchAliases": [
+        "Ace of Hearts"
+      ]
+    },
+    {
+      "achievementId": 330,
+      "utility": 60,
+      "effort": 80,
+      "phase": 3,
+      "reason": "嗝药丸可复制上次使用的药丸效果，依赖药丸运营；50件道具的条件适合有条件时顺路完成。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 331,
+      "utility": 70,
+      "effort": 32,
+      "reason": "拉撒路起始贫血属于角色基础补强，可在专门清该角色标记前完成。",
+      "sourceIds": [
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 332,
+      "utility": 85,
+      "effort": 25,
+      "reason": "抹大拉初始体力回满胶囊有利于前期献祭房与恢复运营，能直接改善此角色后续打标。",
+      "sourceIds": [
+        "EN1",
+        "M13"
+      ]
+    },
+    {
+      "achievementId": 333,
+      "utility": 70,
+      "effort": 55,
+      "reason": "充能钥匙兼顾开锁与主动充能，挑战有一定成本，可在资源运营补强阶段完成。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 334,
+      "utility": 55,
+      "effort": 40,
+      "reason": "参孙初始小孩的心脏主要改善红心补给，通用增益弱于更关键的起始能力强化。",
+      "sourceIds": [
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 341,
+      "utility": 95,
+      "reason": "500贪婪捐款开放更贪婪模式，是对应全角色标记的前置；和起始能力升级一起推进。"
+    },
+    {
+      "achievementId": 358,
+      "utility": 70,
+      "effort": 10,
+      "reason": "发夹可在Boss战前给主动充能，累计捡电池即可顺路解锁。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 359,
+      "utility": 85,
+      "effort": 8,
+      "reason": "木十字架每层提供一次护盾，有利于保命；在有床的局顺路完成。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 360,
+      "utility": 55,
+      "effort": 85,
+      "phase": 3,
+      "reason": "黄油有主动道具搬运与重掷技巧价值，连续跑圈的额外时间使它不适合最早专程刷；全成就仍要做。",
+      "sourceIds": [
+        "M10",
+        "M10A",
+        "ZH5"
+      ]
+    },
+    {
+      "achievementId": 361,
+      "utility": 78,
+      "phase": 2,
+      "priority": "recommended",
+      "reason": "房间内加7伤害并可踩石头，作为一次爆发资源实用。",
+      "caveat": "体型达到3的解锁条件依赖当局机会，建议顺路积累，不为了它专门刷随机药丸。",
+      "sourceIds": [
+        "EID_REP"
+      ],
+      "searchAliases": [
+        "Huge Growth"
+      ]
+    },
+    {
+      "achievementId": 362,
+      "utility": 78,
+      "phase": 1,
+      "priority": "recommended",
+      "reason": "使用后补充3张卡牌，提高后续消耗品选择，累计用20次卡容易自然完成。",
+      "caveat": "抽取结果不确定；建议并行累计，不要求先做完才进入主线。",
+      "sourceIds": [
+        "EID_ABPLUS"
+      ],
+      "searchAliases": [
+        "Ancient Recall"
+      ]
+    },
+    {
+      "achievementId": 363,
+      "utility": 78,
+      "phase": 2,
+      "priority": "recommended",
+      "reason": "单房间减慢敌人并改善移速等，适合危险Boss战。",
+      "caveat": "需先收集怀表和损坏的怀表；收藏完成时顺便解锁，不应把随机商店出现率当成固定一局成本。",
+      "sourceIds": [
+        "EID_ABPLUS"
+      ],
+      "searchAliases": [
+        "Era Walk"
+      ]
+    },
+    {
+      "achievementId": 370,
+      "utility": 85,
+      "effort": 40,
+      "reason": "银丝羽毛让后续天使战产出天使池道具，收益明显；仍须考虑当局是否需要钥匙碎片去超级撒但。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 375,
+      "utility": 45,
+      "effort": 12,
+      "reason": "门挡便于保留出口，效果偏便利；炸门累计不需专程刷。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 381,
+      "utility": 45,
+      "effort": 55,
+      "reason": "扩接电线依赖跟班位置，收集条件有随机性，适合作为后续图鉴清单。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 388,
+      "utility": 65,
+      "effort": 30,
+      "reason": "腐烂硬币提供蓝苍蝇输出，有足够苍蝇生成手段时顺路完成条件。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 389,
+      "utility": 60,
+      "effort": 45,
+      "reason": "儿童弯勺改善跟班命中，但依赖跟班构筑和追踪道具的收集机会。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 408,
+      "utility": 80,
+      "effort": 22,
+      "reason": "失落摇篮曲强化跟班射速；在尸宫遇到塞壬头颅时留炸弹完成。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 415,
+      "utility": 90,
+      "phase": 2,
+      "priority": "strong",
+      "reason": "红钥匙及一次性碎片提供红房间探索，并服务里角色开放，是路线收益而非单纯战斗数值。",
+      "caveat": "含C580与K78两种资源；不要因收藏道具榜名次而低估角色开放价值，首次到家仍按实际前置执行。",
+      "sourceIds": [
+        "EID_REP"
+      ],
+      "searchAliases": [
+        "Cracked Key"
+      ]
+    },
+    {
+      "achievementId": 432,
+      "risk": 12,
+      "reason": "达摩克里斯收益高，但受伤后的死亡风险与困难角色成本使其晚于更稳定的开荒补强。"
+    },
+    {
+      "achievementId": 433,
+      "risk": 8,
+      "reason": "谷底石的综合强度很高，仍依赖后续属性与组合，且雅各和以扫限时Boss Rush有额外成本。"
+    },
+    {
+      "achievementId": 518,
+      "utility": 85,
+      "effort": 65,
+      "reason": "巴风特之印提供击杀后的短暂保护，清房帮助明显；相关困难挑战宜在已有熟练度后完成。",
+      "sourceIds": [
+        "M14",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 521,
+      "utility": 70,
+      "effort": 75,
+      "reason": "碎掉的眼镜有额外道具选择价值，但解锁挑战复杂，适合中后期有准备时完成。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 522,
+      "utility": 45,
+      "effort": 65,
+      "reason": "冰块按房间触发冻结收益，通用增益有限；挑战额外成本使其排在核心补强之后。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 523,
+      "utility": 65,
+      "effort": 55,
+      "reason": "充能硬币给主动道具供能，需多次让电池乞丐给出道具，宜在有经济条件时推进。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 524,
+      "utility": 78,
+      "phase": 3,
+      "priority": "normal",
+      "reason": "将现有资源和生命掉到地面，能与重抽、复制等资源操作配合。",
+      "caveat": "使用后仅留一颗心且清空携带资源，里游魂更贪婪的取得成本也高，不能按无条件安全资源卡提前。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "0 - The Fool?"
+      ]
+    },
+    {
+      "achievementId": 525,
+      "utility": 78,
+      "phase": 2,
+      "priority": "recommended",
+      "reason": "持续60秒的排斥光环能提供防守空间，适合关键战斗。",
+      "caveat": "不是完整无敌，仍应躲避伤害；里犹大更贪婪有模式前置。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "I - The Magician?"
+      ]
+    },
+    {
+      "achievementId": 526,
+      "utility": 20,
+      "phase": 4,
+      "priority": "discouraged",
+      "reason": "脚踩会持续追踪角色，主要价值依赖熟练站位把攻击引向敌人。",
+      "caveat": "对开荒稳定性有明显风险，不为这个奖励提前投入；全成就阶段照常完成。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "II - The High Priestess?"
+      ]
+    },
+    {
+      "achievementId": 527,
+      "utility": 60,
+      "phase": 3,
+      "priority": "normal",
+      "reason": "60秒生命与射速提升可帮助一场战斗。",
+      "caveat": "附带减速，收益时限与里夏娃更贪婪的取得成本不匹配优先抢解。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "III - The Empress?"
+      ]
+    },
+    {
+      "achievementId": 528,
+      "utility": 78,
+      "phase": 2,
+      "priority": "recommended",
+      "reason": "增加一场可给道具的Boss战，给后续流程额外成长机会。",
+      "caveat": "Boss来自更深层，弱构筑早用可能更危险；里???更贪婪也需要模式和角色前置。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "IV - The Emperor?"
+      ]
+    },
+    {
+      "achievementId": 529,
+      "utility": 60,
+      "phase": 2,
+      "priority": "normal",
+      "reason": "生成两颗骨心，红心角色能获得生存与交易空间。",
+      "caveat": "不能同等帮助所有无红心角色；用里伯大尼更贪婪顺带解锁即可。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "V - The Hierophant?"
+      ]
+    },
+    {
+      "achievementId": 530,
+      "utility": 78,
+      "phase": 2,
+      "priority": "recommended",
+      "reason": "在所选房间池生成道具，提供主动选择房间池的成长机会。",
+      "caveat": "永久碎心与生命损失是实际代价，不能只按生一个道具评为完全免费收益。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "VI - The Lovers?"
+      ]
+    },
+    {
+      "achievementId": 531,
+      "utility": 78,
+      "phase": 3,
+      "priority": "recommended",
+      "reason": "10秒无敌与4倍射速可形成强爆发窗口。",
+      "caveat": "不能移动，挑战42有特定前置和操作成本，适合后续阶段取得。",
+      "sourceIds": [
+        "EID_REP"
+      ],
+      "searchAliases": [
+        "VII - The Chariot?"
+      ]
+    },
+    {
+      "achievementId": 532,
+      "utility": 78,
+      "phase": 3,
+      "priority": "recommended",
+      "reason": "生成2至4个金箱子，能提供多次资源或道具机会。",
+      "caveat": "需要钥匙开箱且内容随机，挑战43也非零成本。",
+      "sourceIds": [
+        "EID_REP"
+      ],
+      "searchAliases": [
+        "VIII - Justice?"
+      ]
+    },
+    {
+      "achievementId": 533,
+      "utility": 78,
+      "phase": 3,
+      "priority": "recommended",
+      "reason": "把不要的房内物品换成商店价值的硬币，可转化成购买力。",
+      "caveat": "可能把原本更有价值的道具卖掉；挑战44成本较高，不能把纸面资源上限当实际每局收益。",
+      "sourceIds": [
+        "EID_REP"
+      ],
+      "searchAliases": [
+        "IX - The Hermit?"
+      ]
+    },
+    {
+      "achievementId": 534,
+      "utility": 20,
+      "phase": 4,
+      "priority": "discouraged",
+      "reason": "触发随机骰子房效果，可能破坏已经稳定的构筑。",
+      "caveat": "保留给理解重抽后果的场景；不用为了这个奖励提前做里该隐更贪婪，最终仍需完成。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "X - Wheel of Fortune?"
+      ]
+    },
+    {
+      "achievementId": 535,
+      "utility": 78,
+      "phase": 2,
+      "priority": "recommended",
+      "reason": "让敌人减速且30秒内承受双倍伤害，能帮助处理关键战斗。",
+      "caveat": "是单次战斗资源，不是整局永久伤害翻倍。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "XI - Strength?"
+      ]
+    },
+    {
+      "achievementId": 536,
+      "utility": 60,
+      "phase": 3,
+      "priority": "normal",
+      "reason": "短时三发与击杀掉钱，兼顾战斗和经济。",
+      "caveat": "附带减速且仅30秒，里店主更贪婪可随其打标取得。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "XII - The Hanged Man?"
+      ]
+    },
+    {
+      "achievementId": 537,
+      "utility": 60,
+      "phase": 3,
+      "priority": "normal",
+      "reason": "利用本房间已死亡敌人产生友好骨系实体，能把清房历史转为战力。",
+      "caveat": "需要合适战场和敌人死亡记录，空房或不适合房间的收益低。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "XIII - Death?"
+      ]
+    },
+    {
+      "achievementId": 538,
+      "utility": 40,
+      "phase": 4,
+      "priority": "normal",
+      "reason": "一次触发5次随机药丸，在有药丸保障的构筑中可能有用。",
+      "caveat": "负面效果不可忽视，挑战45随机程度高，不按默认全是正面药来提前。",
+      "sourceIds": [
+        "EID_REP"
+      ],
+      "searchAliases": [
+        "XIV - Temperance?"
+      ]
+    },
+    {
+      "achievementId": 539,
+      "utility": 60,
+      "phase": 2,
+      "priority": "normal",
+      "reason": "30秒飞行与炽天使可解决地形和部分战斗，并可击杀妈腿/妈心。",
+      "caveat": "对撒但使用会杀死角色，必须明确目标；不是全流程通用安全清Boss卡。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "XV - The Devil?"
+      ]
+    },
+    {
+      "achievementId": 540,
+      "utility": 78,
+      "phase": 2,
+      "priority": "recommended",
+      "reason": "生成多组岩石与障碍，常含标记石，可创造额外补给机会。",
+      "caveat": "需要破坏岩石的手段，生成岩石不等于保证获得好道具；历史作者的GOD不是多源共识。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "XVI - The Tower?"
+      ]
+    },
+    {
+      "achievementId": 541,
+      "utility": 90,
+      "phase": 2,
+      "priority": "strong",
+      "reason": "用最早取得的非初始被动换当前房间池两件道具，能主动处理差道具并挑选池。",
+      "caveat": "会失去原道具，先确认被移除的是哪件；里以撒更贪婪可与其他高收益解锁分批完成。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "XVII - The Stars?"
+      ]
+    },
+    {
+      "achievementId": 542,
+      "utility": 90,
+      "phase": 3,
+      "priority": "recommended",
+      "reason": "月亮直达究极隐藏房，太阳提供本层属性与飞行，一次解锁两种有用资源。",
+      "caveat": "里雅各更贪婪取得难度高；太阳有黑暗诅咒及生命类型转换，且两张卡不可合成一张万能效果。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "XVIII - The Moon?",
+        "XIX - The Sun?"
+      ]
+    },
+    {
+      "achievementId": 543,
+      "utility": 90,
+      "phase": 3,
+      "priority": "recommended",
+      "reason": "生成补货机，为不满意道具提供重选机会，能利用选定房间的池。",
+      "caveat": "需要硬币且机器会停止工作；里拉撒路更贪婪成本较高，不能当成开档第一批。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "XX - Judgement?"
+      ]
+    },
+    {
+      "achievementId": 544,
+      "utility": 78,
+      "phase": 2,
+      "priority": "recommended",
+      "reason": "生成暗门，增加支线资源机会，适用角色广。",
+      "caveat": "暗门内容不保证有道具，里伊甸更贪婪仍需准备。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "XXI - The World?"
+      ]
+    },
+    {
+      "achievementId": 545,
+      "utility": 55,
+      "effort": 20,
+      "reason": "老旧电容偏主动充能运营，累计消灭电池乞丐可以顺路完成。",
+      "sourceIds": [
+        "EID_MECHANICS",
+        "LOCAL"
+      ]
+    },
+    {
+      "achievementId": 593,
+      "utility": 10,
+      "risk": 30,
+      "priority": "discouraged",
+      "reason": "损坏的数据加入错误内容与随机构筑风险，优先完成高收益资源与标记后再补。",
+      "sourceIds": [
+        "HIST_UNLOCKS",
+        "LOCAL"
+      ],
+      "phase": 4
+    },
+    {
+      "achievementId": 601,
+      "utility": 78,
+      "priority": "recommended",
+      "phase": 2,
+      "reason": "较高奖励上限，可把多余钥匙转成道具或大量资源。",
+      "caveat": "钥匙不足时成本明显，不能视为免费稳定道具；里以撒开放后再随超级撒但路线完成。",
+      "effectText": "需要1–7把钥匙打开；奖励为2件宝箱房道具，或相当于5个金箱子的掉落物。",
+      "displayName": "大箱子",
+      "sourceIds": [
+        "wiki-chests",
+        "matt2025"
+      ]
+    },
+    {
+      "achievementId": 602,
+      "utility": 60,
+      "phase": 2,
+      "priority": "normal",
+      "reason": "1至20颗红心可以帮助恢复或红心资源操作。",
+      "caveat": "主要服务红心角色，随机数量且不增加心之容器；里抹大拉打超级撒但可顺路。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "Queen of Hearts"
+      ]
+    },
+    {
+      "achievementId": 603,
+      "utility": 78,
+      "priority": "recommended",
+      "phase": 3,
+      "reason": "配合PHD等可叠加多个正面效果，提供普通胶囊之外的运营机会。",
+      "caveat": "无正面胶囊修正时存在减属性或伤害风险；里该隐的运营与取得路线成本另计。",
+      "effectText": "每次使用产生随机胶囊效果，可重复使用，每次有10%概率消失；PHD或幸运脚等胶囊修正仍生效。",
+      "displayName": "金胶囊",
+      "sourceIds": [
+        "wiki-pills",
+        "matt2025"
+      ]
+    },
+    {
+      "achievementId": 604,
+      "utility": 78,
+      "priority": "recommended",
+      "phase": 2,
+      "reason": "为后续流程补充生存和炸弹资源；里犹大的超级撒但标记可在主线开放后较早考虑。",
+      "caveat": "随机福袋仅有1%机会替换为黑福袋，并非必出黑心或符文；历史GOD评价不代表本方案必须列为最优先。",
+      "effectText": "打开生成2–3个掉落物，可为胶囊、炸弹、黑心或骨心；每袋最多1颗心。",
+      "displayName": "黑福袋",
+      "sourceIds": [
+        "wiki-black-sack",
+        "matt2025"
+      ]
+    },
+    {
+      "achievementId": 605,
+      "utility": 55,
+      "priority": "normal",
+      "phase": 3,
+      "reason": "给房间清理提供少量额外跟班支援。",
+      "caveat": "名称不能解释成持续魅惑光环；后续通关增益较局部，无须为它提前硬打不熟悉的里???。",
+      "effectText": "类似普通粪便；受损或被摧毁时会生成友好的滴宝跟班，类似脏心效果。",
+      "displayName": "魅惑粪便",
+      "sourceIds": [
+        "wiki-poops",
+        "matt2025"
+      ]
+    },
+    {
+      "achievementId": 606,
+      "utility": 78,
+      "priority": "recommended",
+      "phase": 2,
+      "reason": "已鉴定或有PHD等修正时，强化属性、治疗及运营收益。",
+      "caveat": "负面效果也可能更重，不建议把未知马胶囊当成无风险强化；具体效果不是统一乘二。",
+      "effectText": "普通胶囊的强化版本，效果更强；颜色与同效果的普通胶囊一致，胶囊修正道具同样生效。",
+      "displayName": "马胶囊",
+      "sourceIds": [
+        "wiki-pills",
+        "matt2025"
+      ]
+    },
+    {
+      "achievementId": 607,
+      "utility": 90,
+      "priority": "strong",
+      "phase": 2,
+      "reason": "奖励可见，能有选择地把后续金币转成道具；一次解锁为所有后续角色增加道具获取渠道。",
+      "caveat": "仍是概率抽取；应根据可见奖品和现金决定是否投入。需要先开放里参孙和超级撒但路线。",
+      "effectText": "每次投入5枚硬币，25%概率取得当前可见道具；来自专属道具池，发放3件道具后爆炸。",
+      "displayName": "夹娃娃机",
+      "sourceIds": [
+        "wiki-crane",
+        "matt2025"
+      ]
+    },
+    {
+      "achievementId": 608,
+      "utility": 55,
+      "priority": "normal",
+      "phase": 3,
+      "reason": "多余生命或可用护盾可转成资源与恶魔道具机会。",
+      "caveat": "会替换尚未解锁时的恶魔乞丐，有生命与机会成本；不要把旧版巴风特之印免费连玩的技巧无条件套到忏悔+。",
+      "effectText": "消耗生命参加猜杯，可能奖励黑心、资源或显示的恶魔房道具；输掉会生成蜘蛛。",
+      "displayName": "地狱游戏",
+      "sourceIds": [
+        "wiki-beggars",
+        "matt2025"
+      ]
+    },
+    {
+      "achievementId": 609,
+      "utility": 78,
+      "priority": "recommended",
+      "phase": 3,
+      "reason": "增加卡牌、符文和胶囊的获取；这些消耗资源的高价值解锁会进一步提升木箱子收益。",
+      "caveat": "不要与旧箱子Old Chest混淆；取得需要里拉撒路超级撒但，角色及双形态管理成本较高，可排在高收益机器之后。",
+      "effectText": "打开后45%概率给2张卡牌或符文，45%给2–3颗胶囊，10%给木箱子道具池的一件道具。",
+      "displayName": "木箱子",
+      "sourceIds": [
+        "wiki-chests",
+        "matt2025"
+      ]
+    },
+    {
+      "achievementId": 610,
+      "utility": 90,
+      "phase": 2,
+      "priority": "recommended",
+      "reason": "复制最近的消耗品或主动效果，遇到强效果时能放大后续收益。",
+      "caveat": "依赖先有值得复制的效果，强上限不是每局保底；里伊甸超级撒但仍需路线准备。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "Wild Card"
+      ]
+    },
+    {
+      "achievementId": 611,
+      "utility": 20,
+      "priority": "discouraged",
+      "phase": 4,
+      "reason": "仍是最终全成就必须取得的标记，能提供箱子掉落。",
+      "caveat": "与普通箱子相比增加受伤风险，且要用里游魂打超级撒但；适合最终清标，不应为了提升后续打标效率提前解锁。",
+      "effectText": "接近时箱内幽灵会抛出箱子，击中造成伤害，并出现敌对幽灵；箱中有幽灵时也有碰撞伤害。",
+      "displayName": "闹鬼箱",
+      "sourceIds": [
+        "wiki-chests",
+        "matt2025"
+      ],
+      "risk": 25
+    },
+    {
+      "achievementId": 612,
+      "utility": 78,
+      "priority": "recommended",
+      "phase": 2,
+      "reason": "有余裕炸弹或可免费破坏障碍物时，增加可获取金币；里莉莉丝较适合随主线推进。",
+      "caveat": "用有价值的炸弹只换几枚金币未必划算，不应无条件炸掉每一块。",
+      "effectText": "金色岩石被摧毁时生成2–4枚硬币；有小概率替换普通岩石。",
+      "displayName": "愚人金",
+      "sourceIds": [
+        "wiki-rocks",
+        "matt2025"
+      ]
+    },
+    {
+      "achievementId": 613,
+      "utility": 90,
+      "priority": "strong",
+      "phase": 2,
+      "reason": "一次机会通常能提供多枚金币，惠及商店、机器和店主经济，不需要消耗钥匙或炸弹。",
+      "caveat": "并非无限金币保证；应计入店主、里店主的前置解锁门槛，角色未开放时先做路线准备。",
+      "effectText": "每次拾取获得1枚硬币，并在同房间随机位置再次出现；随着拾取次数增加，消失概率提高。",
+      "displayName": "金硬币",
+      "sourceIds": [
+        "wiki-coins",
+        "matt2025"
+      ]
+    },
+    {
+      "achievementId": 614,
+      "utility": 55,
+      "priority": "normal",
+      "phase": 3,
+      "reason": "有多余硬币时增加伤害支援及特定资源获取渠道。",
+      "caveat": "机会收益较分散；未解锁时对应位置由钥匙乞丐替代，并非纯新增无机会成本。",
+      "effectText": "投入硬币可得到蓝苍蝇、蓝蜘蛛、腐心、骨心、特定饰品，或腐烂乞丐道具池奖励。",
+      "displayName": "腐烂乞丐",
+      "sourceIds": [
+        "wiki-beggars",
+        "matt2025"
+      ]
+    },
+    {
+      "achievementId": 615,
+      "utility": 55,
+      "priority": "normal",
+      "phase": 3,
+      "reason": "有合适护盾、生命或充能需求时能反复补充主动道具；护盾可阻挡其伤害。",
+      "caveat": "具有明确拾取伤害，对脆弱角色尤其危险；需要跨房间寻找，不是无条件免费的无限充能。",
+      "effectText": "给予6格充能，但拾取时受到1整颗心伤害，随后在本层另一随机房间生成新的金电池。",
+      "displayName": "金电池",
+      "sourceIds": [
+        "wiki-batteries",
+        "matt2025"
+      ]
+    },
+    {
+      "achievementId": 616,
+      "utility": 90,
+      "priority": "strong",
+      "phase": 2,
+      "reason": "把可恢复生命转成生存、选择权及道具机会，对后续很多角色有长期运营价值。",
+      "caveat": "应有足够生命或有效护盾；并非每次使用都会得道具。未解锁时位置由魂心替换，不宜说成对所有角色无条件纯升级。",
+      "effectText": "按献血机规则消耗生命，有机会移除碎心、获得魂心或永恒心、净化诅咒、提高本层天使房机会，或产出天使房道具。",
+      "displayName": "忏悔室",
+      "sourceIds": [
+        "wiki-crane",
+        "matt2025"
+      ]
+    },
+    {
+      "achievementId": 617,
+      "utility": 78,
+      "priority": "recommended",
+      "phase": 3,
+      "reason": "为后续全部角色增加更强饰品的获得机会，是长期有价值的全局资源升级。",
+      "caveat": "自然生成很稀有；不能把所有效果统一写成翻倍。里雅各的高操作成本使它适合核心路线和强解锁之后再做。",
+      "effectText": "允许生成金色饰品；多数饰品效果更强，但有逐件例外，忏悔+部分金色效果为额外功能。",
+      "displayName": "金饰品",
+      "sourceIds": [
+        "wiki-trinkets",
+        "matt2025",
+        "eid-repplus-golden"
+      ]
+    },
+    {
+      "achievementId": 618,
+      "utility": 90,
+      "phase": 2,
+      "priority": "strong",
+      "reason": "让一房间底座在两件道具间切换，增加选择权，泛用性高。",
+      "caveat": "Boss Rush与Hush两枚标记都要完成，不是任意一个；最好与里以撒其他高收益目标分批。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "Soul of Isaac"
+      ]
+    },
+    {
+      "achievementId": 619,
+      "utility": 40,
+      "phase": 3,
+      "priority": "normal",
+      "reason": "本房间击杀会掉短暂半红心，可用于红心恢复。",
+      "caveat": "只适合能吃红心的角色，且心2秒后消失；不能按全角色等额生存收益处理。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "Soul of Magdalene"
+      ]
+    },
+    {
+      "achievementId": 620,
+      "utility": 90,
+      "phase": 3,
+      "priority": "recommended",
+      "reason": "开门并在可行方向生成红房间，能增加探索与特殊房机会。",
+      "caveat": "不保证出现究极隐藏房，贪婪模式找特殊房还有限制；里该隐的限时双标取得成本高。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "Soul of Cain"
+      ]
+    },
+    {
+      "achievementId": 621,
+      "utility": 60,
+      "phase": 2,
+      "priority": "normal",
+      "reason": "3秒暗艺术可穿过敌弹并获得本房间临时伤害，有防守与爆发用途。",
+      "caveat": "需要熟悉操作，只是一段短窗口，不能等同永久伤害提升。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "Soul of Judas"
+      ]
+    },
+    {
+      "achievementId": 622,
+      "utility": 40,
+      "phase": 3,
+      "priority": "normal",
+      "reason": "放屁、毒地板和连续炸弹能提供本房间输出。",
+      "caveat": "需要站位和熟悉节奏，缺少稳定长期收益；里???限时双标适合清标时完成。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "Soul of ???"
+      ]
+    },
+    {
+      "achievementId": 623,
+      "utility": 60,
+      "phase": 3,
+      "priority": "normal",
+      "reason": "14只死鸟提供一场战斗的额外伤害。",
+      "caveat": "效果止于当前房间，没有永久成长；里夏娃限时双标无需为了它提前单独冲。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "Soul of Eve"
+      ]
+    },
+    {
+      "achievementId": 624,
+      "utility": 60,
+      "phase": 3,
+      "priority": "normal",
+      "reason": "短时狂暴与击杀续时适合一群敌人的清房。",
+      "caveat": "改变攻击方式，需要近身与操作；限时输出不是泛用资源成长。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "Soul of Samson"
+      ]
+    },
+    {
+      "achievementId": 625,
+      "utility": 78,
+      "phase": 2,
+      "priority": "recommended",
+      "reason": "7.5秒超级喷射能提供明显的一次战斗爆发。",
+      "caveat": "不是全程巨型喷射，Boss减伤、阶段与瞄准仍影响效果；里阿撒泻勒双标可随打标取得。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "Soul of Azazel"
+      ]
+    },
+    {
+      "achievementId": 626,
+      "utility": 78,
+      "phase": 3,
+      "priority": "normal",
+      "reason": "手持时可在致命伤害后复活，具备一次保命价值。",
+      "caveat": "主动使用也会先死亡再半心复活；里拉撒路限时双标成本高，收益高不等于值得最早冲。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "Soul of Lazarus"
+      ]
+    },
+    {
+      "achievementId": 627,
+      "utility": 90,
+      "phase": 2,
+      "priority": "recommended",
+      "reason": "混乱池重抽差底座和掉落物，可以把不满意房间重新变成机会。",
+      "caveat": "会一起重抽房内资源，且不保持原房间道具池；在已有好道具旁慎用。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "Soul of Eden"
+      ]
+    },
+    {
+      "achievementId": 628,
+      "utility": 60,
+      "phase": 3,
+      "priority": "normal",
+      "reason": "临时变游魂有飞行、恶魔交易和陵墓入口等专门用途。",
+      "caveat": "状态转换有风险且只限本房间，不能当无条件安全护盾；里游魂双限时标记代价高。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "Soul of the Lost"
+      ]
+    },
+    {
+      "achievementId": 629,
+      "utility": 90,
+      "phase": 2,
+      "priority": "strong",
+      "reason": "永久给予一个随机跟班，留下整局成长，且里莉莉丝与高收益解锁路线相容。",
+      "caveat": "跟班随机，不能保证淫魔或强组合；需要Boss Rush与Hush双标。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "Soul of Lilith"
+      ]
+    },
+    {
+      "achievementId": 630,
+      "utility": 78,
+      "phase": 2,
+      "priority": "recommended",
+      "reason": "1至25个随机硬币能转化为购买力，普通流程广泛有用。",
+      "caveat": "收益数量随机，需要实际商店或机器机会；店主角色开放本身仍有较长捐款前置。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "Soul of the Keeper"
+      ]
+    },
+    {
+      "achievementId": 631,
+      "utility": 60,
+      "phase": 3,
+      "priority": "normal",
+      "reason": "生成15只随机蝗虫，提供一次性清房与战斗帮助。",
+      "caveat": "会消耗掉且非永久跟班，不能与Abyss长期蝗虫总量等同。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "Soul of Apollyon"
+      ]
+    },
+    {
+      "achievementId": 632,
+      "utility": 60,
+      "phase": 3,
+      "priority": "normal",
+      "reason": "本房间召唤遗骸作为第二角色，提供单战斗支援。",
+      "caveat": "需要理解双角色操作与战场，不把它描述成无条件永久生命或长期队友。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "Soul of the Forgotten"
+      ]
+    },
+    {
+      "achievementId": 633,
+      "utility": 60,
+      "phase": 3,
+      "priority": "normal",
+      "reason": "6个美德之书魂火可提供火力与挡弹，适合有准备的战斗。",
+      "caveat": "魂火会被破坏，不能按永久新增6件收藏道具计价。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "Soul of Bethany"
+      ]
+    },
+    {
+      "achievementId": 634,
+      "utility": 60,
+      "phase": 3,
+      "priority": "normal",
+      "reason": "本房间召唤带匹配被动数量的以扫，后期构筑中可形成强战力。",
+      "caveat": "仅当前房间，额外角色需要适应；里雅各双限时取得成本高。",
+      "sourceIds": [
+        "EID_REP",
+        "AM_ARCHIVE"
+      ],
+      "searchAliases": [
+        "Soul of Jacob and Esau"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "EID_ABPLUS",
+      "kind": "maintainer-mechanism-documentation",
+      "family": "external-item-descriptions",
+      "title": "EID ab+ current English descriptions",
+      "url": "https://github.com/wofsauge/External-Item-Descriptions/blob/master/descriptions/ab%2B/en_us.lua",
+      "blobSha": "e1f0c8b2925c3ac65243461cc0f1663f89010d5a",
+      "retrievedAt": "2026-11-04T14:44:41.948797+00:00",
+      "sha256": "e0052411f2ae340c0f76ec73f9a321688ded1075b1a019fa21e4c4786e7acbbe",
+      "bytes": 134581
+    },
+    {
+      "id": "EID_REP",
+      "kind": "maintainer-mechanism-documentation",
+      "family": "external-item-descriptions",
+      "title": "EID rep current English descriptions",
+      "url": "https://github.com/wofsauge/External-Item-Descriptions/blob/master/descriptions/rep/en_us.lua",
+      "blobSha": "e6a98be14b92287e75264b3d20878b774fd11f35",
+      "retrievedAt": "2026-11-04T14:44:46.996347+00:00",
+      "sha256": "6f413e12c6ea13f5bfd22b9cc3e17b583ff0ad5906dfd1f948df43f81c939303",
+      "bytes": 178439
+    },
+    {
+      "id": "EID_REPPLUS",
+      "kind": "maintainer-mechanism-documentation",
+      "family": "external-item-descriptions",
+      "title": "EID rep+ current English descriptions",
+      "url": "https://github.com/wofsauge/External-Item-Descriptions/blob/master/descriptions/rep%2B/en_us.lua",
+      "blobSha": "acec0b9e7b6da2775e96ac90b61825f83295f10a",
+      "retrievedAt": "2026-11-04T14:38:24.190455+00:00",
+      "sha256": "3b9eae44ff8dc184278133da215a686232ff14a28aed24998dd951d818eee409",
+      "bytes": 37586
+    },
+    {
+      "id": "AM_ARCHIVE",
+      "family": "anothermatt",
+      "kind": "historical-single-author-unlock-benefit-opinion",
+      "url": "https://docs.google.com/spreadsheets/d/1w-JBw7sffHek3eckmz3dMXk0cyN_mV8y52xbRv1b9yw/edit?usp=sharing",
+      "archiveCommit": "a7113097909428642b80d8ac84d547e1baec9d43",
+      "archivedRepository": "https://github.com/luisgtez/isaac-best-unlocks",
+      "date": "2025-04-15T17:01:07Z",
+      "limitation": "Archived2025 single-author mixed-purpose rating; current Rep+ applicability needs mechanism review. Not an independent consensus or source of strength percentiles."
+    },
+    {
+      "id": "wiki-crane",
+      "family": "wikigg",
+      "kind": "mechanism-reference",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Machines",
+      "snapshotFile": "special-resources-wikigg-crane.html",
+      "sha256": "2f933c7ae0cacba675873797346d07591ed765e75cff3347026b42eb66889718",
+      "revisionId": 271608,
+      "caveat": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-black-sack",
+      "family": "wikigg",
+      "kind": "mechanism-reference",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Sacks",
+      "snapshotFile": "special-resources-wikigg-black-sack.html",
+      "sha256": "a9ed27a18c7d5bbbac716aca2f5b09dc0f2a5f621358b9fe3fa985d89d70b4f3",
+      "revisionId": 267699,
+      "caveat": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-beggars",
+      "family": "wikigg",
+      "kind": "mechanism-reference",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Beggars",
+      "snapshotFile": "special-resources-wikigg-beggars.html",
+      "sha256": "a45574b1c5c32e8fb31feb537588625aebfdb395b403a0faabb14023bd4ef58d",
+      "revisionId": 271604,
+      "caveat": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-chests",
+      "family": "wikigg",
+      "kind": "mechanism-reference",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Chests",
+      "snapshotFile": "special-resources-wikigg-chests.html",
+      "sha256": "851009f52d0cad69f2c58c43543beea3df34615d91ccba1e005529b32865eb47",
+      "revisionId": 271358,
+      "caveat": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-pills",
+      "family": "wikigg",
+      "kind": "mechanism-reference",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Pills",
+      "snapshotFile": "special-resources-wikigg-pills.html",
+      "sha256": "11b2290b3aaa5174ede5722c31e5a68ea14ec69d856f2975c121ca28b1d7ee0d",
+      "revisionId": 270111,
+      "caveat": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-rocks",
+      "family": "wikigg",
+      "kind": "mechanism-reference",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Rocks",
+      "snapshotFile": "special-resources-wikigg-rocks.html",
+      "sha256": "37d13e3ff4851e893b4487f2ca100719a5939cb35b06b455edae87480ea84476",
+      "revisionId": 273884,
+      "caveat": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-coins",
+      "family": "wikigg",
+      "kind": "mechanism-reference",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Coins",
+      "snapshotFile": "special-resources-wikigg-coins.html",
+      "sha256": "7a3561f391588a15fa0fda676c141738ce52c4861a9cd65497fa6acfd66ad625",
+      "revisionId": 267746,
+      "caveat": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-batteries",
+      "family": "wikigg",
+      "kind": "mechanism-reference",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Batteries",
+      "snapshotFile": "special-resources-wikigg-batteries.html",
+      "sha256": "b9a47e2694fd6566be65034200630705411bf166cd06c0af1a88db2479390bff",
+      "revisionId": 267743,
+      "caveat": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-trinkets",
+      "family": "wikigg",
+      "kind": "mechanism-reference",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Trinkets",
+      "snapshotFile": "special-resources-wikigg-trinkets.html",
+      "sha256": "c34311735247b6723f984d40fb5698408249775ecc4aff7d124de62f0efe562a",
+      "revisionId": 271573,
+      "caveat": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-poops",
+      "family": "wikigg",
+      "kind": "mechanism-reference",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Poops",
+      "snapshotFile": "special-resources-wikigg-poops.html",
+      "sha256": "79222b59faf1bda6ecbcf53366bb247a6b0e2ea0e1227b278f36a6b344cf68fc",
+      "revisionId": 273908,
+      "caveat": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "matt2025",
+      "family": "anothermatt",
+      "kind": "historical-unlock-merit-opinion",
+      "url": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html",
+      "snapshotDate": "2025-04-15",
+      "caveat": "One author; mixed item/unlock merit; archived source, not a newly verified Rep+ ranking."
+    },
+    {
+      "id": "eid-rep",
+      "family": "eid",
+      "kind": "mechanism-description",
+      "url": "https://github.com/wofsauge/External-Item-Descriptions/blob/master/descriptions/rep/en_us.lua",
+      "snapshotFile": "special-resources-eid-current-rep-en_us.lua",
+      "sha256": "6f413e12c6ea13f5bfd22b9cc3e17b583ff0ad5906dfd1f948df43f81c939303",
+      "blobSha": "e6a98be14b92287e75264b3d20878b774fd11f35",
+      "exactBlobUrl": "https://api.github.com/repos/wofsauge/External-Item-Descriptions/git/blobs/e6a98be14b92287e75264b3d20878b774fd11f35",
+      "caveat": "Fresh developer-maintained mod description; Wild Card K80 and Queen of Hearts K79."
+    },
+    {
+      "id": "eid-repplus-golden",
+      "family": "eid",
+      "kind": "version-specific-mechanism-description",
+      "url": "https://github.com/wofsauge/External-Item-Descriptions/blob/master/descriptions/rep+/en_us.lua",
+      "snapshotFile": "special-resources-eid-current-repplus-en_us.lua",
+      "sha256": "3b9eae44ff8dc184278133da215a686232ff14a28aed24998dd951d818eee409",
+      "blobSha": "acec0b9e7b6da2775e96ac90b61825f83295f10a",
+      "exactBlobUrl": "https://api.github.com/repos/wofsauge/External-Item-Descriptions/git/blobs/acec0b9e7b6da2775e96ac90b61825f83295f10a",
+      "caveat": "Gold-trinket individual Rep+ effects differ; cannot assume a universal x2."
+    }
+  ]
+}

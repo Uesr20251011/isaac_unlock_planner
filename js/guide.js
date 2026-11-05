@@ -36,19 +36,21 @@
 
   function selectEntries(entries, {
     categories: selected = categories.map(x => x.id), query = '', showUnlocked = true,
-    save = null, sort = 'default', priorityFor = () => 0, searchTextFor = () => '', compareFor = () => 0
+    save = null, sort = 'default', priorityFor = () => 0, searchTextFor = () => '', compareFor = () => 0,
+    rewardTypes = null, rewardTypesFor = () => []
   } = {}) {
     const selectedIds = new Set(selected);
     const search = String(query).trim().toLocaleLowerCase();
     const exactId = /^#(\d+)$/.exec(search);
     const rows = entries.filter(row => (
       row.categories.some(id => selectedIds.has(id)) &&
+      (rewardTypes == null || rewardTypesFor(row).some(id => rewardTypes.includes(id))) &&
       (showUnlocked || !save || !save.isAchievementUnlocked(row.achievementId)) &&
       (!search || (exactId ? row.achievementId === Number(exactId[1])
         : `${row.achievementId} ${searchTextFor(row)}`.toLocaleLowerCase().includes(search)))
     ));
     rows.sort((a, b) => (sort === 'priority' ? priorityFor(b) - priorityFor(a)
-      : ['rank', 'community'].includes(sort) ? compareFor(a, b, sort) : 0) || a.order - b.order);
+      : ['rank', 'community','ensemble'].includes(sort) ? compareFor(a, b, sort) : 0) || a.order - b.order);
     return rows;
   }
 

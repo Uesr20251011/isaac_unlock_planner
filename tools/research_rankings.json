@@ -1,9 +1,9 @@
 {
   "version": 1,
   "researchDate": "2026-11-03",
-  "revisionDate": "2026-11-04",
+  "revisionDate": "2026-11-05",
   "objective": "提高后续全角色打标效率，最终走向全成就",
-  "methodology": "55个已研究目标的编号表示编辑综合的解锁建议先后，不是统计最优路线；10项并行任务随主线推进，有角色或主线前置时先跳过。同阶段可按熟练度、路线机会调整；未研究条目不编号。道具强度与解锁成本分别呈现。",
+  "methodology": "65项原人工意见保留作参考；当前解锁排序与颜色使用unlockPlan的606项目标建议，收藏道具接入综合榜、特殊资源按已核验机制和历史意见评估，另计取得成本与前置。",
   "community": {
     "sourceId": "RT1",
     "total": 719,
@@ -214,6 +214,146 @@
       "url": "https://github.com/Uesr20251011/isaac_unlock_planner/tree/36f29874ff2cb4ba1f2fa4f1c242a59d872bb311/data",
       "use": "名称／ID交叉映射",
       "limitation": "606个已有目标的目录，不是独立评级意见；不含玩家存档。"
+    },
+    {
+      "id": "ENS_V1",
+      "title": "718项综合强度公式与试算",
+      "url": "https://github.com/Uesr20251011/isaac_unlock_planner/blob/feat/complete-guide-local-save/docs/research/ensemble-v1/ensemble-trial-report-v1.md",
+      "use": "收藏道具的模型分数、名次与来源覆盖",
+      "limitation": "399项多来源，319项单来源；相对强度不是解锁顺序或实战胜率。"
+    },
+    {
+      "id": "HIST_UNLOCKS",
+      "title": "Another Matt：2025解锁收益表归档",
+      "url": "https://github.com/luisgtez/isaac-best-unlocks/tree/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo",
+      "use": "特殊奖励的历史单作者意见",
+      "limitation": "2025归档，部分忏悔+机制已变化；不作为新的独立收藏道具强度票。"
+    },
+    {
+      "id": "EID_MECHANICS",
+      "title": "EID：奖励机制说明",
+      "url": "https://github.com/wofsauge/External-Item-Descriptions",
+      "use": "资源实际效果与版本变更",
+      "limitation": "机制说明不等于独立玩家评级。"
+    },
+    {
+      "id": "EID_ABPLUS",
+      "title": "EID ab+ current English descriptions",
+      "url": "https://github.com/wofsauge/External-Item-Descriptions/blob/master/descriptions/ab%2B/en_us.lua",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "机制资料与评级意见区分；详见来源原文。"
+    },
+    {
+      "id": "EID_REP",
+      "title": "EID rep current English descriptions",
+      "url": "https://github.com/wofsauge/External-Item-Descriptions/blob/master/descriptions/rep/en_us.lua",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "机制资料与评级意见区分；详见来源原文。"
+    },
+    {
+      "id": "EID_REPPLUS",
+      "title": "EID rep+ current English descriptions",
+      "url": "https://github.com/wofsauge/External-Item-Descriptions/blob/master/descriptions/rep%2B/en_us.lua",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "机制资料与评级意见区分；详见来源原文。"
+    },
+    {
+      "id": "AM_ARCHIVE",
+      "title": "特殊资源机制参考",
+      "url": "https://docs.google.com/spreadsheets/d/1w-JBw7sffHek3eckmz3dMXk0cyN_mV8y52xbRv1b9yw/edit?usp=sharing",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "机制资料与评级意见区分；详见来源原文。"
+    },
+    {
+      "id": "wiki-crane",
+      "title": "以撒维基：夹娃娃机与机器",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Machines",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-black-sack",
+      "title": "以撒维基：黑福袋",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Sacks",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-beggars",
+      "title": "以撒维基：乞丐",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Beggars",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-chests",
+      "title": "以撒维基：箱子",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Chests",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-pills",
+      "title": "以撒维基：胶囊",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Pills",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-rocks",
+      "title": "以撒维基：岩石",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Rocks",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-coins",
+      "title": "以撒维基：硬币",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Coins",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-batteries",
+      "title": "以撒维基：电池",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Batteries",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-trinkets",
+      "title": "以撒维基：饰品",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Trinkets",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "wiki-poops",
+      "title": "以撒维基：粪便",
+      "url": "https://bindingofisaacrebirth.wiki.gg/wiki/Poops",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "Community-maintained mechanical reference, not an independent strength-ranking vote."
+    },
+    {
+      "id": "matt2025",
+      "title": "Another Matt历史解锁表（2025归档）",
+      "url": "https://github.com/luisgtez/isaac-best-unlocks/blob/a7113097909428642b80d8ac84d547e1baec9d43/UnlocksInfo/TAINTED.html",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "One author; mixed item/unlock merit; archived source, not a newly verified Rep+ ranking."
+    },
+    {
+      "id": "eid-rep",
+      "title": "特殊资源机制参考",
+      "url": "https://github.com/wofsauge/External-Item-Descriptions/blob/master/descriptions/rep/en_us.lua",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "Fresh developer-maintained mod description; Wild Card K80 and Queen of Hearts K79."
+    },
+    {
+      "id": "eid-repplus-golden",
+      "title": "特殊资源机制参考",
+      "url": "https://github.com/wofsauge/External-Item-Descriptions/blob/master/descriptions/rep+/en_us.lua",
+      "use": "奖励机制或历史意见核验",
+      "limitation": "Gold-trinket individual Rep+ effects differ; cannot assume a universal x2."
     }
   ],
   "entries": [
@@ -237,9 +377,9 @@
         "M11",
         "RT1"
       ],
-      "priority": "strong",
+      "priority": "recommended",
       "previousPriority": "strong",
-      "correctionReason": "",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
       "communityReference": {
         "sourceId": "RT1",
         "rank": 192,
@@ -265,9 +405,9 @@
         "EN3",
         "M09"
       ],
-      "priority": "recommended",
+      "priority": "strong",
       "previousPriority": "recommended",
-      "correctionReason": "",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
       "communityReference": null
     },
     {
@@ -317,9 +457,9 @@
         "M04",
         "RT1"
       ],
-      "priority": "recommended",
+      "priority": "strong",
       "previousPriority": "recommended",
-      "correctionReason": "",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。按所列条件随正常打标或资源充足的局推进；随机收集条件不视为固定局数。",
       "communityReference": {
         "sourceId": "RT1",
         "rank": 78,
@@ -344,9 +484,9 @@
         "EN3",
         "M04"
       ],
-      "priority": "recommended",
+      "priority": "strong",
       "previousPriority": "normal",
-      "correctionReason": "普通商店升级可与主线长期并行，补为推荐；不要求先攒满再打标。",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。商店升级提高后续商店的资源获取空间；作为累计捐款任务并行完成。",
       "communityReference": null
     },
     {
@@ -396,9 +536,9 @@
         "EN3",
         "M05"
       ],
-      "priority": "recommended",
+      "priority": "strong",
       "previousPriority": "normal",
-      "correctionReason": "开放更贪婪可让后续贪婪局推进困难标记，补为推荐；按已有经济和角色进度累计。",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。500贪婪捐款开放更贪婪模式，是对应全角色标记的前置；和起始能力升级一起推进。",
       "communityReference": null
     },
     {
@@ -446,7 +586,7 @@
       ],
       "priority": "strong",
       "previousPriority": "recommended",
-      "correctionReason": "已解锁店主时，起始木制硬币能显著改善其后续标记效率，提升为条件性的强烈推荐。",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。店主初始木制硬币直接改善后续店主打标的回血与经济，属于起始能力强化。",
       "communityReference": null
     },
     {
@@ -733,9 +873,9 @@
         "ZH2",
         "M03"
       ],
-      "priority": "strong",
+      "priority": "recommended",
       "previousPriority": "strong",
-      "correctionReason": "",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。提供魂心并清除当前层诅咒，兼顾生存与信息，普通流程容易用好。",
       "communityReference": null
     },
     {
@@ -760,7 +900,7 @@
       ],
       "priority": "recommended",
       "previousPriority": "strong",
-      "correctionReason": "暗门收益依赖地板装饰识别，调整为推荐，不当作无条件核心符文。",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。可利用带装饰的地面生成暗门，比只当作跳层工具更有价值。",
       "communityReference": null
     },
     {
@@ -782,9 +922,9 @@
         "EN3",
         "ZH2"
       ],
-      "priority": "recommended",
+      "priority": "strong",
       "previousPriority": "recommended",
-      "correctionReason": "",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。完成挑战 #14；先检查挑战前置，挑战作为专门补强局安排。",
       "communityReference": null
     },
     {
@@ -857,7 +997,7 @@
       ],
       "priority": "recommended",
       "previousPriority": "strong",
-      "correctionReason": "对特定红心与金钱运营有价值，不能照搬旧版店主触发逻辑，调整为推荐。",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。被吞下的硬币可配合受伤与经济运营，需注意忏悔店主交互与角色差异。",
       "communityReference": null
     },
     {
@@ -958,7 +1098,7 @@
       ],
       "priority": "strong",
       "previousPriority": "normal",
-      "correctionReason": "里莉莉丝是作孽双子的直接角色前置，应与普通莉莉丝回家线一并优先开放。",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。开放新的角色与其整组解锁目标，服务后续全角色打标；前置或随机条件未满足时先推进其他可做目标。",
       "communityReference": null
     },
     {
@@ -1044,7 +1184,7 @@
       ],
       "priority": "recommended",
       "previousPriority": "strong",
-      "correctionReason": "符文袋收益依赖已解锁的符文和魂石组合，调整为推荐，避免与直接建立战力的核心链完全等同。",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。先开放对应角色与路线，按莉莉丝 → 以撒推进；获取成本计入角色难度、目标路线和捆绑标记。",
       "communityReference": {
         "sourceId": "RT1",
         "rank": 279,
@@ -1072,9 +1212,9 @@
         "M01",
         "RT1"
       ],
-      "priority": "recommended",
+      "priority": "strong",
       "previousPriority": "recommended",
-      "correctionReason": "",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。先开放对应角色与路线，按莉莉丝 → 羔羊推进；获取成本计入角色难度、目标路线和捆绑标记。",
       "communityReference": {
         "sourceId": "RT1",
         "rank": 39,
@@ -1307,9 +1447,9 @@
         "M01",
         "RT1"
       ],
-      "priority": "recommended",
+      "priority": "strong",
       "previousPriority": "recommended",
-      "correctionReason": "",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。先开放对应角色与路线，按伯大尼 → 以撒推进；获取成本计入角色难度、目标路线和捆绑标记。",
       "communityReference": {
         "sourceId": "RT1",
         "rank": 131,
@@ -1338,7 +1478,7 @@
       ],
       "priority": "recommended",
       "previousPriority": "strong",
-      "correctionReason": "贪婪运营有明显价值，但需要电池、掉落物与经济条件，调整为推荐。",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。先开放对应角色与路线，按以撒 → ？？？推进；获取成本计入角色难度、目标路线和捆绑标记。",
       "communityReference": {
         "sourceId": "RT1",
         "rank": 381,
@@ -1368,7 +1508,7 @@
       ],
       "priority": "recommended",
       "previousPriority": "strong",
-      "correctionReason": "有价值的机会型收益，取得可与开里以撒同线，不要求反复专刷，调整为推荐。",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。先开放对应角色与路线，按以撒 → 祸兽推进；获取成本计入角色难度、目标路线和捆绑标记。",
       "communityReference": {
         "sourceId": "RT1",
         "rank": 218,
@@ -1396,7 +1536,7 @@
       ],
       "priority": "recommended",
       "previousPriority": "strong",
-      "correctionReason": "主要提供资源信息与判断收益，母亲线有成本，调整为推荐。",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。先开放对应角色与路线，按该隐 → 母亲推进；获取成本计入角色难度、目标路线和捆绑标记。",
       "communityReference": {
         "sourceId": "RT1",
         "rank": 123,
@@ -1423,9 +1563,9 @@
         "M01",
         "RT1"
       ],
-      "priority": "strong",
+      "priority": "recommended",
       "previousPriority": "strong",
-      "correctionReason": "",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。先开放对应角色与路线，按店主 → 母亲推进；获取成本计入角色难度、目标路线和捆绑标记。",
       "communityReference": {
         "sourceId": "RT1",
         "rank": 221,
@@ -1482,7 +1622,7 @@
       ],
       "priority": "recommended",
       "previousPriority": "strong",
-      "correctionReason": "单拿不直接建立高属性，需要临时增益和运营知识，调整为推荐，保留高上限说明。",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。谷底石的综合强度很高，仍依赖后续属性与组合，且雅各和以扫限时Boss Rush有额外成本。",
       "communityReference": {
         "sourceId": "RT1",
         "rank": 12,
@@ -1512,7 +1652,7 @@
       ],
       "priority": "recommended",
       "previousPriority": "strong",
-      "correctionReason": "收益上限高，但角色适应与死亡风险不可忽略，调整为推荐。",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。达摩克里斯收益高，但受伤后的死亡风险与困难角色成本使其晚于更稳定的开荒补强。",
       "communityReference": {
         "sourceId": "RT1",
         "rank": 84,
@@ -1541,7 +1681,7 @@
       ],
       "priority": "normal",
       "previousPriority": "strong",
-      "correctionReason": "历史榜单、解锁路线与群体评价分歧显著，且有属性波动风险，调整为普通。",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。完成挑战 #28；先检查挑战前置，挑战作为专门补强局安排。",
       "communityReference": {
         "sourceId": "RT1",
         "rank": 628,
@@ -1569,7 +1709,7 @@
       ],
       "priority": "recommended",
       "previousPriority": "strong",
-      "correctionReason": "连杀保护很强，但挑战37成本高，调整为推荐而非通用第一批必做。",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。巴风特之印提供击杀后的短暂保护，清房帮助明显；相关困难挑战宜在已有熟练度后完成。",
       "communityReference": null
     },
     {
@@ -1725,7 +1865,7 @@
       ],
       "priority": "recommended",
       "previousPriority": "strong",
-      "correctionReason": "道具强度高，但里游魂祸兽的获取风险高，调整为推荐。",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。先开放对应角色与路线，按堕化游魂 → 祸兽推进；获取成本计入角色难度、目标路线和捆绑标记。",
       "communityReference": {
         "sourceId": "RT1",
         "rank": 7,
@@ -1781,7 +1921,7 @@
       ],
       "priority": "recommended",
       "previousPriority": "strong",
-      "correctionReason": "双面底座运营依赖知识、充能和里拉撒路熟练度，调整为推荐。",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。先开放对应角色与路线，按堕化拉撒路 → 精神错乱推进；获取成本计入角色难度、目标路线和捆绑标记。",
       "communityReference": {
         "sourceId": "RT1",
         "rank": 93,
@@ -1809,7 +1949,7 @@
       ],
       "priority": "recommended",
       "previousPriority": "strong",
-      "correctionReason": "回收差道具有稳定价值，但占主动槽且解锁路线有成本，调整为推荐。",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。先开放对应角色与路线，按堕化亚玻伦 → 精神错乱推进；获取成本计入角色难度、目标路线和捆绑标记。",
       "communityReference": {
         "sourceId": "RT1",
         "rank": 238,
@@ -1917,9 +2057,9 @@
         "ZH5",
         "LOCAL"
       ],
-      "priority": "normal",
+      "priority": "recommended",
       "previousPriority": "normal",
-      "correctionReason": "",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。开放头目、章节变体、商店或其他游戏机制；按所列条件随正常打标推进，不当作收藏道具的战斗强度。",
       "communityReference": null
     },
     {
@@ -1944,7 +2084,7 @@
       ],
       "priority": "discouraged",
       "previousPriority": "normal",
-      "correctionReason": "随机重构可能破坏已成型构筑，标为不推荐提前解锁；最终清标仍需完成。",
+      "correctionReason": "根据综合强度或特殊资源收益，结合前置、取得成本与后续打标价值修订。编号丢失会反复重构已有构筑；提前入池存在破坏稳定组合的风险，后续全成就阶段仍须完成。",
       "communityReference": {
         "sourceId": "RT1",
         "rank": 671,

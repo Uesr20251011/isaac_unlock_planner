@@ -31,6 +31,18 @@ test('community preference is independent of unlock priority and missing ranks s
   assert.equal(index.compare(1,2,'default'), 0);
 });
 
+test('unlock plan uses cost-aware positions and moves blocked targets after available work', () => {
+  const index=Ranking.createIndex({unlockPlan:{entries:[
+    {achievementId:1,unlockRank:1,parallelOrder:null,prerequisiteAchievementIds:[8],ensembleReferences:[{rank:2}]},
+    {achievementId:2,unlockRank:2,parallelOrder:null,prerequisiteAchievementIds:[],ensembleReferences:[{rank:1}]},
+    {achievementId:3,unlockRank:null,parallelOrder:1,prerequisiteAchievementIds:[],ensembleReferences:[]}
+  ]}});
+  assert.deepEqual([2,1,3].sort((a,b)=>index.compare(a,b,'rank')),[3,1,2]);
+  assert.deepEqual([2,1,3].sort((a,b)=>index.compare(a,b,'rank',{isAchievementUnlocked:()=>false})),[3,2,1]);
+  assert.deepEqual([2,1,3].sort((a,b)=>index.compare(a,b,'ensemble')),[2,1,3]);
+  assert.equal(index.recommendationFor(1).unlockRank,1);
+});
+
 test('community positions do not require an editorial review or an unlock-suggestion rank', () => {
   assert.ok(Ranking);
   const index = Ranking.createIndex({

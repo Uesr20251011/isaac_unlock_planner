@@ -16,7 +16,7 @@
     },
     {
       "challengeId": 4,
-      "priority": "strong"
+      "priority": "recommended"
     },
     {
       "challengeId": 5,
@@ -28,7 +28,7 @@
     },
     {
       "challengeId": 7,
-      "priority": "normal"
+      "priority": "discouraged"
     },
     {
       "challengeId": 8,
@@ -48,15 +48,15 @@
     },
     {
       "challengeId": 12,
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "challengeId": 13,
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "challengeId": 14,
-      "priority": "recommended"
+      "priority": "strong"
     },
     {
       "challengeId": 15,
@@ -88,15 +88,15 @@
     },
     {
       "challengeId": 22,
-      "priority": "strong"
+      "priority": "normal"
     },
     {
       "challengeId": 23,
-      "priority": "strong"
+      "priority": "recommended"
     },
     {
       "challengeId": 24,
-      "priority": "recommended"
+      "priority": "normal"
     },
     {
       "challengeId": 25,
@@ -104,7 +104,7 @@
     },
     {
       "challengeId": 26,
-      "priority": "normal"
+      "priority": "recommended"
     },
     {
       "challengeId": 27,
@@ -116,7 +116,7 @@
     },
     {
       "challengeId": 29,
-      "priority": "normal"
+      "priority": "recommended"
     },
     {
       "challengeId": 30,
@@ -124,7 +124,7 @@
     },
     {
       "challengeId": 31,
-      "priority": "normal"
+      "priority": "recommended"
     },
     {
       "challengeId": 32,
@@ -136,7 +136,7 @@
     },
     {
       "challengeId": 34,
-      "priority": "normal"
+      "priority": "recommended"
     },
     {
       "challengeId": 35,
@@ -160,7 +160,7 @@
     },
     {
       "challengeId": 40,
-      "priority": "normal"
+      "priority": "recommended"
     },
     {
       "challengeId": 41,
@@ -168,7 +168,7 @@
     },
     {
       "challengeId": 42,
-      "priority": "normal"
+      "priority": "recommended"
     },
     {
       "challengeId": 43,
